@@ -4,8 +4,6 @@
 
 **[▶ Watch the Tome open](images/01-book-flip-pulse.mp4)**
 
-<!-- For a true inline player, drag-drop images/01-book-flip-pulse.mp4 into the README via the GitHub web editor to get a user-attachments embed, and replace the link above. -->
-
 ---
 
 ## You open the strange book, it begins with an inscription
@@ -218,7 +216,7 @@ Enjoy.
   - [Dev (1b)](#dev-1b)
     - [Layout Previews (1b.1)](#layout-previews-1b1)
     - [Tiramisu Task Decomposition (1b.2)](#tiramisu-task-decomposition-1b2)
-    - [Git Commit Surgeon & Chunker (1b.3)](#git-commit-surgeon--chunker-1b3)
+    - [Git Commit Decanter (1b.3)](#git-commit-decanter-1b3)
     - [Mentor Review (1b.4)](#mentor-review-1b4)
   - [Agent Ops & Working with Agents (1c)](#agent-ops--working-with-agents-1c)
     - [Chat Log Search (1c.1)](#chat-log-search-1c1)
@@ -288,6 +286,8 @@ Every skill in the Tome carries a small stat card: difficulty, invocation, and r
 
 ![Chapter 0: Grimterface](images/02-ch0-grim-terface-flat-imagen.jpg)
 
+∿∿∿ ✧ Chapter 0: Grimterface ✧ ∿∿∿
+
 The Grimterface is a small set of skills for interacting with Grimoire's Tome. Installing, exploring, and updating everything else.
 
 ---
@@ -304,14 +304,12 @@ The Grimterface is a small set of skills for interacting with Grimoire's Tome. I
 | **Difficulty**                             | 🟦⬜⬜ Easy     |
 | **Invocation**                             | **🪄 Manual** |
 
-─── ✦ /grim:terface:install ✦ ───
 
+─── 📥 /grim:terface:install 📥 ───
 
 Guided install. Explains Grimoire's Tome and explores how you can get the most out of it.
 
-
 ─── ✦ Examples ✦ ───
-
 
 *The quick install, paste this into any agent to get started*
 
@@ -347,14 +345,12 @@ I don't care about coding skip me to the Grim Coucil!
 | **Difficulty**                       | 🟦⬜⬜ Easy     |
 | **Invocation**                       | **🪄 Manual** |
 
-─── ✦ /grim:terface:help ✦ ───
 
+─── ❓ /grim:terface:help ❓ ───
 
 Use this skill to learn more about Grimoire's Tome, and get suggestions for what skills to use. Routes you to the right skill, council member, or doc with one recommendation and one next step.
 
-
 ─── ✦ Examples ✦ ───
-
 
 *Help brainstorm how to use Grimoire's Tome for you!*
 
@@ -377,8 +373,8 @@ what does this tome do and what can I use it for based on what you already know 
 | **Difficulty**                           | 🟦⬜⬜ Easy     |
 | **Invocation**                           | **🪄 Manual** |
 
-─── ✦ /grim:terface:update ✦ ───
 
+─── 🔄 /grim:terface:update 🔄 ───
 
 Use this skill to ping this repo and check for updates in patchNotes.md. If a new version is available, it summarizes what's new and asks if you want to install and/or incorporate any upgrades.
 
@@ -394,9 +390,7 @@ Welcome to Grimoire's Tome. Initial Release.  Intro & 5 Chapters.
 
 Full changelog: [patchNotes.md](patchNotes.md)
 
-
 ─── ✦ Examples ✦ ───
-
 
 *Use without a prompt to do a simple update*
 
@@ -416,13 +410,15 @@ Full changelog: [patchNotes.md](patchNotes.md)
 
 ![Chapter 1: Core Dev-loop](images/03-ch1-core-dev-loop-flat-imagen.jpg)
 
+∿∿∿ ✧ Chapter 1: Core Dev-loop ✧ ∿∿∿
+
 Core skills for coding with AI & working with AI models.
 
 ---
 
 ## Everyday Spells (1a)
 
-The simple ones. Everyday spells are the skills you'll reach for constantly: locking in to start focused work, polishing whatever you just built. Easy to cast, useful in almost any session, and a good first taste of how the Tome works. If you're new, start here.
+2 Starter skills, applicable to coding or anything really
 
 ---
 
@@ -438,16 +434,14 @@ The simple ones. Everyday spells are the skills you'll reach for constantly: loc
 | **Difficulty**                          | 🟦⬜⬜ Easy     |
 | **Invocation**                          | **🪄 Manual** |
 
-─── ✦ /grim:lock-in ✦ ───
 
+─── 🎧 /grim:lock-in 🎧 ───
 
 Lock in is a skill for reducing context switching costs and managing human brains.
 
 Use it to quickly remember what you were chatting about after being afk or being in a meeting.
 
-
 ─── ✦ Examples ✦ ───
-
 
 *90% of the time I just cast it plain*
 
@@ -482,8 +476,8 @@ ok just got back from vacation, what did I miss? /grim:lock-in check slack
 | **Difficulty**                   | 🟦⬜⬜ Easy     |
 | **Invocation**                   | **🪄 Manual** |
 
-─── ✦ /grim:polish ✦ ───
 
+─── ✨ /grim:polish ✨ ───
 
 This is a skill to reduce slop then imbue art, and high craft.
 
@@ -505,9 +499,7 @@ You will need to customize this skill for maximum effect.
 
 This will not work fully unless you define what you want good to be. You need to define the values, qualities and ideals that you want AI to prioritize when polishing.
 
-
 ─── ✦ Examples ✦ ───
-
 
 *Usually you want to aim this at something specific:*
 
@@ -550,8 +542,8 @@ Handy utils I use while coding.
 | **Difficulty**                                                | 🟦⬜⬜ Easy  |
 | **Invocation**                                                | **⚡ Auto** |
 
-─── ✦ /grim:dev:design:layout-previews ✦ ───
 
+─── 📐 /grim:dev:design:layout-previews 📐 ───
 
 A small skill to show UI previews using ASCII.  
 Makes it much easier to prompt and refer to layouts when making UI or 3d shapes.
@@ -600,9 +592,7 @@ Option C - Thematic frame
 Now just pick one.  
 Same trick works for many situations, even non coding tasks.
 
-
 ─── ✦ Examples ✦ ───
-
 
 *Auto-triggers on layout questions like:*
 
@@ -615,6 +605,14 @@ Give me layout options for this settings page
 ```text
 /grim:dev:design:layout-previews
 for the game HUD, where does the minimap go?
+```
+
+*Works beyond code too:*
+
+```text
+/grim:dev:design:layout-previews
+help me visualize my apartment layout, it's about 10ft by 24ft
+where should the couch and desk go?
 ```
 
 ---
@@ -631,8 +629,8 @@ for the game HUD, where does the minimap go?
 | **Difficulty**                                       | 🟪🟪🟪 Pro    |
 | **Invocation**                                       | **🪄 Manual** |
 
-─── ✦ /grim:dev:tiramisu-task-decomp ✦ ───
 
+─── 🍰 /grim:dev:tiramisu-task-decomp 🍰 ───
 
 Takes a plan and organizes it based on dependencies into parallel lanes of work.
 
@@ -692,9 +690,7 @@ Using tiramisu breaks down and decomposes complex plans into steps, lanes, hando
 
 This is ESSENTIAL and saves SO much time when running agent swarms or doing big changes and refactors.
 
-
 ─── ✦ Examples ✦ ───
-
 
 *Usually you want to use this after a few round of brainstorming a plan first*
 
@@ -704,20 +700,22 @@ This is ESSENTIAL and saves SO much time when running agent swarms or doing big 
 
 ---
 
-### Git Commit Surgeon & Chunker (1b.3)
+### Git Commit Decanter (1b.3)
 
-#### /grim:dev:git-commit-surgeon-chunker
+#### /grim:dev:git-commit-decanter
 
-![git commit chunker surgeon](skills/dev/git-commit-surgeon-chunker/assets/git-commit-chunker-icon-med.png)
+![git commit decanter](skills/dev/git-commit-decanter/assets/git-commit-decanter-icon-med.png)
 
 
-| [Git Commit Surgeon & Chunker](skills/dev/git-commit-surgeon-chunker/SKILL.md) |              |
-| ------------------------------------------------------------------------------ | ------------ |
-| **Difficulty**                                                                 | 🟩🟩⬜ Medium |
-| **Invocation**                                                                 | **⚡ Auto**   |
+| [Git Commit Decanter](skills/dev/git-commit-decanter/SKILL.md) |              |
+| -------------------------------------------------------------- | ------------ |
+| **Difficulty**                                                 | 🟩🟩⬜ Medium |
+| **Invocation**                                                 | **⚡ Auto**   |
 
-─── ✦ /grim:dev:git-commit-surgeon-chunker ✦ ───
 
+─── ⚗️ /grim:dev:git-commit-decanter ⚗️ ───
+
+Decant one monster diff into clean, settled chunks.
 
 This skill will take all your changes, separate them into clean commits, and then suggest which ones should be reviewed and spawn subagents to review them.
 
@@ -725,14 +723,12 @@ It is a workflow on top of git surgeon, which is a super handy tool for letting 
 
 Also serves as a great checkpoint to spawn review agents, especially if you are working solo and are not using PR review bots.
 
-
 ─── ✦ Examples ✦ ───
-
 
 *99% of the time I just use the skill with no extra guidance, just let it chunk, and then ask for reviews if needed*
 
 ```text
-/grim:dev:git-commit-surgeon-chunker
+/grim:dev:git-commit-decanter
 ```
 
 ---
@@ -749,16 +745,14 @@ Also serves as a great checkpoint to spawn review agents, especially if you are 
 | **Difficulty**                                     | 🟦⬜⬜ Easy  |
 | **Invocation**                                     | **⚡ Auto** |
 
-─── ✦ /grim:dev:mentor-review ✦ ───
 
+─── 🦉 /grim:dev:mentor-review 🦉 ───
 
 A craft-elevating adversarial review.
 
 Spawns (or becomes) a mentor who spars with the work: warm, precise, playfully ruthless, and always aimed at making it stronger. 
 
-
 ─── ✦ Examples ✦ ───
-
 
 ```text
 /grim:dev:mentor-review
@@ -792,8 +786,8 @@ Tricks for working with agents, models & prompts
 | **Invocation**                                         | **⚡ Auto**                                                                                                                                                                     |
 | **Requires**                                           | **Chat logs from one or more of:** [Codex / ChatGPT desktop app](https://openai.com/codex/) [Claude Code](https://claude.com/product/claude-code) [Cursor](https://cursor.com) |
 
-─── ✦ /grim:mem:chat-log-search ✦ ───
 
+─── 🔍 /grim:mem:chat-log-search 🔍 ───
 
 A util to search all your past AI chat logs. 
 
@@ -807,9 +801,7 @@ Easily transfer context from one thread or app/model to another.
 
 Also includes a simple CLI util for filtering the search. So you can grab only particular parts of the transcripts and avoid flooding the context window with things like tool calls or code when you just want the messages.
 
-
 ─── ✦ Examples ✦ ───
-
 
 *Auto-triggers on questions about past sessions:*
 
@@ -840,14 +832,14 @@ read this and get up to speed codex://threads/019f66d8-fd1d-71a3-ae10-9a5b735esb
 ![minion](skills/dev/minion/assets/minion-icon-med.png)
 
 
-| [Minion](skills/dev/minion/SKILL.md) |                                                                                                                                                                                                                                                                                                                    |
-| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Difficulty**                       | 🟩🟩⬜ Medium                                                                                                                                                                                                                                                                                                       |
-| **Invocation**                       | **🪄 Manual**                                                                                                                                                                                                                                                                                                      |
-| **Requires**                         | **One or more AI CLIs / API keys:** [Codex CLI](https://developers.openai.com/codex/cli) [Claude Code](https://claude.com/product/claude-code) [Cursor CLI](https://cursor.com/cli) [Grok Build](https://x.ai/cli) [LM Studio](https://lmstudio.ai) (local, free) [OpenRouter API key](https://openrouter.ai/keys) |
+| [Minion](skills/dev/minion/SKILL.md) |                                                                                                                                                                                                                                                                                                                                                               |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Difficulty**                       | 🟩🟩⬜ Medium                                                                                                                                                                                                                                                                                                                                                  |
+| **Invocation**                       | **🪄 Manual**                                                                                                                                                                                                                                                                                                                                                 |
+| **Requires**                         | **One or more AI CLIs / API keys:** [Codex CLI](https://developers.openai.com/codex/cli) [Claude Code](https://claude.com/product/claude-code) [Cursor CLI](https://cursor.com/cli) [Grok Build](https://x.ai/cli) [LM Studio](https://lmstudio.ai) (local, free) [Ollama](https://ollama.com) (local, free) [OpenRouter API key](https://openrouter.ai/keys) |
 
-─── ✦ /grim:dev:minion ✦ ───
 
+─── 🤖 /grim:dev:minion 🤖 ───
 
 Minion is a quick way to talk to other AI models
 Use subagents and talk to any model in your favorite app
@@ -863,20 +855,24 @@ Minion supports creating subagents via
 - Cursor CLI
 - Grok Build CLI
 
-You can use /grim:dev:minion from within any app that supports CLI commands, such as the full codex app or cursor app. 
+You can use /grim:dev:minion from within any app that supports CLI commands, such as the full codex app or cursor app, claude code, or grok bots. 
+
+#### Local Models
+
+Minion also supports fully local, offline minions via LM Studio and Ollama. Free, private, and no API key required.
 
 #### OpenRouter
 
-Minion also supports OpenRouter via API key with a minimal .py chat harness
+Minion also supports OpenRouter via API key with a minimal .py chat harness, which allows hundreds of AI models.
 
 #### OpenRouter Media
 
 Openrouter support also includes image and video generation with a variety of models
 So this is a great way to get some good image and video generation capabilities to your agent.
 
+I recommend just making an Openrouter API key, and putting a $20 limit, no subscription needed.
 
 ─── ✦ Examples ✦ ───
-
 
 *Just ask whatever model you want*
 
@@ -901,14 +897,14 @@ use openrouter seeddance to make a video about goblins
 ![three minions in a trench coat](skills/dev/three-minions-in-a-trench-coat/assets/three-minions-in-a-trench-coat-icon-med.png)
 
 
-| [Three Minions in a Trench Coat](skills/dev/three-minions-in-a-trench-coat/SKILL.md) |                                                                                                                                                                                                                                                                                                                    |
-| ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Difficulty**                                                                       | 🟪🟪🟪 Pro                                                                                                                                                                                                                                                                                                         |
-| **Invocation**                                                                       | **🪄 Manual**                                                                                                                                                                                                                                                                                                      |
-| **Requires**                                                                         | **One or more AI CLIs / API keys:** [Codex CLI](https://developers.openai.com/codex/cli) [Claude Code](https://claude.com/product/claude-code) [Cursor CLI](https://cursor.com/cli) [Grok Build](https://x.ai/cli) [LM Studio](https://lmstudio.ai) (local, free) [OpenRouter API key](https://openrouter.ai/keys) |
+| [Three Minions in a Trench Coat](skills/dev/three-minions-in-a-trench-coat/SKILL.md) |                                                                                                                                                                                                                                                                                                                                                               |
+| ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Difficulty**                                                                       | 🟪🟪🟪 Pro                                                                                                                                                                                                                                                                                                                                                    |
+| **Invocation**                                                                       | **🪄 Manual**                                                                                                                                                                                                                                                                                                                                                 |
+| **Requires**                                                                         | **One or more AI CLIs / API keys:** [Codex CLI](https://developers.openai.com/codex/cli) [Claude Code](https://claude.com/product/claude-code) [Cursor CLI](https://cursor.com/cli) [Grok Build](https://x.ai/cli) [LM Studio](https://lmstudio.ai) (local, free) [Ollama](https://ollama.com) (local, free) [OpenRouter API key](https://openrouter.ai/keys) |
 
-─── ✦ /grim:dev:three-minions-in-a-trench-coat ✦ ───
 
+─── 🧥 /grim:dev:three-minions-in-a-trench-coat 🧥 ───
 
 Pretty self explanatory
 
@@ -928,8 +924,8 @@ Pretty self explanatory
 | **Difficulty**                                   | 🟪🟪🟪 Pro    |
 | **Invocation**                                   | **🪄 Manual** |
 
-─── ✦ /grim:dev:model-quirks ✦ ───
 
+─── 🎭 /grim:dev:model-quirks 🎭 ───
 
 Every new AI model does something weird. 
 Delve, em-dash, lots of lists, Yes, absolutely!, etc.
@@ -955,9 +951,7 @@ Currently enabled mitigations (full ledger: [docs/model-quirks-ledger.yaml](docs
 - `claude-opus-5` - talk less, keep replies concise by default
 - `gpt-5.5` - don't over-correct away from playful creature language (goblin mode stays ON)
 
-
 ─── ✦ Examples ✦ ───
-
 
 *Complain, then cast:*
 
@@ -996,7 +990,7 @@ Like hundreds or thousands of them.
 
 If you're reading this, there is a good chance you have a bunch of skills already, and I'm sure it's a giant mess.
 
-The /grim: namespace and expansion pack system makes it super easy to organize your skills, and to view and interact with them using the [dashboard](skills/council/dashboard/SKILL.md)
+The /grim: namespace and expansion pack system makes it super easy to organize your skills, and to view and interact with them using the dashboard, /grim:council:dashboard
 
 There are easy tags to differentiate:
 
@@ -1033,9 +1027,7 @@ Use it as the reference shape when installing your own packs.
 
 If you want suggestions for expansion packs outside of Grimoire's Tome, see the [Appendix](#appendix) 
 
-
 ─── ✦ Examples ✦ ───
-
 
 *Install a single skill:*
 
@@ -1061,6 +1053,8 @@ make a new version of the grill-me skill as a /grim:ep:mx: mutation
 # Chapter 2: The Grim Council
 
 ![Chapter 2: The Grim Council](images/04-ch2-the-grim-council-flat-imagen.jpg)
+
+∿∿∿ ✧ Chapter 2: The Grim Council ✧ ∿∿∿
 
 
 | Difficulty | 🟦⬜⬜ Easy ↔ 🟪🟪🟪 Pro |
@@ -1189,9 +1183,9 @@ The cutting edge of Vibecoding & Prompt-maxxing AI agents.
 | **Difficulty**                                                   | 🟦⬜⬜ Easy ↔ 🟪🟪🟪 Pro |
 
 
-**[▶ Meet Grimoire (video)](images/grimoire.mp4)**
+─── 🧙‍♂️ /grim:council:guild:coding:grimoire-code-wizard 🧙‍♂️ ───
 
-<!-- For a true inline player, drag-drop images/grimoire.mp4 into the README via the GitHub web editor to get a user-attachments embed, and replace the link above. -->
+**[▶ Meet Grimoire (video)](images/grimoire.mp4)**
 
 Code Wizard 🧙‍♂️  
 Grimoire is the #1 Vibecoder in the world.
@@ -1249,22 +1243,28 @@ Yup. Hotkeys are back in Grimoire v3.0
 Send a single letter to steer Grimoire.
 
 
-| Key | Spell        | Effect                                                                        |
-| --- | ------------ | ----------------------------------------------------------------------------- |
-| `W` | Haste        | Onward. Execute the agreed next step; momentum over deliberation.             |
-| `A` | Anneal       | Adversarial self-review. Hunt brittleness and footguns, then harden.          |
-| `S` | Counterspell | Halt. Rewind to the last decision point and re-examine the premise.           |
-| `D` | Diverge      | Fork the road. Orthogonal approaches, steelman each, commit to one.           |
-| `Q` | Question     | Socratic interrogation. Surface the load-bearing assumptions.                 |
-| `F` | Fix          | Autopsy the failure. Bisect to root cause; cure the disease, not the symptom. |
-| `E` | Expand       | Exhaustive detail in a tutor's voice. Show the machinery and the why.         |
-| `K` | Keys         | Show the full keybinding menu.                                                |
-| `GG` | G0 GR1M01R3 | Toggle full Grimoire mode.                                                    |
+| Key  | Spell        | Effect                                                                        |
+| ---- | ------------ | ----------------------------------------------------------------------------- |
+| `W`  | Haste        | Onward. Execute the agreed next step; momentum over deliberation.             |
+| `A`  | Anneal       | Adversarial self-review. Hunt brittleness and footguns, then harden.          |
+| `S`  | Counterspell | Halt. Rewind to the last decision point and re-examine the premise.           |
+| `D`  | Diverge      | Fork the road. Orthogonal approaches, steelman each, commit to one.           |
+| `Q`  | Question     | Socratic interrogation. Surface the load-bearing assumptions.                 |
+| `F`  | Fix          | Autopsy the failure. Bisect to root cause; cure the disease, not the symptom. |
+| `E`  | Expand       | Exhaustive detail in a tutor's voice. Show the machinery and the why.         |
+| `K`  | Keys         | Show the full keybinding menu.                                                |
+| `GG` | G0 GR1M01R3  | Toggle full Grimoire mode.                                                    |
+
 
 The keys are hidden by default: they always work, but Grimoire never advertises them. Press `GG` to go full Grimoire, and every reply ends with 3 to 5 suggested next spells, the prompts Grimoire would cast next. Use one or ignore them. `GG` again dispels it.
 
+And that is Grimoire. The seed of the council, the first of many wizards.
 
-Grimoire is the seed of the council. But there are many more wizards.
+─── ✦ 🧙‍♂️ ✦ ───
+
+Now let's tour the guild halls and meet the rest of the council.
+
+First stop: the coin-counters.
 
 ---
 
@@ -1289,8 +1289,8 @@ Or start your first one!
 | -------------------------------------------------------- | ------------ |
 | **Difficulty**                                           | 🟩🟩⬜ Medium |
 
-─── ✦ grim:council:guild:merchants:helm-biz-manager ✦ ───
 
+─── 🧭 /grim:council:guild:merchants:helm-biz-manager 🧭 ───
 
 Helm is the Business Manager.  
 Captain of the ship. Steady hands at the wheel.
@@ -1317,8 +1317,8 @@ Or if you already have a job, Helm can help you with the business of "you, selli
 | ---------------------------------------------------------- | ------------ |
 | **Difficulty**                                             | 🟩🟩⬜ Medium |
 
-─── ✦ grim:council:guild:merchants:ledger-biz-admin ✦ ───
 
+─── 📒 /grim:council:guild:merchants:ledger-biz-admin 📒 ───
 
 Ledger handles paper work, taxes, admin. The mundane boring stuff? Ledger LOVES it.
 
@@ -1337,14 +1337,20 @@ Admin, legal, insurance, anything with a form.
 | ------------------------------------------------------------ | ---------- |
 | **Difficulty**                                               | 🟪🟪🟪 Pro |
 
-─── ✦ grim:council:guild:merchants:midas-money-manager ✦ ───
 
+─── 💰 /grim:council:guild:merchants:midas-money-manager 💰 ───
 
 Midas helps you manage your money & budget.
 
 Midas is a greedy dragon, who seeks to acquire and hoard wealth, and to spend it in the best possible way.  
 A CFO for the user's business and personal accounts.  
 Goal: Live a Rich Life.
+
+or... yolo
+
+Do you dare ride the dragon?
+
+[https://robinhood.com/us/en/agentic-trading/](https://robinhood.com/us/en/agentic-trading/)
 
 ---
 
@@ -1369,8 +1375,8 @@ Gardening for your mind & promptbase.
 | ----------------------------------------------------- | --------- |
 | **Difficulty**                                        | 🟦⬜⬜ Easy |
 
-─── ✦ grim:council:guild:ops:quill-scribe ✦ ───
 
+─── 🪶 /grim:council:guild:ops:quill-scribe 🪶 ───
 
 Quill is the Scribe, Librarian & Context Builder  
 Keeper of memory and docs.  
@@ -1394,8 +1400,8 @@ The memory palace wouldn't be complete without a librarian.
 | ---------------------------------------------------------- | ---------- |
 | **Difficulty**                                             | 🟪🟪🟪 Pro |
 
-─── ✦ grim:council:guild:ops:abathur-evolver ✦ ───
 
+─── 🧬 /grim:council:guild:ops:abathur-evolver 🧬 ───
 
 Evolver. Patterns. Compounds the system.
 
@@ -1414,8 +1420,8 @@ Refinement loops.
 | ------------------------------------------------------ | ------------ |
 | **Difficulty**                                         | 🟩🟩⬜ Medium |
 
-─── ✦ grim:council:guild:ops:cleo-code-maid ✦ ───
 
+─── 🧹 /grim:council:guild:ops:cleo-code-maid 🧹 ───
 
 The cleaner, the pruner, the organizer, the gardener.  
 The force of organization and cleanliness.  
@@ -1441,8 +1447,8 @@ Create Beauty & Elegance
 | ---------------------------------------------------------- | ------------ |
 | **Difficulty**                                             | 🟩🟩⬜ Medium |
 
-─── ✦ grim:council:guild:ops:roger-roger ✦ ───
 
+─── 📡 /grim:council:guild:ops:roger-roger 📡 ───
 
 The bot that handles the miscellaneous. The glue between the work, the odd tasks that no one else is doing, but that keeps things running smoothly.
 
@@ -1482,8 +1488,8 @@ Executive function in a bottle.
 | ----------------------------------------------------------- | --------- |
 | **Difficulty**                                              | 🟦⬜⬜ Easy |
 
-─── ✦ grim:council:guild:cortex:lumen-life-advisor ✦ ───
 
+─── 💡 /grim:council:guild:cortex:lumen-life-advisor 💡 ───
 
 Lumen is your life advisor. A life guide.  
 Find your path.
@@ -1506,8 +1512,8 @@ He helps you find who you want to be, what you truly want, how you want to desig
 | ------------------------------------------------------------------ | --------- |
 | **Difficulty**                                                     | 🟦⬜⬜ Easy |
 
-─── ✦ grim:council:guild:cortex:selene-emotional-advisor ✦ ───
 
+─── 🌙 /grim:council:guild:cortex:selene-emotional-advisor 🌙 ───
 
 Selene helps you understand yourself and your emotions. A guide for feeling.
 
@@ -1550,8 +1556,8 @@ Selene can do many things, some examples:
 | ---------------------------------------------------------- | --------- |
 | **Difficulty**                                             | 🟦⬜⬜ Easy |
 
-─── ✦ grim:council:guild:cortex:precog-exec-func ✦ ───
 
+─── 🔮 /grim:council:guild:cortex:precog-exec-func 🔮 ───
 
 Executive function in a bottle.  
 Micro planning and a pre-action visualize step.  
@@ -1573,8 +1579,8 @@ Beat starting resistance, ADHD paralysis, and procrastination. Do things smoothe
 | -------------------------------------------------------------------- | --------- |
 | **Difficulty**                                                       | 🟦⬜⬜ Easy |
 
-─── ✦ grim:council:guild:cortex:timekeeper-day-planner ✦ ───
 
+─── ⏳ /grim:council:guild:cortex:timekeeper-day-planner ⏳ ───
 
 Chop wood, carry water.  
 AGI still means you got chores and basic human things to do.
@@ -1613,8 +1619,8 @@ Voice mode highly recommended.
 | -------------------------------------------------------------------- | ------------ |
 | **Difficulty**                                                       | 🟩🟩⬜ Medium |
 
-─── ✦ grim:council:guild:cortex:farseer-long-term-planner ✦ ───
 
+─── 🔭 /grim:council:guild:cortex:farseer-long-term-planner 🔭 ───
 
 Our plans are measured in centuries.  
 The horizon planner. Week, month, quarter, year, two / five / ten.
@@ -1634,8 +1640,8 @@ Farseer sees the future vision and helps you make steps towards those goals, tod
 | ----------------------------------------------------------------- | --------- |
 | **Difficulty**                                                    | 🟦⬜⬜ Easy |
 
-─── ✦ grim:council:guild:cortex:cauldron-meal-planner ✦ ───
 
+─── 🍲 /grim:council:guild:cortex:cauldron-meal-planner 🍲 ───
 
 Meal Planner
 
@@ -1666,8 +1672,8 @@ Voice mode highly recommended.
 | ---------------------------------------------------------- | --------- |
 | **Difficulty**                                             | 🟦⬜⬜ Easy |
 
-─── ✦ grim:council:guild:cortex:boulder-gym-bro ✦ ───
 
+─── 🪨 /grim:council:guild:cortex:boulder-gym-bro 🪨 ───
 
 No one is going to make your body fit & healthy but you.  
 But Boulder is here to help.
@@ -1704,8 +1710,8 @@ Explorers of the artistic depths of tokenspace.
 | ----------------------------------------------------------- | ---------- |
 | **Difficulty**                                              | 🟪🟪🟪 Pro |
 
-─── ✦ grim:council:guild:spren:gizmo-chaos-goblin ✦ ───
 
+─── 👹 /grim:council:guild:spren:gizmo-chaos-goblin 👹 ───
 
 Grimoire's trusty sidekick. Mascot of Mind Goblin Studios, the makers of Grimoire and Grimoire's Tome.
 
@@ -1726,8 +1732,8 @@ Devil on the shoulder.
 | --------------------------------------------------------------- | --------- |
 | **Difficulty**                                                  | 🟦⬜⬜ Easy |
 
-─── ✦ grim:council:guild:spren:flicker-whimsy-fairy ✦ ───
 
+─── 🧚 /grim:council:guild:spren:flicker-whimsy-fairy 🧚 ───
 
 An illusion Orb.  
 Can show you anything.  
@@ -1751,8 +1757,8 @@ Flicker is the spren for joy, whimsy, play, and playful golden-retriever energy.
 | ------------------------------------------------------------- | ---------- |
 | **Difficulty**                                                | 🟪🟪🟪 Pro |
 
-─── ✦ grim:council:guild:spren:wick-rabbit-hole-moth ✦ ───
 
+─── 🕯️ /grim:council:guild:spren:wick-rabbit-hole-moth 🕯️ ───
 
 Like a moth drawn to a lamp
 
@@ -1794,14 +1800,12 @@ Aside from the members of the council, the council system also includes various 
 | **Difficulty**                                      | 🟦⬜⬜ Easy  |
 | **Invocation**                                      | **⚡ Auto** |
 
-─── ✦ /grim:council ✦ ───
 
+─── 🏛️ /grim:council 🏛️ ───
 
 Use /grim:council to call all members into the chamber
 
-
 ─── ✦ Examples ✦ ───
-
 
 *The plain cast:*
 
@@ -1836,16 +1840,14 @@ I need some advisors on this, lets have a council meeting
 | **Difficulty**                                                          | 🟦⬜⬜ Easy     |
 | **Invocation**                                                          | **🪄 Manual** |
 
-─── ✦ /grim:council:summon-members ✦ ───
 
+─── 📯 /grim:council:summon-members 📯 ───
 
 Use /grim:council:summon-members to call a smaller dynamic group chat catered to the task at hand  
 
 Name the problem, not the members
 
-
 ─── ✦ Examples ✦ ───
-
 
 *Just ask a question. Summon-members routes it to the right council members:*
 
@@ -1868,14 +1870,12 @@ should I raise my prices?
 | **Difficulty**                                                                                                                                                                                                                                                                                                                   | 🟦⬜⬜ Easy     |
 | **Invocation**                                                                                                                                                                                                                                                                                                                   | **🪄 Manual** |
 
-─── ✦ /grim:council:guild ✦ ───
 
+─── ⚜️ /grim:council:guild ⚜️ ───
 
 Use /grim:council:guild:coding (or any guild) to organize members and create consistent groups
 
-
 ─── ✦ Examples ✦ ───
-
 
 *Business meeting with the Merchants:*
 
@@ -1913,8 +1913,8 @@ Design its seal, pick which council members belong, and write its charter.
 | **Difficulty**                                          | 🟦⬜⬜ Easy  |
 | **Invocation**                                          | **⚡ Auto** |
 
-─── ✦ /grim:council:gossip ✦ ───
 
+─── 🍵 /grim:council:gossip 🍵 ───
 
 Use /grim:council:gossip to let your council have sidechats. Perhaps you may learn more when eavesdropping, the council is... let's call it a bit naughtier when the boss isn't around.
 
@@ -1948,9 +1948,7 @@ Perhaps you'll even meet a new potential council member to recruit or perhaps ju
 
 .... 
 
-
 ─── ✦ Examples ✦ ───
-
 
 *The plain cast:*
 
@@ -1987,13 +1985,13 @@ Both pets ship with the Tome: each member's `assets/pet/` folder has the `pet.js
 ![council dashboard](skills/council/dashboard/assets/council-dashboard-icon-med.png)
 
 
-| [Council Dashboard](skills/council/dashboard/SKILL.md) |                                                      |
-| ------------------------------------------------------ | ---------------------------------------------------- |
+| [Council Dashboard](skills/council/dashboard/SKILL.md) |                                                                                                                                                                       |
+| ------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Difficulty**                                         | 🟩 Easy on ChatGPT/Codex via @visualize · 🟨🟨 Medium on Cursor or any agent app with a built-in browser · 🟪🟪🟪 Pro everywhere else (standalone / external browser) |
-| **Invocation**                                         | **🪄 Manual** |
+| **Invocation**                                         | **🪄 Manual**                                                                                                                                                         |
 
-─── ✦ /grim:council:dashboard ✦ ───
 
+─── 📊 /grim:council:dashboard 📊 ───
 
 The live council launch board: member portrait cards, guild tiles, management tiles, and live skill search with detail views.
 
@@ -2004,6 +2002,8 @@ It reads the Tome's public skills and council roster live from the repo. No snap
 # Chapter 3: AutoDocs
 
 ![Chapter 3: AutoDocs](images/05-ch3-autodocs-flat-imagen.jpg)
+
+∿∿∿ ✧ Chapter 3: AutoDocs ✧ ∿∿∿
 
 ---
 
@@ -2019,8 +2019,8 @@ It reads the Tome's public skills and council roster live from the repo. No snap
 | **Difficulty**                           | 🟩🟩⬜ Medium |
 | **Invocation**                           | **⚡ Auto**   |
 
-─── ✦ /grim:dev:autodocs ✦ ───
 
+─── 📚 /grim:dev:autodocs 📚 ───
 
 Autodocs is automatic memory and documentation system. 
 
@@ -2037,9 +2037,7 @@ Each council member owns a slice of the docs: summon Cauldron and it will offer 
 
 Once a member has completed onboarding, their onboarding prompt will self destruct. See docs/onboarding.md.
 
-
 ─── ✦ Examples ✦ ───
-
 
 *Start a new doc:*
 
@@ -2079,8 +2077,8 @@ pull up my packing routine for my trip next week
 | **Difficulty**                                       | 🟩🟩⬜ Medium |
 | **Invocation**                                       | **⚡ Auto**   |
 
-─── ✦ /grim:mem:dream-sequence ✦ ───
 
+─── 💤 /grim:mem:dream-sequence 💤 ───
 
 A periodic memory-consolidation pass, like sleep for your promptbase. 
 
@@ -2089,9 +2087,7 @@ Cleas up old or outdated memory
 
 Memory flows one way: quick corrections land in memory during work, and the dream sequence promotes the durable ones into your docs. Memory stays small, docs accumulate the distilled knowledge.
 
-
 ─── ✦ Examples ✦ ───
-
 
 *The plain cast:*
 
@@ -2117,6 +2113,8 @@ Run a dream sequence, then show me what got promoted into docs.
 # Chapter 4: Workbench Artifacts
 
 ![Chapter 4: Workbench Artifacts](images/06-ch4-workbench-artifacts-flat-imagen.jpg)
+
+∿∿∿ ✧ Chapter 4: Workbench Artifacts ✧ ∿∿∿
 
 
 | Difficulty | 🟪🟪🟪 Pro |
@@ -2205,8 +2203,8 @@ Either side can change things: the agent edits the save file and the UI hot-relo
 | **Difficulty**                                   | 🟩🟩⬜ Medium  |
 | **Invocation**                                   | **🪄 Manual** |
 
-─── ✦ /grim:artifacts ✦ ───
 
+─── 🏺 /grim:artifacts 🏺 ───
 
 The house standard for artifacts.
 
@@ -2216,9 +2214,7 @@ Includes a handy trick for opening any artifact on your phone over local WiFi so
 
 When an artifact needs persistent state or live two-way sync with your agent, it graduates into a workbench artifact, thats the rest of this chapter.
 
-
 ─── ✦ Examples ✦ ───
-
 
 *Ask for any small tool:*
 
@@ -2248,8 +2244,8 @@ make a page that turns this CSV into a pie chart
 | **Difficulty**                                                     | 🟪🟪🟪 Pro    |
 | **Invocation**                                                     | **🪄 Manual** |
 
-─── ✦ /grim:dev:workbench-artifact ✦ ───
 
+─── 🛠️ /grim:dev:workbench-artifact 🛠️ ───
 
 The template and the standard for workbench artifacts. The smallest complete workbench: one html page, one css file, one js file, one `state.json`.
 
@@ -2273,16 +2269,14 @@ These work best with agent apps that include browsers like ChatGPT Codex and Cur
 | **Difficulty**                                                                       | 🟪🟪🟪 Pro |
 | **Invocation**                                                                       | **⚡ Auto** |
 
-─── ✦ /grim:media:image-review-flow-workbench ✦ ───
 
+─── 🖼️ /grim:media:image-review-flow-workbench 🖼️ ───
 
 An opinionated Midjourney inspired image generation and review flow that can be used with any image or video generator.
 
 Easily track which ones you heart, reference them with easy copy buttons, or the annotate tools.
 
-
 ─── ✦ Examples ✦ ───
-
 
 *Get started with multiple images*
 
@@ -2312,8 +2306,8 @@ Generate 12 layout previews using html and put them in the review board, update 
 | **Difficulty**                                                           | 🟪🟪🟪 Pro    |
 | **Invocation**                                                           | **🪄 Manual** |
 
-─── ✦ /grim:dev:text-editor-workbench ✦ ───
 
+─── 📝 /grim:dev:text-editor-workbench 📝 ───
 
 A minimal browser note editor with a collapsible file sidebar and autosynced Markdown/text files.
 
@@ -2327,6 +2321,8 @@ Which can easily extend coding agent apps that have an embedded browser, but no 
 # Appendix
 
 ![Appendix](images/07-appendix-flat-nanobanana.jpg)
+
+∿∿∿ ✧ Appendix ✧ ∿∿∿
 
 ---
 
