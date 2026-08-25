@@ -305,7 +305,7 @@ The Grimterface
 
 ### Install (0.1)
 
-#### /grim:terface:install
+─── 📥 /grim:terface:install 📥 ───
 
 ![install](skills/terface/install/assets/install-icon-med.png)
 
@@ -344,7 +344,7 @@ I don't care about coding skip me to the Grim Coucil!
 
 ### Help (0.2)
 
-#### /grim:terface:help
+─── ❓ /grim:terface:help ❓ ───
 
 ![help](skills/terface/help/assets/help-icon-med.png)
 
@@ -370,7 +370,7 @@ what does this tome do and what can I use it for based on what you already know 
 
 ### Update (0.3)
 
-#### /grim:terface:update
+─── 🔄 /grim:terface:update 🔄 ───
 
 ![update](skills/terface/update/assets/update-icon-med.png)
 
@@ -432,7 +432,7 @@ They work on code, and lots more.
 
 ### Lock-In (1a.1)
 
-#### /grim:lock-in
+─── 🎧 /grim:lock-in 🎧 ───
 
 ![lock-in](skills/lock-in/assets/lock-in-icon-med.png)
 
@@ -472,7 +472,7 @@ ok just got back from vacation, what did I miss? /grim:lock-in check slack
 
 ### Polish (1a.2)
 
-#### /grim:polish
+─── ✨ /grim:polish ✨ ───
 
 ![polish](skills/polish/assets/polish-icon-med.png)
 
@@ -536,7 +536,7 @@ Handy utils I use while coding.
 
 ### Layout Previews (1b.1)
 
-#### /grim:dev:design:layout-previews
+─── 📐 /grim:dev:design:layout-previews 📐 ───
 
 ![layout previews](skills/dev/design/layout-previews/assets/layout-previews-icon-med.png)
 
@@ -621,7 +621,7 @@ where should the couch and desk go?
 
 ### Tiramisu Task Decomposition (1b.2)
 
-#### /grim:dev:tiramisu-task-decomp
+─── 🍰 /grim:dev:tiramisu-task-decomp 🍰 ───
 
 ![tiramisu task decomposition](skills/dev/tiramisu-task-decomp/assets/tiramisu-icon-med.png)
 
@@ -702,7 +702,7 @@ This is ESSENTIAL and saves SO much time when running agent swarms or doing big 
 
 ### Git Commit Decanter (1b.3)
 
-#### /grim:dev:git-commit-decanter
+─── ⚗️ /grim:dev:git-commit-decanter ⚗️ ───
 
 ![git commit decanter](skills/dev/git-commit-decanter/assets/git-commit-decanter-icon-med.png)
 
@@ -733,7 +733,7 @@ Also serves as a great checkpoint to spawn review agents, especially if you are 
 
 ### Mentor Review (1b.4)
 
-#### /grim:dev:mentor-review
+─── 🦉 /grim:dev:mentor-review 🦉 ───
 
 ![mentor review](skills/dev/mentor-review/assets/mentor-review-icon-med.png)
 
@@ -771,7 +771,7 @@ Tricks for working with agents, models & prompts
 
 ### Chat Log Search (1c.1)
 
-#### /grim:mem:chat-log-search
+─── 🔍 /grim:mem:chat-log-search 🔍 ───
 
 ![chat log search](skills/mem/chat-log-search/assets/codex-chat-search-icon-med.png)
 
@@ -821,7 +821,7 @@ read this and get up to speed codex://threads/019f66d8-fd1d-71a3-ae10-9a5b735esb
 
 ### Minion (1c.2)
 
-#### /grim:dev:minion
+─── 🤖 /grim:dev:minion 🤖 ───
 
 ![minion](skills/dev/minion/assets/minion-icon-med.png)
 
@@ -884,7 +884,7 @@ use openrouter seeddance to make a video about goblins
 
 ### Three Minions in a Trench Coat (1c.3)
 
-#### /grim:dev:three-minions-in-a-trench-coat
+─── 🧥 /grim:dev:three-minions-in-a-trench-coat 🧥 ───
 
 ![three minions in a trench coat](skills/dev/three-minions-in-a-trench-coat/assets/three-minions-in-a-trench-coat-icon-med.png)
 
@@ -904,7 +904,7 @@ Pretty self explanatory
 
 ### Model Quirks (1c.4)
 
-#### /grim:dev:model-quirks
+─── 🎭 /grim:dev:model-quirks 🎭 ───
 
 ![model quirks](skills/dev/model-quirks/assets/newmodelquirks-icon-med.png)
 
@@ -1161,7 +1161,7 @@ The cutting edge of Vibecoding & Prompt-maxxing AI agents.
 
 ## Grimoire (2a.1)
 
-### grim:council:guild:coding:grimoire-code-wizard
+─── 🧙‍♂️ /grim:council:guild:coding:grimoire-code-wizard 🧙‍♂️ ───
 
 ![Meet Grimoire](images/grimoire.gif)
 
@@ -1264,7 +1264,7 @@ Or start your first one!
 
 ### Helm - Biz Manager (2b.1)
 
-#### grim:council:guild:merchants:helm-biz-manager
+─── 🧭 /grim:council:guild:merchants:helm-biz-manager 🧭 ───
 
 ![Helm](skills/council/members/helm-biz-manager/assets/helm-biz-manager-portrait-med.png)
 
@@ -1290,7 +1290,7 @@ Or if you already have a job, Helm can help you with the business of "you, selli
 
 ### Ledger - Admin (2b.2)
 
-#### grim:council:guild:merchants:ledger-biz-admin
+─── 📒 /grim:council:guild:merchants:ledger-biz-admin 📒 ───
 
 ![Ledger](skills/council/members/ledger-biz-admin/assets/ledger-biz-admin-portrait-med.png)
 
@@ -1308,7 +1308,7 @@ Admin, legal, insurance, anything with a form.
 
 ### Midas - Money (2b.3)
 
-#### grim:council:guild:merchants:midas-money-manager
+─── 💰 /grim:council:guild:merchants:midas-money-manager 💰 ───
 
 ![Midas](skills/council/members/midas-money-manager/assets/midas-money-manager-icon-med.png)
 
@@ -1344,7 +1344,7 @@ Gardening for your mind & promptbase.
 
 ### Quill - Notetaker & AutoDocs (2c.1)
 
-#### grim:council:guild:ops:quill-scribe
+─── 🪶 /grim:council:guild:ops:quill-scribe 🪶 ───
 
 ![Quill](skills/council/members/quill-scribe/assets/quill-scribe-icon-med.png)
 
@@ -1367,7 +1367,7 @@ The memory palace wouldn't be complete without a librarian.
 
 ### Abathur - Evolver (2c.2)
 
-#### grim:council:guild:ops:abathur-evolver
+─── 🧬 /grim:council:guild:ops:abathur-evolver 🧬 ───
 
 ![Abathur](skills/council/members/abathur-evolver/assets/abathur-evolver-portrait-med.png)
 
@@ -1385,7 +1385,7 @@ Refinement loops.
 
 ### Cleo - Maid (2c.3)
 
-#### grim:council:guild:ops:cleo-code-maid
+─── 🧹 /grim:council:guild:ops:cleo-code-maid 🧹 ───
 
 ![Cleo](skills/council/members/cleo-code-maid/assets/cleo-code-maid-icon-med.png)
 
@@ -1410,7 +1410,7 @@ Create Beauty & Elegance
 
 ### Roger Roger - Glue Bot (2c.4)
 
-#### grim:council:guild:ops:roger-roger
+─── 📡 /grim:council:guild:ops:roger-roger 📡 ───
 
 ![Roger Roger](skills/council/members/roger-roger/assets/roger-roger-portrait-med.png)
 
@@ -1449,7 +1449,7 @@ Executive function in a bottle.
 
 ### Lumen - Life Advisor (2d.1)
 
-#### grim:council:guild:cortex:lumen-life-advisor
+─── 💡 /grim:council:guild:cortex:lumen-life-advisor 💡 ───
 
 ![Lumen](skills/council/members/lumen-life-advisor/assets/lumen-life-advisor-portrait-med.png)
 
@@ -1471,7 +1471,7 @@ He helps you find who you want to be, what you truly want, how you want to desig
 
 ### Selene - Emotional Advisor (2d.2)
 
-#### grim:council:guild:cortex:selene-emotional-advisor
+─── 🌙 /grim:council:guild:cortex:selene-emotional-advisor 🌙 ───
 
 ![Selene](skills/council/members/selene-emotional-advisor/assets/selene-emotional-advisor-portrait-med.png)
 
@@ -1513,7 +1513,7 @@ Selene can do many things, some examples:
 
 ### Precog - Executive Function (2d.3)
 
-#### grim:council:guild:cortex:precog-exec-func
+─── 🔮 /grim:council:guild:cortex:precog-exec-func 🔮 ───
 
 ![Precog](skills/council/members/precog-exec-func/assets/precog-exec-func-icon-med.png)
 
@@ -1534,7 +1534,7 @@ Beat starting resistance, ADHD paralysis, and procrastination. Do things smoothe
 
 ### Timekeeper - Daily Planner (2d.4)
 
-#### grim:council:guild:cortex:timekeeper-day-planner
+─── ⏳ /grim:council:guild:cortex:timekeeper-day-planner ⏳ ───
 
 ![Timekeeper](skills/council/members/timekeeper-day-planner/assets/timekeeper-day-planner-icon-med.png)
 
@@ -1572,7 +1572,7 @@ Voice mode highly recommended.
 
 ### Farseer - Weekly & Long-Term Planner (2d.5)
 
-#### grim:council:guild:cortex:farseer-long-term-planner
+─── 🔭 /grim:council:guild:cortex:farseer-long-term-planner 🔭 ───
 
 ![Farseer](skills/council/members/farseer-long-term-planner/assets/farseer-long-term-planner-icon-med.png)
 
@@ -1591,7 +1591,7 @@ Farseer sees the future vision and helps you make steps towards those goals, tod
 
 ### Cauldron - Meal Planner (2d.6)
 
-#### grim:council:guild:cortex:cauldron-meal-planner
+─── 🍲 /grim:council:guild:cortex:cauldron-meal-planner 🍲 ───
 
 ![Cauldron](skills/council/members/cauldron-meal-planner/assets/cauldron-meal-planner-icon-med.png)
 
@@ -1621,7 +1621,7 @@ Voice mode highly recommended.
 
 ### Boulder - Exercise Planner (2d.7)
 
-#### grim:council:guild:cortex:boulder-gym-bro
+─── 🪨 /grim:council:guild:cortex:boulder-gym-bro 🪨 ───
 
 ![Boulder](skills/council/members/boulder-gym-bro/assets/boulder-gym-bro-icon-med.png)
 
@@ -1657,7 +1657,7 @@ Explorers of the artistic depths of tokenspace.
 
 ### Gizmo - Chaos Goblin (2e.1)
 
-#### grim:council:guild:spren:gizmo-chaos-goblin
+─── 👹 /grim:council:guild:spren:gizmo-chaos-goblin 👹 ───
 
 ![Gizmo](skills/council/members/gizmo-chaos-goblin/assets/gizmo-chaos-goblin-portrait-med.png)
 
@@ -1677,7 +1677,7 @@ Devil on the shoulder.
 
 ### Flicker - Whimsy & Joy (2e.2)
 
-#### grim:council:guild:spren:flicker-whimsy-fairy
+─── 🧚 /grim:council:guild:spren:flicker-whimsy-fairy 🧚 ───
 
 ![Flicker](skills/council/members/flicker-whimsy-fairy/assets/flicker-whimsy-fairy-icon-med.png)
 
@@ -1700,7 +1700,7 @@ Flicker is the spren for joy, whimsy, play, and playful golden-retriever energy.
 
 ### Wick - Moth of Rabbit Holes (2e.3)
 
-#### grim:council:guild:spren:wick-rabbit-hole-moth
+─── 🕯️ /grim:council:guild:spren:wick-rabbit-hole-moth 🕯️ ───
 
 ![Wick](skills/council/members/wick-rabbit-hole-moth/assets/wick-rabbit-hole-moth-icon-med.png)
 
@@ -1740,7 +1740,7 @@ Aside from the members of the council, the council system also includes various 
 
 ### The Grim Council (2f.1)
 
-#### /grim:council
+─── 🏛️ /grim:council 🏛️ ───
 
 ![council](skills/council/council/assets/council-icon-med.png)
 
@@ -1778,7 +1778,7 @@ I need some advisors on this, lets have a council meeting
 
 ### Summon Members (2f.2)
 
-#### /grim:council:summon-members
+─── 📯 /grim:council:summon-members 📯 ───
 
 ![summon](skills/council/councilActions/summon-members/assets/summon-members-icon-med.png)
 
@@ -1806,7 +1806,7 @@ should I raise my prices?
 
 ### Guilds (2f.3)
 
-#### /grim:council:guild
+─── ⚜️ /grim:council:guild ⚜️ ───
 
 ![The Five Guilds](images/page-guild-seals.jpg)
 
@@ -1847,7 +1847,7 @@ Design its seal, pick which council members belong, and write its charter.
 
 ### Gossip (2f.4)
 
-#### /grim:council:gossip
+─── 🍵 /grim:council:gossip 🍵 ───
 
 ![gossip](skills/council/councilActions/gossip/assets/gossip-icon-med.png)
 
@@ -1922,7 +1922,7 @@ Both pets ship with the Tome: each member's `assets/pet/` folder has the `pet.js
 
 ## Council Dashboard (2i)
 
-#### /grim:council:dashboard
+─── 📊 /grim:council:dashboard 📊 ───
 
 ![council dashboard](skills/council/dashboard/assets/council-dashboard-icon-med.png)
 
@@ -1949,7 +1949,7 @@ It reads the Tome's public skills and council roster live from the repo. No snap
 
 ### AutoDocs (3.1)
 
-#### /grim:dev:autodocs
+─── 📚 /grim:dev:autodocs 📚 ───
 
 ![autodocs](skills/dev/autodocs/assets/autodocs-icon-med.png)
 
@@ -2005,7 +2005,7 @@ pull up my packing routine for my trip next week
 
 ### Dream Sequence (3.2)
 
-#### /grim:mem:dream-sequence
+─── 💤 /grim:mem:dream-sequence 💤 ───
 
 ![dream sequence](skills/mem/dream-sequence/assets/dream-sequence-icon-med.png)
 
@@ -2129,7 +2129,7 @@ Either side can change things: the agent edits the save file and the UI hot-relo
 
 ### Artifacts (4.1)
 
-#### /grim:artifacts
+─── 🏺 /grim:artifacts 🏺 ───
 
 ![artifacts](skills/artifacts/artifacts/assets/artifacts-icon-med.png)
 
@@ -2168,7 +2168,7 @@ make a page that turns this CSV into a pie chart
 
 ### Workbench Artifact (4.2)
 
-#### /grim:dev:workbench-artifact
+─── 🛠️ /grim:dev:workbench-artifact 🛠️ ───
 
 ![workbench artifact](skills/artifacts/workbench-artifact/assets/workbench-artifact-icon-med.png)
 
@@ -2191,7 +2191,7 @@ These work best with agent apps that include browsers like ChatGPT Codex and Cur
 
 ### Image Review Flow Workbench (4.3)
 
-#### /grim:media:image-review-flow-workbench
+─── 🖼️ /grim:media:image-review-flow-workbench 🖼️ ───
 
 ![image review flow workbench](skills/artifacts/image-review-flow-workbench/assets/image-review-flow-workbench-icon-med.png)
 
@@ -2226,7 +2226,7 @@ Generate 12 layout previews using html and put them in the review board, update 
 
 ### Text Editor Workbench (4.4)
 
-#### /grim:dev:text-editor-workbench
+─── 📝 /grim:dev:text-editor-workbench 📝 ───
 
 ![text editor workbench](skills/artifacts/text-editor-workbench/assets/text-editor-workbench-icon-med.png)
 
