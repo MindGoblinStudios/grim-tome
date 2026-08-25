@@ -1,0 +1,5 @@
+# Text Editor Workbench Icon Prompt V3
+
+Create a square skill icon. The two reference images are guild icons showing the required border style: an ornate sculpted gold frame with fine filigree detail and small inset gems, on a solid black background. Use that exact same ornate gold style and level of intricacy, but shaped as a ROUNDED SQUARE, not a circle. Solid black background outside the frame. Square output, no text, no watermark. Subject inside the frame: an ancient tome lying OPEN on an arcane scribe's workbench, an enchanted quill actively writing on the open pages, luminous teal-gold ink lines of glowing script flowing onto the paper mid-stroke, a small inkwell glowing emerald beside it, soft floating runes rising from the fresh ink. Dark arcane fantasy, teal-gold glowing magical light, premium game-inventory app-icon feel, centered composition, readable at 128px. The glowing script must be abstract rune-like marks, not real words.
+
+Reference images: skills/council/councilActions/guilds/spren/assets/council-spren-icon-large.png and skills/council/councilActions/guilds/coding/assets/council-coding-icon-large.png (border style)

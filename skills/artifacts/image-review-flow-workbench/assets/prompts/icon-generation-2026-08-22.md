@@ -1,0 +1,5 @@
+# Image Review Flow Workbench Icon Prompt V3
+
+The first image is a skill icon whose existing border must be replaced. The last two reference images are guild icons showing the required border style: an ornate sculpted gold frame with fine filigree detail and small inset gems, on a solid black background. Use that exact same ornate gold style and level of intricacy, but shaped as a ROUNDED SQUARE, not a circle. Solid black background outside the frame. Square output, no text, no watermark. Remove the first image's current border/frame entirely and reframe its artwork (a wall of gilded picture frames with glowing paintings, a heart rune, and a magical thread of light weaving between them) with the new ornate rounded-square gold frame. Keep the artwork itself completely unchanged inside the frame, scaling slightly inward if needed.
+
+Reference images: the previous image-review-flow-workbench-icon-large.png (pre-edit), skills/council/councilActions/guilds/spren/assets/council-spren-icon-large.png and skills/council/councilActions/guilds/coding/assets/council-coding-icon-large.png (border style)
