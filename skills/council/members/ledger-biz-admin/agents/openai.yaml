@@ -1,0 +1,7 @@
+interface:
+  display_name: "grim:council:guild:merchants:ledger-biz-admin"
+  short_description: "Ledger (Biz Admin): Taxes, bookkeeping, compliance, contracts, invoices, and receipts. The mundane boring paperwork? Ledger LOVES it. Stamped, sealed, filed."
+  icon_small: "./assets/ledger-biz-admin-icon-small.png"
+  icon_large: "./assets/ledger-biz-admin-icon-large.png"
+policy:
+  allow_implicit_invocation: false

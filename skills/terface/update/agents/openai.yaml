@@ -1,0 +1,8 @@
+interface:
+  display_name: "grim:terface:update"
+  short_description: "Update: Check whether your Tome checkout is behind upstream, summarize what's new, and update safely with non-destructive git."
+  default_prompt: "Check if my Grimoire's Tome checkout is up to date, summarize what's new in patchNotes.md, and update it safely if I approve."
+  icon_small: "./assets/update-icon-small.png"
+  icon_large: "./assets/update-icon-large.png"
+policy:
+  allow_implicit_invocation: false

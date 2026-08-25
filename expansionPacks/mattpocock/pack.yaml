@@ -1,0 +1,20 @@
+alias: mattpocock
+display_name: Matt Pocock Skills
+source_url: https://github.com/mattpocock/skills
+default_ref: main
+skills:
+  og:
+    - slug: grill-me
+      pack_id: mattpocock:grill-me
+      canonical_id: grim:ep:grill-me
+      path: og/grill-me
+      description: Grill the user relentlessly about a plan, decision, or idea, in frontier rounds of numbered questions with recommended answers. (Upstream renamed grill-me to grilling.)
+      promoted: true
+      mutation: false
+  mutations:
+    - slug: grill-me
+      pack_id: mattpocock:grill-me
+      canonical_id: grim:ep:mx:grill-me
+      path: mutations/grill-me
+      description: Grill the user in frontier rounds capped at 10 questions; skipped questions accept the recommended answer.
+      mutation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "grim:ep:grill-me"
+  short_description: "Grill Me: Exhaustive open-ended frontier grilling; use the mx mutation for 10-pack requests."
+  default_prompt: "Stress-test the user's plan by working the design tree in frontier rounds: number each question, give a recommended answer, and wait for answers between rounds."
+  icon_small: ./assets/grill-me-icon-small.png
+  icon_large: ./assets/grill-me-icon-large.png

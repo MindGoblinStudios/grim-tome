@@ -1,0 +1,106 @@
+entries:
+  - id: grim:terface:install
+    path: skills/terface/install
+  - id: grim:terface:help
+    path: skills/terface/help
+  - id: grim:terface:update
+    path: skills/terface/update
+  - id: grim:council
+    path: skills/council/council
+  - id: grim:council:summon-members
+    path: skills/council/councilActions/summon-members
+  - id: grim:council:gossip
+    path: skills/council/councilActions/gossip
+  - id: grim:council:gpt-tavern
+    path: skills/council/councilActions/gpt-tavern
+  - id: grim:council:guild:merchants
+    path: skills/council/councilActions/guilds/merchants
+  - id: grim:council:guild:coding
+    path: skills/council/councilActions/guilds/coding
+  - id: grim:council:guild:ops
+    path: skills/council/councilActions/guilds/ops
+  - id: grim:council:guild:cortex
+    path: skills/council/councilActions/guilds/cortex
+  - id: grim:council:guild:spren
+    path: skills/council/councilActions/guilds/spren
+  - id: grim:council:guild:ops:quill-scribe
+    path: skills/council/members/quill-scribe
+    procedures:
+      - grim:dev:autodocs
+      - grim:mem:dream-sequence
+    docs:
+      - docs/project-structure.md
+      - docs/ops
+      - docs/computerUseAppInstructions
+      - docs/browserUseInstructions
+      - memory
+  - id: grim:council:guild:coding:grimoire-code-wizard
+    path: skills/council/members/grimoire-code-wizard
+  - id: grim:council:guild:spren:gizmo-chaos-goblin
+    path: skills/council/members/gizmo-chaos-goblin
+  - id: grim:council:guild:spren:flicker-whimsy-fairy
+    path: skills/council/members/flicker-whimsy-fairy
+  - id: grim:council:guild:cortex:lumen-life-advisor
+    path: skills/council/members/lumen-life-advisor
+  - id: grim:council:guild:cortex:selene-emotional-advisor
+    path: skills/council/members/selene-emotional-advisor
+  - id: grim:council:guild:merchants:helm-biz-manager
+    path: skills/council/members/helm-biz-manager
+  - id: grim:council:guild:merchants:ledger-biz-admin
+    path: skills/council/members/ledger-biz-admin
+  - id: grim:council:guild:ops:abathur-evolver
+    path: skills/council/members/abathur-evolver
+  - id: grim:council:guild:merchants:midas-money-manager
+    path: skills/council/members/midas-money-manager
+  - id: grim:council:guild:cortex:precog-exec-func
+    path: skills/council/members/precog-exec-func
+  - id: grim:council:guild:cortex:timekeeper-day-planner
+    path: skills/council/members/timekeeper-day-planner
+  - id: grim:council:guild:cortex:farseer-long-term-planner
+    path: skills/council/members/farseer-long-term-planner
+  - id: grim:council:guild:cortex:cauldron-meal-planner
+    path: skills/council/members/cauldron-meal-planner
+  - id: grim:council:guild:cortex:boulder-gym-bro
+    path: skills/council/members/boulder-gym-bro
+  - id: grim:council:guild:spren:wick-rabbit-hole-moth
+    path: skills/council/members/wick-rabbit-hole-moth
+  - id: grim:council:guild:ops:roger-roger
+    path: skills/council/members/roger-roger
+  - id: grim:council:guild:ops:cleo-code-maid
+    path: skills/council/members/cleo-code-maid
+  - id: grim:dev:model-quirks
+    path: skills/dev/model-quirks
+  - id: grim:dev:minion
+    path: skills/dev/minion
+  - id: grim:dev:tiramisu-task-decomp
+    path: skills/dev/tiramisu-task-decomp
+  - id: grim:dev:git-commit-surgeon-chunker
+    path: skills/dev/git-commit-surgeon-chunker
+  - id: grim:dev:autodocs
+    path: skills/dev/autodocs
+  - id: grim:mem:dream-sequence
+    path: skills/mem/dream-sequence
+  - id: grim:mem:chat-log-search
+    path: skills/mem/chat-log-search
+  - id: grim:lock-in
+    path: skills/lock-in
+  - id: grim:dev:mentor-review
+    path: skills/dev/mentor-review
+  - id: grim:dev:three-minions-in-a-trench-coat
+    path: skills/dev/three-minions-in-a-trench-coat
+  - id: grim:polish
+    path: skills/polish
+  - id: grim:dev:design:layout-previews
+    path: skills/dev/design/layout-previews
+  - id: grim:media:skill-icons
+    path: skills/media/skill-icons
+  - id: grim:artifacts
+    path: skills/artifacts/artifacts
+  - id: grim:dev:workbench-artifact
+    path: skills/artifacts/workbench-artifact
+  - id: grim:media:image-review-flow-workbench
+    path: skills/artifacts/image-review-flow-workbench
+  - id: grim:dev:text-editor-workbench
+    path: skills/artifacts/text-editor-workbench
+  - id: grim:council:dashboard
+    path: skills/council/dashboard

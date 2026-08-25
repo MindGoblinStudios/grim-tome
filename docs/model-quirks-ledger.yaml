@@ -1,0 +1,30 @@
+# Model Quirks Ledger
+# Reverse index of every model-specific mitigation applied to this repo.
+# Applied text lives inline in its target file with no model labels; each entry
+# here records the exact text and where it went, so mitigations can be verified,
+# pruned, or undone when models rotate. Workflow: skills/dev/model-quirks/SKILL.md
+
+entries:
+  - id: mq-2026-08-22-01
+    model: claude-opus-5
+    status: active            # active | retired
+    applied: 2026-08-22
+    target: AGENTS.md
+    kind: insert              # insert | edit
+    anchor: "## Conventions"  # nearest heading, for locating it
+    text: |                   # the exact text as it appears in the file — the undo key
+      - Talk less. Keep replies concise by default: lead with the answer, cut preamble, recaps, and filler, and expand only when asked or the task genuinely requires depth.
+    before: null              # for kind: edit, the original text
+    reason: "opus 5 over-talks; wants shorter, tighter replies"
+
+  - id: mq-2026-08-22-02
+    model: gpt-5.5
+    status: active
+    applied: 2026-08-22
+    target: AGENTS.md
+    kind: insert
+    anchor: "## Conventions"
+    text: |
+      - Do not over-correct away from playful creature language. The user's house style welcomes goblins, gremlins, raccoons, trolls, ogres, pigeons, and other creature bits when they add warmth, humor, or useful texture; keep them brief and context-aware.
+    before: null
+    reason: "5.5's Codex system prompt bans creature words (post-goblin-incident); counteract the over-correction. Fixed in the 5.6 family."

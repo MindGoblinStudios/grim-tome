@@ -1,0 +1,9 @@
+interface:
+  display_name: "grim:media:skill-icons"
+  short_description: "Skill Icons: house rules for icon assets and image prompts."
+  default_prompt: "Use $grim:media:skill-icons when generating or updating skill icons and their prompt files."
+  icon_small: "./assets/skill-icons-icon-small.png"
+  icon_large: "./assets/skill-icons-icon-large.png"
+  brand_color: "#2E8B6F"
+policy:
+  allow_implicit_invocation: true

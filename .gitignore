@@ -1,0 +1,20 @@
+.DS_Store
+**/.DS_Store
+
+# Local generation and workbench state
+tmp/
+output/
+workbench/
+
+# Local environments and dependencies
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.py[cod]
+
+# Local secrets and logs
+.env
+.env.*
+!.env.example
+*.log

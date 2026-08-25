@@ -1,0 +1,10 @@
+interface:
+  display_name: "grim:dev:model-quirks"
+  short_description: "Model Quirks: Apply model-specific prompt mitigations inline (unlabeled) and record every change in the reverse-index ledger so it can be verified, pruned, or undone when models rotate."
+  default_prompt: "Apply or prune model-specific prompt mitigations and update the model quirks ledger."
+  icon_small: "./assets/newmodelquirks-icon-small.png"
+  icon_large: "./assets/newmodelquirks-icon-large.png"
+  brand_color: "#2D5BFF"
+
+policy:
+  allow_implicit_invocation: true
