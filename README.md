@@ -50,7 +50,7 @@ and thinking in tandem with The Machine
 
 You can import this entire spellbook into your preferred AI, and go full Grimoire.
 
-Or more likely as you peruse these pages, you may find a handful of interesting ideas to incorporate into your workflow and into your Agent's brain. Or thats sparks a new creative idea. 
+As you peruse these pages, you may find a handful of interesting ideas to incorporate into your workflow and into your Agent's brain. Or that sparks a new creative idea. 
 
 If any of those end up being true, this collection will have served its purpose.
 
