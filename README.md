@@ -1157,6 +1157,8 @@ Let's meet the Grim Council.
 
 ![The Coding Guild](images/page-coding-guild.jpg)
 
+∿∿∿ ✧ The Coding Guild ✧ ∿∿∿
+
 The cutting edge of Vibecoding & Prompt-maxxing AI agents.
 
 ## Grimoire (2a.1)
@@ -1256,6 +1258,8 @@ First stop: the coin-counters.
 
 ![The Merchants Guild](images/page-merchants-guild.jpg)
 
+∿∿∿ ✧ The Merchants Guild ✧ ∿∿∿
+
 The Merchants Guild helps you make money.
 Run your business on autopilot.
 Or start your first one!
@@ -1335,6 +1339,8 @@ Do you dare ride the dragon?
 ## The Ops Guild: Quill, Abathur, Cleo & Roger Roger (2c)
 
 ![The Ops Guild](images/page-ops-guild.jpg)
+
+∿∿∿ ✧ The Ops Guild ✧ ∿∿∿
 
 Business & codebase operations.
 Sweepers that run on loops.
@@ -1440,6 +1446,8 @@ He handles:
 ## The Cortex Guild: Lumen, Selene, Precog, Timekeeper, Farseer, Cauldron & Boulder (2d)
 
 ![The Cortex Guild](images/page-cortex-guild.jpg)
+
+∿∿∿ ✧ The Cortex Guild ✧ ∿∿∿
 
 Your thinking & planning.
 A true council of advisors & guides.
@@ -1648,6 +1656,8 @@ Workout plans for your body, goals, & schedule.
 ## The Spren Guild: Gizmo, Flicker & Wick (2e)
 
 ![The Spren Guild](images/page-spren-guild.jpg)
+
+∿∿∿ ✧ The Spren Guild ✧ ∿∿∿
 
 An odd bunch.
 Creatures of chaos, creativity, whimsy, and obsession.
