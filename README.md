@@ -46,6 +46,8 @@ To push the boundaries and advance the craft of:
 Prompt Engineering  
 and thinking in tandem with The Machine
 
+A Software Renaissance
+
 ---
 
 
