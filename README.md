@@ -2311,12 +2311,10 @@ Includes text, image and video!
 - [ElevenLabs](https://elevenlabs.io)
 Voice!
 
-Tons of different models for all sorts of use cases:
+Tons of different models for all sorts of use cases. I find image segmentation and 3d models to be particularly interesting & helpful:
 
 - [Replicate](https://replicate.com)
 - [FAL](https://fal.ai)
-
-I find image segmentation and 3d models to be particularly interesting & helpful
 
 Some starter services & MCPs if you want to go basic bitch tech company vibes
 
