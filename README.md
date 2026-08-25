@@ -2,7 +2,7 @@
 
 ![Grimoire v3](images/grimoire-v3-art-nouveau.jpg)
 
-**[▶ Watch the Tome open](images/01-book-flip-pulse.mp4)**
+![The Tome opens](images/01-book-flip-pulse.gif)
 
 ---
 
@@ -1185,7 +1185,7 @@ The cutting edge of Vibecoding & Prompt-maxxing AI agents.
 
 ─── 🧙‍♂️ /grim:council:guild:coding:grimoire-code-wizard 🧙‍♂️ ───
 
-**[▶ Meet Grimoire (video)](images/grimoire.mp4)**
+![Meet Grimoire](images/grimoire.gif)
 
 Code Wizard 🧙‍♂️  
 Grimoire is the #1 Vibecoder in the world.
