@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Council Dashboard Workbench</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <section class="main" aria-label="Council roundtable">
+        <div class="main-stack">
+          <div id="memberGrid" class="member-grid"></div>
+
+          <section id="guildsSection" class="row-block" aria-labelledby="guildsTitle">
+            <h2 id="guildsTitle" class="row-title">Guilds</h2>
+            <div id="guildGrid" class="tile-row is-guilds"></div>
+          </section>
+
+          <section id="managementSection" class="row-block" aria-labelledby="managementTitle">
+            <h2 id="managementTitle" class="row-title">Council Management</h2>
+            <div id="managementGrid" class="tile-row is-management"></div>
+          </section>
+        </div>
+      </section>
+
+      <aside id="sidebar" class="sidebar" aria-label="Skill search">
+        <header class="sidebar-head">
+          <div class="search-row">
+            <input
+              id="skillSearch"
+              class="search-input"
+              type="search"
+              autocomplete="off"
+              spellcheck="false"
+              placeholder="Search skills"
+              aria-label="Search skills"
+            />
+            <div id="skillFilterMenu" class="filter-menu">
+              <button
+                id="skillFilter"
+                class="filter-button"
+                type="button"
+                aria-haspopup="menu"
+                aria-expanded="false"
+                aria-label="Filter skills: All Grim, Automatic and manual"
+                data-filter-mode="grim"
+                data-invocation-mode="all"
+                title="Filter skills"
+              >
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
+                  <path d="M3 5h18" />
+                  <path d="M6 12h12" />
+                  <path d="M10 19h4" />
+                </svg>
+              </button>
+              <div id="skillFilterOptions" class="filter-options" role="menu" hidden></div>
+            </div>
+          </div>
+        </header>
+        <div id="skillList" class="skill-list"></div>
+      </aside>
+    </main>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+    <div id="skillDetail" class="skill-detail" hidden>
+      <div class="skill-detail-shell">
+        <header class="skill-detail-head">
+          <button id="skillDetailClose" class="skill-detail-close" type="button" aria-label="Back">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
+              <path d="M15 6l-6 6 6 6" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+          <span id="skillDetailSource" class="skill-detail-source"></span>
+        </header>
+        <div id="skillDetailContent" class="skill-detail-content"></div>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
