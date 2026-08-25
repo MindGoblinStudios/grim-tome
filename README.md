@@ -72,10 +72,10 @@ But it is mostly geared towards coding agent harnesses, and "AI super apps", lik
 - [Pi](https://github.com/earendil-works/pi)
 - [bb](https://getbb.app) ([repo](https://github.com/get-bb/bb))
 
-I currently recommend Grok bots as the best starting point.  
+I currently recommend SpaceXAI/Cursor's Grok bots as the best starting point.  
 Or ChatGPT Desktop (aka Codex).  
 
-The prompts, and tools here have been primarily designed for & tested on these 2 apps in mind.
+The prompts, and tools here have been primarily designed for & tested on these 2 apps.
 
 ---
 
