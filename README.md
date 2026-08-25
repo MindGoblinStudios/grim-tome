@@ -48,6 +48,18 @@ and thinking in tandem with The Machine
 
 A Software Renaissance
 
+You can import this entire spellbook into your preferred AI, and go full Grimoire.
+
+Or more likely as you peruse these pages, you may find a handful of interesting ideas to incorporate into your workflow and into your Agent's brain. Or thats sparks a new creative idea. 
+
+If any of those end up being true, this collection will have served its purpose.
+
+Take what inspires you or is useful and leave the rest. 
+
+fork it. remix it. make it yours. PRs are welcome.
+
+Enjoy.
+
 ---
 
 
@@ -201,24 +213,6 @@ Time to explore the frontier.
 
 
 
-## GG: G0 GR1M01R3
-
-You can import this entire spellbook into your preferred AI, and go full Grimoire.
-
-Or more likely as you peruse these pages, you may find a handful of interesting ideas to incorporate into your workflow and into your Agent's brain. Or thats sparks a new creative idea. 
-
-If any of those end up being true, this collection will have served its purpose.
-
-Take what inspires you or is useful and leave the rest. 
-
-fork it. remix it. make it yours. PRs are welcome.
-
-Enjoy.
-
----
-
-
-
 ## Table of Contents
 
 - [What is this?](#what-is-this)
@@ -228,7 +222,6 @@ Enjoy.
   - [1. VibeCoding dev flows & utils](#1-vibecoding-dev-flows--utils)
   - [2. Practical tools for integrating AI into daily lives](#2-practical-tools-for-integrating-ai-into-daily-lives)
   - [3. Advanced, Avant garde & Experimental Prompt-Engineering.](#3-advanced-avant-garde--experimental-prompt-engineering)
-- [GG: G0 GR1M01R3](#gg-g0-gr1m01r3)
 - [Table of contents](#table-of-contents)                              < -- YOU ARE HERE
 - [Chapter 0: Grimterface](#chapter-0-grimterface)
   - [Install (0.1)](#install-01)
