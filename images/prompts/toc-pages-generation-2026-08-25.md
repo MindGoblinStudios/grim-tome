@@ -1,0 +1,18 @@
+# Table of Contents Pages — 2026-08-25
+
+Two-page illustrated Table of Contents spread, embedded at the top of the README's Table of Contents section.
+
+- Model: `google/gemini-3.1-flash-image` (Nano Banana) via OpenRouter (`skills/dev/minion/scripts/openrouter_media.py`)
+- Style reference: `images/02-ch0-grim-terface-flat-imagen.jpg`
+- Aspect ratio: 2:3 portrait, generated at 848x1264, saved as JPEG q90
+- Outputs: `images/01b-toc-page-1-nanobanana.jpg`, `images/01c-toc-page-2-nanobanana.jpg`
+
+## Page 1 prompt
+
+Create page ONE of a two-page Table of Contents for an ancient wizard's spellbook, exactly matching this reference page's style: same aged parchment texture with deckled torn edges, same thin double-line ink border, same handwritten dark-brown ink lettering, same small ink doodles. At top an ornate illuminated gold-and-floral capital T that connects seamlessly into the handwritten words 'able of Contents' forming the single title 'Table of Contents', underlined. Below, a handwritten list with dotted leader lines, in this exact order and spelling: 'Inscription', 'What is this?', 'Starting Guide', then a section heading 'Chapter 0: Grimterface' with entries 'install', 'help', 'update', then a section heading 'Chapter 1: Core Dev-loop' with entries 'Lock-In', 'Polish', 'Layout Previews', 'Tiramisu Task Decomposition', 'Git Commit Decanter', 'Mentor Review', 'Chat Log Search', 'Minion', 'Three Minions in a Trench Coat', 'Model Quirks', 'Expansion Packs'. Scatter many small ink margin doodles: a quill, an open book on a summoning circle, a lantern, headphones, a four-pointed sparkle star, a slice of layered cake, a potion decanter bottle, a tiny hooded imp helper, three small hooded imps stacked on each other's shoulders inside one oversized coat, a magnifying glass over a scroll, a moon and stars, runes, scratches and ink flecks. Busy but charming margins, like a scribe doodled while writing. No page numbers. 2:3 portrait.
+
+Note: an earlier variant describing the trench-coat doodle with the word "minions" was blocked by Gemini's content filter (IMAGE_PROHIBITED_CONTENT), likely as a movie-IP match; rephrasing the doodles as "hooded imps" passed while keeping the entry titles verbatim.
+
+## Page 2 prompt
+
+Create page TWO of a two-page Table of Contents for an ancient wizard's spellbook, exactly matching this reference page's style: same aged parchment texture with deckled torn edges, same thin double-line ink border, same handwritten dark-brown ink lettering, same small ink doodles. At top a smaller underlined handwritten title 'Contents, continued'. Below, a handwritten list with dotted leader lines, in this exact order and spelling: section heading 'Chapter 2: The Grim Council' with entries 'Grimoire', 'Merchants Guild: Helm, Ledger, Midas', 'Ops Guild: Quill, Abathur, Cleo, Roger Roger', 'Cortex Guild: Lumen, Selene, Precog, Timekeeper, Farseer, Cauldron, Boulder', 'Spren Guild: Gizmo, Flicker, Wick', 'Summon Members', 'Gossip', 'GPTavern', 'Council Dashboard', then section heading 'Chapter 3: AutoDocs' with entries 'AutoDocs', 'Dream Sequence', then section heading 'Chapter 4: Workbench Artifacts' with entries 'Artifacts', 'Workbench Artifact', 'Image Review Flow', 'Text Editor', then 'Appendix' and 'Pay Tribute'. Scatter many small ink margin doodles matching the entries: a wizard hat, a round council table, tiny hooded figures, a compass, a coin stack, a scroll, a bubbling cauldron, a boulder, a small fairy, a moth, a war horn, a tavern mug, a sleeping crescent moon with z z z, a carpenter's workbench, a coin purse and small bell, runes, scratches and ink flecks. Busy but charming margins, like a scribe doodled while writing. No page numbers. 2:3 portrait.
