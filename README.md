@@ -28,25 +28,22 @@ A collection of prompts, .md files, /skills, code & design patterns for working 
 
 Some spells are for coding, but others are general patterns anyone can use to wield AI in their daily lives.
 
-From a state of the art vibecoding setup,  
-to practical tools for running a business or your grocery & todo list,  
-to crazy prompting experiments, games and more.
+From a state of the art vibecoding setup, to practical tools for running a business or your grocery & todo list, to crazy prompting experiments, games and more.
 
 ---
 
 Hi, I'm Nick, the hand behind the wizard.  
 [https://x.com/NickADobos](https://x.com/NickADobos)
-[https://nickdobos.com/](https://nickdobos.com/) 
 
-I've been coding professionally for 15+ yrs, from tiny startups to some of the biggest tech co's in the world. My code runs on 100+ million phones every day. I've been able to work with amazingly talented people, and managed pickup and learn a few things along the way. Lately I've gone down the AI rabbit hole.
+I've been coding professionally for 15+ yrs, from tiny startups to some of the biggest tech co's in the world. My code runs on 100+ million phones every day. I've been able to work with amazingly talented people, and managed to pickup and learn a few things along the way. Lately I've gone down the AI rabbit hole.
 
 With this project I'm sharing some of my tips, tricks, and mental structures for working with AI.
 
 To mentor a new generation of vibecoders  
 To expand artistic & creative talents  
-To push the boundaries and advance the craft
+To push the boundaries and advance the craft of:
 
-of Prompt Engineering  
+Prompt Engineering  
 and thinking in tandem with The Machine
 
 ---
