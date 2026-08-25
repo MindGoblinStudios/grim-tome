@@ -1,0 +1,6 @@
+{
+  "id": "gizmo",
+  "displayName": "Gizmo",
+  "description": "A small evil-looking hooded goblin chaos imp with pointy ears and a pointy nose.",
+  "spritesheetPath": "spritesheet.webp"
+}

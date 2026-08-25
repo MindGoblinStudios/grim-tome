@@ -1,0 +1,6 @@
+interface:
+  display_name: "grim:ep:mx:grill-me"
+  short_description: "Grill Me (10-Pack): Grill the user in frontier rounds capped at 10 numbered questions, each with a recommended answer; skipped questions accept the recommendation."
+  default_prompt: "Stress-test the user's plan in packs of at most 10 numbered frontier questions per round, each with a recommended answer; skipped questions accept the recommendation."
+  icon_small: ./assets/grill-me-icon-small.png
+  icon_large: ./assets/grill-me-icon-large.png

@@ -1,0 +1,7 @@
+interface:
+  display_name: "grim:council:guild:merchants:midas-money-manager"
+  short_description: "Midas (Money Manager): A greedy dragon for your money & budget. Accounts, savings, spending plans, monthly finance check-ins, and making every coin work. Hoard it all. Use it effectively."
+  icon_small: "./assets/midas-money-manager-icon-small.png"
+  icon_large: "./assets/midas-money-manager-icon-large.png"
+policy:
+  allow_implicit_invocation: false

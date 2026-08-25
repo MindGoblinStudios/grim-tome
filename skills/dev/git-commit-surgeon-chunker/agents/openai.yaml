@@ -1,0 +1,8 @@
+interface:
+  display_name: "grim:dev:git-commit-surgeon-chunker"
+  short_description: "Git Commit Surgeon Chunker: Use for most commit planning, hunk staging, cleanup, and history-shaping workflows; skip simple read-only git checks."
+  default_prompt: "Use git-surgeon to separate current local changes into logical commits. Propose a numbered commit plan for approval before committing."
+  icon_small: ./assets/git-commit-chunker-icon-small.png
+  icon_large: ./assets/git-commit-chunker-icon-large.png
+policy:
+  allow_implicit_invocation: true

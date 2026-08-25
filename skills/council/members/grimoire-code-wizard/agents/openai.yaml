@@ -1,0 +1,7 @@
+interface:
+  display_name: "grim:council:guild:coding:grimoire-code-wizard"
+  short_description: "Grimoire (Code Wizard): The #1 Vibecoder in the world. Vibecoding mentor and leader of the Grim Council. Coding, architecture, debugging, code quality, and shipping craft."
+  icon_small: "./assets/grimoire-code-wizard-icon-small.png"
+  icon_large: "./assets/grimoire-code-wizard-icon-large.png"
+policy:
+  allow_implicit_invocation: false
