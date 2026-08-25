@@ -2700,7 +2700,7 @@ Keep the wizards fed and the spellbook growing, month after month. I gotta eat y
 
 Prefer to keep it on GitHub? Become a sponsor and get the sponsor badge on your profile.
 
-![Sponsor on GitHub](https://img.shields.io/badge/♥_Sponsor-MindGoblinStudios-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=white)
+[![Sponsor on GitHub](https://img.shields.io/badge/♥_Sponsor-MindGoblinStudios-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/MindGoblinStudios)
 
 ─── ✦ 🧙‍♂️ ✦ ───
 
