@@ -2673,11 +2673,23 @@ Every bit of support means more time & resources to create tools for you like th
 ### Leave a One-Time Tribute
 
 
-|                                                                                                                                                                            |                                                                                                                                                                                        |                                                                                                                                                                                    |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Copper](images/tribute/copper.jpg) **[Copper](https://donate.stripe.com/6oU28rboBcuAdopc3l2VG02)** [$5](https://donate.stripe.com/6oU28rboBcuAdopc3l2VG02)               | ![Silver](images/tribute/silver.jpg) **[Silver](https://donate.stripe.com/cNifZhfER1PW989gjB2VG03)** [$10](https://donate.stripe.com/cNifZhfER1PW989gjB2VG03)                          | ![Gold](images/tribute/gold.jpg) **[Gold](https://donate.stripe.com/bJedR950d5283NPebt2VG04)** [$20](https://donate.stripe.com/bJedR950d5283NPebt2VG04)                            |
-| ![Gold Bullion](images/tribute/bullion.jpg) **[Gold Bullion](https://donate.stripe.com/28E3cvgIV528acd7N52VG05)** [$50](https://donate.stripe.com/28E3cvgIV528acd7N52VG05) | ![Treasure Trove](images/tribute/treasure-trove.jpg) **[Treasure Trove](https://donate.stripe.com/8x2bJ11O13Y41FH9Vd2VG06)** [$100](https://donate.stripe.com/8x2bJ11O13Y41FH9Vd2VG06) | ![Dragon Hoard](images/tribute/dragon-hoard.jpg) **[Dragon Hoard](https://donate.stripe.com/eVq5kD1O1bqw1FH1oH2VG07)** [$1,000](https://donate.stripe.com/eVq5kD1O1bqw1FH1oH2VG07) |
-| ![Tip Jar](images/tribute/tip-jar.jpg) **[Tip Jar](https://donate.stripe.com/8wM7sIaUCa12400145)** [Any amount](https://donate.stripe.com/8wM7sIaUCa12400145)              |                                                                                                                                                                                        |                                                                                                                                                                                    |
+<table>
+  <tr>
+    <td align="center"><a href="https://donate.stripe.com/6oU28rboBcuAdopc3l2VG02"><img src="images/tribute/copper.jpg" alt="Copper" width="180"><br><b>Copper</b><br>$5</a></td>
+    <td align="center"><a href="https://donate.stripe.com/cNifZhfER1PW989gjB2VG03"><img src="images/tribute/silver.jpg" alt="Silver" width="180"><br><b>Silver</b><br>$10</a></td>
+    <td align="center"><a href="https://donate.stripe.com/bJedR950d5283NPebt2VG04"><img src="images/tribute/gold.jpg" alt="Gold" width="180"><br><b>Gold</b><br>$20</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://donate.stripe.com/28E3cvgIV528acd7N52VG05"><img src="images/tribute/bullion.jpg" alt="Gold Bullion" width="180"><br><b>Gold Bullion</b><br>$50</a></td>
+    <td align="center"><a href="https://donate.stripe.com/8x2bJ11O13Y41FH9Vd2VG06"><img src="images/tribute/treasure-trove.jpg" alt="Treasure Trove" width="180"><br><b>Treasure Trove</b><br>$100</a></td>
+    <td align="center"><a href="https://donate.stripe.com/eVq5kD1O1bqw1FH1oH2VG07"><img src="images/tribute/dragon-hoard.jpg" alt="Dragon Hoard" width="180"><br><b>Dragon Hoard</b><br>$1,000</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://donate.stripe.com/8wM7sIaUCa12400145"><img src="images/tribute/tip-jar.jpg" alt="Tip Jar" width="180"><br><b>Tip Jar</b><br>Any amount</a></td>
+    <td align="center"></td>
+    <td align="center"></td>
+  </tr>
+</table>
 
 
 ─── 🧪 ✦ 🧪 ───
@@ -2688,10 +2700,18 @@ Forget buying me a coffee. Buy me a potion. 🧪
 Keep the wizards fed and the spellbook growing, month after month. I gotta eat you guys.
 
 
-|                                                                                                                                                                                       |                                                                                                                                                                                          |                                                                                                                                                                                          |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Buy Me a Potion](images/tribute/patron-potion.jpg) **[Buy Me a Potion](https://buy.stripe.com/6oU14ngIVgKQ1FHd7p2VG08)** [$5/mo](https://buy.stripe.com/6oU14ngIVgKQ1FHd7p2VG08)    | ![Enchanted Inkwell](images/tribute/patron-inkwell.jpg) **[Enchanted Inkwell](https://buy.stripe.com/9B63cvfER1PW3NP8R92VG09)** [$10/mo](https://buy.stripe.com/9B63cvfER1PW3NP8R92VG09) | ![Golden Hourglass](images/tribute/patron-hourglass.jpg) **[Golden Hourglass](https://buy.stripe.com/14A28r2S57ag989c3l2VG0a)** [$20/mo](https://buy.stripe.com/14A28r2S57ag989c3l2VG0a) |
-| ![Bag of Emeralds](images/tribute/patron-emeralds.jpg) **[Bag of Emeralds](https://buy.stripe.com/cNicN52S5ams7010kD2VG0b)** [$50/mo](https://buy.stripe.com/cNicN52S5ams7010kD2VG0b) | ![Grimoire Patron](images/tribute/patron-grimoire.jpg) **[Grimoire Patron](https://buy.stripe.com/fZucN51O1528dop6J12VG0c)** [$100/mo](https://buy.stripe.com/fZucN51O1528dop6J12VG0c)   |                                                                                                                                                                                          |
+<table>
+  <tr>
+    <td align="center"><a href="https://buy.stripe.com/6oU14ngIVgKQ1FHd7p2VG08"><img src="images/tribute/patron-potion.jpg" alt="Buy Me a Potion" width="180"><br><b>Buy Me a Potion</b><br>$5/mo</a></td>
+    <td align="center"><a href="https://buy.stripe.com/9B63cvfER1PW3NP8R92VG09"><img src="images/tribute/patron-inkwell.jpg" alt="Enchanted Inkwell" width="180"><br><b>Enchanted Inkwell</b><br>$10/mo</a></td>
+    <td align="center"><a href="https://buy.stripe.com/14A28r2S57ag989c3l2VG0a"><img src="images/tribute/patron-hourglass.jpg" alt="Golden Hourglass" width="180"><br><b>Golden Hourglass</b><br>$20/mo</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://buy.stripe.com/cNicN52S5ams7010kD2VG0b"><img src="images/tribute/patron-emeralds.jpg" alt="Bag of Emeralds" width="180"><br><b>Bag of Emeralds</b><br>$50/mo</a></td>
+    <td align="center"><a href="https://buy.stripe.com/fZucN51O1528dop6J12VG0c"><img src="images/tribute/patron-grimoire.jpg" alt="Grimoire Patron" width="180"><br><b>Grimoire Patron</b><br>$100/mo</a></td>
+    <td align="center"></td>
+  </tr>
+</table>
 
 
 ─── 💖 ✦ 💖 ───
