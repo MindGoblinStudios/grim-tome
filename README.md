@@ -48,6 +48,8 @@ and thinking in tandem with The Machine
 
 A Software Renaissance
 
+---
+
 You can import this entire spellbook into your preferred AI, and go full Grimoire.
 
 Or more likely as you peruse these pages, you may find a handful of interesting ideas to incorporate into your workflow and into your Agent's brain. Or thats sparks a new creative idea. 
