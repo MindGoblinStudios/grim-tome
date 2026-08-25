@@ -2,9 +2,9 @@
 
 ![Grimoire v3](images/grimoire-v3-art-nouveau.jpg)
 
-https://github.com/MindGoblinStudios/grim-tome/releases/download/media-v1/01-book-flip-pulse.mp4
+**[▶ Watch the Tome open](images/01-book-flip-pulse.mp4)**
 
-<!-- If the video above renders as a bare link instead of a player, drag-drop images/01-book-flip-pulse.mp4 into the README via the GitHub web editor to get a user-attachments embed. -->
+<!-- For a true inline player, drag-drop images/01-book-flip-pulse.mp4 into the README via the GitHub web editor to get a user-attachments embed, and replace the link above. -->
 
 ---
 
@@ -1189,9 +1189,9 @@ The cutting edge of Vibecoding & Prompt-maxxing AI agents.
 | **Difficulty**                                                   | 🟦⬜⬜ Easy ↔ 🟪🟪🟪 Pro |
 
 
-https://github.com/MindGoblinStudios/grim-tome/releases/download/media-v1/grimoire.mp4
+**[▶ Meet Grimoire (video)](images/grimoire.mp4)**
 
-<!-- If the video above renders as a bare link instead of a player, drag-drop images/grimoire.mp4 into the README via the GitHub web editor to get a user-attachments embed. -->
+<!-- For a true inline player, drag-drop images/grimoire.mp4 into the README via the GitHub web editor to get a user-attachments embed, and replace the link above. -->
 
 Code Wizard 🧙‍♂️  
 Grimoire is the #1 Vibecoder in the world.
