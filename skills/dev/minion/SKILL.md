@@ -1,6 +1,6 @@
 ---
 name: grim:dev:minion
-description: "Minion: manual-only routing note for using built-in subagents first, or direct Codex, Claude, Cursor, Grok, LM Studio, and OpenRouter runners when explicitly requested."
+description: "Minion: manual-only routing note for using built-in subagents first, or direct Codex, Claude, Cursor, Grok, LM Studio, Ollama, and OpenRouter runners when explicitly requested."
 disable-model-invocation: true
 ---
 
@@ -16,6 +16,7 @@ When this skill is explicitly triggered, ask the user whether they want:
 - the host's built-in subagent tool
 - a direct CLI Minion
 - an LM Studio local Minion
+- an Ollama local Minion
 - or the OpenRouter helper
 
 Use an external Minion route only when:
@@ -26,7 +27,7 @@ Use an external Minion route only when:
 - we are trying to get multiple perspectives
 - we are doing code review and want other opinions
 - or the work needs an outside runner through OpenRouter
-- or the work benefits from a local/offline LM Studio model
+- or the work benefits from a local/offline LM Studio or Ollama model
 
 Before launching any outside route, make the route explicit:
 - runner
@@ -260,6 +261,54 @@ For high-risk code review,
 security-sensitive work,
 or final product decisions,
 compare against a stronger hosted route before acting.
+
+## Ollama Local Route
+
+Use Ollama when the user explicitly wants a local model through Ollama,
+or Ollama is the local runtime already installed on the machine.
+
+Check that Ollama is available and see what models are pulled:
+
+```bash
+ollama list
+```
+
+Run a one-shot local Minion prompt directly through the CLI:
+
+```bash
+ollama run "<ollama-model>" "<prompt>"
+```
+
+Pull a model first if it is not installed yet:
+
+```bash
+ollama pull "<ollama-model>"
+```
+
+### Ollama Via The Local Helper
+
+Ollama serves an OpenAI-compatible endpoint,
+so the LM Studio helper works against it with a base URL override.
+This gives you saved conversations and resume support:
+
+```bash
+python3 skills/dev/minion/scripts/lmstudio_minion.py --api-mode openai --base-url http://127.0.0.1:11434/v1 --model "<ollama-model>" "<prompt>"
+```
+
+Resume an Ollama conversation:
+
+```bash
+python3 skills/dev/minion/scripts/lmstudio_minion.py --api-mode openai --base-url http://127.0.0.1:11434/v1 --conversation "<name>" --model "<ollama-model>" "<prompt>"
+python3 skills/dev/minion/scripts/lmstudio_minion.py --api-mode openai --conversation "<name>" "<next prompt>"
+```
+
+### Ollama Notes
+
+- Default local endpoint: `http://127.0.0.1:11434`
+- OpenAI-compatible base URL: `http://127.0.0.1:11434/v1`
+- The Ollama server usually starts automatically with the desktop app; otherwise run `ollama serve`.
+- Do not hard-code model recommendations here. Use `ollama list` on the active machine and route by task.
+- The same caution as LM Studio applies: for high-risk review or final decisions, compare against a stronger hosted route.
 
 # OpenRouter
 
