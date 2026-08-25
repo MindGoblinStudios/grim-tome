@@ -415,10 +415,18 @@
 
     #grim-roundtable-workbench .filter-options .form-select {
       width: 100%;
+      padding-right: 2.25rem;
       border-radius: 0.75rem;
       border-color: #3a3a3c;
       background: var(--skills-solid-hover);
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23f5f5f7' stroke-width='2.25' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 0.75rem center;
+      background-size: 16px 16px;
       color: var(--skills-solid-foreground);
+      cursor: pointer;
+      appearance: none;
+      -webkit-appearance: none;
     }
 
     #grim-roundtable-workbench .filter-category-head {
@@ -464,7 +472,7 @@
       width: 100%;
       min-width: 0;
       display: grid;
-      grid-template-columns: minmax(0, 1fr) 28px;
+      grid-template-columns: minmax(0, 1fr) auto;
       gap: 10px;
       align-items: center;
       padding: 10px 12px;
@@ -569,8 +577,30 @@
       color: var(--skills-solid-foreground);
     }
 
-    #grim-roundtable-workbench .skill-row .skill-info-button:hover,
-    #grim-roundtable-workbench .skill-row .skill-info-button:active {
+    #grim-roundtable-workbench .skill-row-actions,
+    #grim-roundtable-workbench .skill-grid-actions {
+      display: flex;
+      gap: 0.25rem;
+      align-items: center;
+    }
+
+    #grim-roundtable-workbench .skill-run-button {
+      background: #39ff14 !important;
+      color: #001400 !important;
+    }
+
+    #grim-roundtable-workbench .skill-run-button[hidden] {
+      display: none;
+    }
+
+    #grim-roundtable-workbench .skill-run-button:hover,
+    #grim-roundtable-workbench .skill-run-button:active {
+      background: #39ff14 !important;
+      color: #001400 !important;
+    }
+
+    #grim-roundtable-workbench .skill-row .skill-info-button:not(.skill-run-button):hover,
+    #grim-roundtable-workbench .skill-row .skill-info-button:not(.skill-run-button):active {
       background: transparent !important;
     }
 
@@ -649,11 +679,14 @@
       -webkit-line-clamp: 2;
     }
 
-    #grim-roundtable-workbench .skill-grid-info {
+    #grim-roundtable-workbench .skill-grid-actions {
       position: absolute;
       top: 0.35rem;
       right: 0.35rem;
       z-index: 2;
+    }
+
+    #grim-roundtable-workbench .skill-grid-info {
       background: color-mix(in srgb, var(--background) 78%, transparent);
       color: var(--foreground);
       backdrop-filter: blur(8px);
@@ -1825,6 +1858,9 @@
             );
           }
         });
+        skillList.querySelectorAll('[data-skill-run-id]').forEach((button) => {
+          button.hidden = !selectedSkills.has(button.dataset.skillRunId);
+        });
       }
 
       function updateSkillDetailSelection() {
@@ -1837,6 +1873,13 @@
         skillDetailSelect.setAttribute('aria-pressed', String(isSelected));
         skillDetailSelect.hidden = !isSelected && otherSelectionCount === 0;
       }
+
+      const runSkill = async (entry) => {
+        await window.openai.sendFollowUpMessage({
+          title: `Run ${entry.title}?`,
+          prompt: `Invoke ${entry.id} for the current request.\n\nSkill focus: ${entry.description}`,
+        });
+      };
 
       async function openSkillDetail(entry, trigger) {
         detailedSkill = entry;
@@ -1899,6 +1942,18 @@
           infoButton.appendChild(infoIcon);
           infoButton.addEventListener('click', () => openSkillDetail(entry, infoButton));
 
+          const runButton = document.createElement('button');
+          runButton.type = 'button';
+          runButton.className = 'btn skill-info-button skill-run-button';
+          runButton.dataset.skillRunId = entry.id;
+          runButton.hidden = !selectedSkills.has(entry.id);
+          runButton.setAttribute('aria-label', `Invoke ${entry.title}`);
+          const runIcon = document.createElement('i');
+          runIcon.dataset.lucide = 'play';
+          runIcon.setAttribute('aria-hidden', 'true');
+          runButton.appendChild(runIcon);
+          runButton.addEventListener('click', () => runSkill(entry));
+
           if (skillViewMode === 'grid') {
             const card = document.createElement('div');
             card.className = 'card skill-grid-card';
@@ -1916,8 +1971,11 @@
             copy.append(name, description);
             selectButton.append(image, copy);
 
+            const actions = document.createElement('div');
+            actions.className = 'skill-grid-actions';
             infoButton.classList.add('skill-grid-info');
-            card.append(selectButton, infoButton);
+            actions.append(infoButton, runButton);
+            card.append(selectButton, actions);
             skillList.appendChild(card);
             return;
           }
@@ -1941,7 +1999,10 @@
           copy.append(name, description);
           selectButton.append(icon, copy);
 
-          row.append(selectButton, infoButton);
+          const actions = document.createElement('div');
+          actions.className = 'skill-row-actions';
+          actions.append(infoButton, runButton);
+          row.append(selectButton, actions);
           skillList.appendChild(row);
         });
 
@@ -2052,10 +2113,7 @@
       });
       skillDetailRun.addEventListener('click', async () => {
         if (!detailedSkill) return;
-        await window.openai.sendFollowUpMessage({
-          title: `Run ${detailedSkill.title}?`,
-          prompt: `Invoke ${detailedSkill.id} for the current request.\n\nSkill focus: ${detailedSkill.description}`,
-        });
+        await runSkill(detailedSkill);
       });
       document.addEventListener('keydown', (event) => {
         if (event.key === 'Escape' && !skillDetail.hidden) closeSkillDetail();
