@@ -1,6 +1,6 @@
 # Grimoire's Tome
 
-![The Tome opens](images/01-book-flip-pulse.gif)
+<img src="images/01-book-flip-pulse.gif" alt="The Tome opens" width="1696">
 
 ---
 
@@ -1283,7 +1283,7 @@ The cutting edge of Vibecoding & Prompt-maxxing AI agents.
 
 ### grim:council:guild:coding:grimoire-code-wizard
 
-![Meet Grimoire](images/grimoire.gif)
+<img src="images/grimoire.gif" alt="Meet Grimoire" width="1696">
 
 
 | [Grimoire](skills/council/members/grimoire-code-wizard/SKILL.md) |                        |
