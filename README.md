@@ -201,6 +201,10 @@ Time to explore the frontier.
 
 ## Table of Contents
 
+![Table of Contents, page one](images/01b-toc-page-1-nanobanana.jpg)
+
+![Table of Contents, page two](images/01c-toc-page-2-nanobanana.jpg)
+
 - [What is this?](#what-is-this)
 - [Starting Guide](#starting-guide)
 - [Lore](#lore)
