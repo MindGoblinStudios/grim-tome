@@ -74,8 +74,8 @@ entries:
     path: skills/dev/minion
   - id: grim:dev:tiramisu-task-decomp
     path: skills/dev/tiramisu-task-decomp
-  - id: grim:dev:git-commit-surgeon-chunker
-    path: skills/dev/git-commit-surgeon-chunker
+  - id: grim:dev:git-commit-decanter
+    path: skills/dev/git-commit-decanter
   - id: grim:dev:autodocs
     path: skills/dev/autodocs
   - id: grim:mem:dream-sequence

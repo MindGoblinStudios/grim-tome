@@ -1,8 +1,10 @@
 ---
-name: grim:dev:git-commit-surgeon-chunker
-description: "(grim:dev:git-commit-surgeon-chunker): (Git Commit Surgeon Chunker): Use this for most commit planning, hunk staging, cleanup, and history-shaping git workflows. Do not auto-route simple read-only status/log/diff checks unless commit chunking or history surgery is actually in scope."
+name: grim:dev:git-commit-decanter
+description: "(grim:dev:git-commit-decanter): (Git Commit Decanter): Use this for most commit planning, hunk staging, cleanup, and history-shaping git workflows. Do not auto-route simple read-only status/log/diff checks unless commit chunking or history surgery is actually in scope."
 ---
-# Git Commit Surgeon Chunker
+# Git Commit Decanter
+
+Decant one monster diff into clean, settled chunks.
 
 Grim workflow layer on top of [git-surgeon](https://github.com/raine/git-surgeon): non-interactive hunk-level git operations for precise staging, splitting, and history shaping.
 

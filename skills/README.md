@@ -22,7 +22,7 @@ Public skills for Grimoire's Tome. Paths mirror the private workspace layout; on
 - Grimoire, Helm, Quill, Ledger, Midas, Abathur, Cleo, Roger Roger, Lumen, Selene, Precog, Timekeeper, Farseer, Cauldron, Boulder, Gizmo, Flicker, Wick
 
 ### Public Dev Skills
-- `dev/git-commit-surgeon-chunker`
+- `dev/git-commit-decanter`
 - `dev/tiramisu-task-decomp`
 - `dev/minion`
 - `dev/model-quirks`
