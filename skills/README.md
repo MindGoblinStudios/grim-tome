@@ -22,7 +22,7 @@ The skills of Grimoire's Tome. Every folder here is a skill or a family of skill
 - Grimoire, Helm, Quill, Ledger, Midas, Abathur, Cleo, Roger Roger, Lumen, Selene, Precog, Timekeeper, Farseer, Cauldron, Boulder, Gizmo, Flicker, Wick
 
 ### Public Dev Skills
-- `dev/git-commit-surgeon-chunker`
+- `dev/git-commit-decanter`
 - `dev/tiramisu-task-decomp`
 - `dev/minion`
 - `dev/model-quirks`
