@@ -2284,6 +2284,7 @@ Install any of these with the [Expansion Pack system](#expansion-packs-1d) from 
 - [Compound Engineering](https://github.com/EveryInc/compound-engineering-plugin) by Every
 - [Pstack](https://github.com/cursor/plugins/tree/main/pstack) by [Lauren Tan (poteto)](https://x.com/poteto)
 - [Gstack](https://github.com/garrytan/gstack) by [Garry Tan](https://x.com/garrytan)
+- [Skills for Designers & Engineers](https://github.com/emilkowalski/skills) by [Emil Kowalski](https://x.com/emilkowalski_)
 
 ---
 
