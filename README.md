@@ -835,8 +835,9 @@ read this and get up to speed codex://threads/019f66d8-fd1d-71a3-ae10-9a5b735esb
 | **Requires**                         | **One or more AI CLIs / API keys:** [Codex CLI](https://developers.openai.com/codex/cli) [Claude Code](https://claude.com/product/claude-code) [Cursor CLI](https://cursor.com/cli) [Grok Build](https://x.ai/cli) [LM Studio](https://lmstudio.ai) (local, free) [Ollama](https://ollama.com) (local, free) [OpenRouter API key](https://openrouter.ai/keys) |
 
 
-Minion is a quick way to talk to other AI models
-Use subagents and talk to any model in your favorite app
+Minion is a quick way to talk to other AI models.
+
+Use subagents to talk to any AI model, without leaving your favorite app or harness.
 
 Easily get different opinions, do code reviews, explore different model capabilities, and exploit having multiple accounts!
 
