@@ -8,7 +8,7 @@
 
 ![The Inscription](images/01-inscription-flat-imagen.jpg)
 
-> "With ~~GPT-4’s~~ support, I feel unstoppable. The overnight surge in productivity is intoxicating. ~~It’s not about making money or starting a business, but~~ purely about continuously bringing ideas from my mind into reality, which feels like happiness. More importantly, it gives me <ins>the courage to dream and attempt things</ins> beyond my current abilities."
+> "With ~~GPT-4’s~~ support, I feel unstoppable. The overnight surge in productivity is intoxicating. ~~It’s not about making money or starting a business, but~~ purely about continuously bringing ideas from my mind into reality, which feels like happiness. More importantly, it gives me the courage to dream and attempt things beyond my current abilities."
 >
 > - Ke Fang, ["LLM for Individual"](https://mazzzystar.github.io/2023/05/10/LLM-for-individual/)
 
@@ -48,7 +48,7 @@ and thinking in tandem with The Machine
 
 You can import this entire spellbook into your preferred AI, and go full Grimoire.
 
-Or you peruse these pages, you may find a handful of interesting ideas to incorporate into your workflow and into your Agent's brain. Or maybe something that sparks a creative new idea. 
+Or as you peruse these pages, you may find a handful of interesting ideas to incorporate into your workflow and into your Agent's brain. Or maybe something that sparks a creative new idea. 
 
 If any of those end up being true, this collection will have served its purpose.
 
