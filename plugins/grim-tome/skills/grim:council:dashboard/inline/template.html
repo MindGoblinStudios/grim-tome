@@ -1,0 +1,2177 @@
+<div id="grim-roundtable-workbench">
+  <style>
+    #grim-roundtable-workbench {
+      --skills-solid-surface: #1c1c1e;
+      --skills-solid-hover: #27272a;
+      --skills-solid-foreground: #f5f5f7;
+      --resize-pulse: 0px;
+      color: var(--foreground);
+      padding-bottom: 0;
+    }
+
+    #grim-roundtable-workbench .roundtable-layout {
+      min-width: 0;
+      overflow: hidden;
+      border-radius: 1rem;
+      padding-bottom: calc(var(--dock-reserve, 8rem) + var(--resize-pulse) + env(safe-area-inset-bottom));
+      background-color: var(--background);
+      background-image:
+        linear-gradient(
+          to bottom,
+          color-mix(in srgb, var(--background) 2%, transparent) 0,
+          color-mix(in srgb, var(--background) 4%, transparent) 48%,
+          color-mix(in srgb, var(--background) 44%, transparent) 76%,
+          var(--background) 100%
+        ),
+        var(--roundtable-background-top),
+        linear-gradient(
+          to bottom,
+          var(--background) 0,
+          color-mix(in srgb, var(--background) 98%, transparent) 20%,
+          color-mix(in srgb, var(--background) 78%, transparent) 48%,
+          color-mix(in srgb, var(--background) 34%, transparent) 76%,
+          color-mix(in srgb, var(--background) 8%, transparent) 100%
+        ),
+        var(--roundtable-background-bottom);
+      background-position: top center, top center, bottom center, bottom center;
+      background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+      background-size: 100% clamp(11.25rem, 56.3vw, 32rem), 100% auto, 100% 28rem, 100% auto;
+    }
+
+    #grim-roundtable-workbench .view-tabs {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 0.45rem;
+      margin: 0;
+      padding: 0.75rem 0.75rem 0.45rem;
+    }
+
+    #grim-roundtable-workbench .view-tabs .btn {
+      --primary: #ffffff;
+      --primary-foreground: #000000;
+      --ring: transparent;
+      color: #ffffff;
+      -webkit-text-fill-color: #ffffff;
+    }
+
+    #grim-roundtable-workbench #council-tab[aria-selected="true"],
+    #grim-roundtable-workbench #skills-tab[aria-selected="true"] {
+      border-color: transparent !important;
+      background: #ffffff !important;
+      color: #000000 !important;
+      -webkit-text-fill-color: #000000 !important;
+      box-shadow: none !important;
+      text-shadow: none !important;
+    }
+
+    #grim-roundtable-workbench .view-panel[hidden] {
+      display: none;
+    }
+
+    #grim-roundtable-workbench .view-panel:not([hidden]) {
+      animation: view-panel-in 190ms ease-out;
+    }
+
+    @keyframes view-panel-in {
+      from { opacity: 0.45; transform: translateY(6px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    #grim-roundtable-workbench .roundtable-main {
+      min-width: 0;
+      display: grid;
+      gap: 0;
+    }
+
+    #grim-roundtable-workbench .selection-summary {
+      display: grid;
+      grid-template-columns: auto minmax(0, 1fr);
+      gap: 0.25rem 0.75rem;
+      align-items: center;
+      padding: 0.3rem 0.75rem;
+      background: transparent;
+    }
+
+    #grim-roundtable-workbench .selection-summary[hidden],
+    #grim-roundtable-workbench .selection-unit-top[hidden],
+    #grim-roundtable-workbench .council-members-title[hidden] {
+      display: none;
+    }
+
+    #grim-roundtable-workbench .council-members-title {
+      margin: 0;
+      padding: 0.1rem 0.75rem 0.55rem;
+    }
+
+    #grim-roundtable-workbench .selection-summary:not(:has(.selection-avatar)) {
+      gap: 0;
+      padding-top: 0.2rem;
+    }
+
+    #grim-roundtable-workbench .selection-portraits {
+      display: flex;
+      align-items: center;
+      min-width: 72px;
+      padding: 0.15rem 0 0.15rem 0.35rem;
+    }
+
+    #grim-roundtable-workbench .selection-portraits:empty {
+      display: none;
+      min-width: 0;
+      padding: 0;
+    }
+
+    #grim-roundtable-workbench .selection-avatar {
+      width: 44px;
+      height: 44px;
+      margin-left: -0.35rem;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 2px solid var(--card);
+      background: var(--muted);
+    }
+
+    #grim-roundtable-workbench .selection-copy {
+      min-width: 0;
+      display: grid;
+      align-content: center;
+      min-height: 72px;
+    }
+
+    #grim-roundtable-workbench .selection-content {
+      display: grid;
+      gap: 0.35rem;
+    }
+
+    #grim-roundtable-workbench .selection-heading {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 0.65rem;
+    }
+
+    #grim-roundtable-workbench .selection-title,
+    #grim-roundtable-workbench .section-title {
+      margin: 0;
+    }
+
+    #grim-roundtable-workbench .selection-detail {
+      display: -webkit-box;
+      overflow: hidden;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 3;
+    }
+
+    #grim-roundtable-workbench .member-grid {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 0.45rem;
+      padding: 0 0.75rem 0.75rem;
+    }
+
+    #grim-roundtable-workbench .member-tile {
+      --primary: #39ff14;
+      --primary-foreground: #001400;
+      --ring: #39ff14;
+      --accent: color-mix(in srgb, #39ff14 22%, var(--card));
+      position: relative;
+      display: block;
+      min-width: 0;
+      aspect-ratio: 1;
+      overflow: hidden;
+      padding: 0;
+      transition: transform 180ms ease;
+    }
+
+    #grim-roundtable-workbench .member-tile[aria-pressed="true"] {
+      transform: translateY(-3px);
+    }
+
+    #grim-roundtable-workbench .launch-tile {
+      --primary: #39ff14;
+      --primary-foreground: #001400;
+      --ring: #39ff14;
+      --accent: color-mix(in srgb, #39ff14 22%, var(--card));
+      position: relative;
+      display: block;
+      min-width: 0;
+      min-height: 0;
+      aspect-ratio: 1;
+      overflow: hidden;
+      padding: 0;
+      text-align: left;
+      transition: transform 180ms ease;
+    }
+
+    #grim-roundtable-workbench .member-image {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      background: var(--muted);
+    }
+
+    #grim-roundtable-workbench .launch-tile[aria-pressed="true"] {
+      transform: translateY(-3px);
+    }
+
+    #grim-roundtable-workbench .launch-image {
+      position: absolute;
+      inset: 0;
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      background: transparent;
+      image-rendering: auto;
+    }
+
+    #grim-roundtable-workbench .launch-copy {
+      position: absolute;
+      inset: auto 0 0;
+      display: grid;
+      gap: 0.15rem;
+      min-width: 0;
+      max-height: 100%;
+      padding: 2.35rem 0.4rem 0.45rem;
+      overflow: hidden;
+      color: var(--foreground);
+      text-align: left;
+      background: linear-gradient(
+        transparent,
+        color-mix(in srgb, var(--background) 90%, transparent)
+      );
+    }
+
+    #grim-roundtable-workbench .launch-title,
+    #grim-roundtable-workbench .launch-description {
+      min-width: 0;
+      overflow-wrap: anywhere;
+      white-space: normal;
+    }
+
+    #grim-roundtable-workbench .launch-title {
+      display: block;
+      overflow: visible;
+      font-size: 11px;
+      font-weight: 500;
+      line-height: 1rem;
+      overflow-wrap: normal;
+      white-space: nowrap;
+      transform-origin: left bottom;
+    }
+
+    #grim-roundtable-workbench .launch-description {
+      display: none;
+    }
+
+    #grim-roundtable-workbench .tile-name {
+      position: absolute;
+      inset: auto 0 0;
+      z-index: 1;
+      display: -webkit-box;
+      min-width: 0;
+      padding: 2.25rem 0.4rem 0.45rem;
+      overflow: hidden;
+      color: var(--foreground);
+      text-align: left;
+      white-space: normal;
+      overflow-wrap: anywhere;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      background: linear-gradient(
+        transparent,
+        color-mix(in srgb, var(--background) 90%, transparent)
+      );
+    }
+
+    #grim-roundtable-workbench .row-block {
+      display: grid;
+      gap: 0.45rem;
+      padding: 0 0.75rem 0.75rem;
+    }
+
+    #grim-roundtable-workbench .launch-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.6rem;
+    }
+
+    #grim-roundtable-workbench .launch-grid .launch-tile {
+      flex: 0 0 calc((100% - 1.8rem) / 4);
+    }
+
+    #grim-roundtable-workbench .skills-rail {
+      min-width: 0;
+      display: grid;
+      gap: 0.65rem;
+      align-content: start;
+      padding: 0.3rem 0.75rem 0.75rem;
+      background: transparent;
+    }
+
+    #grim-roundtable-workbench .skills-heading {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 0.5rem;
+    }
+
+    #grim-roundtable-workbench .skills-heading h3 {
+      margin: 0;
+    }
+
+    #grim-roundtable-workbench .search-tools {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 40px;
+      gap: 0.45rem;
+      align-items: stretch;
+    }
+
+    #grim-roundtable-workbench #skill-search {
+      min-height: 40px;
+      height: 40px;
+      border-color: #3a3a3c !important;
+      background: var(--skills-solid-surface) !important;
+      color: var(--skills-solid-foreground) !important;
+    }
+
+    #grim-roundtable-workbench .filter-menu {
+      position: relative;
+      align-self: stretch;
+      z-index: 3;
+    }
+
+    #grim-roundtable-workbench .filter-toggle {
+      width: 40px;
+      min-width: 40px;
+      height: 40px;
+      min-height: 40px;
+      padding: 0;
+      border-color: #3a3a3c !important;
+      background: var(--skills-solid-surface) !important;
+      color: var(--skills-solid-foreground) !important;
+    }
+
+    #grim-roundtable-workbench .filter-toggle:hover,
+    #grim-roundtable-workbench .filter-toggle:active {
+      background: var(--skills-solid-surface) !important;
+      color: var(--skills-solid-foreground) !important;
+    }
+
+    #grim-roundtable-workbench .filter-options {
+      position: absolute;
+      top: calc(100% + 0.55rem);
+      right: 0;
+      z-index: 4;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr);
+      gap: 0.5rem;
+      width: min(18rem, calc(100vw - 2rem));
+      padding: 0.65rem;
+      border: 1px solid #3a3a3c;
+      border-radius: 0.75rem;
+      background: var(--skills-solid-surface);
+      color: var(--skills-solid-foreground);
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+      transform: translateY(-6px) scale(0.98);
+      transform-origin: top right;
+      transition:
+        opacity 160ms ease,
+        transform 190ms ease,
+        visibility 0s linear 190ms;
+    }
+
+    #grim-roundtable-workbench .filter-options::before {
+      content: '';
+      position: absolute;
+      top: -6px;
+      right: 16px;
+      width: 10px;
+      height: 10px;
+      border-top: 1px solid var(--border);
+      border-left: 1px solid var(--border);
+      background: var(--skills-solid-surface);
+      transform: rotate(45deg);
+    }
+
+    #grim-roundtable-workbench .filter-options.is-open {
+      opacity: 1;
+      visibility: visible;
+      pointer-events: auto;
+      transform: translateY(0) scale(1);
+      transition-delay: 0s;
+    }
+
+    #grim-roundtable-workbench .filter-options .form-label {
+      display: grid;
+      gap: 0.35rem;
+      margin: 0;
+    }
+
+    #grim-roundtable-workbench .filter-options .form-select {
+      width: 100%;
+      padding-right: 2.25rem;
+      border-radius: 0.75rem;
+      border-color: #3a3a3c;
+      background: var(--skills-solid-hover);
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23f5f5f7' stroke-width='2.25' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 0.75rem center;
+      background-size: 16px 16px;
+      color: var(--skills-solid-foreground);
+      cursor: pointer;
+      appearance: none;
+      -webkit-appearance: none;
+    }
+
+    #grim-roundtable-workbench .filter-category-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.65rem;
+    }
+
+    #grim-roundtable-workbench .skill-view-toggle {
+      display: flex;
+      gap: 0.25rem;
+    }
+
+    #grim-roundtable-workbench .skill-view-button {
+      display: grid;
+      place-items: center;
+      width: 32px;
+      min-width: 32px;
+      height: 32px;
+      padding: 0;
+      border: 1px solid #3a3a3c;
+      color: var(--skills-solid-foreground);
+    }
+
+    #grim-roundtable-workbench .skill-view-button[aria-pressed="true"] {
+      border-color: transparent;
+      background: var(--primary);
+      color: var(--primary-foreground);
+    }
+
+    #grim-roundtable-workbench .skill-list {
+      display: grid;
+      gap: 0.45rem;
+      background: transparent;
+    }
+
+    #grim-roundtable-workbench .skill-list[data-view="grid"] {
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+    }
+
+    #grim-roundtable-workbench .skill-row {
+      width: 100%;
+      min-width: 0;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 10px;
+      align-items: center;
+      padding: 10px 12px;
+      border: 1px solid #3a3a3c;
+      background: var(--skills-solid-surface) !important;
+      color: var(--skills-solid-foreground);
+      transition: background-color 160ms ease;
+    }
+
+    #grim-roundtable-workbench .skill-row:hover,
+    #grim-roundtable-workbench .skill-row:focus-within {
+      background: var(--skills-solid-hover) !important;
+    }
+
+    #grim-roundtable-workbench .skill-row:has(.skill-select[aria-pressed="true"]) {
+      border-color: #39ff14;
+      background: var(--skills-solid-surface) !important;
+    }
+
+    #grim-roundtable-workbench .skill-row:has(.skill-select[aria-pressed="true"]):hover,
+    #grim-roundtable-workbench .skill-row:has(.skill-select[aria-pressed="true"]):focus-within {
+      background: var(--skills-solid-hover) !important;
+    }
+
+    #grim-roundtable-workbench .skill-select {
+      --primary: var(--foreground);
+      --primary-foreground: var(--background);
+      --ring: var(--foreground);
+      min-width: 0;
+      display: grid;
+      grid-template-columns: 52px minmax(0, 1fr);
+      gap: 10px;
+      align-items: center;
+      padding: 0;
+      border: 0;
+      border-radius: 0;
+      background: transparent;
+      text-align: left;
+    }
+
+    #grim-roundtable-workbench .skill-select[aria-pressed="true"] {
+      background: transparent !important;
+      color: var(--skills-solid-foreground) !important;
+      -webkit-text-fill-color: var(--skills-solid-foreground) !important;
+      box-shadow: none !important;
+    }
+
+    #grim-roundtable-workbench .skill-select[aria-pressed="true"] .skill-name {
+      color: var(--skills-solid-foreground) !important;
+      -webkit-text-fill-color: var(--skills-solid-foreground) !important;
+    }
+
+    #grim-roundtable-workbench .skill-icon {
+      display: grid;
+      place-items: center;
+      width: 52px;
+      height: 52px;
+      min-width: 52px;
+      min-height: 52px;
+      overflow: hidden;
+      border-radius: 10px;
+      background: var(--muted);
+    }
+
+    #grim-roundtable-workbench .skill-icon img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    #grim-roundtable-workbench .skill-initials {
+      color: var(--muted-foreground);
+    }
+
+    #grim-roundtable-workbench .skill-copy {
+      min-width: 0;
+      display: grid;
+      gap: 0.12rem;
+    }
+
+    #grim-roundtable-workbench .skill-name {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    #grim-roundtable-workbench .skill-description {
+      display: -webkit-box;
+      overflow: hidden;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+    }
+
+    #grim-roundtable-workbench .skill-info-button {
+      display: grid;
+      place-items: center;
+      width: 28px;
+      min-width: 28px;
+      height: 28px;
+      padding: 0;
+      color: var(--skills-solid-foreground);
+    }
+
+    #grim-roundtable-workbench .skill-row-actions,
+    #grim-roundtable-workbench .skill-grid-actions {
+      display: flex;
+      gap: 0.25rem;
+      align-items: center;
+    }
+
+    #grim-roundtable-workbench .skill-run-button {
+      background: #39ff14 !important;
+      color: #001400 !important;
+    }
+
+    #grim-roundtable-workbench .skill-run-button[hidden] {
+      display: none;
+    }
+
+    #grim-roundtable-workbench .skill-run-button:hover,
+    #grim-roundtable-workbench .skill-run-button:active {
+      background: #39ff14 !important;
+      color: #001400 !important;
+    }
+
+    #grim-roundtable-workbench .skill-row .skill-info-button:not(.skill-run-button):hover,
+    #grim-roundtable-workbench .skill-row .skill-info-button:not(.skill-run-button):active {
+      background: transparent !important;
+    }
+
+    #grim-roundtable-workbench .skill-grid-card {
+      position: relative;
+      min-width: 0;
+      aspect-ratio: 1;
+      overflow: hidden;
+      padding: 0;
+      border: 1px solid #3a3a3c;
+      background: var(--skills-solid-surface) !important;
+      transition:
+        background-color 160ms ease,
+        transform 180ms ease;
+    }
+
+    #grim-roundtable-workbench .skill-grid-card:hover,
+    #grim-roundtable-workbench .skill-grid-card:focus-within {
+      background: var(--skills-solid-hover) !important;
+    }
+
+    #grim-roundtable-workbench .skill-grid-card:has(.skill-grid-select[aria-pressed="true"]) {
+      border-color: #39ff14;
+      transform: translateY(-3px);
+    }
+
+    #grim-roundtable-workbench .skill-grid-select {
+      position: absolute;
+      inset: 0;
+      display: block;
+      width: 100%;
+      height: 100%;
+      padding: 0;
+      overflow: hidden;
+      border: 0;
+      border-radius: 0;
+      background: transparent !important;
+      color: var(--skills-solid-foreground) !important;
+      box-shadow: none !important;
+      text-align: left;
+    }
+
+    #grim-roundtable-workbench .skill-grid-image {
+      position: absolute;
+      inset: 0;
+      display: grid;
+      place-items: center;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      background: var(--muted);
+    }
+
+    #grim-roundtable-workbench .skill-grid-copy {
+      position: absolute;
+      inset: auto 0 0;
+      z-index: 1;
+      display: grid;
+      gap: 0.1rem;
+      min-width: 0;
+      padding: 1.75rem 0.45rem 0.45rem;
+      background: linear-gradient(to bottom, transparent, color-mix(in srgb, var(--background) 92%, transparent));
+      color: var(--foreground);
+    }
+
+    #grim-roundtable-workbench .skill-grid-name {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    #grim-roundtable-workbench .skill-grid-description {
+      display: -webkit-box;
+      overflow: hidden;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+    }
+
+    #grim-roundtable-workbench .skill-grid-actions {
+      position: absolute;
+      top: 0.35rem;
+      right: 0.35rem;
+      z-index: 2;
+    }
+
+    #grim-roundtable-workbench .skill-grid-info {
+      background: color-mix(in srgb, var(--background) 78%, transparent);
+      color: var(--foreground);
+      backdrop-filter: blur(8px);
+    }
+
+    #grim-roundtable-workbench .summon-dock {
+      position: fixed;
+      left: 0.75rem;
+      right: 0.75rem;
+      bottom: calc(0.75rem + env(safe-area-inset-bottom));
+      z-index: 20;
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0.75rem;
+      padding: 0.65rem;
+      background: color-mix(in srgb, var(--card) 98%, transparent);
+      backdrop-filter: blur(14px);
+      box-shadow: 0 0.75rem 2rem color-mix(in srgb, var(--background) 46%, transparent);
+    }
+
+    #grim-roundtable-workbench .summon-dock[hidden] {
+      display: none;
+    }
+
+    #grim-roundtable-workbench .full-council-action-top[hidden] {
+      display: none;
+    }
+
+    #grim-roundtable-workbench .full-council-action-top {
+      margin: 0 0.75rem 0.75rem;
+    }
+
+    #grim-roundtable-workbench .skills-full-council-action {
+      margin: 0;
+    }
+
+    #grim-roundtable-workbench .full-council-button {
+      --primary: #ffffff;
+      --primary-foreground: #000000;
+      min-height: 52px;
+      background: #ffffff !important;
+      color: #000000 !important;
+      font-weight: 500;
+      letter-spacing: 0.02em;
+      -webkit-text-fill-color: #000000;
+    }
+
+    #grim-roundtable-workbench .summon-dock-copy {
+      min-width: 0;
+      display: grid;
+      gap: 0.35rem;
+    }
+
+    #grim-roundtable-workbench .selection-unit-top {
+      display: grid;
+      gap: 0.55rem;
+      margin: 0 0.75rem 0.75rem;
+      padding: 0.55rem;
+      background: color-mix(in srgb, var(--card) 98%, transparent);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      box-shadow: 0 0.75rem 2rem color-mix(in srgb, var(--background) 46%, transparent);
+    }
+
+    #grim-roundtable-workbench .skills-selection-unit {
+      margin: 0;
+    }
+
+    #grim-roundtable-workbench .selection-unit-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.75rem;
+    }
+
+    #grim-roundtable-workbench .selection-clear {
+      min-height: 0;
+      padding: 0;
+      color: var(--muted-foreground);
+      font: inherit;
+      font-size: 0.9em;
+      background: transparent;
+    }
+
+    #grim-roundtable-workbench .selection-clear:hover,
+    #grim-roundtable-workbench .selection-clear:active {
+      color: var(--muted-foreground);
+      background: transparent;
+    }
+
+    #grim-roundtable-workbench .selection-manifest {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 0.15rem 1.25rem;
+      margin: 0;
+      padding-left: 1.15rem;
+    }
+
+    #grim-roundtable-workbench .selection-manifest:empty {
+      display: none;
+    }
+
+    #grim-roundtable-workbench .selection-manifest-item {
+      min-width: 0;
+      overflow-wrap: anywhere;
+    }
+
+    #grim-roundtable-workbench .skill-detail {
+      position: fixed;
+      inset: 0;
+      z-index: 40;
+      display: grid;
+      background: #000000;
+      backdrop-filter: blur(6px);
+      animation: skill-detail-fade-in 180ms ease-out;
+    }
+
+    #grim-roundtable-workbench .skill-detail[hidden] {
+      display: none;
+    }
+
+    #grim-roundtable-workbench .skill-detail-shell {
+      min-height: 0;
+      height: 100%;
+      display: grid;
+      grid-template-rows: auto minmax(0, 1fr);
+      background-color: #000000;
+      background-image:
+        linear-gradient(
+          to bottom,
+          color-mix(in srgb, #000000 2%, transparent) 0,
+          color-mix(in srgb, #000000 4%, transparent) 48%,
+          color-mix(in srgb, #000000 44%, transparent) 76%,
+          #000000 100%
+        ),
+        var(--roundtable-background-top),
+        linear-gradient(
+          to bottom,
+          #000000 0,
+          color-mix(in srgb, #000000 98%, transparent) 20%,
+          color-mix(in srgb, #000000 78%, transparent) 48%,
+          color-mix(in srgb, #000000 34%, transparent) 76%,
+          color-mix(in srgb, #000000 8%, transparent) 100%
+        ),
+        var(--roundtable-background-bottom);
+      background-position: top center, top center, bottom center, bottom center;
+      background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+      background-size: 100% clamp(11.25rem, 56.3vw, 32rem), 100% auto, 100% 28rem, 100% auto;
+      color: #ffffff;
+      animation: skill-detail-slide-in 240ms cubic-bezier(.2,.8,.2,1);
+    }
+
+    @keyframes skill-detail-fade-in {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes skill-detail-slide-in {
+      from { transform: translateX(18px); opacity: 0.75; }
+      to { transform: translateX(0); opacity: 1; }
+    }
+
+    #grim-roundtable-workbench .skill-detail-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.75rem;
+      padding: calc(0.75rem + env(safe-area-inset-top)) 0.85rem 0.75rem;
+      border-bottom: 1px solid var(--border);
+      background: transparent;
+    }
+
+    #grim-roundtable-workbench .skill-detail-close {
+      display: grid;
+      place-items: center;
+      width: 36px;
+      min-width: 36px;
+      height: 36px;
+      padding: 0;
+    }
+
+    #grim-roundtable-workbench .skill-detail-source {
+      overflow: hidden;
+      color: var(--muted-foreground);
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    #grim-roundtable-workbench .skill-detail-content {
+      min-height: 0;
+      overflow: auto;
+      padding: 1rem 1rem calc(6rem + env(safe-area-inset-bottom));
+    }
+
+    #grim-roundtable-workbench .skill-detail-hero {
+      display: grid;
+      gap: 0.75rem;
+      justify-items: start;
+      margin-bottom: 1rem;
+    }
+
+    #grim-roundtable-workbench .skill-detail-icon-large {
+      width: 72px;
+      aspect-ratio: 1;
+      display: grid;
+      place-items: center;
+      overflow: hidden;
+      border: 1px solid var(--border);
+      border-radius: 1rem;
+      background: var(--muted);
+    }
+
+    #grim-roundtable-workbench .skill-detail-icon-large img,
+    #grim-roundtable-workbench .skill-detail-icon-large .skill-initials {
+      width: 100%;
+      height: 100%;
+      display: grid;
+      place-items: center;
+      object-fit: cover;
+      image-rendering: auto;
+    }
+
+    #grim-roundtable-workbench .skill-detail-title,
+    #grim-roundtable-workbench .skill-detail-command,
+    #grim-roundtable-workbench .skill-detail-description,
+    #grim-roundtable-workbench .skill-detail-section-title {
+      margin: 0;
+    }
+
+    #grim-roundtable-workbench .skill-detail-command {
+      color: var(--muted-foreground);
+    }
+
+    #grim-roundtable-workbench .skill-detail-description {
+      max-width: 72ch;
+      color: var(--muted-foreground);
+    }
+
+    #grim-roundtable-workbench .skill-detail-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      margin-bottom: 1.15rem;
+    }
+
+    #grim-roundtable-workbench .skill-detail-section {
+      display: grid;
+      gap: 0.65rem;
+      margin-bottom: 1.15rem;
+    }
+
+    #grim-roundtable-workbench .skill-detail-meta {
+      display: grid;
+      gap: 0;
+      margin: 0;
+    }
+
+    #grim-roundtable-workbench .skill-detail-meta-row {
+      display: grid;
+      grid-template-columns: minmax(92px, 0.35fr) minmax(0, 1fr);
+      gap: 0.75rem;
+      padding: 0.7rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    #grim-roundtable-workbench .skill-detail-meta-row dt {
+      color: var(--muted-foreground);
+    }
+
+    #grim-roundtable-workbench .skill-detail-meta-row dd {
+      min-width: 0;
+      margin: 0;
+      overflow-wrap: anywhere;
+    }
+
+    #grim-roundtable-workbench .skill-detail-files {
+      border-bottom: 1px solid var(--border);
+    }
+
+    #grim-roundtable-workbench .skill-detail-files summary {
+      padding: 0.75rem 0;
+      cursor: pointer;
+    }
+
+    #grim-roundtable-workbench .skill-detail-tree,
+    #grim-roundtable-workbench .skill-detail-prompt {
+      margin: 0;
+      white-space: pre-wrap;
+      overflow-wrap: anywhere;
+      color: #ffffff;
+    }
+
+    #grim-roundtable-workbench .skill-detail-tree {
+      padding: 0.75rem;
+      background: color-mix(in srgb, var(--card) 92%, transparent);
+    }
+
+    #grim-roundtable-workbench .skill-detail-prompt-section {
+      display: grid;
+      gap: 0.65rem;
+      padding-top: 0.75rem;
+    }
+
+    #grim-roundtable-workbench .skill-detail-prompt {
+      padding: 0.9rem;
+      border: 1px solid var(--border);
+      border-radius: 0.75rem;
+      background: var(--muted);
+      color: var(--foreground);
+    }
+
+    #grim-roundtable-workbench .skills-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    #grim-roundtable-workbench .form-control,
+    #grim-roundtable-workbench .form-select {
+      font-size: 16px;
+    }
+
+    @media (max-width: 680px) {
+      #grim-roundtable-workbench .roundtable-layout {
+        grid-template-columns: 1fr;
+      }
+
+      #grim-roundtable-workbench .member-grid {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+      }
+
+      #grim-roundtable-workbench .skill-list[data-view="grid"] {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+      }
+
+      #grim-roundtable-workbench .skills-rail {
+        margin-top: 0.15rem;
+      }
+    }
+
+    @media (max-width: 500px) {
+      #grim-roundtable-workbench .selection-summary {
+        grid-template-columns: 1fr;
+      }
+
+      #grim-roundtable-workbench .selection-portraits {
+        display: flex;
+        min-width: 0;
+      }
+
+      #grim-roundtable-workbench .selection-copy {
+        min-height: 0;
+      }
+
+      #grim-roundtable-workbench .member-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      #grim-roundtable-workbench .skill-list[data-view="grid"] {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      #grim-roundtable-workbench .launch-grid,
+      #grim-roundtable-workbench .guild-grid {
+        gap: 0.4rem;
+      }
+
+      #grim-roundtable-workbench .launch-grid .launch-tile {
+        flex-basis: calc((100% - 1.2rem) / 4);
+      }
+
+      #grim-roundtable-workbench .launch-tile {
+        min-height: 0;
+      }
+
+      #grim-roundtable-workbench .summon-dock {
+        align-items: stretch;
+      }
+
+      #grim-roundtable-workbench .summon-dock-copy {
+        align-self: center;
+        width: 100%;
+      }
+
+      #grim-roundtable-workbench .selection-manifest {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 360px) {
+      #grim-roundtable-workbench .member-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      #grim-roundtable-workbench .skill-list[data-view="grid"] {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      #grim-roundtable-workbench .member-tile,
+      #grim-roundtable-workbench .skill-row,
+      #grim-roundtable-workbench .skill-grid-card,
+      #grim-roundtable-workbench .filter-options,
+      #grim-roundtable-workbench .summon-dock {
+        transition: none;
+      }
+
+      #grim-roundtable-workbench .skill-detail,
+      #grim-roundtable-workbench .skill-detail-shell {
+        animation: none;
+      }
+
+      #grim-roundtable-workbench .view-panel:not([hidden]) {
+        animation: none;
+      }
+    }
+  </style>
+
+  <div class="roundtable-layout">
+    <nav class="view-tabs" role="tablist" aria-label="Roundtable view">
+      <button class="btn btn-block" id="council-tab" type="button" role="tab" aria-selected="true" aria-controls="council-panel">Council</button>
+      <button class="btn btn-block" id="skills-tab" type="button" role="tab" aria-selected="false" aria-controls="skills-panel">Skills</button>
+    </nav>
+
+    <main class="roundtable-main view-panel" id="council-panel" role="tabpanel" aria-labelledby="council-tab">
+      <h3 class="section-title council-members-title" id="council-members-title">Council members</h3>
+
+      <div class="full-council-action-top">
+        <button class="btn btn-primary btn-block full-council-button" data-summon-full-council type="button">Summon Full Council</button>
+      </div>
+
+      <section class="selection-summary" aria-live="polite" hidden>
+        <div class="selection-portraits" id="selection-portraits" aria-hidden="true"></div>
+        <div class="selection-copy">
+          <div class="selection-content" id="selection-content">
+            <div class="selection-heading">
+              <h3 class="selection-title" id="selection-title"></h3>
+            </div>
+            <div class="text-small selection-detail" id="selection-detail"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="card selection-unit-top" aria-label="Selected roundtable controls" hidden>
+        <div class="summon-dock-copy">
+          <div class="selection-unit-head">
+            <span class="text-small text-muted" data-selection-count>1 member · 0 council skills · 0 skills</span>
+            <button class="btn btn-ghost text-small selection-clear" data-clear-selection type="button">Clear</button>
+          </div>
+          <ul class="selection-manifest text-small" data-selection-manifest aria-label="Selected council and skills"></ul>
+        </div>
+        <button class="btn btn-primary btn-block" data-summon-selected type="button">Invoke council</button>
+      </section>
+
+      <div class="member-grid" id="member-grid" aria-label="Council members"></div>
+
+      <section class="row-block" aria-labelledby="guilds-title">
+        <h3 class="section-title" id="guilds-title">Guilds</h3>
+        <div class="launch-grid guild-grid" id="guild-grid"></div>
+      </section>
+
+      <section class="row-block" aria-labelledby="actions-title">
+        <h3 class="section-title" id="actions-title">Council management</h3>
+        <div class="launch-grid" id="action-grid"></div>
+      </section>
+    </main>
+
+    <aside class="skills-rail view-panel" id="skills-panel" role="tabpanel" aria-labelledby="skills-tab" hidden>
+      <div class="search-tools">
+        <input class="form-control" id="skill-search" type="search" autocomplete="off" aria-label="Search skills" placeholder="Search">
+        <div class="filter-menu" id="skill-filter-menu">
+          <button class="btn filter-toggle" id="skill-filter-toggle" type="button" aria-label="Filters" aria-expanded="false" aria-controls="skill-filter-options"><i data-lucide="filter" aria-hidden="true"></i></button>
+          <div class="filter-options" id="skill-filter-options" aria-hidden="true">
+            <label class="form-label" for="skill-category">
+              <span class="filter-category-head">
+                <span>Category</span>
+                <span class="skill-view-toggle" role="group" aria-label="Skill layout">
+                  <button class="btn btn-ghost skill-view-button" id="skill-view-list" type="button" aria-label="List view" aria-pressed="true"><i data-lucide="list" aria-hidden="true"></i></button>
+                  <button class="btn btn-ghost skill-view-button" id="skill-view-grid" type="button" aria-label="Grid view" aria-pressed="false"><i data-lucide="layout-grid" aria-hidden="true"></i></button>
+                </span>
+              </span>
+              <select class="form-select" id="skill-category">
+                <option value="grim">All Grim skills</option>
+                <option value="all">All</option>
+                <option value="other">Other</option>
+              </select>
+            </label>
+            <label class="form-label" for="skill-invocation">
+              Invocation
+              <select class="form-select" id="skill-invocation">
+                <option value="all">Automatic + manual</option>
+                <option value="automatic">Automatic</option>
+                <option value="manual">Manual</option>
+              </select>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="full-council-action-top skills-full-council-action">
+        <button class="btn btn-primary btn-block full-council-button" data-summon-full-council type="button">Summon Full Council</button>
+      </div>
+
+      <section class="card selection-unit-top skills-selection-unit" aria-label="Selected skills controls" hidden>
+        <div class="summon-dock-copy">
+          <div class="selection-unit-head">
+            <span class="text-small text-muted" data-selection-count>1 member · 0 council skills · 0 skills</span>
+            <button class="btn btn-ghost text-small selection-clear" data-clear-selection type="button">Clear</button>
+          </div>
+          <ul class="selection-manifest text-small" data-selection-manifest aria-label="Selected council and skills"></ul>
+        </div>
+        <button class="btn btn-primary btn-block" data-summon-selected type="button">Invoke skills</button>
+      </section>
+
+      <div class="skill-list" id="skill-list" data-view="list"></div>
+      <div class="skills-footer">
+        <span class="text-small text-muted" id="skill-count"></span>
+        <button class="btn btn-ghost text-small selection-clear" id="show-more-skills" type="button">Show more</button>
+      </div>
+    </aside>
+  </div>
+
+  <section class="card summon-dock" id="selection-summon-dock" aria-label="Selected roundtable" hidden>
+    <div class="summon-dock-copy">
+      <div class="selection-unit-head">
+        <span class="text-small text-muted" data-selection-count>1 member · 0 council skills · 0 skills</span>
+        <button class="btn btn-ghost text-small selection-clear" data-clear-selection type="button">Clear</button>
+      </div>
+      <ul class="selection-manifest text-small" data-selection-manifest aria-label="Selected council and skills"></ul>
+    </div>
+    <button class="btn btn-primary btn-block" data-summon-selected type="button">Invoke council</button>
+  </section>
+
+  <section class="card summon-dock" id="full-council-dock" aria-label="Summon Full Council">
+    <button class="btn btn-primary btn-block full-council-button" data-summon-full-council type="button">Summon Full Council</button>
+  </section>
+
+  <div class="skill-detail" id="skill-detail" hidden>
+    <div class="skill-detail-shell" role="dialog" aria-modal="true" aria-labelledby="skill-detail-title">
+      <header class="skill-detail-head">
+        <button class="btn btn-ghost skill-detail-close" id="skill-detail-close" type="button" aria-label="Back">‹</button>
+      </header>
+      <div class="skill-detail-content">
+        <div class="skill-detail-hero">
+          <div class="skill-detail-icon-large" id="skill-detail-icon"></div>
+          <h2 class="skill-detail-title" id="skill-detail-title"></h2>
+          <code class="skill-detail-command" id="skill-detail-command"></code>
+          <p class="skill-detail-description" id="skill-detail-description"></p>
+        </div>
+        <div class="skill-detail-actions">
+          <button class="btn btn-primary" id="skill-detail-run" type="button">Run</button>
+          <button class="btn" id="skill-detail-select" type="button">Add to prompt</button>
+        </div>
+        <section class="skill-detail-section" aria-labelledby="skill-detail-about-title">
+          <h3 class="skill-detail-section-title" id="skill-detail-about-title">About</h3>
+          <dl class="skill-detail-meta">
+            <div class="skill-detail-meta-row"><dt>Invocation</dt><dd id="skill-detail-invocation"></dd></div>
+          </dl>
+          <details class="skill-detail-files" id="skill-detail-files">
+            <summary>Files</summary>
+            <pre class="skill-detail-tree" id="skill-detail-tree"></pre>
+          </details>
+          <div class="skill-detail-prompt-section">
+            <h3 class="skill-detail-section-title">Prompt</h3>
+            <pre class="skill-detail-prompt" id="skill-detail-prompt"></pre>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (() => {
+      const root = document.getElementById('grim-roundtable-workbench');
+      const data = __COUNCIL_DASHBOARD_DATA__;
+      const skillDetailsPayload = '__COUNCIL_SKILL_DETAILS__';
+      const councilTab = root.querySelector('#council-tab');
+      const skillsTab = root.querySelector('#skills-tab');
+      const councilPanel = root.querySelector('#council-panel');
+      const skillsPanel = root.querySelector('#skills-panel');
+      const memberGrid = root.querySelector('#member-grid');
+      const guildGrid = root.querySelector('#guild-grid');
+      const actionGrid = root.querySelector('#action-grid');
+      const councilMembersTitle = root.querySelector('#council-members-title');
+      const selectionSummary = root.querySelector('.selection-summary');
+      const selectionPortraits = root.querySelector('#selection-portraits');
+      const selectionContent = root.querySelector('#selection-content');
+      const selectionTitle = root.querySelector('#selection-title');
+      const selectionDetail = root.querySelector('#selection-detail');
+      const selectionCounts = [...root.querySelectorAll('[data-selection-count]')];
+      const selectionManifests = [...root.querySelectorAll('[data-selection-manifest]')];
+      const clearButtons = [...root.querySelectorAll('[data-clear-selection]')];
+      const summonDock = root.querySelector('#selection-summon-dock');
+      const fullCouncilDock = root.querySelector('#full-council-dock');
+      const summonButtons = [...root.querySelectorAll('[data-summon-selected]')];
+      const fullCouncilButtons = [...root.querySelectorAll('[data-summon-full-council]')];
+      const fullCouncilTopActions = [...root.querySelectorAll('.full-council-action-top')];
+      const selectionUnits = [...root.querySelectorAll('.selection-unit-top')];
+      const searchTools = root.querySelector('.search-tools');
+      const skillsSelectionUnit = root.querySelector('.skills-selection-unit');
+      const skillSearch = root.querySelector('#skill-search');
+      const skillCategory = root.querySelector('#skill-category');
+      const skillInvocation = root.querySelector('#skill-invocation');
+      const skillFilterMenu = root.querySelector('#skill-filter-menu');
+      const skillFilterToggle = root.querySelector('#skill-filter-toggle');
+      const skillFilterOptions = root.querySelector('#skill-filter-options');
+      const skillViewListButton = root.querySelector('#skill-view-list');
+      const skillViewGridButton = root.querySelector('#skill-view-grid');
+      const skillList = root.querySelector('#skill-list');
+      const skillCount = root.querySelector('#skill-count');
+      const showMoreButton = root.querySelector('#show-more-skills');
+      const skillDetail = root.querySelector('#skill-detail');
+      const skillDetailClose = root.querySelector('#skill-detail-close');
+      const skillDetailIcon = root.querySelector('#skill-detail-icon');
+      const skillDetailTitle = root.querySelector('#skill-detail-title');
+      const skillDetailCommand = root.querySelector('#skill-detail-command');
+      const skillDetailDescription = root.querySelector('#skill-detail-description');
+      const skillDetailInvocation = root.querySelector('#skill-detail-invocation');
+      const skillDetailFiles = root.querySelector('#skill-detail-files');
+      const skillDetailTree = root.querySelector('#skill-detail-tree');
+      const skillDetailPrompt = root.querySelector('#skill-detail-prompt');
+      const skillDetailRun = root.querySelector('#skill-detail-run');
+      const skillDetailSelect = root.querySelector('#skill-detail-select');
+      const decodeSkillDetails = async () => {
+        try {
+          const binary = atob(skillDetailsPayload);
+          const bytes = Uint8Array.from(binary, (character) => character.charCodeAt(0));
+          const stream = new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'));
+          return JSON.parse(await new Response(stream).text());
+        } catch {
+          return {};
+        }
+      };
+      const skillDetailsReady = decodeSkillDetails();
+      const selectedMembers = new Set();
+      const selectedCouncilSkills = new Set();
+      const selectedSkills = new Set();
+      let focusedMember = null;
+      let detailedSkill = null;
+      let lastDetailTrigger = null;
+      let visibleSkillLimit = 24;
+      let skillViewMode = 'list';
+      let selectionInitialized = false;
+      const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+      const roundtableLayout = root.querySelector('.roundtable-layout');
+      const surfaceAnimations = new WeakMap();
+      let resizeFrame = 0;
+      let resizeRevision = 0;
+
+      const selectionTotal = () => (
+        selectedMembers.size + selectedCouncilSkills.size + selectedSkills.size
+      );
+
+      const updateDockReserve = () => {
+        const dockHeight = Math.max(
+          summonDock.hidden ? 0 : summonDock.getBoundingClientRect().height,
+          fullCouncilDock.hidden ? 0 : fullCouncilDock.getBoundingClientRect().height,
+        );
+        roundtableLayout.style.setProperty(
+          '--dock-reserve',
+          `${dockHeight + 24}px`,
+        );
+      };
+
+      const scheduleLayoutResize = () => {
+        const revision = ++resizeRevision;
+        cancelAnimationFrame(resizeFrame);
+        resizeFrame = requestAnimationFrame(() => {
+          if (revision !== resizeRevision) return;
+          updateDockReserve();
+          root.style.setProperty('--resize-pulse', '1px');
+          void roundtableLayout.offsetHeight;
+          resizeFrame = requestAnimationFrame(() => {
+            if (revision !== resizeRevision) return;
+            root.style.setProperty('--resize-pulse', '0px');
+            updateDockReserve();
+            void roundtableLayout.offsetHeight;
+            window.dispatchEvent(new Event('resize'));
+          });
+        });
+      };
+
+      const clearSurfaceAnimationStyles = (element) => {
+        [
+          'height',
+          'overflow',
+          'box-sizing',
+          'opacity',
+          'transform',
+          'margin-top',
+          'margin-bottom',
+          'padding-top',
+          'padding-bottom',
+          'border-top-width',
+          'border-bottom-width',
+        ].forEach((property) => element.style.removeProperty(property));
+      };
+
+      const cancelSurfaceAnimation = (element) => {
+        const animation = surfaceAnimations.get(element);
+        if (!animation) return;
+        animation.cancel();
+        surfaceAnimations.delete(element);
+        clearSurfaceAnimationStyles(element);
+      };
+
+      const surfaceFrames = (element, height) => {
+        const styles = getComputedStyle(element);
+        const expanded = {
+          height: `${height}px`,
+          opacity: 1,
+          transform: 'translateY(0)',
+          marginTop: styles.marginTop,
+          marginBottom: styles.marginBottom,
+          paddingTop: styles.paddingTop,
+          paddingBottom: styles.paddingBottom,
+          borderTopWidth: styles.borderTopWidth,
+          borderBottomWidth: styles.borderBottomWidth,
+        };
+        const collapsed = {
+          height: '0px',
+          opacity: 0,
+          transform: 'translateY(-6px)',
+          marginTop: '0px',
+          marginBottom: '0px',
+          paddingTop: '0px',
+          paddingBottom: '0px',
+          borderTopWidth: '0px',
+          borderBottomWidth: '0px',
+        };
+        return { collapsed, expanded };
+      };
+
+      function animateSurfaceResize(element, previousHeight) {
+        cancelSurfaceAnimation(element);
+        if (
+          !selectionInitialized
+          || reducedMotion.matches
+          || element.hidden
+          || previousHeight <= 0
+        ) return;
+        const nextHeight = element.getBoundingClientRect().height;
+        if (Math.abs(nextHeight - previousHeight) < 0.5) return;
+        element.style.boxSizing = 'border-box';
+        element.style.overflow = 'hidden';
+        const animation = element.animate(
+          [
+            { height: `${previousHeight}px` },
+            { height: `${nextHeight}px` },
+          ],
+          {
+            duration: 320,
+            easing: 'cubic-bezier(.2,.8,.2,1)',
+            fill: 'both',
+          },
+        );
+        surfaceAnimations.set(element, animation);
+        animation.addEventListener('finish', () => {
+          if (surfaceAnimations.get(element) !== animation) return;
+          surfaceAnimations.delete(element);
+          clearSurfaceAnimationStyles(element);
+          animation.cancel();
+          scheduleLayoutResize();
+        }, { once: true });
+      }
+
+      function animateSurfaceVisibility(element, visible, previousHeight = 0) {
+        cancelSurfaceAnimation(element);
+        const wasVisible = !element.hidden;
+        if (!selectionInitialized || reducedMotion.matches) {
+          element.hidden = !visible;
+          clearSurfaceAnimationStyles(element);
+          scheduleLayoutResize();
+          return;
+        }
+        if (visible === wasVisible) {
+          if (visible) animateSurfaceResize(element, previousHeight);
+          return;
+        }
+        if (visible) element.hidden = false;
+        const height = visible
+          ? element.getBoundingClientRect().height
+          : previousHeight || element.getBoundingClientRect().height;
+        const { collapsed, expanded } = surfaceFrames(element, height);
+        element.style.boxSizing = 'border-box';
+        element.style.overflow = 'hidden';
+        const animation = element.animate(
+          visible ? [collapsed, expanded] : [expanded, collapsed],
+          {
+            duration: 320,
+            easing: 'cubic-bezier(.2,.8,.2,1)',
+            fill: 'both',
+          },
+        );
+        surfaceAnimations.set(element, animation);
+        animation.addEventListener('finish', () => {
+          if (surfaceAnimations.get(element) !== animation) return;
+          surfaceAnimations.delete(element);
+          element.hidden = !visible;
+          clearSurfaceAnimationStyles(element);
+          animation.cancel();
+          scheduleLayoutResize();
+        }, { once: true });
+      }
+
+      const dockResizeObserver = new ResizeObserver(scheduleLayoutResize);
+      dockResizeObserver.observe(summonDock);
+      dockResizeObserver.observe(fullCouncilDock);
+
+      const bottomBackground = '__COUNCIL_DASHBOARD_BOTTOM_BACKGROUND__';
+
+      root.style.setProperty('--roundtable-background-top', `url("${data.background}")`);
+      root.style.setProperty('--roundtable-background-bottom', `url("${bottomBackground}")`);
+
+      const initials = (value) => String(value || '')
+        .split(/\s+/)
+        .filter(Boolean)
+        .slice(0, 2)
+        .map((word) => word[0])
+        .join('')
+        .toUpperCase();
+
+      const councilSkillTitle = (entry) => entry.id === 'grim:council:gpt-tavern'
+        ? 'GPTavern'
+        : entry.title;
+
+      function imageOrInitial(entry, imageClass) {
+        if (entry.image) {
+          const image = document.createElement('img');
+          image.className = imageClass;
+          image.src = entry.image;
+          image.alt = '';
+          return image;
+        }
+        const fallback = document.createElement('span');
+        fallback.className = `${imageClass} skill-initials`;
+        fallback.textContent = initials(entry.title);
+        return fallback;
+      }
+
+      function setActiveView(view) {
+        const showCouncil = view === 'council';
+        councilTab.setAttribute('aria-selected', String(showCouncil));
+        skillsTab.setAttribute('aria-selected', String(!showCouncil));
+        councilPanel.hidden = !showCouncil;
+        skillsPanel.hidden = showCouncil;
+        scheduleLayoutResize();
+      }
+
+      councilTab.addEventListener('click', () => setActiveView('council'));
+      skillsTab.addEventListener('click', () => setActiveView('skills'));
+
+      function updateSelectionManifest(manifest, titles) {
+        const previousPositions = new Map();
+        [...manifest.children].forEach((item) => {
+          previousPositions.set(item.textContent, item.getBoundingClientRect().top);
+        });
+
+        const items = titles.map((title) => {
+          const item = document.createElement('li');
+          item.className = 'selection-manifest-item';
+          item.dataset.motionKey = title;
+          item.textContent = title;
+          return item;
+        });
+        manifest.replaceChildren(...items);
+
+        if (!selectionInitialized || reducedMotion.matches) return;
+        items.forEach((item) => {
+          const previousTop = previousPositions.get(item.dataset.motionKey);
+          if (previousTop === undefined) {
+            item.animate(
+              [
+                { opacity: 0, transform: 'translateY(-6px)' },
+                { opacity: 1, transform: 'translateY(0)' },
+              ],
+              { duration: 240, easing: 'cubic-bezier(.2,.8,.2,1)' },
+            );
+            return;
+          }
+          const deltaY = previousTop - item.getBoundingClientRect().top;
+          if (Math.abs(deltaY) < 0.5) return;
+          item.animate(
+            [
+              { transform: `translateY(${deltaY}px)` },
+              { transform: 'translateY(0)' },
+            ],
+            { duration: 320, easing: 'cubic-bezier(.2,.8,.2,1)' },
+          );
+        });
+      }
+
+      function renderSelection() {
+        const selectionSurfaces = [selectionSummary, ...selectionUnits, summonDock];
+        const emptySelectionSurfaces = [
+          councilMembersTitle,
+          ...fullCouncilTopActions,
+          fullCouncilDock,
+        ];
+        const animatedSurfaces = [...emptySelectionSurfaces, ...selectionSurfaces];
+        const previousHeights = new Map(animatedSurfaces.map((surface) => [
+          surface,
+          surface.hidden ? 0 : surface.getBoundingClientRect().height,
+        ]));
+        const selected = data.members.filter((entry) => selectedMembers.has(entry.id));
+        const councilSkills = [...data.guilds, ...data.actions]
+          .filter((entry) => selectedCouncilSkills.has(entry.id));
+        const skills = data.skills.filter((entry) => selectedSkills.has(entry.id));
+        const hasCouncil = selected.length > 0 || councilSkills.length > 0;
+        const hasSelection = hasCouncil || skills.length > 0;
+        if (!selected.some((entry) => entry.id === focusedMember?.id)) {
+          focusedMember = selected[0] || null;
+        }
+        if (!hasSelection) {
+          selectionSurfaces.forEach((surface) => {
+            animateSurfaceVisibility(surface, false, previousHeights.get(surface));
+          });
+          emptySelectionSurfaces.forEach((surface) => {
+            animateSurfaceVisibility(surface, true, previousHeights.get(surface));
+          });
+          selectionInitialized = true;
+          scheduleLayoutResize();
+          return;
+        }
+        selectionPortraits.replaceChildren();
+        selected.slice(0, 4).forEach((entry) => {
+          const image = document.createElement('img');
+          image.className = 'selection-avatar';
+          image.src = entry.image;
+          image.alt = '';
+          selectionPortraits.appendChild(image);
+        });
+
+        let nextTitle;
+        let nextDetail;
+        let nextButtonLabel;
+        let nextDisabled;
+
+        if (!hasCouncil && skills.length === 0) {
+          nextTitle = '';
+          nextDetail = '';
+          nextButtonLabel = 'Invoke';
+          nextDisabled = true;
+        } else if (!hasCouncil) {
+          nextTitle = `${skills.length} skill${skills.length === 1 ? '' : 's'} selected`;
+          nextDetail = skills.slice(0, 3).map((entry) => entry.title).join(' · ')
+            + (skills.length > 3 ? ` · +${skills.length - 3} more` : '');
+          nextButtonLabel = 'Invoke skills';
+          nextDisabled = false;
+        } else if (selected.length > 0) {
+          const others = Math.max(0, selected.length - 1);
+          const councilSuffix = councilSkills.length ? ` · ${councilSkills.length} council skill${councilSkills.length === 1 ? '' : 's'}` : '';
+          const skillSuffix = skills.length ? ` · ${skills.length} skill${skills.length === 1 ? '' : 's'}` : '';
+          nextTitle = others
+            ? `${focusedMember?.title} + ${others} more${councilSuffix}${skillSuffix}`
+            : `${focusedMember?.title} selected${councilSuffix}${skillSuffix}`;
+          nextDetail = `${focusedMember?.role} · ${focusedMember?.description}`;
+          nextButtonLabel = skills.length ? 'Invoke council with skills' : 'Invoke council';
+          nextDisabled = false;
+        } else {
+          const firstCouncilSkill = councilSkills[0];
+          const others = Math.max(0, councilSkills.length - 1);
+          const skillSuffix = skills.length ? ` · ${skills.length} skill${skills.length === 1 ? '' : 's'}` : '';
+          nextTitle = others
+            ? `${councilSkillTitle(firstCouncilSkill)} + ${others} more${skillSuffix}`
+            : `${councilSkillTitle(firstCouncilSkill)} selected${skillSuffix}`;
+          nextDetail = `Council skill · ${firstCouncilSkill.description}`;
+          nextButtonLabel = skills.length ? 'Invoke council with skills' : 'Invoke council';
+          nextDisabled = false;
+        }
+
+        selectionTitle.textContent = nextTitle;
+        selectionDetail.textContent = nextDetail;
+        summonButtons.forEach((button) => {
+          button.textContent = nextButtonLabel;
+          button.disabled = nextDisabled;
+        });
+        const countLabel = `${selected.length} member${selected.length === 1 ? '' : 's'} · ${councilSkills.length} council skill${councilSkills.length === 1 ? '' : 's'} · ${skills.length} skill${skills.length === 1 ? '' : 's'}`;
+        selectionCounts.forEach((count) => { count.textContent = countLabel; });
+        clearButtons.forEach((button) => { button.disabled = nextDisabled; });
+        const selectedItems = [
+          ...selected.map((entry) => entry.title),
+          ...councilSkills.map((entry) => councilSkillTitle(entry)),
+          ...skills.map((entry) => entry.title),
+        ];
+        selectionManifests.forEach((manifest) => updateSelectionManifest(manifest, selectedItems));
+        emptySelectionSurfaces.forEach((surface) => {
+          animateSurfaceVisibility(surface, false, previousHeights.get(surface));
+        });
+        animateSurfaceVisibility(
+          selectionSummary,
+          true,
+          previousHeights.get(selectionSummary),
+        );
+        selectionUnits.forEach((unit) => {
+          animateSurfaceVisibility(unit, true, previousHeights.get(unit));
+        });
+        animateSurfaceVisibility(
+          summonDock,
+          skillSearch.value.trim().length === 0,
+          previousHeights.get(summonDock),
+        );
+        scheduleLayoutResize();
+
+        selectionContent.getAnimations().forEach((animation) => animation.cancel());
+        selectionPortraits.getAnimations().forEach((animation) => animation.cancel());
+        if (selectionInitialized && !reducedMotion.matches) {
+          selectionContent.animate(
+            [
+              { opacity: 0.25, transform: 'translateY(7px)' },
+              { opacity: 1, transform: 'translateY(0)' },
+            ],
+            { duration: 240, easing: 'cubic-bezier(.2,.8,.2,1)' },
+          );
+          selectionPortraits.animate(
+            [
+              { opacity: 0.4, transform: 'scale(.96)' },
+              { opacity: 1, transform: 'scale(1)' },
+            ],
+            { duration: 220, easing: 'ease-out' },
+          );
+        }
+        selectionInitialized = true;
+      }
+
+      function syncMemberSelection() {
+        data.members.forEach((entry, index) => {
+          memberGrid.children[index]?.setAttribute('aria-pressed', String(selectedMembers.has(entry.id)));
+        });
+      }
+
+      function renderMembers() {
+        memberGrid.replaceChildren();
+        data.members.forEach((entry) => {
+          const button = document.createElement('button');
+          button.type = 'button';
+          button.className = 'btn viz-tile member-tile';
+          button.setAttribute('aria-pressed', String(selectedMembers.has(entry.id)));
+          button.setAttribute('aria-label', `${entry.title}, ${entry.role}. ${entry.description}`);
+          button.appendChild(imageOrInitial(entry, 'member-image'));
+
+          const name = document.createElement('span');
+          name.className = 'tile-name text-small';
+          name.textContent = entry.title;
+          button.appendChild(name);
+
+          button.addEventListener('click', () => {
+            focusedMember = entry;
+            if (selectedMembers.has(entry.id)) {
+              selectedMembers.delete(entry.id);
+            } else {
+              selectedMembers.add(entry.id);
+            }
+            syncMemberSelection();
+            renderSelection();
+          });
+          memberGrid.appendChild(button);
+        });
+      }
+
+      function syncCouncilSkillSelection() {
+        const entries = [...data.guilds, ...data.actions];
+        root.querySelectorAll('[data-council-skill-id]').forEach((button) => {
+          const entry = entries.find((candidate) => candidate.id === button.dataset.councilSkillId);
+          const isSelected = selectedCouncilSkills.has(button.dataset.councilSkillId);
+          button.setAttribute('aria-pressed', String(isSelected));
+          if (entry) {
+            button.setAttribute(
+              'aria-label',
+              `${isSelected ? 'Remove' : 'Add'} ${councilSkillTitle(entry)} ${isSelected ? 'from' : 'to'} the council. ${entry.description}`,
+            );
+          }
+        });
+      }
+
+      let launchTitleFitFrame = 0;
+
+      function fitLaunchTitle(label) {
+        label.style.fontSize = '11px';
+        label.style.transform = '';
+        const availableWidth = label.clientWidth;
+        const naturalWidth = label.scrollWidth;
+        if (!availableWidth || naturalWidth <= availableWidth) return;
+        const scale = Math.max(availableWidth / naturalWidth, 0.55);
+        label.style.transform = `scaleX(${scale})`;
+      }
+
+      function scheduleLaunchTitleFit() {
+        cancelAnimationFrame(launchTitleFitFrame);
+        launchTitleFitFrame = requestAnimationFrame(() => {
+          root.querySelectorAll('.launch-title').forEach(fitLaunchTitle);
+        });
+      }
+
+      function renderLaunchGrid(container, entries) {
+        container.replaceChildren();
+        entries.forEach((entry) => {
+          const tile = document.createElement('button');
+          tile.type = 'button';
+          tile.className = 'btn viz-tile launch-tile';
+          tile.dataset.councilSkillId = entry.id;
+          tile.setAttribute('aria-pressed', String(selectedCouncilSkills.has(entry.id)));
+          tile.setAttribute('aria-label', `${selectedCouncilSkills.has(entry.id) ? 'Remove' : 'Add'} ${councilSkillTitle(entry)} ${selectedCouncilSkills.has(entry.id) ? 'from' : 'to'} the council. ${entry.description}`);
+          tile.appendChild(imageOrInitial(entry, 'launch-image'));
+
+          const copy = document.createElement('span');
+          copy.className = 'launch-copy';
+
+          const name = document.createElement('span');
+          name.className = 'launch-title';
+          name.textContent = councilSkillTitle(entry);
+
+          const description = document.createElement('span');
+          description.className = 'launch-description text-small';
+          const rawDescription = String(entry.description || '').trim();
+          const separator = rawDescription.indexOf(':');
+          description.textContent = separator > 0 && separator < 64
+            ? rawDescription.slice(separator + 1).trim()
+            : rawDescription;
+
+          copy.append(name, description);
+          tile.appendChild(copy);
+
+          tile.addEventListener('click', () => {
+            if (selectedCouncilSkills.has(entry.id)) selectedCouncilSkills.delete(entry.id);
+            else selectedCouncilSkills.add(entry.id);
+            syncCouncilSkillSelection();
+            renderSelection();
+          });
+
+          container.appendChild(tile);
+        });
+        scheduleLaunchTitleFit();
+      }
+
+      function matchesSkill(entry, query) {
+        const haystack = `${entry.id} ${entry.title} ${entry.description}`.toLowerCase();
+        return query.split(/\s+/).filter(Boolean).every((term) => haystack.includes(term));
+      }
+
+      function filteredSkills() {
+        const query = skillSearch.value.trim().toLowerCase();
+        const category = skillCategory.value;
+        const invocation = skillInvocation.value;
+        return data.skills
+          .filter((entry) => {
+            if (category === 'grim' && !entry.isGrim) return false;
+            if (category === 'other' && entry.isGrim) return false;
+            if (category.startsWith('grim:') && entry.id !== category && !entry.id.startsWith(`${category}:`)) return false;
+            if (invocation !== 'all' && entry.invocation !== invocation) return false;
+            return matchesSkill(entry, query);
+          })
+          .sort((left, right) => left.title.localeCompare(right.title));
+      }
+
+      function syncSkillSelection() {
+        skillList.querySelectorAll('[data-skill-id]').forEach((button) => {
+          const entry = data.skills.find((skill) => skill.id === button.dataset.skillId);
+          const isSelected = selectedSkills.has(button.dataset.skillId);
+          button.setAttribute('aria-pressed', String(isSelected));
+          if (entry) {
+            button.setAttribute(
+              'aria-label',
+              `${isSelected ? 'Remove' : 'Add'} ${entry.title} ${isSelected ? 'from' : 'to'} the roundtable. ${entry.description}`,
+            );
+          }
+        });
+        skillList.querySelectorAll('[data-skill-run-id]').forEach((button) => {
+          button.hidden = !selectedSkills.has(button.dataset.skillRunId);
+        });
+      }
+
+      function updateSkillDetailSelection() {
+        if (!detailedSkill) return;
+        const isSelected = selectedSkills.has(detailedSkill.id);
+        const otherSelectionCount = selectedMembers.size
+          + selectedCouncilSkills.size
+          + [...selectedSkills].filter((id) => id !== detailedSkill.id).length;
+        skillDetailSelect.textContent = isSelected ? 'Remove from prompt' : 'Add to prompt';
+        skillDetailSelect.setAttribute('aria-pressed', String(isSelected));
+        skillDetailSelect.hidden = !isSelected && otherSelectionCount === 0;
+      }
+
+      const runSkill = async (entry) => {
+        await window.openai.sendFollowUpMessage({
+          title: `Run ${entry.title}?`,
+          prompt: `Invoke ${entry.id} for the current request.\n\nSkill focus: ${entry.description}`,
+        });
+      };
+
+      async function openSkillDetail(entry, trigger) {
+        detailedSkill = entry;
+        lastDetailTrigger = trigger;
+        skillDetailIcon.replaceChildren(imageOrInitial(entry, 'skill-icon-image'));
+        skillDetailTitle.textContent = entry.title;
+        skillDetailCommand.textContent = `/${entry.id}`;
+        skillDetailDescription.textContent = entry.description;
+        skillDetailInvocation.textContent = entry.invocation === 'automatic' ? 'Automatic' : 'Manual';
+        skillDetailFiles.open = false;
+        skillDetailTree.textContent = 'Loading files…';
+        skillDetailPrompt.textContent = 'Loading prompt…';
+        updateSkillDetailSelection();
+        skillDetail.hidden = false;
+        skillDetailClose.focus();
+        scheduleLayoutResize();
+        const details = await skillDetailsReady;
+        if (detailedSkill !== entry) return;
+        const detail = details[entry.id];
+        skillDetailTree.textContent = detail?.tree || 'SKILL.md';
+        skillDetailPrompt.textContent = detail?.prompt || entry.description;
+      }
+
+      function closeSkillDetail() {
+        skillDetail.hidden = true;
+        detailedSkill = null;
+        const trigger = lastDetailTrigger;
+        lastDetailTrigger = null;
+        trigger?.focus();
+        scheduleLayoutResize();
+      }
+
+      function renderSkills() {
+        const isSearching = skillSearch.value.trim().length > 0;
+        const matches = filteredSkills();
+        const visible = isSearching ? matches : matches.slice(0, visibleSkillLimit);
+        skillList.dataset.view = skillViewMode;
+        skillList.replaceChildren();
+
+        visible.forEach((entry) => {
+          const selectButton = document.createElement('button');
+          selectButton.type = 'button';
+          selectButton.dataset.skillId = entry.id;
+          selectButton.setAttribute('aria-pressed', String(selectedSkills.has(entry.id)));
+          selectButton.addEventListener('click', () => {
+            if (selectedSkills.has(entry.id)) selectedSkills.delete(entry.id);
+            else selectedSkills.add(entry.id);
+            syncSkillSelection();
+            renderSelection();
+            updateSkillDetailSelection();
+          });
+
+          const infoButton = document.createElement('button');
+          infoButton.type = 'button';
+          infoButton.className = 'btn btn-ghost skill-info-button';
+          infoButton.setAttribute('aria-label', `Open ${entry.title} details`);
+          const infoIcon = document.createElement('i');
+          infoIcon.dataset.lucide = 'info';
+          infoIcon.setAttribute('aria-hidden', 'true');
+          infoButton.appendChild(infoIcon);
+          infoButton.addEventListener('click', () => openSkillDetail(entry, infoButton));
+
+          const runButton = document.createElement('button');
+          runButton.type = 'button';
+          runButton.className = 'btn skill-info-button skill-run-button';
+          runButton.dataset.skillRunId = entry.id;
+          runButton.hidden = !selectedSkills.has(entry.id);
+          runButton.setAttribute('aria-label', `Invoke ${entry.title}`);
+          const runIcon = document.createElement('i');
+          runIcon.dataset.lucide = 'play';
+          runIcon.setAttribute('aria-hidden', 'true');
+          runButton.appendChild(runIcon);
+          runButton.addEventListener('click', () => runSkill(entry));
+
+          if (skillViewMode === 'grid') {
+            const card = document.createElement('div');
+            card.className = 'card skill-grid-card';
+            selectButton.className = 'btn btn-ghost skill-grid-select';
+
+            const image = imageOrInitial(entry, 'skill-grid-image');
+            const copy = document.createElement('span');
+            copy.className = 'skill-grid-copy';
+            const name = document.createElement('span');
+            name.className = 'skill-grid-name';
+            name.textContent = entry.title;
+            const description = document.createElement('span');
+            description.className = 'skill-grid-description text-small';
+            description.textContent = entry.description;
+            copy.append(name, description);
+            selectButton.append(image, copy);
+
+            const actions = document.createElement('div');
+            actions.className = 'skill-grid-actions';
+            infoButton.classList.add('skill-grid-info');
+            actions.append(infoButton, runButton);
+            card.append(selectButton, actions);
+            skillList.appendChild(card);
+            return;
+          }
+
+          const row = document.createElement('div');
+          row.className = 'card skill-row';
+          selectButton.className = 'btn btn-ghost skill-select';
+
+          const icon = document.createElement('span');
+          icon.className = 'skill-icon';
+          icon.appendChild(imageOrInitial(entry, 'skill-icon-image'));
+
+          const copy = document.createElement('span');
+          copy.className = 'skill-copy';
+          const name = document.createElement('span');
+          name.className = 'skill-name';
+          name.textContent = entry.title;
+          const description = document.createElement('span');
+          description.className = 'skill-description text-small text-muted';
+          description.textContent = entry.description;
+          copy.append(name, description);
+          selectButton.append(icon, copy);
+
+          const actions = document.createElement('div');
+          actions.className = 'skill-row-actions';
+          actions.append(infoButton, runButton);
+          row.append(selectButton, actions);
+          skillList.appendChild(row);
+        });
+
+        syncSkillSelection();
+        if (window.lucide) window.lucide.createIcons({ attrs: { width: 16, height: 16 } });
+
+        if (isSearching) {
+          skillList.after(skillsSelectionUnit);
+        } else {
+          searchTools.after(skillsSelectionUnit);
+        }
+        animateSurfaceVisibility(
+          summonDock,
+          !isSearching && selectionTotal() > 0,
+          summonDock.hidden ? 0 : summonDock.getBoundingClientRect().height,
+        );
+        scheduleLayoutResize();
+        const hasActiveFilter = isSearching || skillCategory.value !== 'all' || skillInvocation.value !== 'all';
+        skillCount.textContent = hasActiveFilter
+          ? `Showing ${visible.length} of ${matches.length} filtered skills · ${data.skills.length} total skills`
+          : `Showing ${visible.length} of ${data.skills.length} total skills`;
+        showMoreButton.hidden = isSearching || visible.length >= matches.length;
+      }
+
+      function setSkillViewMode(mode) {
+        if (mode !== 'list' && mode !== 'grid') return;
+        skillViewMode = mode;
+        skillViewListButton.setAttribute('aria-pressed', String(mode === 'list'));
+        skillViewGridButton.setAttribute('aria-pressed', String(mode === 'grid'));
+        renderSkills();
+      }
+
+      const rootOrder = ['council', 'dev', 'artifacts', 'media', 'biz', 'me', 'mem', 'ep'];
+      const prefixes = new Set();
+      data.skills.filter((entry) => entry.isGrim).forEach((entry) => {
+        const parts = entry.id.split(':');
+        for (let index = 2; index < parts.length; index += 1) {
+          prefixes.add(parts.slice(0, index).join(':'));
+        }
+      });
+
+      [...prefixes]
+        .sort((left, right) => {
+          const leftRoot = left.split(':')[1] || '';
+          const rightRoot = right.split(':')[1] || '';
+          const leftRank = rootOrder.includes(leftRoot) ? rootOrder.indexOf(leftRoot) : rootOrder.length;
+          const rightRank = rootOrder.includes(rightRoot) ? rootOrder.indexOf(rightRoot) : rootOrder.length;
+          if (leftRank !== rightRank) return leftRank - rightRank;
+          if (left.startsWith(`${right}:`)) return 1;
+          if (right.startsWith(`${left}:`)) return -1;
+          return left.localeCompare(right);
+        })
+        .forEach((category) => {
+          const option = document.createElement('option');
+          option.value = category;
+          option.textContent = category;
+          skillCategory.appendChild(option);
+        });
+
+      [skillSearch, skillCategory, skillInvocation].forEach((control) => {
+        control.addEventListener('input', () => {
+          visibleSkillLimit = 24;
+          renderSkills();
+        });
+      });
+
+      function setFilterMenu(open) {
+        skillFilterOptions.classList.toggle('is-open', open);
+        skillFilterOptions.setAttribute('aria-hidden', String(!open));
+        skillFilterToggle.setAttribute('aria-expanded', String(open));
+      }
+
+      skillFilterToggle.addEventListener('click', () => {
+        setFilterMenu(skillFilterToggle.getAttribute('aria-expanded') !== 'true');
+      });
+
+      skillViewListButton.addEventListener('click', () => setSkillViewMode('list'));
+      skillViewGridButton.addEventListener('click', () => setSkillViewMode('grid'));
+
+      document.addEventListener('click', (event) => {
+        if (skillFilterToggle.getAttribute('aria-expanded') !== 'true') return;
+        if (skillFilterMenu.contains(event.target)) return;
+        setFilterMenu(false);
+      });
+
+      document.addEventListener('keydown', (event) => {
+        if (event.key !== 'Escape' || skillFilterToggle.getAttribute('aria-expanded') !== 'true') return;
+        setFilterMenu(false);
+        skillFilterToggle.focus();
+      });
+
+      showMoreButton.addEventListener('click', () => {
+        visibleSkillLimit += 24;
+        renderSkills();
+      });
+
+      skillDetailClose.addEventListener('click', closeSkillDetail);
+      skillDetail.addEventListener('click', (event) => {
+        if (event.target === skillDetail) closeSkillDetail();
+      });
+      skillDetailSelect.addEventListener('click', () => {
+        if (!detailedSkill) return;
+        if (selectedSkills.has(detailedSkill.id)) selectedSkills.delete(detailedSkill.id);
+        else selectedSkills.add(detailedSkill.id);
+        syncSkillSelection();
+        renderSelection();
+        updateSkillDetailSelection();
+      });
+      skillDetailRun.addEventListener('click', async () => {
+        if (!detailedSkill) return;
+        await runSkill(detailedSkill);
+      });
+      document.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape' && !skillDetail.hidden) closeSkillDetail();
+      });
+
+      const invokeSelection = async () => {
+        const selected = data.members.filter((entry) => selectedMembers.has(entry.id));
+        const councilSkills = [...data.guilds, ...data.actions]
+          .filter((entry) => selectedCouncilSkills.has(entry.id));
+        const skills = data.skills.filter((entry) => selectedSkills.has(entry.id));
+        const roster = selected.map((entry) => `- ${entry.title} (${entry.role}): ${entry.id}`).join('\n');
+        const councilSkillRoster = councilSkills.map((entry) => `- ${councilSkillTitle(entry)}: ${entry.id}`).join('\n');
+        const skillRoster = skills.map((entry) => `- ${entry.title}: ${entry.id}`).join('\n');
+        const selectionTotal = selected.length + councilSkills.length + skills.length;
+        const hasCouncil = selected.length > 0 || councilSkills.length > 0;
+        const actionLabel = hasCouncil && skills.length
+          ? 'Invoke council with skills'
+          : hasCouncil ? 'Invoke council' : 'Invoke skills';
+        await window.openai.sendFollowUpMessage({
+          title: `${actionLabel} using ${selectionTotal} selection${selectionTotal === 1 ? '' : 's'}?`,
+          prompt: `Use grim:council:summon-members to convene this focused roundtable for the current request. Apply the selected council and general skills while the council works.\n\nCouncil members:\n${roster || '- None selected'}\n\nCouncil skills, guilds, and management:\n${councilSkillRoster || '- None selected'}\n\nGeneral skills to apply:\n${skillRoster || '- None selected'}`,
+        });
+      };
+
+      summonButtons.forEach((button) => button.addEventListener('click', invokeSelection));
+
+      const summonFullCouncil = async () => {
+        await window.openai.sendFollowUpMessage({
+          title: 'Summon Full Council?',
+          prompt: 'Use grim:council to convene the Full Council for the current request.',
+        });
+      };
+
+      fullCouncilButtons.forEach((button) => button.addEventListener('click', summonFullCouncil));
+
+      const clearSelection = () => {
+        selectedMembers.clear();
+        selectedCouncilSkills.clear();
+        selectedSkills.clear();
+        syncMemberSelection();
+        syncCouncilSkillSelection();
+        syncSkillSelection();
+        renderSelection();
+        updateSkillDetailSelection();
+      };
+
+      clearButtons.forEach((button) => button.addEventListener('click', clearSelection));
+
+      const launchTitleResizeObserver = typeof ResizeObserver === 'undefined'
+        ? null
+        : new ResizeObserver(scheduleLaunchTitleFit);
+      launchTitleResizeObserver?.observe(root);
+
+      renderSelection();
+      renderMembers();
+      renderLaunchGrid(guildGrid, data.guilds);
+      renderLaunchGrid(actionGrid, data.actions);
+      renderSkills();
+    })();
+  </script>
+</div>

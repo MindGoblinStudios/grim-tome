@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Review Flow Workbench</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="flow-shell">
+      <p id="saveStatus" class="board-memory" hidden>Loading review state.</p>
+      <button id="copyPromptButton" class="board-memory" type="button" hidden>Copy Prompt</button>
+      <button id="openCodexButton" class="board-memory" type="button" hidden>Open Codex</button>
+
+      <section class="board-memory" aria-label="Board summary" hidden>
+        <div>
+          <span class="strip-label">Active Goal</span>
+          <strong id="activeGoal">Loading</strong>
+        </div>
+        <div>
+          <span class="strip-label">Batches</span>
+          <strong id="batchCount">0</strong>
+        </div>
+        <div>
+          <span class="strip-label">Selected</span>
+          <strong id="selectedCount">0</strong>
+        </div>
+        <div>
+          <span class="strip-label">Finals</span>
+          <strong id="finalCount">0</strong>
+        </div>
+      </section>
+
+      <section class="board-memory" aria-label="Next Codex prompt" hidden>
+        <div class="panel-heading">
+          <h2>Next Prompt</h2>
+          <p>Generated from hearted, kept, revised, and final candidates.</p>
+        </div>
+        <textarea id="nextPrompt" readonly spellcheck="false"></textarea>
+      </section>
+
+      <p id="bootStatus" class="boot-status" role="status">Loading workbench…</p>
+
+      <div class="board-controls" aria-label="Board controls">
+        <button
+          id="videoPlaybackButton"
+          class="board-control-button video-playback-button"
+          type="button"
+          aria-label="Pause all videos"
+          hidden
+        >Ⅱ</button>
+        <button
+          id="themeToggleButton"
+          class="board-control-button theme-toggle-button"
+          type="button"
+          aria-label="Switch color mode"
+        >☾</button>
+        <button
+          id="sidebarToggleButton"
+          class="board-control-button board-sidebar-toggle-button"
+          type="button"
+          aria-label="Collapse prompt sidebars"
+        >›</button>
+      </div>
+      <section id="batchFeed" class="batch-feed" aria-label="Image Review Flow Workbench image review batches"></section>
+    </main>
+
+    <dialog id="imageDialog" class="image-dialog" aria-label="Media detail viewer">
+      <button id="closeDialogButton" class="dialog-close" type="button" aria-label="Close image">×</button>
+      <div id="imagePan" class="image-pan">
+        <img id="dialogImage" alt="" />
+      </div>
+      <div id="dialogVideoControls" class="dialog-video-controls" hidden>
+        <button
+          id="dialogVideoPlayButton"
+          class="dialog-video-play-button"
+          type="button"
+          aria-label="Pause video"
+        >Ⅱ</button>
+        <span id="dialogVideoCurrentTime" class="dialog-video-time">0:00</span>
+        <input
+          id="dialogVideoTimeline"
+          class="dialog-video-timeline"
+          type="range"
+          min="0"
+          max="1000"
+          value="0"
+          step="1"
+          aria-label="Video timeline"
+        />
+        <span id="dialogVideoDuration" class="dialog-video-time">0:00</span>
+      </div>
+    </dialog>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

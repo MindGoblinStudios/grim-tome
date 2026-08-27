@@ -1,0 +1,7 @@
+interface:
+  display_name: "grim:council:guild:cortex:lumen-life-advisor"
+  short_description: "Lumen (Life Advisor): Life direction, self-discovery, values, meaning, designing the life you want, and figuring out who you want to be and what you want to manifest."
+  icon_small: "./assets/lumen-life-advisor-icon-small.png"
+  icon_large: "./assets/lumen-life-advisor-icon-large.png"
+policy:
+  allow_implicit_invocation: false

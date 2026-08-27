@@ -1,0 +1,6 @@
+interface:
+  display_name: "grim:media:image-review-flow-workbench"
+  short_description: "Image Review Flow Workbench: Run a Design QA four-up image review board with autosynced JSON state."
+  default_prompt: "Start an Image Review Flow Workbench four-image concept batch and add it to the autosynced review artifact."
+  icon_small: "./assets/image-review-flow-workbench-icon-small.png"
+  icon_large: "./assets/image-review-flow-workbench-icon-large.png"

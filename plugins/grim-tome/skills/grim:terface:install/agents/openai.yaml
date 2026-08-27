@@ -1,0 +1,8 @@
+interface:
+  display_name: "grim:terface:install"
+  short_description: "Install: Guided install of Grimoire's Tome — explain the model, install the parts you want, and hand off to council onboarding."
+  default_prompt: "Walk me through installing Grimoire's Tome: explain what it contains, recommend a minimal install, and ask before copying or symlinking anything."
+  icon_small: "./assets/install-icon-small.png"
+  icon_large: "./assets/install-icon-large.png"
+policy:
+  allow_implicit_invocation: false

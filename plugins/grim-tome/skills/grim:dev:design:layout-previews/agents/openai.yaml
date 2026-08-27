@@ -1,0 +1,7 @@
+interface:
+  display_name: "grim:dev:design:layout-previews"
+  short_description: "Layout Previews: Compare spatial/visual design choices by putting aligned ASCII / box-drawing layout mockups in AskUserQuestion option preview fields, so the user picks from side-by-side rendered options instead of abstract labels."
+  default_prompt: "Turn this layout/UI decision into a single-select AskUserQuestion where each option's preview is an aligned ASCII box-drawing mockup, so the choices can be compared side by side."
+  icon_small: "./assets/layout-previews-icon-small.png"
+  icon_large: "./assets/layout-previews-icon-large.png"
+  brand_color: "#7C5BFF"

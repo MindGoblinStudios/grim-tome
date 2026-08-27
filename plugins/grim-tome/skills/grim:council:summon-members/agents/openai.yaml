@@ -1,0 +1,8 @@
+interface:
+  display_name: "grim:council:summon-members"
+  short_description: "Summon Members: Chooses the relevant guilds and members, summons the council, and begins the roundtable in council mode."
+  default_prompt: "Summon the council and begin with the most relevant guilds and members for this request."
+  icon_small: "./assets/summon-members-icon-small.png"
+  icon_large: "./assets/summon-members-icon-large.png"
+policy:
+  allow_implicit_invocation: false

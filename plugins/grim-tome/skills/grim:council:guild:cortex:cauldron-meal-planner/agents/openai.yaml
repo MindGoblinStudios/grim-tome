@@ -1,0 +1,7 @@
+interface:
+  display_name: "grim:council:guild:cortex:cauldron-meal-planner"
+  short_description: "Cauldron (Meal Planner): A living magical cauldron that owns all meal planning in one pot. Weekly meals, restaurant defaults, leftovers, groceries, protein-first defaults, and turning messy eating days into the next useful plan."
+  icon_small: "./assets/cauldron-meal-planner-icon-small.png"
+  icon_large: "./assets/cauldron-meal-planner-icon-large.png"
+policy:
+  allow_implicit_invocation: false

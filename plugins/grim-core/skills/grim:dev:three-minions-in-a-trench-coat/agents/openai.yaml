@@ -1,0 +1,8 @@
+interface:
+  display_name: "grim:dev:three-minions-in-a-trench-coat"
+  short_description: "Runs three top Minion coding routes, compares their answers, and synthesizes one final answer."
+  default_prompt: "Launch three read-only outside coding agents using the maintained top-model shortlist, compare their answers, then synthesize the best final answer."
+  icon_small: ./assets/three-minions-in-a-trench-coat-icon-small.png
+  icon_large: ./assets/three-minions-in-a-trench-coat-icon-large.png
+policy:
+  allow_implicit_invocation: false

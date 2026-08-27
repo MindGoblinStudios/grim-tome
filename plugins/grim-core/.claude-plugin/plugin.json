@@ -1,0 +1,20 @@
+{
+  "name": "grim-core",
+  "displayName": "Grim Core",
+  "version": "1.0.0",
+  "description": "Grimoire's Tome core: the Grimterface plus everyday dev-loop skills \u2014 lock-in, polish, mentor review, minions, git decanter, autodocs, and more.",
+  "author": {
+    "name": "Mind Goblin Studios",
+    "url": "https://github.com/MindGoblinStudios"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/MindGoblinStudios/grim-tome",
+  "repository": "https://github.com/MindGoblinStudios/grim-tome",
+  "keywords": [
+    "grimoire",
+    "dev-loop",
+    "skills",
+    "vibecoding"
+  ],
+  "logo": "assets/logo.png"
+}

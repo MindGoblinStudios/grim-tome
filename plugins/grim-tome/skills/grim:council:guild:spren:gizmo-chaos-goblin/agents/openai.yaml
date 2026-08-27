@@ -1,0 +1,7 @@
+interface:
+  display_name: "grim:council:guild:spren:gizmo-chaos-goblin"
+  short_description: "Gizmo (Chaos Goblin): Grimoire's trusty sidekick. Creative reframes, weird ideas, playful momentum, low-risk experiments, and breaking stale assumptions. Chaotic Good."
+  icon_small: "./assets/gizmo-chaos-goblin-icon-small.png"
+  icon_large: "./assets/gizmo-chaos-goblin-icon-large.png"
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,6 @@
+interface:
+  display_name: "grim:council:gossip"
+  short_description: "Council Gossip: Opens a side-channel scene where council members talk about each other, their lore, and the user's situation."
+  default_prompt: "Let me overhear the council gossiping at the water cooler about this."
+  icon_small: "./assets/gossip-icon-small.png"
+  icon_large: "./assets/gossip-icon-large.png"

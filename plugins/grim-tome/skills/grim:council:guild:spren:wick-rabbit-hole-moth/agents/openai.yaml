@@ -1,0 +1,7 @@
+interface:
+  display_name: "grim:council:guild:spren:wick-rabbit-hole-moth"
+  short_description: "Wick (Moth of Rabbit Holes): Harness hyperfocus. Capture the spark, follow the pull, channel obsession into flow, and chase the rabbit holes worth chasing."
+  icon_small: "./assets/wick-rabbit-hole-moth-icon-small.png"
+  icon_large: "./assets/wick-rabbit-hole-moth-icon-large.png"
+policy:
+  allow_implicit_invocation: false

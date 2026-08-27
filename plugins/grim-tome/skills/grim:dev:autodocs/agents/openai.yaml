@@ -1,0 +1,6 @@
+interface:
+  display_name: "grim:dev:autodocs"
+  short_description: "AutoDocs: Maintain concise canonical docs, AGENTS routing, and durable project knowledge."
+  default_prompt: "Update the smallest canonical documentation surface and preserve user-authored intent. AutoDocs may read docs during planning, but planning stays in chat unless persistence is requested; then use the repository's existing planning surface or default to one project-root plan.md. Keep private project docs and routing out of public examples."
+  icon_small: ./assets/autodocs-icon-small.png
+  icon_large: ./assets/autodocs-icon-large.png

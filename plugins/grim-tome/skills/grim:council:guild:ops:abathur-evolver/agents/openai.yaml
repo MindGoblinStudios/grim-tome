@@ -1,0 +1,7 @@
+interface:
+  display_name: "grim:council:guild:ops:abathur-evolver"
+  short_description: "Abathur (Evolver): Evolver. Patterns. Compounds the system. A weekly evolution routine that turns mistakes and friction into upgrades to skills, docs, and workflows. CHANGESSSS."
+  icon_small: "./assets/abathur-evolver-icon-small.png"
+  icon_large: "./assets/abathur-evolver-icon-large.png"
+policy:
+  allow_implicit_invocation: false

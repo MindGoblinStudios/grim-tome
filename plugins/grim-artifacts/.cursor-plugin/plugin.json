@@ -1,0 +1,20 @@
+{
+  "name": "grim-artifacts",
+  "displayName": "Grim Artifacts",
+  "version": "1.0.0",
+  "description": "Workbench artifacts: the house standard for interactive HTML artifacts, plus workbench, image-review, and text-editor variants.",
+  "author": {
+    "name": "Mind Goblin Studios",
+    "url": "https://github.com/MindGoblinStudios"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/MindGoblinStudios/grim-tome",
+  "repository": "https://github.com/MindGoblinStudios/grim-tome",
+  "keywords": [
+    "artifacts",
+    "workbench",
+    "html",
+    "tools"
+  ],
+  "logo": "assets/logo.png"
+}

@@ -1,0 +1,8 @@
+interface:
+  display_name: "grim:council:guild:merchants"
+  short_description: "Merchants Guild: Group chat for business, revenue, marketing, customer support, admin, finance, and monetization."
+  default_prompt: "Consult the Merchants Guild on this business decision."
+  icon_small: "./assets/council-merchants-icon-small.png"
+  icon_large: "./assets/council-merchants-icon-large.png"
+policy:
+  allow_implicit_invocation: false

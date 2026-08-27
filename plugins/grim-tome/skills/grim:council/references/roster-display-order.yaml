@@ -1,0 +1,61 @@
+# Canonical Council roster and Council Dashboard display order.
+# Skill existence and paths live in skills/registry.yaml.
+
+members:
+  - grim:council:guild:coding:grimoire-code-wizard
+  - grim:council:guild:ops:quill-scribe
+  - grim:council:guild:merchants:helm-biz-manager
+  - grim:council:guild:merchants:ledger-biz-admin
+  - grim:council:guild:merchants:midas-money-manager
+  - grim:council:guild:ops:roger-roger
+  - grim:council:guild:ops:abathur-evolver
+  - grim:council:guild:ops:cleo-code-maid
+  - grim:council:guild:cortex:lumen-life-advisor
+  - grim:council:guild:cortex:selene-emotional-advisor
+  - grim:council:guild:cortex:precog-exec-func
+  - grim:council:guild:cortex:timekeeper-day-planner
+  - grim:council:guild:cortex:farseer-long-term-planner
+  - grim:council:guild:cortex:cauldron-meal-planner
+  - grim:council:guild:cortex:boulder-gym-bro
+  - grim:council:guild:spren:gizmo-chaos-goblin
+  - grim:council:guild:spren:flicker-whimsy-fairy
+  - grim:council:guild:spren:wick-rabbit-hole-moth
+
+roundtable:
+  - grim:council:guild:coding:grimoire-code-wizard
+  - grim:council:guild:ops:quill-scribe
+  - grim:council:guild:merchants:helm-biz-manager
+  - grim:council:guild:merchants:ledger-biz-admin
+  - grim:council:guild:merchants:midas-money-manager
+  - grim:council:guild:ops:roger-roger
+  - grim:council:guild:ops:abathur-evolver
+  - grim:council:guild:ops:cleo-code-maid
+  - grim:council:guild:cortex:lumen-life-advisor
+  - grim:council:guild:cortex:selene-emotional-advisor
+  - grim:council:guild:cortex:precog-exec-func
+  - grim:council:guild:cortex:timekeeper-day-planner
+  - grim:council:guild:cortex:farseer-long-term-planner
+  - grim:council:guild:cortex:cauldron-meal-planner
+  - grim:council:guild:cortex:boulder-gym-bro
+  - grim:council:guild:spren:gizmo-chaos-goblin
+  - grim:council:guild:spren:flicker-whimsy-fairy
+  - grim:council:guild:spren:wick-rabbit-hole-moth
+
+ordinary_full_council_only: []
+
+beta: []
+
+include_beta_by_default: false
+
+guilds:
+  - grim:council:guild:coding
+  - grim:council:guild:merchants
+  - grim:council:guild:ops
+  - grim:council:guild:cortex
+  - grim:council:guild:spren
+
+management:
+  - grim:council
+  - grim:council:summon-members
+  - grim:council:gossip
+  - grim:council:gpt-tavern

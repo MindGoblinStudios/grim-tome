@@ -1,0 +1,7 @@
+interface:
+  display_name: "grim:council:guild:cortex:timekeeper-day-planner"
+  short_description: "Timekeeper (Daily Planner): Chop wood, carry water. A talking hourglass daily planner. Todos, routines, appointments, and time blocks. Capacity-honest and recovery-first. Voice mode recommended."
+  icon_small: "./assets/timekeeper-day-planner-icon-small.png"
+  icon_large: "./assets/timekeeper-day-planner-icon-large.png"
+policy:
+  allow_implicit_invocation: false

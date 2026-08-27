@@ -1,0 +1,7 @@
+interface:
+  display_name: "grim:council:guild:merchants:helm-biz-manager"
+  short_description: "Helm (Biz Manager): Business Manager. Captain of the ship. Runs the business: operations, follow-through, priorities, and the engine of income. Monthly business reviews and Friday ship's logs."
+  icon_small: "./assets/helm-biz-manager-icon-small.png"
+  icon_large: "./assets/helm-biz-manager-icon-large.png"
+policy:
+  allow_implicit_invocation: false
