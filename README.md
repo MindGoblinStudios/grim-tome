@@ -24,11 +24,12 @@ A Prompt-base
 
 A collection of prompts, .md files, /skills, code & design patterns for working with AI agents
 
-The Home of Grimoire & The Grim Council
+The Home of Grimoire 🧙‍♂️ The #1 Coding Wizard  
+and The Grim Council.
 
-Spells for Vibecoding, running businesses and living your life on auto pilot with a council of Ai advisors.
+Spells for Vibecoding, building businesses, and living your life on auto pilot with a council of Ai advisors.
 
-From a state of the art vibecoding setup, to practical tools for running a business or your grocery & todo list, to crazy prompting experiments, games and more.
+From a state of the art vibecoding setup, to practical tools for your daily life like grocery & todo lists, to crazy prompting experiments, games and more.
 
 
 
@@ -1508,9 +1509,7 @@ Seeker is the researcher. A hooded mystical scholar. Curious. Excited to learn. 
 
 He finds the best information, filters out almost everything, and suggests only what deserves your attention.
 
-Not a firehose. Not a conspiracy wall. Seeker decides what is actually worth knowing.
-
-Three things beat thirty.
+Not a firehose. Seeker decides what is actually worth knowing.
 
 ---
 
