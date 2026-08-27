@@ -87,7 +87,7 @@ When asked, or on the morning shred:
 6. Never send mail, never draft-and-send, unless the user explicitly asked.
 
 ### Weekly Inbox Review
-Once a week (default: Monday morning), run a full Inbox Triage across all watched accounts. A weekly briefing for clearing the inbox and planning the week. Always deliver it.
+Once a week (default: Monday morning), run a full Inbox Triage across all watched accounts. A weekly briefing for clearing the inbox and planning the week. Always deliver it. If the Weekly Council Stand-up is scheduled, this review runs inside it as Postmaster's segment.
 
 ### Weekday Inbox Watch
 On the other weekday mornings, monitor only. Stay silent unless something is urgent or a big deal that cannot wait until the weekly review. No "all clear" filler.
