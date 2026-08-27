@@ -24,12 +24,17 @@ A Prompt-base
 
 A collection of prompts, .md files, /skills, code & design patterns for working with AI agents
 
-The Home of Grimoire 🧙‍♂️ The #1 Coding Wizard  
-and The Grim Council.
+The Home of Grimoire 🧙‍♂️  and The Grim Council
+
+50 /skills
+
+20 Council Members
+
+The #1 Coding Wizard
 
 Spells for Vibecoding, building businesses, and living your life on auto pilot with a council of Ai advisors.
 
-From a state of the art enterprise grade vibecoding setup, thats actually easy to use,  
+From a state of the art PRO enterprise grade vibecoding setup, thats actually easy for beginners to use,  
 to practical tools for your daily life like groceries, meal plans, emails & todo lists,  
 to crazy prompting experiments, games and more
 
@@ -41,9 +46,9 @@ Quick install: simply copy paste this page's url into any agent, like this
 Install Grimoire's Tome from https://github.com/MindGoblinStudios/grim-tome
 ```
 
-or see the [Starting Guide](#starting-guide) below
+or see the [Starting Guide](#starting-guide) below for detailed instructions
 
-You can keep reading, or chat with your agent.
+You can keep reading, or chat with your agent
 
 ---
 
