@@ -2428,10 +2428,10 @@ The most generous patrons of the Tome, inscribed for as long as the Tome endures
 
 | Seats  | Tier                | Patrons                                                                   |
 | ------ | ------------------- | ------------------------------------------------------------------------- |
-| 1–10   | 👑 The High Table   | *All ten seats stand empty. The first name inscribed will be remembered.* |
-| 11–25  | 🥇 The Inner Circle | *Unclaimed.*                                                              |
-| 26–50  | 🥈 The Gilded Hall  | *Unclaimed.*                                                              |
-| 51–100 | 🥉 The Torchbearers | *Unclaimed.*                                                              |
+| 1–10   | 👑 The High Table       | *All ten seats stand empty. The first name inscribed will be remembered.* |
+| 11–25  | 🥇 The Merchant Princes | *Unclaimed.*                                                              |
+| 26–50  | 🥈 The Lords & Ladies   | *Unclaimed.*                                                              |
+| 51–100 | 🥉 The Courtiers        | *Unclaimed.*                                                              |
 
 
 ─── 📌 ✦ 📌 ───
