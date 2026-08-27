@@ -320,7 +320,7 @@ The Grimterface
 
 Guided install. Explains Grimoire's Tome and explores how you can get the most out of it.
 
-─── ✦ Examples ✦ ───
+─── Examples ───
 
 *The quick install, paste this into any agent to get started*
 
@@ -359,7 +359,7 @@ I don't care about coding skip me to the Grim Coucil!
 
 Use this skill to learn more about Grimoire's Tome, and get suggestions for what skills to use. Routes you to the right skill, council member, or doc with one recommendation and one next step.
 
-─── ✦ Examples ✦ ───
+─── Examples ───
 
 *Help brainstorm how to use Grimoire's Tome for you!*
 
@@ -397,7 +397,7 @@ Welcome to Grimoire's Tome. Initial Release.  Intro & 5 Chapters.
 
 Full changelog: [patchNotes.md](patchNotes.md)
 
-─── ✦ Examples ✦ ───
+─── Examples ───
 
 *Use without a prompt to do a simple update*
 
@@ -449,7 +449,7 @@ Lock in is a skill for reducing context switching costs and managing human brain
 
 Use it to quickly remember what you were chatting about after being afk or being in a meeting.
 
-─── ✦ Examples ✦ ───
+─── Examples ───
 
 *90% of the time I just cast it plain*
 
@@ -505,7 +505,7 @@ You will need to customize this skill for maximum effect.
 
 This will not work fully unless you define what you want good to be. You need to define the values, qualities and ideals that you want AI to prioritize when polishing.
 
-─── ✦ Examples ✦ ───
+─── Examples ───
 
 *Usually you want to aim this at something specific:*
 
@@ -596,7 +596,7 @@ Option C - Thematic frame
 Now just pick one.  
 Same trick works for many situations, even non coding tasks.
 
-─── ✦ Examples ✦ ───
+─── Examples ───
 
 *Auto-triggers on layout questions like:*
 
@@ -692,7 +692,7 @@ Using tiramisu breaks down and decomposes complex plans into steps, lanes, hando
 
 This is ESSENTIAL and saves SO much time when running agent swarms or doing big changes and refactors.
 
-─── ✦ Examples ✦ ───
+─── Examples ───
 
 *Usually you want to use this after a few round of brainstorming a plan first*
 
@@ -723,7 +723,7 @@ It is a workflow on top of git surgeon, which is a super handy tool for letting 
 
 Also serves as a great checkpoint to spawn review agents, especially if you are working solo and are not using PR review bots.
 
-─── ✦ Examples ✦ ───
+─── Examples ───
 
 *99% of the time I just use the skill with no extra guidance, just let it chunk, and then ask for reviews if needed*
 
@@ -750,7 +750,7 @@ A craft-elevating adversarial review.
 
 Spawns (or becomes) a mentor who spars with the work: warm, precise, playfully ruthless, and always aimed at making it stronger. 
 
-─── ✦ Examples ✦ ───
+─── Examples ───
 
 ```text
 /grim:dev:mentor-review
@@ -797,7 +797,7 @@ Easily transfer context from one thread or app/model to another.
 
 Also includes a simple CLI util for filtering the search. So you can grab only particular parts of the transcripts and avoid flooding the context window with things like tool calls or code when you just want the messages.
 
-─── ✦ Examples ✦ ───
+─── Examples ───
 
 *Auto-triggers on questions about past sessions:*
 
@@ -867,7 +867,7 @@ So this is a great way to get some good image and video generation capabilities 
 
 I recommend just making an Openrouter API key, and putting a $20 limit, no subscription needed.
 
-─── ✦ Examples ✦ ───
+─── Examples ───
 
 *Just ask whatever model you want*
 
@@ -942,7 +942,7 @@ Currently enabled mitigations (full ledger: [docs/model-quirks-ledger.yaml](docs
 - `claude-opus-5` - talk less, keep replies concise by default
 - `gpt-5.5` - don't over-correct away from playful creature language (goblin mode stays ON)
 
-─── ✦ Examples ✦ ───
+─── Examples ───
 
 *Complain, then cast:*
 
@@ -1018,7 +1018,7 @@ Use it as the reference shape when installing your own packs.
 
 If you want suggestions for expansion packs outside of Grimoire's Tome, see the [Appendix](#appendix) 
 
-─── ✦ Examples ✦ ───
+─── Examples ───
 
 *Install a single skill:*
 
@@ -1766,7 +1766,7 @@ Aside from the members of the council, the council system also includes various 
 
 Use /grim:council to call all members into the chamber
 
-─── ✦ Examples ✦ ───
+─── Examples ───
 
 *The plain cast:*
 
@@ -1806,7 +1806,7 @@ Use /grim:council:summon-members to call a smaller dynamic group chat catered to
 
 Name the problem, not the members
 
-─── ✦ Examples ✦ ───
+─── Examples ───
 
 *Just ask a question. Summon-members routes it to the right council members:*
 
@@ -1832,7 +1832,7 @@ should I raise my prices?
 
 Use /grim:council:guild:coding (or any guild) to organize members and create consistent groups
 
-─── ✦ Examples ✦ ───
+─── Examples ───
 
 *Business meeting with the Merchants:*
 
@@ -1903,7 +1903,7 @@ Perhaps you'll even meet a new potential council member to recruit or perhaps ju
 
 .... 
 
-─── ✦ Examples ✦ ───
+─── Examples ───
 
 *The plain cast:*
 
@@ -1988,7 +1988,7 @@ Each council member owns a slice of the docs: summon Cauldron and it will offer 
 
 Once a member has completed onboarding, their onboarding prompt will self destruct. See docs/onboarding.md.
 
-─── ✦ Examples ✦ ───
+─── Examples ───
 
 *Start a new doc:*
 
@@ -2036,7 +2036,7 @@ Cleas up old or outdated memory
 
 Memory flows one way: quick corrections land in memory during work, and the dream sequence promotes the durable ones into your docs. Memory stays small, docs accumulate the distilled knowledge.
 
-─── ✦ Examples ✦ ───
+─── Examples ───
 
 *The plain cast:*
 
@@ -2161,7 +2161,7 @@ Includes a handy trick for opening any artifact on your phone over local WiFi so
 
 When an artifact needs persistent state or live two-way sync with your agent, it graduates into a workbench artifact, thats the rest of this chapter.
 
-─── ✦ Examples ✦ ───
+─── Examples ───
 
 *Ask for any small tool:*
 
@@ -2219,7 +2219,7 @@ An opinionated Midjourney inspired image generation and review flow that can be 
 
 Easily track which ones you heart, reference them with easy copy buttons, or the annotate tools.
 
-─── ✦ Examples ✦ ───
+─── Examples ───
 
 *Get started with multiple images*
 
@@ -2362,8 +2362,8 @@ Every bit of support means more time & resources to create tools for you like th
 ### Leave a One-Time Tribute
 
 
-|   |   |   |   |   |   |
-| --- | --- | --- | --- | --- | --- |
+|                                                                                                           |                                                                                                            |                                                                                                      |                                                                                                                         |                                                                                                                                     |                                                                                                                                 |
+| --------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
 | ![Copper](images/tribute/copper.jpg) **[Copper — $5](https://donate.stripe.com/6oU28rboBcuAdopc3l2VG02)** | ![Silver](images/tribute/silver.jpg) **[Silver — $10](https://donate.stripe.com/cNifZhfER1PW989gjB2VG03)** | ![Gold](images/tribute/gold.jpg) **[Gold — $20](https://donate.stripe.com/bJedR950d5283NPebt2VG04)** | ![Gold Bullion](images/tribute/bullion.jpg) **[Gold Bullion — $50](https://donate.stripe.com/28E3cvgIV528acd7N52VG05)** | ![Treasure Trove](images/tribute/treasure-trove.jpg) **[Treasure Trove — $100](https://donate.stripe.com/8x2bJ11O13Y41FH9Vd2VG06)** | ![Dragon Hoard](images/tribute/dragon-hoard.jpg) **[Dragon Hoard — $1,000](https://donate.stripe.com/eVq5kD1O1bqw1FH1oH2VG07)** |
 
 
@@ -2374,8 +2374,8 @@ Every bit of support means more time & resources to create tools for you like th
 Keep the wizards fed and the spellbook growing, month after month. I gotta eat!
 
 
-|   |   |   |   |   |
-| --- | --- | --- | --- | --- |
+|                                                                                                                                    |                                                                                                                                          |                                                                                                                                          |                                                                                                                                       |                                                                                                                                        |
+| ---------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
 | ![Buy Me a Potion](images/tribute/patron-potion.jpg) **[Buy Me a Potion — $5/mo](https://buy.stripe.com/6oU14ngIVgKQ1FHd7p2VG08)** | ![Enchanted Inkwell](images/tribute/patron-inkwell.jpg) **[Enchanted Inkwell — $10/mo](https://buy.stripe.com/9B63cvfER1PW3NP8R92VG09)** | ![Golden Hourglass](images/tribute/patron-hourglass.jpg) **[Golden Hourglass — $20/mo](https://buy.stripe.com/14A28r2S57ag989c3l2VG0a)** | ![Bag of Emeralds](images/tribute/patron-emeralds.jpg) **[Bag of Emeralds — $50/mo](https://buy.stripe.com/cNicN52S5ams7010kD2VG0b)** | ![Grimoire Patron](images/tribute/patron-grimoire.jpg) **[Grimoire Patron — $100/mo](https://buy.stripe.com/fZucN51O1528dop6J12VG0c)** |
 
 
@@ -2393,9 +2393,11 @@ Prefer to keep it on GitHub? Become a sponsor and get the sponsor badge on your 
 
 Any amount, any time. Every coin counts.
 
-|   |
-| --- |
+
+|                                                                                                                 |
+| --------------------------------------------------------------------------------------------------------------- |
 | ![Tip Jar](images/tribute/tip-jar.jpg) **[Tip Jar — any amount](https://donate.stripe.com/8wM7sIaUCa12400145)** |
+
 
 ─── ✦ 🧙‍♂️ ✦ ───
 
@@ -2422,7 +2424,7 @@ To claim a poster slot:
 Tell us what you want your poster to look like at checkout, and you get:
 
 - Your poster painted onto the notice board
-- A sponsored post on [my X account](https://x.com/NickADobos)
+- A sponsored post on [my X account](https://x.com/NickADobos) 
 
 Creative sponsorship ideas, including those beyond the board, are encouraged. 
 
@@ -2433,8 +2435,8 @@ Creative sponsorship ideas, including those beyond the board, are encouraged.
 The most generous patrons of the Tome, inscribed for as long as the Tome endures.
 
 
-| Seats  | Tier                | Patrons                                                                   |
-| ------ | ------------------- | ------------------------------------------------------------------------- |
+| Seats  | Tier                    | Patrons                                                                   |
+| ------ | ----------------------- | ------------------------------------------------------------------------- |
 | 1–10   | 👑 The High Table       | *All ten seats stand empty. The first name inscribed will be remembered.* |
 | 11–25  | 🥇 The Merchant Princes | *Unclaimed.*                                                              |
 | 26–50  | 🥈 The Lords & Ladies   | *Unclaimed.*                                                              |
