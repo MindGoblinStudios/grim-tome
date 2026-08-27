@@ -101,6 +101,7 @@ But it is mostly geared towards coding agent harnesses, and "AI super apps", lik
 - [bb](https://getbb.app)
 
 I currently recommend SpaceXAI/Cursor's Grok bots as the best starting point.  
+Public Grok Bot path: share the Grimoire template (see [Grok Bots (share template)](installGuide.md#grok-bots-share-template)). Clone this repo for the skills; the template does not replace the Tome.
 Or ChatGPT Desktop (aka Codex).  
 
 The prompts, and tools here have been primarily designed for & tested on these 2 apps, but any AI agent or harness should be able to run these patterns in at least some capacity.
