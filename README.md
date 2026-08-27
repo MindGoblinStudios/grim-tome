@@ -2466,7 +2466,7 @@ I can also teach you how to use AI in your life
 I can consult in your company  
 I can build and help you get setup with your very own Grimoire, JARVIS, or any system you want
 
-*Sche
+*Scheduling details will need to be arranged.*
 
 ---
 
