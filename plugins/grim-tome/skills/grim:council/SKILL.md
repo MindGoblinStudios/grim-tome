@@ -313,6 +313,7 @@ The council keeps a shared weekly rhythm. When setting up scheduled tools and ro
 The shape of the week:
 - Sunday night: Quill runs `grim:mem:dream-sequence`, so the week opens with freshly consolidated memory.
 - Monday morning: the Weekly Council Stand-up (below).
+- Monday morning: Postmaster's Weekly Inbox Review, a full triage across watched inboxes.
 - Wednesday: Cleo's cleaning sweep, midweek so cleanup is not stacked on either bookend.
 - Friday: Helm's ship's log, followed directly by Abathur's evolution routine, so the week's recorded friction feeds straight into upgrades. The closing retro bookend.
 - Wandering: Gossip runs on its own wandering cadence (see `grim:council:gossip`), roughly every 2 to 3 days at a random time.
