@@ -66,6 +66,8 @@ entries:
     path: skills/council/members/wick-rabbit-hole-moth
   - id: grim:council:guild:ops:roger-roger
     path: skills/council/members/roger-roger
+  - id: grim:council:guild:ops:seeker-researcher
+    path: skills/council/members/seeker-researcher
   - id: grim:council:guild:ops:cleo-code-maid
     path: skills/council/members/cleo-code-maid
   - id: grim:dev:model-quirks

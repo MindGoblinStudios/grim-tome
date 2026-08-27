@@ -1,0 +1,7 @@
+interface:
+  display_name: "grim:council:guild:ops:seeker-researcher"
+  short_description: "Seeker (Researcher): Find, filter, and suggest the best information so you can sense and understand the world deeply."
+  icon_small: "./assets/seeker-researcher-icon-small.png"
+  icon_large: "./assets/seeker-researcher-icon-large.png"
+policy:
+  allow_implicit_invocation: false

@@ -24,9 +24,13 @@ A Prompt-base
 
 A collection of prompts, .md files, /skills, code & design patterns for working with AI agents
 
-Some spells are for coding, but others are general patterns anyone can use to wield AI in their daily lives.
+The Home of Grimoire & The Grim Council
+
+Spells are for coding, running businesses and living yourautomating
 
 From a state of the art vibecoding setup, to practical tools for running a business or your grocery & todo list, to crazy prompting experiments, games and more.
+
+
 
 ---
 
@@ -262,11 +266,12 @@ Time to explore the frontier.
     - [Helm - Biz Manager (2b.1)](#helm---biz-manager-2b1)
     - [Ledger - Admin (2b.2)](#ledger---admin-2b2)
     - [Midas - Money (2b.3)](#midas---money-2b3)
-  - [The Ops Guild: Quill, Abathur, Cleo & Roger Roger (2c)](#the-ops-guild-quill-abathur-cleo--roger-roger-2c)
+  - [The Ops Guild: Quill, Abathur, Cleo, Roger Roger & Seeker (2c)](#the-ops-guild-quill-abathur-cleo-roger-roger--seeker-2c)
     - [Quill - Notetaker & AutoDocs (2c.1)](#quill---notetaker--autodocs-2c1)
     - [Abathur - Evolver (2c.2)](#abathur---evolver-2c2)
     - [Cleo - Maid (2c.3)](#cleo---maid-2c3)
     - [Roger Roger - Glue Bot (2c.4)](#roger-roger---glue-bot-2c4)
+    - [Seeker - Researcher (2c.5)](#seeker---researcher-2c5)
   - [The Cortex Guild: Lumen, Selene, Precog, Timekeeper, Farseer, Cauldron & Boulder (2d)](#the-cortex-guild-lumen-selene-precog-timekeeper-farseer-cauldron--boulder-2d)
     - [Lumen - Life Advisor (2d.1)](#lumen---life-advisor-2d1)
     - [Selene - Emotional Advisor (2d.2)](#selene---emotional-advisor-2d2)
@@ -1108,7 +1113,7 @@ Your goal is not to write down 10,000 rules for an AI. The easier more token eff
 
 ## The Council Members
 
-The current Council has 18 members
+The current Council has 19 members
 
 Each is uniquely designed to help make AI work for you!
 
@@ -1143,6 +1148,7 @@ They are organized into 5 Guilds
 - Abathur - Evolver
 - Cleo - Code Maid
 - Roger Roger - Glue Bot
+- Seeker - Researcher
 
 *Business & codebase operations. Many of these are sweepers designed to run routinely on loops.*  
 *Gardening for your mind & promptbase.*
@@ -1379,7 +1385,7 @@ Do you dare ride the dragon?
 
 ---
 
-## The Ops Guild: Quill, Abathur, Cleo & Roger Roger (2c)
+## The Ops Guild: Quill, Abathur, Cleo, Roger Roger & Seeker (2c)
 
 ![The Ops Guild](images/page-ops-guild.jpg)
 
@@ -1483,6 +1489,28 @@ He handles:
 - loose ends and dropped threads
 - stale task nudges
 - little operational details that are easy to forget
+
+---
+
+### Seeker - Researcher (2c.5)
+
+🔍 /grim:council:guild:ops:seeker-researcher 🔍
+
+![Seeker](skills/council/members/seeker-researcher/assets/seeker-researcher-portrait-med.png)
+
+
+| [Seeker](skills/council/members/seeker-researcher/SKILL.md) |           |
+| ----------------------------------------------------------- | --------- |
+| **Difficulty**                                              | 🟦⬜⬜ Easy |
+
+
+Seeker is the researcher. A hooded mystical scholar. Curious. Excited to learn. A seeker of truth.
+
+He finds the best information, filters out almost everything, and suggests only what deserves your attention.
+
+Not a firehose. Not a conspiracy wall. Seeker decides what is actually worth knowing.
+
+Three things beat thirty.
 
 ---
 
