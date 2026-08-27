@@ -64,9 +64,9 @@ Enjoy.
 
 A quick break from our ad sponsors
 
+![The Town Notice Board](images/tribute/notice-board.jpg)
 
-
-for more info on sponsorships, see the appendix
+for more info on sponsorships, see [the appendix](#the-town-notice-board-sponsorships)
 
 ---
 
@@ -2598,8 +2598,9 @@ To claim a poster slot:
 
 Tell us what you want your poster to look like at checkout, and you get:
 
-- Your poster pinned to the  board
+- Your poster pinned to the board
 - A sponsored post on [my X account](https://x.com/NickADobos)
+- Your link pinned to the text sign below
 
 Creative sponsorship ideas, including those beyond the board, are encouraged. 
 
@@ -2642,6 +2643,8 @@ Agent friendly notice board:
            ||                                      ||
           ~~~~                                    ~~~~
 ```
+
+📌 Pinned notices: *this space awaits its first sponsor*
 
 ---
 
