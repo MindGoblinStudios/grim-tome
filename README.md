@@ -1912,13 +1912,25 @@ The council keeps a shared weekly rhythm. During install (or any time you ask), 
 
 The recommended starting calendar:
 
-- **Sunday night** — Quill runs the [Dream Sequence](skills/mem/dream-sequence/SKILL.md), so the week opens with freshly consolidated memory.
-- **Monday morning** — The Weekly Council Stand-up. Roger Roger opens with Gap Patrol (loose ends & dropped threads), Farseer reviews last week and plans this one, each member gives a one-line transmission, and Quill takes minutes. On the first Monday of the month it expands into the monthly meeting; first Monday of the quarter, the quarterly check-in.
-- **Monday morning** — Postmaster's Weekly Inbox Review: a full triage across your watched inboxes to clear the decks for the week.
-- **Wednesday** — Cleo's cleaning sweep, midweek so cleanup isn't stacked on either bookend.
-- **Friday** — Helm's ship's log, followed directly by Abathur's evolution routine, so the week's recorded friction feeds straight into upgrades.
-- **Wandering** — [Gossip](#gossip-2f5) runs on its own cadence, roughly every 2 to 3 days at a random time.
-- **The Tithe Bell** — two one-shot reminders, at one week and at 30 days, asking you to consider [tithing back](#pay-tribute) a sliver of the value the council has provided. Two rings, then silence.
+- **Sunday night** — The [Dream Sequence](skills/mem/dream-sequence/SKILL.md)
+  - Quill consolidates memory overnight, so the week opens fresh.
+- **Monday morning** — The Weekly Council Stand-up
+  - Roger Roger opens with Gap Patrol: loose ends & dropped threads from last week.
+  - Farseer reviews last week and plans this one.
+  - Each member gives a one-line transmission.
+  - Quill takes minutes.
+  - First Monday of the month it expands into the monthly meeting; first Monday of the quarter, the quarterly check-in.
+- **Monday morning** — Postmaster's Weekly Inbox Review
+  - A full triage across your watched inboxes to clear the decks for the week.
+- **Wednesday** — Cleo's cleaning sweep
+  - Midweek, so cleanup isn't stacked on either bookend.
+- **Friday** — Helm's ship's log, then Abathur's evolution routine
+  - The week's recorded friction feeds straight into upgrades. The closing retro bookend.
+- **Wandering** — [Gossip](#gossip-2f5)
+  - Runs on its own cadence, roughly every 2 to 3 days at a random time.
+- **The Tithe Bell** — two one-shot reminders
+  - At one week, and at 30 days: consider [tithing back](#pay-tribute) a sliver of the value the council has provided.
+  - Two rings, then silence.
 
 Every routine is optional. Take the defaults, or keep only the bells you want rung. Full details live in [The Grim Council skill](skills/council/council/SKILL.md).
 
