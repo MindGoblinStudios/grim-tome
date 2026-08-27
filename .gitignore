@@ -18,3 +18,4 @@ __pycache__/
 .env.*
 !.env.example
 *.log
+docs/plan-marketplaces.md
