@@ -30,6 +30,16 @@ From a state of the art vibecoding setup, to practical tools for running a busin
 
 ---
 
+Quick install: simply copy paste this page's url into any agent, like this
+
+```text
+Install Grimoire's Tome from https://github.com/MindGoblinStudios/grim-tome
+```
+
+or see the [Starting Guide](#starting-guide) below
+
+---
+
 Hi, I'm Nick, the hand behind the wizard.  
 [https://x.com/NickADobos](https://x.com/NickADobos)
 
@@ -60,8 +70,6 @@ Enjoy.
 
 ---
 
-
-
 ## Hear ye, hear ye, a quick token from our sponsors
 
 ![The Town Notice Board](images/tribute/notice-board.jpg)
@@ -69,15 +77,9 @@ Enjoy.
 For more info on sponsorships, see [The Town Notice Board](#the-town-notice-board-sponsorships)  
 For more info on our sponsors see the AI friendly [ASCII billboard](#the-ascii-billboard)
 
-
-
 We now return to your regularly scheduled witchcraft...
 
 ---
-
-
-
-
 
 ## Starting Guide
 
