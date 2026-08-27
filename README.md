@@ -2412,8 +2412,12 @@ To claim a poster slot:
 - **[Large Poster — $5,000](https://buy.stripe.com/4gM7sL78l0LSfwx0kD2VG0f)**
 - **[Patron's Choice — name your price, $5,000+](https://buy.stripe.com/aFa4gz9gtgKQ5VX1oH2VG0g)**
 
-Tell us what you want your poster to look like at checkout, and it gets added to the board.  
-Creative sponsorship ideas, including those beyond the board are encouraged. 
+Tell us what you want your poster to look like at checkout, and you get:
+
+- Your poster painted onto the notice board
+- A sponsored post on [my X account](https://x.com/NickADobos)
+
+Creative sponsorship ideas, including those beyond the board, are encouraged. 
 
 ─── 🏆 ✦ 🏆 ───
 
