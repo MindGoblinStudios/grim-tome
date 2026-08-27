@@ -101,13 +101,12 @@ This spellbook was designed to work inside and on top of any AI agent, app or ha
 But it is mostly geared towards coding agent harnesses, and "AI super apps", like: 
 
 - [Grok Bots](https://x.ai/bot)
+- [Cursor](https://cursor.com)
+  - [Cursor plugin install](installGuide.md#cursor-plugin-install)
 - [Codex / ChatGPT desktop app](https://openai.com/codex/)
-  - 
   - [Codex plugin install](installGuide.md#codex-plugin-install)
 - [Claude Code](https://claude.com/product/claude-code)
   - [Claude Code plugin install](installGuide.md#claude-code-plugin-install)
-- 
-  [Cursor](https://cursor.com)
 - [Pi](https://github.com/earendil-works/pi)
 - [bb](https://getbb.app)
 
