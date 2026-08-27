@@ -2479,15 +2479,20 @@ Sample posters:
 Hire a prompt engineer.  
 I will build you your very own AI or personal tech stack, for whatever purpose or goal you want.
 
-I will fly to your city and work with you in person  
-or hop on Google Meet video calls, Slack, or Tuple  
-For up to three days
+- I will fly to your city and work with you in person
+  - For up to 3 days
+    - Tues, Wed, Thur
+- or hop on Google Meet video calls, Slack, or Tuple
+  - up to 5 day engagement  
 
-I can also teach you how to use AI in your life  
+
+I can teach you how to use AI in your life  
 I can consult in your company  
 I can build and help you get setup with your very own Grimoire, JARVIS, or any system you want
 
-*Scheduling details will need to be arranged.*
+
+
+***Scheduling & details will need to be confirmed.***
 
 ---
 
