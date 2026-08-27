@@ -2362,11 +2362,9 @@ Every bit of support means more time & resources to create tools for you like th
 ### Leave a One-Time Tribute
 
 
-|                                                                                                                                                                            |                                                                                                                                                                                        |                                                                                                                                                                                    |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Copper](images/tribute/copper.jpg) **[Copper](https://donate.stripe.com/6oU28rboBcuAdopc3l2VG02)** [$5](https://donate.stripe.com/6oU28rboBcuAdopc3l2VG02)               | ![Silver](images/tribute/silver.jpg) **[Silver](https://donate.stripe.com/cNifZhfER1PW989gjB2VG03)** [$10](https://donate.stripe.com/cNifZhfER1PW989gjB2VG03)                          | ![Gold](images/tribute/gold.jpg) **[Gold](https://donate.stripe.com/bJedR950d5283NPebt2VG04)** [$20](https://donate.stripe.com/bJedR950d5283NPebt2VG04)                            |
-| ![Gold Bullion](images/tribute/bullion.jpg) **[Gold Bullion](https://donate.stripe.com/28E3cvgIV528acd7N52VG05)** [$50](https://donate.stripe.com/28E3cvgIV528acd7N52VG05) | ![Treasure Trove](images/tribute/treasure-trove.jpg) **[Treasure Trove](https://donate.stripe.com/8x2bJ11O13Y41FH9Vd2VG06)** [$100](https://donate.stripe.com/8x2bJ11O13Y41FH9Vd2VG06) | ![Dragon Hoard](images/tribute/dragon-hoard.jpg) **[Dragon Hoard](https://donate.stripe.com/eVq5kD1O1bqw1FH1oH2VG07)** [$1,000](https://donate.stripe.com/eVq5kD1O1bqw1FH1oH2VG07) |
-| ![Tip Jar](images/tribute/tip-jar.jpg) **[Tip Jar](https://donate.stripe.com/8wM7sIaUCa12400145)** [Any amount](https://donate.stripe.com/8wM7sIaUCa12400145)              |                                                                                                                                                                                        |                                                                                                                                                                                    |
+|   |   |   |   |   |   |
+| --- | --- | --- | --- | --- | --- |
+| ![Copper](images/tribute/copper.jpg) **[Copper — $5](https://donate.stripe.com/6oU28rboBcuAdopc3l2VG02)** | ![Silver](images/tribute/silver.jpg) **[Silver — $10](https://donate.stripe.com/cNifZhfER1PW989gjB2VG03)** | ![Gold](images/tribute/gold.jpg) **[Gold — $20](https://donate.stripe.com/bJedR950d5283NPebt2VG04)** | ![Gold Bullion](images/tribute/bullion.jpg) **[Gold Bullion — $50](https://donate.stripe.com/28E3cvgIV528acd7N52VG05)** | ![Treasure Trove](images/tribute/treasure-trove.jpg) **[Treasure Trove — $100](https://donate.stripe.com/8x2bJ11O13Y41FH9Vd2VG06)** | ![Dragon Hoard](images/tribute/dragon-hoard.jpg) **[Dragon Hoard — $1,000](https://donate.stripe.com/eVq5kD1O1bqw1FH1oH2VG07)** |
 
 
 ─── 🧪 ✦ 🧪 ───
@@ -2376,10 +2374,9 @@ Every bit of support means more time & resources to create tools for you like th
 Keep the wizards fed and the spellbook growing, month after month. I gotta eat!
 
 
-|                                                                                                                                                                                       |                                                                                                                                                                                          |                                                                                                                                                                                          |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Buy Me a Potion](images/tribute/patron-potion.jpg) **[Buy Me a Potion](https://buy.stripe.com/6oU14ngIVgKQ1FHd7p2VG08)** [$5/mo](https://buy.stripe.com/6oU14ngIVgKQ1FHd7p2VG08)    | ![Enchanted Inkwell](images/tribute/patron-inkwell.jpg) **[Enchanted Inkwell](https://buy.stripe.com/9B63cvfER1PW3NP8R92VG09)** [$10/mo](https://buy.stripe.com/9B63cvfER1PW3NP8R92VG09) | ![Golden Hourglass](images/tribute/patron-hourglass.jpg) **[Golden Hourglass](https://buy.stripe.com/14A28r2S57ag989c3l2VG0a)** [$20/mo](https://buy.stripe.com/14A28r2S57ag989c3l2VG0a) |
-| ![Bag of Emeralds](images/tribute/patron-emeralds.jpg) **[Bag of Emeralds](https://buy.stripe.com/cNicN52S5ams7010kD2VG0b)** [$50/mo](https://buy.stripe.com/cNicN52S5ams7010kD2VG0b) | ![Grimoire Patron](images/tribute/patron-grimoire.jpg) **[Grimoire Patron](https://buy.stripe.com/fZucN51O1528dop6J12VG0c)** [$100/mo](https://buy.stripe.com/fZucN51O1528dop6J12VG0c)   |                                                                                                                                                                                          |
+|   |   |   |   |   |
+| --- | --- | --- | --- | --- |
+| ![Buy Me a Potion](images/tribute/patron-potion.jpg) **[Buy Me a Potion — $5/mo](https://buy.stripe.com/6oU14ngIVgKQ1FHd7p2VG08)** | ![Enchanted Inkwell](images/tribute/patron-inkwell.jpg) **[Enchanted Inkwell — $10/mo](https://buy.stripe.com/9B63cvfER1PW3NP8R92VG09)** | ![Golden Hourglass](images/tribute/patron-hourglass.jpg) **[Golden Hourglass — $20/mo](https://buy.stripe.com/14A28r2S57ag989c3l2VG0a)** | ![Bag of Emeralds](images/tribute/patron-emeralds.jpg) **[Bag of Emeralds — $50/mo](https://buy.stripe.com/cNicN52S5ams7010kD2VG0b)** | ![Grimoire Patron](images/tribute/patron-grimoire.jpg) **[Grimoire Patron — $100/mo](https://buy.stripe.com/fZucN51O1528dop6J12VG0c)** |
 
 
 ─── 💖 ✦ 💖 ───
@@ -2389,6 +2386,16 @@ Keep the wizards fed and the spellbook growing, month after month. I gotta eat!
 Prefer to keep it on GitHub? Become a sponsor and get the sponsor badge on your profile.
 
 ![Sponsor on GitHub](https://img.shields.io/badge/♥_Sponsor-MindGoblinStudios-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=white)
+
+─── 🫙 ✦ 🫙 ───
+
+### The Tip Jar
+
+Any amount, any time. Every coin counts.
+
+|   |
+| --- |
+| ![Tip Jar](images/tribute/tip-jar.jpg) **[Tip Jar — any amount](https://donate.stripe.com/8wM7sIaUCa12400145)** |
 
 ─── ✦ 🧙‍♂️ ✦ ───
 
