@@ -289,6 +289,7 @@ Ops Guild
 - Abathur
 - Cleo
 - Roger Roger
+- Seeker
 
 Cortex Guild
 - Lumen

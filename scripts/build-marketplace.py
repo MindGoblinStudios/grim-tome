@@ -49,7 +49,7 @@ PLUGINS = {
     },
     "grim-council": {
         "displayName": "The Grim Council",
-        "description": "A council of AI advisors: Grimoire, the guilds, eighteen members, summons, gossip, GPTavern, and the council dashboard.",
+        "description": "A council of AI advisors: Grimoire, the guilds, nineteen members, summons, gossip, GPTavern, and the council dashboard.",
         "logo": "skills/council/council/assets/council-icon-med.png",
         "keywords": ["grimoire", "council", "advisors", "roleplay", "life-os"],
         "match": lambda sid: sid.startswith("grim:council"),
