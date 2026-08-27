@@ -2458,7 +2458,7 @@ Sample posters:
 Hire a prompt engineer.  
 I will build you your very own AI or personal tech stack, for whatever purpose or goal you want.
 
-I will fly to your city and work with you in person   
+I will fly to your city and work with you in person  
 or hop on Google Meet video calls, Slack, or Tuple  
 For up to three days
 
