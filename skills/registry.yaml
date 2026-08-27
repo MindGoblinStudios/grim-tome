@@ -72,6 +72,8 @@ entries:
     path: skills/council/members/postmaster-email-triage
   - id: grim:council:guild:ops:cleo-code-maid
     path: skills/council/members/cleo-code-maid
+  - id: grim:dev:nightly-sync
+    path: skills/dev/nightly-sync
   - id: grim:dev:model-quirks
     path: skills/dev/model-quirks
   - id: grim:dev:minion

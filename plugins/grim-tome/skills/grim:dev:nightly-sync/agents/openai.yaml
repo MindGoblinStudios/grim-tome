@@ -1,0 +1,10 @@
+interface:
+  display_name: "grim:dev:nightly-sync"
+  short_description: "Safely sync shared agent work through Git."
+  default_prompt: "Use $grim:dev:nightly-sync to safely reconcile this repository with its remote."
+  icon_small: "./assets/nightly-sync-icon-small.png"
+  icon_large: "./assets/nightly-sync-icon-large.png"
+  brand_color: "#16C7B7"
+
+policy:
+  allow_implicit_invocation: false
