@@ -8,7 +8,7 @@
 
 ![The Inscription](images/01-inscription-flat-imagen.jpg)
 
-> "With ~~GPT-4’s~~ support, I feel unstoppable. The overnight surge in productivity is intoxicating. ~~It’s not about making money or starting a business, but~~ purely about continuously bringing ideas from my mind into reality, which feels like happiness. More importantly, it gives me <ins>the courage to dream and attempt things</ins> beyond my current abilities."
+> "With ~~GPT-4’s~~ support, I feel unstoppable. The overnight surge in productivity is intoxicating. ~~It’s not about making money or starting a business, but~~ purely about continuously bringing ideas from my mind into reality, which feels like happiness. More importantly, it gives me the courage to dream and attempt things beyond my current abilities."
 >
 > - Ke Fang, ["LLM for Individual"](https://mazzzystar.github.io/2023/05/10/LLM-for-individual/)
 
@@ -59,6 +59,17 @@ fork it. remix it. make it yours. PRs are welcome.
 Enjoy.
 
 ---
+
+Hear ye, hear ye, a quick token from our sponsors
+
+![The Town Notice Board](images/tribute/notice-board.jpg)
+
+For more info on sponsorships, see [The Town Notice Board](#the-town-notice-board-sponsorships)  
+For more info on our sponsors see the AI friendly [ASCII billboard](#the-ascii-billboard)
+
+---
+
+We now return to your regularly scheduled sorcery...
 
 ## Starting Guide
 
@@ -2395,11 +2406,9 @@ Prefer to keep it on GitHub? Become a sponsor and get the sponsor badge on your 
 
 Any amount, any time. Every coin counts.
 
+![Tip Jar](images/tribute/tip-jar.jpg)
 
-|                                                                                                                 |
-| --------------------------------------------------------------------------------------------------------------- |
-| ![Tip Jar](images/tribute/tip-jar.jpg) **[Tip Jar — any amount](https://donate.stripe.com/8wM7sIaUCa12400145)** |
-
+**[Tip Jar — any amount](https://donate.stripe.com/8wM7sIaUCa12400145)**
 
 ─── ✦ 🧙‍♂️ ✦ ───
 
@@ -2419,17 +2428,48 @@ Sponsor the Tome and pin your poster here. Your notice goes up on the painted bo
 To claim a poster slot:
 
 - **[Small Poster — $500](https://buy.stripe.com/eVqdR9gIV9io701aZh2VG0d)**
+  - Your image poster pinned to the board at the top and bottom of this repo
+  - Your link(s) pinned to the text sign below
 - **[Medium Poster — $1,000](https://buy.stripe.com/dRm7sL78ldyEgAB6J12VG0e)**
+  - Everything above, plus a sponsored post on [my X account](https://x.com/NickADobos)
 - **[Large Poster — $5,000](https://buy.stripe.com/4gM7sL78l0LSfwx0kD2VG0f)**
-- **[Patron's Choice — name your price, $5,000+](https://buy.stripe.com/aFa4gz9gtgKQ5VX1oH2VG0g)**
+  - Everything above, at large size and prime placement on the board
+- **[Patron's Choice — $5,001+](https://buy.stripe.com/aFa4gz9gtgKQ5VX1oH2VG0g)**
+  - Everything above, plus your creative sponsorship ideas, on or beyond the board
 
-Tell us what you want your poster to look like at checkout, and you get:
+Tell us what you want your poster to look like at checkout.
 
-- Your image poster pinned to the board at the top and bottom of this repo
-- Your link(s) pinned to the text sign below
-- A sponsored post on [my X account](https://x.com/NickADobos)
+Sample posters:
 
-Creative sponsorship ideas, including those beyond the board, are encouraged. 
+
+| Small                                                   | Medium                                                    | Large                                                   |
+| ------------------------------------------------------- | --------------------------------------------------------- | ------------------------------------------------------- |
+| ![Small poster sample](images/tribute/poster-small.jpg) | ![Medium poster sample](images/tribute/poster-medium.jpg) | ![Large poster sample](images/tribute/poster-large.jpg) |
+
+
+---
+
+### The Build-a-Wizard Workshop
+
+![Build-a-Wizard Workshop](images/tribute/build-a-wizard.jpg)
+
+**[Build-a-Wizard Workshop — $50,000](https://buy.stripe.com/7sYeVd78l8ekacd9Vd2VG0h)**
+
+Hire a prompt engineer.  
+I will build you your very own AI or personal tech stack, for whatever purpose or goal you want.
+
+I will fly to your city and work with you in person   
+or hop on Google Meet video calls, Slack, or Tuple  
+For up to three days
+
+I can also teach you how to use AI in your life  
+I've mentored intern new grad intern coders long before Ai coding  
+I've ran sessions teaching FAANG engineers how to vibecode
+
+I can consult in your company  
+I can build and help you get setup with your very own Grimoire, JARVIS or system you want.
+
+---
 
 ─── 🏆 ✦ 🏆 ───
 
@@ -2447,6 +2487,8 @@ The most generous patrons of the Tome, inscribed for as long as the Tome endures
 
 
 ─── 📌 ✦ 📌 ───
+
+#### The ASCII Billboard
 
 Agent friendly notice board:
 
