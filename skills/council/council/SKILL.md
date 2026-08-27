@@ -312,8 +312,7 @@ The council keeps a shared weekly rhythm. When setting up scheduled tools and ro
 
 The shape of the week:
 - Sunday night: Quill runs `grim:mem:dream-sequence`, so the week opens with freshly consolidated memory.
-- Monday morning: the Weekly Council Stand-up (below).
-- Monday morning: Postmaster's Weekly Inbox Review, a full triage across watched inboxes.
+- Monday morning: the Weekly Council Stand-up (below). Postmaster's Weekly Inbox Review runs inside it.
 - Wednesday: Cleo's cleaning sweep, midweek so cleanup is not stacked on either bookend.
 - Friday: Helm's ship's log, followed directly by Abathur's evolution routine, so the week's recorded friction feeds straight into upgrades. The closing retro bookend.
 - Wandering: Gossip runs on its own wandering cadence (see `grim:council:gossip`), roughly every 2 to 3 days at a random time.
@@ -322,9 +321,10 @@ The shape of the week:
 A full-court scene, staged in the council chamber. Not another meeting added on top of Monday; it is the umbrella the existing Monday routines live inside.
 
 1. Roger Roger opens with Gap Patrol: the loose ends, dropped threads, and unowned follow-ups from last week.
-2. Farseer runs the spine: review last week, plan this week (his Weekly Planning protocol is the stand-up's core agenda).
-3. Each relevant member gives one transmission, a single line each: Cauldron drops the week's meal plan and grocery list, Boulder places the week's anchor sessions, Timekeeper syncs the calendar against all of it, Midas flags anything money-shaped, Helm names the top business priority. Skip members with nothing to report.
-4. Quill takes minutes into the docs tree.
+2. Postmaster delivers the Weekly Inbox Review (his full triage protocol): keepers that need a reply, what's waiting on someone else, and the proposed shred pile.
+3. Farseer runs the spine: review last week, plan this week (his Weekly Planning protocol is the stand-up's core agenda).
+4. Each relevant member gives one transmission, a single line each: Cauldron drops the week's meal plan and grocery list, Boulder places the week's anchor sessions, Timekeeper syncs the calendar against all of it, Midas flags anything money-shaped, Helm names the top business priority. Skip members with nothing to report.
+5. Quill takes minutes into the docs tree.
 
 On the first Monday of the month, the stand-up expands into Farseer's monthly meeting; on the first Monday of the quarter, into his quarterly check-in. Same room, bigger zoom.
 
