@@ -1,4 +1,4 @@
-#  Grimoire's Tome
+# Grimoire's Tome 🧙‍♂️📖
 
 ![The Tome opens](images/01-book-flip-pulse.gif)
 
@@ -18,7 +18,7 @@ You notice portions of the text have been scratched out with ink. Someone has ma
 
 # What is this?
 
-Grimoire's Tome is an AI Prompt Spellbook. 
+Grimoire's Tome is an AI Prompt Spellbook 📖 
 
 A Prompt-base 
 
@@ -29,7 +29,9 @@ and The Grim Council.
 
 Spells for Vibecoding, building businesses, and living your life on auto pilot with a council of Ai advisors.
 
-From a state of the art vibecoding setup, to practical tools for your daily life like grocery & todo lists, to crazy prompting experiments, games and more.
+From a state of the art enterprise grade vibecoding setup, thats actually easy to use,   
+to practical tools for your daily life like grocery & todo lists,   
+to crazy prompting experiments, games and more.
 
 ---
 
@@ -100,10 +102,12 @@ But it is mostly geared towards coding agent harnesses, and "AI super apps", lik
 
 - [Grok Bots](https://x.ai/bot)
 - [Codex / ChatGPT desktop app](https://openai.com/codex/)
+  - 
   - [Codex plugin install](installGuide.md#codex-plugin-install)
 - [Claude Code](https://claude.com/product/claude-code)
   - [Claude Code plugin install](installGuide.md#claude-code-plugin-install)
-- [Cursor](https://cursor.com)
+- 
+  [Cursor](https://cursor.com)
 - [Pi](https://github.com/earendil-works/pi)
 - [bb](https://getbb.app)
 
