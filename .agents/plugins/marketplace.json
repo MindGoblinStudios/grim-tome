@@ -16,7 +16,7 @@
     {
       "name": "grim-council",
       "source": "./plugins/grim-council",
-      "description": "A council of AI advisors: Grimoire, the guilds, nineteen members, summons, gossip, GPTavern, and the council dashboard.",
+      "description": "A council of AI advisors: Grimoire, the guilds, twenty members, summons, gossip, GPTavern, and the council dashboard.",
       "category": "skills",
       "policy": {
         "installation": "INSTALLED_BY_DEFAULT"

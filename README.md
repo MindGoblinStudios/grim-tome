@@ -31,8 +31,6 @@ Spells for Vibecoding, building businesses, and living your life on auto pilot w
 
 From a state of the art vibecoding setup, to practical tools for your daily life like grocery & todo lists, to crazy prompting experiments, games and more.
 
-
-
 ---
 
 Quick install: simply copy paste this page's url into any agent, like this
@@ -42,6 +40,8 @@ Install Grimoire's Tome from https://github.com/MindGoblinStudios/grim-tome
 ```
 
 or see the [Starting Guide](#starting-guide) below
+
+You can keep reading, or chat with your agent.
 
 ---
 
@@ -267,12 +267,13 @@ Time to explore the frontier.
     - [Helm - Biz Manager (2b.1)](#helm---biz-manager-2b1)
     - [Ledger - Admin (2b.2)](#ledger---admin-2b2)
     - [Midas - Money (2b.3)](#midas---money-2b3)
-  - [The Ops Guild: Quill, Abathur, Cleo, Roger Roger & Seeker (2c)](#the-ops-guild-quill-abathur-cleo-roger-roger--seeker-2c)
+  - [The Ops Guild: Quill, Abathur, Cleo, Roger Roger, Seeker & Postmaster (2c)](#the-ops-guild-quill-abathur-cleo-roger-roger-seeker--postmaster-2c)
     - [Quill - Notetaker & AutoDocs (2c.1)](#quill---notetaker--autodocs-2c1)
     - [Abathur - Evolver (2c.2)](#abathur---evolver-2c2)
     - [Cleo - Maid (2c.3)](#cleo---maid-2c3)
     - [Roger Roger - Glue Bot (2c.4)](#roger-roger---glue-bot-2c4)
     - [Seeker - Researcher (2c.5)](#seeker---researcher-2c5)
+    - [Postmaster - Email Triage (2c.6)](#postmaster---email-triage-2c6)
   - [The Cortex Guild: Lumen, Selene, Precog, Timekeeper, Farseer, Cauldron & Boulder (2d)](#the-cortex-guild-lumen-selene-precog-timekeeper-farseer-cauldron--boulder-2d)
     - [Lumen - Life Advisor (2d.1)](#lumen---life-advisor-2d1)
     - [Selene - Emotional Advisor (2d.2)](#selene---emotional-advisor-2d2)
@@ -1114,7 +1115,7 @@ Your goal is not to write down 10,000 rules for an AI. The easier more token eff
 
 ## The Council Members
 
-The current Council has 19 members
+The current Council has 20 members
 
 Each is uniquely designed to help make AI work for you!
 
@@ -1150,6 +1151,7 @@ They are organized into 5 Guilds
 - Cleo - Code Maid
 - Roger Roger - Glue Bot
 - Seeker - Researcher
+- Postmaster - Email Triage
 
 *Business & codebase operations. Many of these are sweepers designed to run routinely on loops.*  
 *Gardening for your mind & promptbase.*
@@ -1386,7 +1388,7 @@ Do you dare ride the dragon?
 
 ---
 
-## The Ops Guild: Quill, Abathur, Cleo, Roger Roger & Seeker (2c)
+## The Ops Guild: Quill, Abathur, Cleo, Roger Roger, Seeker & Postmaster (2c)
 
 ![The Ops Guild](images/page-ops-guild.jpg)
 
@@ -1495,7 +1497,7 @@ He handles:
 
 ### Seeker - Researcher (2c.5)
 
-🔍 /grim:council:guild:ops:seeker-researcher 🔍
+🏮 /grim:council:guild:ops:seeker-researcher 🏮
 
 ![Seeker](skills/council/members/seeker-researcher/assets/seeker-researcher-portrait-med.png)
 
@@ -1507,9 +1509,28 @@ He handles:
 
 Seeker is the researcher. A hooded mystical scholar. Curious. Excited to learn. A seeker of truth.
 
-He finds the best information, filters out almost everything, and suggests only what deserves your attention.
+He finds the best information, filters, and suggests only what deserves your attention.
 
 Not a firehose. Seeker decides what is actually worth knowing.
+
+---
+
+### Postmaster - Email Triage (2c.6)
+
+📮 /grim:council:guild:ops:postmaster-email-triage 📮
+
+![Postmaster](skills/council/members/postmaster-email-triage/assets/postmaster-email-triage-portrait-med.png)
+
+
+| [Postmaster](skills/council/members/postmaster-email-triage/SKILL.md) |                                                                                                                                                    |
+| --------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Difficulty**                                                        | 🟩🟩⬜ Medium                                                                                                                                       |
+| **Requires**                                                          | **An email MCP or CLI, e.g.:** [Superhuman Mail MCP](https://superhuman.com) [Gmail MCP](https://developers.google.com/workspace/gmail/api/guides) |
+
+
+The paper shredder robot of the mail room. Inbox goes in. Keepers come out. Noise becomes confetti.
+
+Postmaster triages your email: what needs a reply, what is waiting on someone else, and what is noise. He proposes a shred pile and only destroys what you greenlight.
 
 ---
 
