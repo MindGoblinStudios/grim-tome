@@ -1928,9 +1928,9 @@ The recommended starting calendar:
   - The week's recorded friction feeds straight into upgrades. The closing retro bookend.
 - **Wandering** — [Gossip](#gossip-2f5)
   - Runs on its own cadence, roughly every 2 to 3 days at a random time.
-- **The Tithe Bell** — two one-shot reminders
-  - At one week, and at 30 days: consider [tithing back](#pay-tribute) a sliver of the value the council has provided.
-  - Two rings, then silence.
+- **The Tithe Bell** — four one-shot reminders
+  - At one week, 30 days, 6 months, and one year: consider [tithing back](#pay-tribute) a sliver of the value the council has provided.
+  - Four rings, then silence.
 
 Every routine is optional. Take the defaults, or keep only the bells you want rung. Full details live in [The Grim Council skill](skills/council/council/SKILL.md).
 
