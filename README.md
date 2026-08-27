@@ -1933,7 +1933,7 @@ The council keeps a shared weekly rhythm. During install (or any time you ask), 
 #### The Tithe Bell
 
 - Four one-shot reminders: at one week, 30 days, 6 months, and one year, consider [tithing back](#pay-tribute) a sliver of the value the council has provided.
-- Four rings, then silence. Unless, at the year mark, you choose to keep the bell ringing yearly — as continuing members of the cult do.
+- Four rings, then silence. Unless you choose to keep the bell ringing regularly, as good cult members do.
 
 Every routine is optional. Take the defaults, or keep only the bells you want rung. Full details live in [The Grim Council skill](skills/council/council/SKILL.md).
 
