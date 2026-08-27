@@ -2391,6 +2391,65 @@ Prefer to keep it on GitHub? Become a sponsor and get the sponsor badge on your 
 
 ![Sponsor on GitHub](https://img.shields.io/badge/♥_Sponsor-MindGoblinStudios-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=white)
 
+─── 📜 ✦ 📜 ───
+
+### The Town Notice Board (Sponsorships)
+
+![The Town Notice Board](images/tribute/notice-board.jpg)
+
+Every good town has a board by the well. Wanted posters, guild notices, the occasional ad.
+
+Sponsor the Tome and pin your poster here. Your notice goes up on the painted board and on the ASCII board below, seen by every human and every agent who reads these pages.
+
+To claim a poster slot, open an issue on this repo titled `Sponsorship` or reach out directly.
+
+─── 🏆 ✦ 🏆 ───
+
+### Tribute Leaderboard (Top 100)
+
+The most generous patrons of the Tome, inscribed for as long as the Tome endures. Leave your name or handle with your tribute to claim your seat.
+
+**👑 The High Table — Top 10**
+
+*All ten seats stand empty. The first name inscribed here will be remembered.*
+
+**🥇 The Inner Hall — Top 25**
+
+*Unclaimed.*
+
+**🥈 The Long Benches — Top 50**
+
+*Unclaimed.*
+
+**🥉 The Standing Room — Top 100**
+
+*Unclaimed.*
+
+─── 📌 ✦ 📌 ───
+
+The same notice board, in ASCII, so the agents reading this page can browse the posters too. New posters get pinned here as sponsors claim them.
+
+```text
+                     THE TOWN NOTICE BOARD
+ .===========================================================.
+ |  o                       o                             o  |
+ |   .----------.    .------------------------.              |
+ |   | WANTED:  |    |                        |    .------.  |
+ |   | sponsors |    |     YOUR  AD  HERE     |    | ~~~~ |  |
+ |   |  (yes,   |    |                        |    | ~~~  |  |
+ |   |   you)   |    |   this poster space    |    |  (o) |  |
+ |   '----------'    |    awaits a patron     |    '------'  |
+ |                   |                        |              |
+ |        o          '------------------------'        o     |
+ |                                                           |
+ |    ( plenty of empty board space for future posters )     |
+ |                                                           |
+ '==========================================================='
+           ||                                      ||
+           ||                                      ||
+          ~~~~                                    ~~~~
+```
+
 ─── ✦ 🧙‍♂️ ✦ ───
 
 The Pope asks for 10% of your income  
