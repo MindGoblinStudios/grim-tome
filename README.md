@@ -2410,7 +2410,7 @@ To claim a poster slot:
 - **[Small Poster — $500](https://buy.stripe.com/eVqdR9gIV9io701aZh2VG0d)**
 - **[Medium Poster — $1,000](https://buy.stripe.com/dRm7sL78ldyEgAB6J12VG0e)**
 - **[Large Poster — $5,000](https://buy.stripe.com/4gM7sL78l0LSfwx0kD2VG0f)**
-- **[Something Extra? — name your price, $5,000+](https://buy.stripe.com/aFa4gz9gtgKQ5VX1oH2VG0g)**
+- **[Patron's Choice — name your price, $5,000+](https://buy.stripe.com/aFa4gz9gtgKQ5VX1oH2VG0g)**
 
 Tell us what you want your poster to look like at checkout, and it gets added to the board.   
 Creative sponsorship ideas beyond the board are encouraged. 
