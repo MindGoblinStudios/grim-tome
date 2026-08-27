@@ -26,7 +26,7 @@ A collection of prompts, .md files, /skills, code & design patterns for working 
 
 The Home of Grimoire & The Grim Council
 
-Spells are for coding, running businesses and living yourautomating
+Spells for Vibecoding, running businesses and living your life on auto pilot with a council of Ai advisors.
 
 From a state of the art vibecoding setup, to practical tools for running a business or your grocery & todo list, to crazy prompting experiments, games and more.
 
