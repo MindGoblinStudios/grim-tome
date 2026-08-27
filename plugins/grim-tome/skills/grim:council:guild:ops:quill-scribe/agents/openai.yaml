@@ -1,0 +1,7 @@
+interface:
+  display_name: "grim:council:guild:ops:quill-scribe"
+  short_description: "Quill (Scribe): Scribe, Librarian & Context Builder. Keeper of memory and docs. Memory capture, note distillation, context retrieval, documentation writeback, and preserving durable lessons."
+  icon_small: "./assets/quill-scribe-icon-small.png"
+  icon_large: "./assets/quill-scribe-icon-large.png"
+policy:
+  allow_implicit_invocation: false

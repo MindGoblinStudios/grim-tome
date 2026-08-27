@@ -1,0 +1,21 @@
+{
+  "name": "grim-council",
+  "displayName": "The Grim Council",
+  "version": "1.0.0",
+  "description": "A council of AI advisors: Grimoire, the guilds, eighteen members, summons, gossip, GPTavern, and the council dashboard.",
+  "author": {
+    "name": "Mind Goblin Studios",
+    "url": "https://github.com/MindGoblinStudios"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/MindGoblinStudios/grim-tome",
+  "repository": "https://github.com/MindGoblinStudios/grim-tome",
+  "keywords": [
+    "grimoire",
+    "council",
+    "advisors",
+    "roleplay",
+    "life-os"
+  ],
+  "logo": "assets/logo.png"
+}

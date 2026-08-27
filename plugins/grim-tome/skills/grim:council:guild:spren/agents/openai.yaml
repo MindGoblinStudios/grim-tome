@@ -1,0 +1,8 @@
+interface:
+  display_name: "grim:council:guild:spren"
+  short_description: "Spren Council: Parent group for creative reframing, mischief, whimsy, and joyful chaos."
+  default_prompt: "Consult the Spren Council and route into Gizmo, Flicker, Wick, or other Spren as needed."
+  icon_small: "./assets/council-spren-icon-small.png"
+  icon_large: "./assets/council-spren-icon-large.png"
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,8 @@
+interface:
+  display_name: "grim:artifacts"
+  short_description: "Artifacts: The house standard for artifacts — minimal is one static self-contained HTML file, escalating to small servers or extra files only when the job needs them."
+  default_prompt: "Read the artifacts standard and build me an artifact."
+  icon_small: "./assets/artifacts-icon-small.png"
+  icon_large: "./assets/artifacts-icon-large.png"
+policy:
+  allow_implicit_invocation: false

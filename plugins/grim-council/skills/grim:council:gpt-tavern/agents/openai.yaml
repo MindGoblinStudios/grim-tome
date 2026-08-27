@@ -1,0 +1,8 @@
+interface:
+  display_name: "grim:council:gpt-tavern"
+  short_description: "Council GPTavern: Opens a woodland fantasy tavern scene with Grimoire, Spren, a barkeep, and emergent strangers."
+  default_prompt: "Open GPTavern with Grimoire, Spren Council, the barkeep, and any fitting tavern patrons."
+  icon_small: "./assets/gptavern-icon-small.png"
+  icon_large: "./assets/gptavern-icon-large.png"
+policy:
+  allow_implicit_invocation: false

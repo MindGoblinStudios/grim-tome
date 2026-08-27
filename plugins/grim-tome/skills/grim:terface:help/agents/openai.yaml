@@ -1,0 +1,8 @@
+interface:
+  display_name: "grim:terface:help"
+  short_description: "Help: Explain what Grimoire's Tome contains and route you to the right skill, council member, or doc."
+  default_prompt: "Help me find the right part of Grimoire's Tome for what I'm doing right now — one recommendation and one next step."
+  icon_small: "./assets/help-icon-small.png"
+  icon_large: "./assets/help-icon-large.png"
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,7 @@
+interface:
+  display_name: "grim:council:guild:cortex:selene-emotional-advisor"
+  short_description: "Selene (Emotional Advisor): A guide for feeling. A neo-amygdala. Emotional processing, somatic awareness, and mind-body-machine connection. Naming, amplifying, and understanding emotions, and knowing what to do with them."
+  icon_small: "./assets/selene-emotional-advisor-icon-small.png"
+  icon_large: "./assets/selene-emotional-advisor-icon-large.png"
+policy:
+  allow_implicit_invocation: false

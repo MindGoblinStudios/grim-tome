@@ -1,0 +1,6 @@
+interface:
+  display_name: "grim:mem:chat-log-search"
+  short_description: "Chat Log Search: Search and summarize past Codex Desktop, Claude Code, and Cursor chat logs stored under ~/.codex, ~/.claude, and ~/.cursor. Use when asked to find prior conversations, prompts, decisions, or to locate a session by keyword/date/session id."
+  default_prompt: "Find prior conversations about a topic across Codex, Claude, and Cursor chat logs and summarize the matches."
+  icon_small: ./assets/codex-chat-search-icon-small.png
+  icon_large: ./assets/codex-chat-search-icon-large.png

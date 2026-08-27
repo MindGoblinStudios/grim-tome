@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "updated_at": "",
+  "layout": {
+    "member_columns": 5,
+    "sidebar_collapsed": false,
+    "skill_filter": "grim",
+    "skill_invocation_filter": "all",
+    "sections": {
+      "members": true,
+      "guilds": true,
+      "management": true
+    }
+  }
+}

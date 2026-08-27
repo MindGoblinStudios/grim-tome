@@ -1,0 +1,8 @@
+interface:
+  display_name: "grim:dev:minion"
+  short_description: "Minion: manual-only routing note for built-in subagents first, then resumable Codex, Claude, Cursor, Grok, LM Studio, or OpenRouter routes when explicitly requested."
+  default_prompt: "Use built-in subagents first. For outside routes, name the runner, model, prompt, output, edit scope, and whether to resume. Use the local LM Studio server when a local/offline route is requested."
+  icon_small: ./assets/minion-icon-small.png
+  icon_large: ./assets/minion-icon-large.png
+policy:
+  allow_implicit_invocation: false

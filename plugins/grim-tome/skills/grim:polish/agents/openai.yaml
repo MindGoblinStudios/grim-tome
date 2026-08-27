@@ -1,0 +1,9 @@
+interface:
+  display_name: "grim:polish"
+  short_description: "Polish: refine AI-written code for production."
+  default_prompt: "Use $grim:polish to refine this AI-written code into production-ready shape."
+  icon_small: "./assets/polish-icon-small.png"
+  icon_large: "./assets/polish-icon-large.png"
+  brand_color: "#1AAE8F"
+policy:
+  allow_implicit_invocation: false

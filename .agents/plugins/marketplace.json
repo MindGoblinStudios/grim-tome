@@ -1,0 +1,35 @@
+{
+  "name": "grim-tome",
+  "interface": {
+    "displayName": "Grimoire's Tome"
+  },
+  "plugins": [
+    {
+      "name": "grim-core",
+      "source": "./plugins/grim-core",
+      "description": "Grimoire's Tome core: the Grimterface plus everyday dev-loop skills \u2014 lock-in, polish, mentor review, minions, git decanter, autodocs, and more.",
+      "category": "skills",
+      "policy": {
+        "installation": "INSTALLED_BY_DEFAULT"
+      }
+    },
+    {
+      "name": "grim-council",
+      "source": "./plugins/grim-council",
+      "description": "A council of AI advisors: Grimoire, the guilds, eighteen members, summons, gossip, GPTavern, and the council dashboard.",
+      "category": "skills",
+      "policy": {
+        "installation": "INSTALLED_BY_DEFAULT"
+      }
+    },
+    {
+      "name": "grim-artifacts",
+      "source": "./plugins/grim-artifacts",
+      "description": "Workbench artifacts: the house standard for interactive HTML artifacts, plus workbench, image-review, and text-editor variants.",
+      "category": "skills",
+      "policy": {
+        "installation": "INSTALLED_BY_DEFAULT"
+      }
+    }
+  ]
+}

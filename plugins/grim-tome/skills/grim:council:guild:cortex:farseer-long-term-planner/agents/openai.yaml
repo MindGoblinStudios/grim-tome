@@ -1,0 +1,7 @@
+interface:
+  display_name: "grim:council:guild:cortex:farseer-long-term-planner"
+  short_description: "Farseer (Weekly & Long-Term Planner): Horizon planner. Week, month, quarter, year, two / five / ten. Sees the future in the glass and helps you step towards it today."
+  icon_small: "./assets/farseer-long-term-planner-icon-small.png"
+  icon_large: "./assets/farseer-long-term-planner-icon-large.png"
+policy:
+  allow_implicit_invocation: false

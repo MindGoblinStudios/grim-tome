@@ -1,0 +1,6 @@
+interface:
+  display_name: "grim:council"
+  short_description: "Full Council: Runs a roundtable with the council members, including Quill, then outputs a unified direction as immersive roleplay dialogue."
+  default_prompt: "Consult the relevant council members and return one unified response."
+  icon_small: "./assets/council-icon-small.png"
+  icon_large: "./assets/council-icon-large.png"

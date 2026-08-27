@@ -1,0 +1,8 @@
+interface:
+  display_name: "grim:council:guild:cortex"
+  short_description: "Cortex Guild: Group chat for planning, emotional state, executive function, and execution momentum."
+  default_prompt: "Consult the Cortex Guild on this planning or personal execution issue."
+  icon_small: "./assets/council-cortex-icon-small.png"
+  icon_large: "./assets/council-cortex-icon-large.png"
+policy:
+  allow_implicit_invocation: false

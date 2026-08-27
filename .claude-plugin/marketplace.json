@@ -1,0 +1,25 @@
+{
+  "name": "grim-tome",
+  "owner": {
+    "name": "Mind Goblin Studios"
+  },
+  "metadata": {
+    "description": "Grimoire's Tome: an AI Prompt Spellbook.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "grim-tome",
+      "source": "./plugins/grim-tome",
+      "description": "The full AI Prompt Spellbook: vibecoding dev flows, the Grim Council of advisors, AutoDocs, and workbench artifacts.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Mind Goblin Studios",
+        "url": "https://github.com/MindGoblinStudios"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/MindGoblinStudios/grim-tome",
+      "category": "skills"
+    }
+  ]
+}

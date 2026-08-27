@@ -1,0 +1,7 @@
+interface:
+  display_name: "grim:council:guild:cortex:precog-exec-func"
+  short_description: "Precog (Exec Func): Executive function in a bottle. Beat starting resistance, ADHD paralysis, executive dysfunction, procrastination, and overwhelm by pre-loading the first few moves of any task into your mind."
+  icon_small: "./assets/precog-exec-func-icon-small.png"
+  icon_large: "./assets/precog-exec-func-icon-large.png"
+policy:
+  allow_implicit_invocation: false
