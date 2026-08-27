@@ -1,10 +1,6 @@
----
-name: grim:dev:nightly-sync
-description: Safely reconcile a shared Git repository across agents by syncing the remote, committing and pushing low-risk work, and escalating ambiguous or high-risk changes. Use only when the user or a scheduled automation explicitly requests a repo sync.
-difficulty: Pro
-disable-model-invocation: true
----
 # Nightly Sync
+
+Roger Roger's repo sync routine. Safely reconcile a shared Git repository across agents by syncing the remote, committing and pushing low-risk work, and escalating ambiguous or high-risk changes. Use only when the user or a scheduled automation explicitly requests a repo sync.
 
 Keep a shared agent repository current without treating a dirty tree as blanket permission to commit everything.
 
