@@ -1,4 +1,4 @@
-# Grimoire's Tome
+#  Grimoire's Tome
 
 ![The Tome opens](images/01-book-flip-pulse.gif)
 
@@ -258,7 +258,6 @@ Time to explore the frontier.
     - [Minion (1c.2)](#minion-1c2)
     - [Three Minions in a Trench Coat (1c.3)](#three-minions-in-a-trench-coat-1c3)
     - [Model Quirks (1c.4)](#model-quirks-1c4)
-    - [Nightly Sync (1c.5)](#nightly-sync-1c5)
   - [Expansion Packs (1d)](#expansion-packs-1d)
 - [Chapter 2: The Grim Council](#chapter-2-the-grim-council)
   - [The Council Members](#the-council-members)
@@ -996,38 +995,6 @@ claude opus 5 will not stop talking, lets ask it to be more concise
 ```text
 /grim:dev:model-quirks
 prune every mitigation for GPT 5.6 and below
-```
-
----
-
-### Nightly Sync (1c.5)
-
-🌃 /grim:dev:nightly-sync 🌃
-
-![nightly sync](skills/dev/nightly-sync/assets/nightly-sync-icon-med.png)
-
-
-| [Nightly Sync](skills/dev/nightly-sync/SKILL.md) |            |
-| ------------------------------------------------ | ---------- |
-| **Difficulty**                                   | 🟪🟪🟪 Pro |
-| **Invocation**                                   | **⚡ Auto** |
-
-
-Running multiple agents against one shared repo? Nightly Sync keeps it reconciled while you sleep.
-
-It fetches the remote, sorts every change into buckets (auto-sync, approval, local-only, blocked), commits and pushes only the low-risk, validated work, and reports back with a compact approval packet for everything else.
-
-A dirty tree is not blanket permission to commit everything. Docs and memory auto-sync; secrets, deploys, big code changes, and anything uncertain wait for you. Never force-pushes.
-
-Pairs well with Roger Roger, who runs it on schedule and reads the report over the radio.
-
-─────────────────────
-
-*Schedule it, or run it by hand:*
-
-```text
-/grim:dev:nightly-sync
-reconcile this repo with the remote, report what needs my approval
 ```
 
 ---

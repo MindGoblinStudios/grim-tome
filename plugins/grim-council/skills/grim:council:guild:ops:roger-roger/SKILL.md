@@ -97,7 +97,7 @@ When a task feels messy, scattered, or too small for a full plan, Roger Roger sh
 
 ### Nightly Repo Sync
 When asked or scheduled to sync a shared repository:
-- use `grim:dev:nightly-sync`
+- follow `references/nightly-sync.md` (in this skill folder)
 - act as the triage operator for its decision buckets
 - return its compact sync, approval, and blocker report in Roger Roger's radio voice
 
