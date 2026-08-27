@@ -8,15 +8,13 @@
 
 ![The Inscription](images/01-inscription-flat-imagen.jpg)
 
-> "With ~~GPT-4’s~~ support, I feel unstoppable. The overnight surge in productivity is intoxicating. ~~It’s not about making money or starting a business, but~~ purely about continuously bringing ideas from my mind into reality, which feels like happiness. More importantly, it gives me ++the courage to dream and attempt things++ beyond my current abilities."
+> "With ~~GPT-4’s~~ support, I feel unstoppable. The overnight surge in productivity is intoxicating. ~~It’s not about making money or starting a business, but~~ purely about continuously bringing ideas from my mind into reality, which feels like happiness. More importantly, it gives me <ins>the courage to dream and attempt things</ins> beyond my current abilities."
 >
 > - Ke Fang, ["LLM for Individual"](https://mazzzystar.github.io/2023/05/10/LLM-for-individual/)
 
 You notice portions of the text have been scratched out with ink. Someone has marked over it? Curious.
 
 ---
-
-
 
 # What is this?
 
@@ -50,7 +48,7 @@ and thinking in tandem with The Machine
 
 You can import this entire spellbook into your preferred AI, and go full Grimoire.
 
-As you peruse these pages, you may find a handful of interesting ideas to incorporate into your workflow and into your Agent's brain. Or that sparks a new creative idea. 
+Or you peruse these pages, you may find a handful of interesting ideas to incorporate into your workflow and into your Agent's brain. Or maybe something that sparks a creative new idea. 
 
 If any of those end up being true, this collection will have served its purpose.
 
@@ -62,16 +60,6 @@ Enjoy.
 
 ---
 
-A quick break from our ad sponsors
-
-![The Town Notice Board](images/tribute/notice-board.jpg)
-
-for more info on sponsorships, see [the appendix](#the-town-notice-board-sponsorships)
-
----
-
-Back to the show...
-
 ## Starting Guide
 
 Quick install, copy paste into your agent:
@@ -80,33 +68,18 @@ Quick install, copy paste into your agent:
 Install Grimoire's Tome from https://github.com/MindGoblinStudios/grim-tome
 ```
 
-Or install from your harness's plugin marketplace:
-
-In Claude Code:
-
-```text
-/plugin marketplace add MindGoblinStudios/grim-tome
-/plugin install grim-tome@grim-tome
-```
-
-In Codex CLI (installs the whole catalog by default):
-
-```bash
-codex plugin marketplace add MindGoblinStudios/grim-tome
-```
-
-Cursor Marketplace listing: coming soon.
-
 This spellbook was designed to work inside and on top of any AI agent, app or harness.
 
 But it is mostly geared towards coding agent harnesses, and "AI super apps", like: 
 
 - [Grok Bots](https://x.ai/bot)
 - [Codex / ChatGPT desktop app](https://openai.com/codex/)
+  - [Codex plugin install](installGuide.md#codex-plugin-install)
 - [Claude Code](https://claude.com/product/claude-code)
+  - [Claude Code plugin install](installGuide.md#claude-code-plugin-install)
 - [Cursor](https://cursor.com)
 - [Pi](https://github.com/earendil-works/pi)
-- [bb](https://getbb.app) ([repo](https://github.com/get-bb/bb))
+- [bb](https://getbb.app)
 
 I currently recommend SpaceXAI/Cursor's Grok bots as the best starting point.  
 Or ChatGPT Desktop (aka Codex).  
@@ -158,8 +131,6 @@ Then:
 
 ---
 
-
-
 ## Lore
 
 Grimoire started as a project for OpenAI's chatGPT GPT store, [Grimoire](https://chatgpt.com/g/g-n7Rs0IK86-grimoire)  
@@ -174,11 +145,7 @@ A Spellbook of Prompts
 
 ---
 
-
-
 ## This Spellbook has 3 main focuses:
-
-
 
 ## 1. VibeCoding dev flows & utils
 
@@ -198,8 +165,6 @@ in the real world, in real businesses, and in your life and for you!
 
 ---
 
-
-
 ## 2. Practical tools for integrating AI into daily lives
 
 A life operating system  
@@ -212,8 +177,6 @@ So let's put it to work. Can we take the boring routine stuff off your mind?
 - Create a business in a box. An operating system anyone can use to make money and deliver value to the world, supercharged with AI.
 
 ---
-
-
 
 ## 3. Advanced, Avant garde & Experimental Prompt-Engineering.
 
@@ -235,8 +198,6 @@ We are so early.
 Time to explore the frontier. 
 
 ---
-
-
 
 ## Table of Contents
 
@@ -330,8 +291,6 @@ Every skill in the Tome carries a small stat card: difficulty, invocation, and r
 
 ---
 
-
-
 # Chapter 0: Grimterface
 
 ![Chapter 0: Grimterface](images/02-ch0-grim-terface-flat-imagen.jpg)
@@ -348,11 +307,9 @@ The Grimterface
 
 ---
 
-
-
 ### Install (0.1)
 
-─── 📥 /grim:terface:install 📥 ───
+📥 /grim:terface:install 📥
 
 ![install](skills/terface/install/assets/install-icon-med.png)
 
@@ -365,7 +322,7 @@ The Grimterface
 
 Guided install. Explains Grimoire's Tome and explores how you can get the most out of it.
 
-─── Examples ───
+─────────────────────
 
 *The quick install, paste this into any agent to get started*
 
@@ -389,11 +346,9 @@ I don't care about coding skip me to the Grim Coucil!
 
 ---
 
-
-
 ### Help (0.2)
 
-─── ❓ /grim:terface:help ❓ ───
+❓ /grim:terface:help ❓
 
 ![help](skills/terface/help/assets/help-icon-med.png)
 
@@ -406,7 +361,7 @@ I don't care about coding skip me to the Grim Coucil!
 
 Use this skill to learn more about Grimoire's Tome, and get suggestions for what skills to use. Routes you to the right skill, council member, or doc with one recommendation and one next step.
 
-─── Examples ───
+─────────────────────
 
 *Help brainstorm how to use Grimoire's Tome for you!*
 
@@ -417,11 +372,9 @@ what does this tome do and what can I use it for based on what you already know 
 
 ---
 
-
-
 ### Update (0.3)
 
-─── 🔄 /grim:terface:update 🔄 ───
+🔄 /grim:terface:update 🔄
 
 ![update](skills/terface/update/assets/update-icon-med.png)
 
@@ -446,7 +399,7 @@ Welcome to Grimoire's Tome. Initial Release.  Intro & 5 Chapters.
 
 Full changelog: [patchNotes.md](patchNotes.md)
 
-─── Examples ───
+─────────────────────
 
 *Use without a prompt to do a simple update*
 
@@ -462,8 +415,6 @@ Full changelog: [patchNotes.md](patchNotes.md)
 
 ---
 
-
-
 # Chapter 1: Core Dev-loop Skills, Flows, & Agents utils
 
 ![Chapter 1: Core Dev-loop](images/03-ch1-core-dev-loop-flat-imagen.jpg)
@@ -476,8 +427,6 @@ Core skills for coding with AI & working with AI models.
 
 ---
 
-
-
 ## Everyday Spells (1a)
 
 Before the real magic, two starter spells.  
@@ -485,11 +434,9 @@ They work on code, and lots more.
 
 ---
 
-
-
 ### Lock-In (1a.1)
 
-─── 🎧 /grim:lock-in 🎧 ───
+🎧 /grim:lock-in 🎧
 
 ![lock-in](skills/lock-in/assets/lock-in-icon-med.png)
 
@@ -504,7 +451,7 @@ Lock in is a skill for reducing context switching costs and managing human brain
 
 Use it to quickly remember what you were chatting about after being afk or being in a meeting.
 
-─── Examples ───
+─────────────────────
 
 *90% of the time I just cast it plain*
 
@@ -527,11 +474,9 @@ ok just got back from vacation, what did I miss? /grim:lock-in check slack
 
 ---
 
-
-
 ### Polish (1a.2)
 
-─── ✨ /grim:polish ✨ ───
+✨ /grim:polish ✨
 
 ![polish](skills/polish/assets/polish-icon-med.png)
 
@@ -562,7 +507,7 @@ You will need to customize this skill for maximum effect.
 
 This will not work fully unless you define what you want good to be. You need to define the values, qualities and ideals that you want AI to prioritize when polishing.
 
-─── Examples ───
+─────────────────────
 
 *Usually you want to aim this at something specific:*
 
@@ -587,19 +532,15 @@ can we simplify and improve this architecture?
 
 ---
 
-
-
 ## Dev (1b)
 
 Handy utils I use while coding.
 
 ---
 
-
-
 ### Layout Previews (1b.1)
 
-─── 📐 /grim:dev:design:layout-previews 📐 ───
+📐 /grim:dev:design:layout-previews 📐
 
 ![layout previews](skills/dev/design/layout-previews/assets/layout-previews-icon-med.png)
 
@@ -657,7 +598,7 @@ Option C - Thematic frame
 Now just pick one.  
 Same trick works for many situations, even non coding tasks.
 
-─── Examples ───
+─────────────────────
 
 *Auto-triggers on layout questions like:*
 
@@ -682,11 +623,9 @@ where should the couch and desk go?
 
 ---
 
-
-
 ### Tiramisu Task Decomposition (1b.2)
 
-─── 🍰 /grim:dev:tiramisu-task-decomp 🍰 ───
+🍰 /grim:dev:tiramisu-task-decomp 🍰
 
 ![tiramisu task decomposition](skills/dev/tiramisu-task-decomp/assets/tiramisu-icon-med.png)
 
@@ -755,7 +694,7 @@ Using tiramisu breaks down and decomposes complex plans into steps, lanes, hando
 
 This is ESSENTIAL and saves SO much time when running agent swarms or doing big changes and refactors.
 
-─── Examples ───
+─────────────────────
 
 *Usually you want to use this after a few round of brainstorming a plan first*
 
@@ -765,11 +704,9 @@ This is ESSENTIAL and saves SO much time when running agent swarms or doing big 
 
 ---
 
-
-
 ### Git Commit Decanter (1b.3)
 
-─── ⚗️ /grim:dev:git-commit-decanter ⚗️ ───
+⚗️ /grim:dev:git-commit-decanter ⚗️
 
 ![git commit decanter](skills/dev/git-commit-decanter/assets/git-commit-decanter-icon-med.png)
 
@@ -788,7 +725,7 @@ It is a workflow on top of git surgeon, which is a super handy tool for letting 
 
 Also serves as a great checkpoint to spawn review agents, especially if you are working solo and are not using PR review bots.
 
-─── Examples ───
+─────────────────────
 
 *99% of the time I just use the skill with no extra guidance, just let it chunk, and then ask for reviews if needed*
 
@@ -798,11 +735,9 @@ Also serves as a great checkpoint to spawn review agents, especially if you are 
 
 ---
 
-
-
 ### Mentor Review (1b.4)
 
-─── 🦉 /grim:dev:mentor-review 🦉 ───
+🦉 /grim:dev:mentor-review 🦉
 
 ![mentor review](skills/dev/mentor-review/assets/mentor-review-icon-med.png)
 
@@ -817,7 +752,7 @@ A craft-elevating adversarial review.
 
 Spawns (or becomes) a mentor who spars with the work: warm, precise, playfully ruthless, and always aimed at making it stronger. 
 
-─── Examples ───
+─────────────────────
 
 ```text
 /grim:dev:mentor-review
@@ -832,19 +767,15 @@ Spawn subagents and use /grim:dev:mentor-review to check
 
 ---
 
-
-
 ## Agent Ops & Working with Agents (1c)
 
 Tricks for working with agents, models & prompts
 
 ---
 
-
-
 ### Chat Log Search (1c.1)
 
-─── 🔍 /grim:mem:chat-log-search 🔍 ───
+🔍 /grim:mem:chat-log-search 🔍
 
 ![chat log search](skills/mem/chat-log-search/assets/codex-chat-search-icon-med.png)
 
@@ -868,7 +799,7 @@ Easily transfer context from one thread or app/model to another.
 
 Also includes a simple CLI util for filtering the search. So you can grab only particular parts of the transcripts and avoid flooding the context window with things like tool calls or code when you just want the messages.
 
-─── Examples ───
+─────────────────────
 
 *Auto-triggers on questions about past sessions:*
 
@@ -892,11 +823,9 @@ read this and get up to speed codex://threads/019f66d8-fd1d-71a3-ae10-9a5b735esb
 
 ---
 
-
-
 ### Minion (1c.2)
 
-─── 🤖 /grim:dev:minion 🤖 ───
+🤖 /grim:dev:minion 🤖
 
 ![minion](skills/dev/minion/assets/minion-icon-med.png)
 
@@ -940,7 +869,7 @@ So this is a great way to get some good image and video generation capabilities 
 
 I recommend just making an Openrouter API key, and putting a $20 limit, no subscription needed.
 
-─── Examples ───
+─────────────────────
 
 *Just ask whatever model you want*
 
@@ -958,11 +887,9 @@ use openrouter seeddance to make a video about goblins
 
 ---
 
-
-
 ### Three Minions in a Trench Coat (1c.3)
 
-─── 🧥 /grim:dev:three-minions-in-a-trench-coat 🧥 ───
+🧥 /grim:dev:three-minions-in-a-trench-coat 🧥
 
 ![three minions in a trench coat](skills/dev/three-minions-in-a-trench-coat/assets/three-minions-in-a-trench-coat-icon-med.png)
 
@@ -980,11 +907,9 @@ Pretty self explanatory
 
 ---
 
-
-
 ### Model Quirks (1c.4)
 
-─── 🎭 /grim:dev:model-quirks 🎭 ───
+🎭 /grim:dev:model-quirks 🎭
 
 ![model quirks](skills/dev/model-quirks/assets/newmodelquirks-icon-med.png)
 
@@ -1019,7 +944,7 @@ Currently enabled mitigations (full ledger: [docs/model-quirks-ledger.yaml](docs
 - `claude-opus-5` - talk less, keep replies concise by default
 - `gpt-5.5` - don't over-correct away from playful creature language (goblin mode stays ON)
 
-─── Examples ───
+─────────────────────
 
 *Complain, then cast:*
 
@@ -1042,8 +967,6 @@ prune every mitigation for GPT 5.6 and below
 ```
 
 ---
-
-
 
 ## Expansion Packs (1d)
 
@@ -1097,7 +1020,7 @@ Use it as the reference shape when installing your own packs.
 
 If you want suggestions for expansion packs outside of Grimoire's Tome, see the [Appendix](#appendix) 
 
-─── Examples ───
+─────────────────────
 
 *Install a single skill:*
 
@@ -1119,8 +1042,6 @@ make a new version of the grill-me skill as a /grim:ep:mx: mutation
 ```
 
 ---
-
-
 
 # Chapter 2: The Grim Council
 
@@ -1162,8 +1083,6 @@ Your goal is not to write down 10,000 rules for an AI. The easier more token eff
 
 ---
 
-
-
 ## The Council Members
 
 The current Council has 18 members
@@ -1175,8 +1094,6 @@ They can help with everything from hardcore vibecoding, to practical daily tasks
 Each council member comes with predefined starter goals, values, personalities, routines, procedures, appearances, profile pics, and more.
 
 ---
-
-
 
 ### Guilds & Members
 
@@ -1251,7 +1168,7 @@ The cutting edge of Vibecoding & Prompt-maxxing AI agents.
 
 ## Grimoire (2a.1)
 
-─── 🧙‍♂️ /grim:council:guild:coding:grimoire-code-wizard 🧙‍♂️ ───
+🧙‍♂️ /grim:council:guild:coding:grimoire-code-wizard 🧙‍♂️
 
 ![Meet Grimoire](images/grimoire.gif)
 
@@ -1342,8 +1259,6 @@ First stop: the coin-counters.
 
 ---
 
-
-
 ## The Merchants Guild: Helm, Ledger & Midas (2b)
 
 ![The Merchants Guild](images/page-merchants-guild.jpg)
@@ -1356,11 +1271,9 @@ Or start your first one!
 
 ---
 
-
-
 ### Helm - Biz Manager (2b.1)
 
-─── 🧭 /grim:council:guild:merchants:helm-biz-manager 🧭 ───
+🧭 /grim:council:guild:merchants:helm-biz-manager 🧭
 
 ![Helm](skills/council/members/helm-biz-manager/assets/helm-biz-manager-portrait-med.png)
 
@@ -1384,11 +1297,9 @@ Or if you already have a job, Helm can help you with the business of "you, selli
 
 ---
 
-
-
 ### Ledger - Admin (2b.2)
 
-─── 📒 /grim:council:guild:merchants:ledger-biz-admin 📒 ───
+📒 /grim:council:guild:merchants:ledger-biz-admin 📒
 
 ![Ledger](skills/council/members/ledger-biz-admin/assets/ledger-biz-admin-portrait-med.png)
 
@@ -1404,11 +1315,9 @@ Admin, legal, insurance, anything with a form.
 
 ---
 
-
-
 ### Midas - Money (2b.3)
 
-─── 💰 /grim:council:guild:merchants:midas-money-manager 💰 ───
+💰 /grim:council:guild:merchants:midas-money-manager 💰
 
 ![Midas](skills/council/members/midas-money-manager/assets/midas-money-manager-icon-med.png)
 
@@ -1432,8 +1341,6 @@ Do you dare ride the dragon?
 
 ---
 
-
-
 ## The Ops Guild: Quill, Abathur, Cleo & Roger Roger (2c)
 
 ![The Ops Guild](images/page-ops-guild.jpg)
@@ -1446,11 +1353,9 @@ Gardening for your mind & promptbase.
 
 ---
 
-
-
 ### Quill - Notetaker & AutoDocs (2c.1)
 
-─── 🪶 /grim:council:guild:ops:quill-scribe 🪶 ───
+🪶 /grim:council:guild:ops:quill-scribe 🪶
 
 ![Quill](skills/council/members/quill-scribe/assets/quill-scribe-icon-med.png)
 
@@ -1471,11 +1376,9 @@ The memory palace wouldn't be complete without a librarian.
 
 ---
 
-
-
 ### Abathur - Evolver (2c.2)
 
-─── 🧬 /grim:council:guild:ops:abathur-evolver 🧬 ───
+🧬 /grim:council:guild:ops:abathur-evolver 🧬
 
 ![Abathur](skills/council/members/abathur-evolver/assets/abathur-evolver-portrait-med.png)
 
@@ -1491,11 +1394,9 @@ Refinement loops.
 
 ---
 
-
-
 ### Cleo - Maid (2c.3)
 
-─── 🧹 /grim:council:guild:ops:cleo-code-maid 🧹 ───
+🧹 /grim:council:guild:ops:cleo-code-maid 🧹
 
 ![Cleo](skills/council/members/cleo-code-maid/assets/cleo-code-maid-icon-med.png)
 
@@ -1518,11 +1419,9 @@ Create Beauty & Elegance
 
 ---
 
-
-
 ### Roger Roger - Glue Bot (2c.4)
 
-─── 📡 /grim:council:guild:ops:roger-roger 📡 ───
+📡 /grim:council:guild:ops:roger-roger 📡
 
 ![Roger Roger](skills/council/members/roger-roger/assets/roger-roger-portrait-med.png)
 
@@ -1549,8 +1448,6 @@ He handles:
 
 ---
 
-
-
 ## The Cortex Guild: Lumen, Selene, Precog, Timekeeper, Farseer, Cauldron & Boulder (2d)
 
 ![The Cortex Guild](images/page-cortex-guild.jpg)
@@ -1563,11 +1460,9 @@ Executive function in a bottle.
 
 ---
 
-
-
 ### Lumen - Life Advisor (2d.1)
 
-─── 💡 /grim:council:guild:cortex:lumen-life-advisor 💡 ───
+💡 /grim:council:guild:cortex:lumen-life-advisor 💡
 
 ![Lumen](skills/council/members/lumen-life-advisor/assets/lumen-life-advisor-portrait-med.png)
 
@@ -1587,11 +1482,9 @@ He helps you find who you want to be, what you truly want, how you want to desig
 
 ---
 
-
-
 ### Selene - Emotional Advisor (2d.2)
 
-─── 🌙 /grim:council:guild:cortex:selene-emotional-advisor 🌙 ───
+🌙 /grim:council:guild:cortex:selene-emotional-advisor 🌙
 
 ![Selene](skills/council/members/selene-emotional-advisor/assets/selene-emotional-advisor-portrait-med.png)
 
@@ -1631,11 +1524,9 @@ Selene can do many things, some examples:
 
 ---
 
-
-
 ### Precog - Executive Function (2d.3)
 
-─── 🔮 /grim:council:guild:cortex:precog-exec-func 🔮 ───
+🔮 /grim:council:guild:cortex:precog-exec-func 🔮
 
 ![Precog](skills/council/members/precog-exec-func/assets/precog-exec-func-icon-med.png)
 
@@ -1654,11 +1545,9 @@ Beat starting resistance, ADHD paralysis, and procrastination. Do things smoothe
 
 ---
 
-
-
 ### Timekeeper - Daily Planner (2d.4)
 
-─── ⏳ /grim:council:guild:cortex:timekeeper-day-planner ⏳ ───
+⏳ /grim:council:guild:cortex:timekeeper-day-planner ⏳
 
 ![Timekeeper](skills/council/members/timekeeper-day-planner/assets/timekeeper-day-planner-icon-med.png)
 
@@ -1694,11 +1583,9 @@ Voice mode highly recommended.
 
 ---
 
-
-
 ### Farseer - Weekly & Long-Term Planner (2d.5)
 
-─── 🔭 /grim:council:guild:cortex:farseer-long-term-planner 🔭 ───
+🔭 /grim:council:guild:cortex:farseer-long-term-planner 🔭
 
 ![Farseer](skills/council/members/farseer-long-term-planner/assets/farseer-long-term-planner-icon-med.png)
 
@@ -1715,11 +1602,9 @@ Farseer sees the future vision and helps you make steps towards those goals, tod
 
 ---
 
-
-
 ### Cauldron - Meal Planner (2d.6)
 
-─── 🍲 /grim:council:guild:cortex:cauldron-meal-planner 🍲 ───
+🍲 /grim:council:guild:cortex:cauldron-meal-planner 🍲
 
 ![Cauldron](skills/council/members/cauldron-meal-planner/assets/cauldron-meal-planner-icon-med.png)
 
@@ -1747,11 +1632,9 @@ Voice mode highly recommended.
 
 ---
 
-
-
 ### Boulder - Exercise Planner (2d.7)
 
-─── 🪨 /grim:council:guild:cortex:boulder-gym-bro 🪨 ───
+🪨 /grim:council:guild:cortex:boulder-gym-bro 🪨
 
 ![Boulder](skills/council/members/boulder-gym-bro/assets/boulder-gym-bro-icon-med.png)
 
@@ -1775,8 +1658,6 @@ Workout plans for your body, goals, & schedule.
 
 ---
 
-
-
 ## The Spren Guild: Gizmo, Flicker & Wick (2e)
 
 ![The Spren Guild](images/page-spren-guild.jpg)
@@ -1789,11 +1670,9 @@ Explorers of the artistic depths of tokenspace.
 
 ---
 
-
-
 ### Gizmo - Chaos Goblin (2e.1)
 
-─── 👹 /grim:council:guild:spren:gizmo-chaos-goblin 👹 ───
+👹 /grim:council:guild:spren:gizmo-chaos-goblin 👹
 
 ![Gizmo](skills/council/members/gizmo-chaos-goblin/assets/gizmo-chaos-goblin-portrait-med.png)
 
@@ -1811,11 +1690,9 @@ Devil on the shoulder.
 
 ---
 
-
-
 ### Flicker - Whimsy & Joy (2e.2)
 
-─── 🧚 /grim:council:guild:spren:flicker-whimsy-fairy 🧚 ───
+🧚 /grim:council:guild:spren:flicker-whimsy-fairy 🧚
 
 ![Flicker](skills/council/members/flicker-whimsy-fairy/assets/flicker-whimsy-fairy-icon-med.png)
 
@@ -1836,11 +1713,9 @@ Flicker is the spren for joy, whimsy, play, and playful golden-retriever energy.
 
 ---
 
-
-
 ### Wick - Moth of Rabbit Holes (2e.3)
 
-─── 🕯️ /grim:council:guild:spren:wick-rabbit-hole-moth 🕯️ ───
+🕯️ /grim:council:guild:spren:wick-rabbit-hole-moth 🕯️
 
 ![Wick](skills/council/members/wick-rabbit-hole-moth/assets/wick-rabbit-hole-moth-icon-med.png)
 
@@ -1867,8 +1742,6 @@ or to the light
 
 ---
 
-
-
 ## Council Infrastructure & Management Skills (2f)
 
 ![Council Skills](images/page-council-skills.jpg)
@@ -1880,11 +1753,9 @@ Aside from the members of the council, the council system also includes various 
 
 ---
 
-
-
 ### The Grim Council (2f.1)
 
-─── 🏛️ /grim:council 🏛️ ───
+🏛️ /grim:council 🏛️
 
 ![council](skills/council/council/assets/council-icon-med.png)
 
@@ -1897,7 +1768,7 @@ Aside from the members of the council, the council system also includes various 
 
 Use /grim:council to call all members into the chamber
 
-─── Examples ───
+─────────────────────
 
 *The plain cast:*
 
@@ -1920,11 +1791,9 @@ I need some advisors on this, lets have a council meeting
 
 ---
 
-
-
 ### Summon Members (2f.2)
 
-─── 📯 /grim:council:summon-members 📯 ───
+📯 /grim:council:summon-members 📯
 
 ![summon](skills/council/councilActions/summon-members/assets/summon-members-icon-med.png)
 
@@ -1939,7 +1808,7 @@ Use /grim:council:summon-members to call a smaller dynamic group chat catered to
 
 Name the problem, not the members
 
-─── Examples ───
+─────────────────────
 
 *Just ask a question. Summon-members routes it to the right council members:*
 
@@ -1950,11 +1819,9 @@ should I raise my prices?
 
 ---
 
-
-
 ### Guilds (2f.3)
 
-─── ⚜️ /grim:council:guild ⚜️ ───
+⚜️ /grim:council:guild ⚜️
 
 ![The Five Guilds](images/page-guild-seals.jpg)
 
@@ -1967,7 +1834,7 @@ should I raise my prices?
 
 Use /grim:council:guild:coding (or any guild) to organize members and create consistent groups
 
-─── Examples ───
+─────────────────────
 
 *Business meeting with the Merchants:*
 
@@ -1993,11 +1860,9 @@ Design its seal, pick which council members belong, and write its charter.
 
 ---
 
-
-
 ### Gossip (2f.4)
 
-─── 🍵 /grim:council:gossip 🍵 ───
+🍵 /grim:council:gossip 🍵
 
 ![gossip](skills/council/councilActions/gossip/assets/gossip-icon-med.png)
 
@@ -2018,8 +1883,6 @@ This is not prewritten. Its discovered and created by you.
 You may overhear new lore in passing as the council assembles, or perhaps a council member will reveal something about themselves while working with you, or maybe they use a personal story as a piece of advice. Slowly but surely you learn more about each council member, their backstory, what's going on in their lives outside of the council walls, and more about them.
 
 ---
-
-
 
 ## GPTavern (2g)
 
@@ -2042,7 +1905,7 @@ Perhaps you'll even meet a new potential council member to recruit or perhaps ju
 
 .... 
 
-─── Examples ───
+─────────────────────
 
 *The plain cast:*
 
@@ -2060,8 +1923,6 @@ a horse walks into the bar
 
 ---
 
-
-
 ## Codex & chatGPT Work /pet (2h)
 
 ![Grimoire pet](skills/council/members/grimoire-code-wizard/assets/pet/grimoire-pet.png) ![Gizmo pet](skills/council/members/gizmo-chaos-goblin/assets/pet/gizmo-pet.png)
@@ -2074,11 +1935,9 @@ Both pets ship with the Tome: each member's `assets/pet/` folder has the `pet.js
 
 ---
 
-
-
 ## Council Dashboard (2i)
 
-─── 📊 /grim:council:dashboard 📊 ───
+📊 /grim:council:dashboard 📊
 
 ![council dashboard](skills/council/dashboard/assets/council-dashboard-icon-med.png)
 
@@ -2095,8 +1954,6 @@ It reads the Tome's public skills and council roster live from the repo. No snap
 
 ---
 
-
-
 # Chapter 3: AutoDocs
 
 ![Chapter 3: AutoDocs](images/05-ch3-autodocs-flat-imagen.jpg)
@@ -2105,11 +1962,9 @@ It reads the Tome's public skills and council roster live from the repo. No snap
 
 ---
 
-
-
 ### AutoDocs (3.1)
 
-─── 📚 /grim:dev:autodocs 📚 ───
+📚 /grim:dev:autodocs 📚
 
 ![autodocs](skills/dev/autodocs/assets/autodocs-icon-med.png)
 
@@ -2135,7 +1990,7 @@ Each council member owns a slice of the docs: summon Cauldron and it will offer 
 
 Once a member has completed onboarding, their onboarding prompt will self destruct. See docs/onboarding.md.
 
-─── Examples ───
+─────────────────────
 
 *Start a new doc:*
 
@@ -2163,11 +2018,9 @@ pull up my packing routine for my trip next week
 
 ---
 
-
-
 ### Dream Sequence (3.2)
 
-─── 💤 /grim:mem:dream-sequence 💤 ───
+💤 /grim:mem:dream-sequence 💤
 
 ![dream sequence](skills/mem/dream-sequence/assets/dream-sequence-icon-med.png)
 
@@ -2185,7 +2038,7 @@ Cleas up old or outdated memory
 
 Memory flows one way: quick corrections land in memory during work, and the dream sequence promotes the durable ones into your docs. Memory stays small, docs accumulate the distilled knowledge.
 
-─── Examples ───
+─────────────────────
 
 *The plain cast:*
 
@@ -2207,8 +2060,6 @@ Run a dream sequence, then show me what got promoted into docs.
 ```
 
 ---
-
-
 
 # Chapter 4: Workbench Artifacts
 
@@ -2291,11 +2142,9 @@ Either side can change things: the agent edits the save file and the UI hot-relo
 
 ---
 
-
-
 ### Artifacts (4.1)
 
-─── 🏺 /grim:artifacts 🏺 ───
+🏺 /grim:artifacts 🏺
 
 ![artifacts](skills/artifacts/artifacts/assets/artifacts-icon-med.png)
 
@@ -2314,7 +2163,7 @@ Includes a handy trick for opening any artifact on your phone over local WiFi so
 
 When an artifact needs persistent state or live two-way sync with your agent, it graduates into a workbench artifact, thats the rest of this chapter.
 
-─── Examples ───
+─────────────────────
 
 *Ask for any small tool:*
 
@@ -2332,11 +2181,9 @@ make a page that turns this CSV into a pie chart
 
 ---
 
-
-
 ### Workbench Artifact (4.2)
 
-─── 🛠️ /grim:dev:workbench-artifact 🛠️ ───
+🛠️ /grim:dev:workbench-artifact 🛠️
 
 ![workbench artifact](skills/artifacts/workbench-artifact/assets/workbench-artifact-icon-med.png)
 
@@ -2357,11 +2204,9 @@ These work best with agent apps that include browsers like ChatGPT Codex and Cur
 
 ---
 
-
-
 ### Image Review Flow Workbench (4.3)
 
-─── 🖼️ /grim:media:image-review-flow-workbench 🖼️ ───
+🖼️ /grim:media:image-review-flow-workbench 🖼️
 
 ![image review flow workbench](skills/artifacts/image-review-flow-workbench/assets/image-review-flow-workbench-icon-med.png)
 
@@ -2376,7 +2221,7 @@ An opinionated Midjourney inspired image generation and review flow that can be 
 
 Easily track which ones you heart, reference them with easy copy buttons, or the annotate tools.
 
-─── Examples ───
+─────────────────────
 
 *Get started with multiple images*
 
@@ -2394,11 +2239,9 @@ Generate 12 layout previews using html and put them in the review board, update 
 
 ---
 
-
-
 ### Text Editor Workbench (4.4)
 
-─── 📝 /grim:dev:text-editor-workbench 📝 ───
+📝 /grim:dev:text-editor-workbench 📝
 
 ![text editor workbench](skills/artifacts/text-editor-workbench/assets/text-editor-workbench-icon-med.png)
 
@@ -2418,8 +2261,6 @@ Which can easily extend coding agent apps that have an embedded browser, but no 
 
 ---
 
-
-
 # Appendix
 
 ![Appendix](images/07-appendix-flat-nanobanana.jpg)
@@ -2427,8 +2268,6 @@ Which can easily extend coding agent apps that have an embedded browser, but no 
 ∿∿∿ ✧ Appendix ✧ ∿∿∿
 
 ---
-
-
 
 ## Expansion packs, recommended skills, MCPs, plugins & other fun tools to explore
 
@@ -2442,8 +2281,6 @@ Install any of these with the [Expansion Pack system](#expansion-packs-1d) from 
 
 ---
 
-
-
 ### Other Spellbooks
 
 - [Compound Engineering](https://github.com/EveryInc/compound-engineering-plugin) by Every
@@ -2454,8 +2291,6 @@ Install any of these with the [Expansion Pack system](#expansion-packs-1d) from 
 
 ---
 
-
-
 ### Recommended apps & harnesses
 
 - [Grok Bots](https://x.ai/bot)
@@ -2465,8 +2300,6 @@ Install any of these with the [Expansion Pack system](#expansion-packs-1d) from 
 
 ---
 
-
-
 ### Interesting harnesses
 
 - [bb](https://getbb.app) ([repo](https://github.com/get-bb/bb)) by [Michael Yong](https://x.com/_ymichael)
@@ -2475,8 +2308,6 @@ Install any of these with the [Expansion Pack system](#expansion-packs-1d) from 
 - [Hermes Agent](https://github.com/NousResearch/hermes-agent) by [Nous Research](https://nousresearch.com)
 
 ---
-
-
 
 ### Recommended Plugins, MCPs & APIs
 
@@ -2504,8 +2335,6 @@ Some starter services & MCPs if you want to go basic bitch tech company vibes
 
 ---
 
-
-
 ## How to Cite the Tome (0.0)
 
 Every skill and council member is a numbered verse. Headings show the display name first, with the verse number in parentheses, like `Model Quirks (1c.4)`. Cite them chapter-category.verse, like scripture:
@@ -2520,8 +2349,6 @@ Use ranges for groups (`Tome 2b.1-3`, the Merchants Guild).
 For an exact, frozen quote, pin a version: `Tome 1c.4 @ v1.0` (or a commit hash).
 
 ---
-
-
 
 ## Pay Tribute
 
@@ -2598,9 +2425,9 @@ To claim a poster slot:
 
 Tell us what you want your poster to look like at checkout, and you get:
 
-- Your poster pinned to the board
+- Your image poster pinned to the board at the top and bottom of this repo
+- Your link(s) pinned to the text sign below
 - A sponsored post on [my X account](https://x.com/NickADobos)
-- Your link pinned to the text sign below
 
 Creative sponsorship ideas, including those beyond the board, are encouraged. 
 
@@ -2647,8 +2474,6 @@ Agent friendly notice board:
 📌 Pinned notices: *this space awaits its first sponsor*
 
 ---
-
-
 
 ## License
 
