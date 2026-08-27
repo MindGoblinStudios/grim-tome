@@ -460,7 +460,7 @@ They work on code, and lots more.
 
 Lock in is a skill for reducing context switching costs and managing human brains.
 
-Use it to quickly remember what you were chatting about after being afk or being in a meeting.
+Use it to quickly remember what you were chatting about after being afk, being in a meeting, or returning to work after a few days away from a computer.
 
 ─────────────────────
 
@@ -498,7 +498,7 @@ ok just got back from vacation, what did I miss? /grim:lock-in check slack
 | **Invocation**                   | **🪄 Manual** |
 
 
-This is a skill to reduce slop then imbue art, and high craft.
+Polish is a skill to reduce slop then imbue art, and high craft.
 
 The polish skill is one of the most abstract and unusual in this collection, but also one of my favorites. 
 
@@ -512,11 +512,13 @@ It consists of 3 parts
 
 The token list is the core of the prompt, it's a list of values and words used to nudge your agent into specific headspaces and token distributions
 
-The version presented here is very minimal. My full list is about 5x longer, so far.
+The version presented here is very minimal. My full list is about 10x longer, so far.
 
-You will need to customize this skill for maximum effect.
+You will need to customize this skill and write your own token list for maximum effect.
 
-This will not work fully unless you define what you want good to be. You need to define the values, qualities and ideals that you want AI to prioritize when polishing.
+This will not work fully unless you define what you want good to be. 
+
+You need to define the values, qualities and ideals that you want AI to prioritize when polishing.
 
 ─────────────────────
 
@@ -534,7 +536,7 @@ how can we make this typography look better
 can we improve this plan?
 ```
 
-*Or point it at your architecture:*
+*Or point during code review and cleanup:*
 
 ```text
 /grim:polish
@@ -1006,20 +1008,24 @@ There are easy tags to differentiate:
 
 These let you tell at a glance:
 
-- what skills are from the system, harness, MCPs or plugins.
-Hopefully the vendor namespaced them, but unfortunately almost no one does this. 
-- what skills are yours
-`/grim:` or your own `/myName:`, `/ABC-stack`, etc
-- what skills you imported/remixed from others,
-Each expansion pack imported third party skill is marked with `:ep:` for example `/grim:ep:grill-me`
-Each skill that is mutated is marked with `ep:mx:` for example `/grim:ep:mx:grill-me`
+- What skills are from the system, harness, MCPs or plugins.
+  - Hopefully the vendor namespaced them, but unfortunately almost no one does this. 
+- What skills are yours
+  - `/grim:` or your own `/myName:`, `/ABC-stack`, etc
+- What new skills are still being tested
+  - Using a `:beta:` namespace tag segment like `grim:beta:<skill>`  
+  - Beta skills stay manual-only, no agent-auto use allowed.
+- What skills you imported/remixed from others,
+  - Each expansion pack imported third party skill is marked with `:ep:` for example `/grim:ep:grill-me`
+  - Each skill that is mutated is marked with `ep:mx:` for example `/grim:ep:mx:grill-me`
 
 The system also includes source links back to the original skill, and mirrors the original copy of a skill so you can easily track both your version of a skill, and the original skill. This lets you easily merge and semantically integrate future skill updates without losing your details and changes.
 
-New installs and experiments can also use a `:beta:` namespace segment `grim:ep:beta:<skill>` 
-Beta skills stay manual-only, no agent-auto use allowed.
+
 
 I find this setup makes it SO SO much easier to manage the huge amount of skills I am now playing with. I only expect AI to grow and get more powerful. So the more skills I can manage the better!
+
+
 
 Currently installed example pack (full pattern & folder layout: [docs/expansion-packs.md](docs/expansion-packs.md)):
 
@@ -1110,42 +1116,57 @@ Each council member comes with predefined starter goals, values, personalities, 
 
 They are organized into 5 Guilds
 
-- Coding
-  - Grimoire - Code Wizard
-  - The cutting edge of Vibecoding & Prompt-maxxing AI agents
-- Merchants
-  - Helm - Biz Manager
-  - Ledger - Admin
-  - Midas - Money
-  - The merchants guild helps you make money
-  - Run your business or job on autopilot. Or start your first business!
-- Ops
-  - Quill - Notetaker & AutoDocs
-  - Abathur - Evolver
-  - Cleo - Code Maid
-  - Roger Roger - Glue Bot
-  - Business & Codebase operations
-  - Many of these are sweepers designed to run routinely on loops
-  - Gardening for your mind & Promptbase
-- Cortex
-  - Lumen - Life Advisor
-  - Selene - Emotional Advisor
-  - Precog - Executive Function
-  - Timekeeper - Daily Planner
-  - Farseer - Weekly & Long-Term Planner
-  - Cauldron - Meal Planner
-  - Boulder - Exercise Planner
-  - The Cortex Guild manages your thinking & planning, a true council of Advisors & Guides
-  - Daily Planning, Meals & Workout planning and logs. Routine life on autopilot, Executive function in a bottle.
-  - Put yourself on guardrails. Plan for and work towards long term goals, today
-  - Mental Health, Positive Psychology, Affirmations and Manifesting, a brand new form of introspection and journaling with AI.
-- Spren
-  - Gizmo - Chaos Goblin
-  - Flicker - Whimsy & Joy
-  - Wick - Moth of Rabbit Holes
-  - The Spren are an odd bunch.
-  - Unique creatures designed to explore creative & artistic aspects of tokenspace.
-  - Chaos, creativity, whimsy, and obsession injected.
+**Coding**
+
+- Grimoire - Code Wizard
+
+*The cutting edge of Vibecoding & Prompt-maxxing AI agents.*
+
+**Merchants**
+
+- Helm - Biz Manager
+- Ledger - Admin
+- Midas - Money
+
+*The Merchants Guild helps you make money.*  
+*Run your business or job on autopilot. Or start your first business!*
+
+**Ops**
+
+- Quill - Notetaker & AutoDocs
+- Abathur - Evolver
+- Cleo - Code Maid
+- Roger Roger - Glue Bot
+
+*Business & codebase operations. Many of these are sweepers designed to run routinely on loops.*  
+*Gardening for your mind & promptbase.*
+
+**Cortex**
+
+- Lumen - Life Advisor
+- Selene - Emotional Advisor
+- Precog - Executive Function
+- Timekeeper - Daily Planner
+- Farseer - Weekly & Long-Term Planner
+- Cauldron - Meal Planner
+- Boulder - Exercise Planner
+
+*The Cortex Guild manages your thinking & planning, a true council of Advisors & Guides.*  
+*Daily planning, meals & workout planning and logs. Routine life on autopilot, executive function in a bottle.*  
+*Put yourself on guardrails. Plan for and work towards long term goals, today.*  
+*Mental health, positive psychology, affirmations and manifesting, a brand new form of introspection and journaling with AI.*
+
+**Spren**
+
+- Gizmo - Chaos Goblin
+- Flicker - Whimsy & Joy
+- Wick - Moth of Rabbit Holes
+
+*The Spren are an odd bunch.*  
+*Unique creatures designed to explore creative & artistic aspects of tokenspace.*  
+*Chaos, creativity, whimsy, and obsession injected.*
+
+---
 
 The versions presented here are designed to easily adapt and grow for anybody to use.
 
