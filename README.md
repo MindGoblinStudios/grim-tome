@@ -2478,7 +2478,9 @@ Sample posters:
 
 ![Build-a-Wizard Workshop](images/tribute/build-a-wizard.jpg)
 
-**[Build-a-Wizard Workshop — $50,000](https://buy.stripe.com/7sYeVd78l8ekacd9Vd2VG0h)**
+**Build-a-Wizard Workshop — $50,000**
+
+**[Book a discovery call — $1,500](https://buy.stripe.com/5kQ3cvcsFgKQ2JL7N52VG0i)**
 
 Hire a prompt engineer.  
 I will build you your very own AI or personal tech stack, for whatever purpose or goal you want.
@@ -2494,6 +2496,9 @@ I can consult in your company
 I can build and help you get setup with your very own Grimoire, JARVIS, or any system you want
 
 ***Scheduling & details will need to be confirmed.***
+
+It starts with a 30-60 minute discovery call: we scope your build, check fit, and set dates.  
+The $1,500 is credited toward your engagement. The remainder is invoiced only if we both decide to proceed.
 
 ---
 
