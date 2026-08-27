@@ -2412,22 +2412,22 @@ To claim a poster slot:
 - **[Large Poster — $5,000](https://buy.stripe.com/4gM7sL78l0LSfwx0kD2VG0f)**
 - **[Patron's Choice — name your price, $5,000+](https://buy.stripe.com/aFa4gz9gtgKQ5VX1oH2VG0g)**
 
-Tell us what you want your poster to look like at checkout, and it gets added to the board.   
-Creative sponsorship ideas beyond the board are encouraged. 
+Tell us what you want your poster to look like at checkout, and it gets added to the board.  
+Creative sponsorship ideas, including those beyond the board are encouraged. 
 
 ─── 🏆 ✦ 🏆 ───
 
 ### Tribute Leaderboard (Top 100)
 
-The most generous patrons of the Tome, inscribed for as long as the Tome endures. Leave your name or handle with your tribute to claim your seat.
+The most generous patrons of the Tome, inscribed for as long as the Tome endures.
 
 
-| Seats  | Tier                 | Patrons                                                                   |
-| ------ | -------------------- | ------------------------------------------------------------------------- |
-| 1–10   | 👑 The High Table    | *All ten seats stand empty. The first name inscribed will be remembered.* |
-| 11–25  | 🥇 The Inner Hall    | *Unclaimed.*                                                              |
-| 26–50  | 🥈 The Long Benches  | *Unclaimed.*                                                              |
-| 51–100 | 🥉 The Standing Room | *Unclaimed.*                                                              |
+| Seats  | Tier                | Patrons                                                                   |
+| ------ | ------------------- | ------------------------------------------------------------------------- |
+| 1–10   | 👑 The High Table   | *All ten seats stand empty. The first name inscribed will be remembered.* |
+| 11–25  | 🥇 The Inner Circle | *Unclaimed.*                                                              |
+| 26–50  | 🥈 The Gilded Hall  | *Unclaimed.*                                                              |
+| 51–100 | 🥉 The Torchbearers | *Unclaimed.*                                                              |
 
 
 ─── 📌 ✦ 📌 ───
