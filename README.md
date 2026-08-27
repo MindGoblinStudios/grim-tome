@@ -22,7 +22,7 @@ Grimoire's Tome is an AI Prompt Spellbook 📖
 
 A Prompt-base 
 
-A collection of prompts, .md files, /skills, code & design patterns for working with AI agents
+A collection of prompts, .md files, /skills, code & design patterns for working & thinking with AI agents
 
 The Home of Grimoire 🧙‍♂️  and The Grim Council
 
