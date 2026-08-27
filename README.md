@@ -2463,11 +2463,10 @@ or hop on Google Meet video calls, Slack, or Tuple
 For up to three days
 
 I can also teach you how to use AI in your life  
-I've mentored intern new grad intern coders long before Ai coding  
-I've ran sessions teaching FAANG engineers how to vibecode
-
 I can consult in your company  
-I can build and help you get setup with your very own Grimoire, JARVIS or system you want.
+I can build and help you get setup with your very own Grimoire, JARVIS, or any system you want
+
+*Sche
 
 ---
 
