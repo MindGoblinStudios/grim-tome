@@ -2506,6 +2506,8 @@ The $1,500 is credited toward your engagement. The remainder is invoiced only if
 
 ### Tribute Leaderboard (Top 100)
 
+![Tribute Leaderboard](images/tribute/leaderboard.jpg)
+
 The most generous patrons of the Tome, inscribed for as long as the Tome endures.
 
 
