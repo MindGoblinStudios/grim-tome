@@ -29,9 +29,9 @@ and The Grim Council.
 
 Spells for Vibecoding, building businesses, and living your life on auto pilot with a council of Ai advisors.
 
-From a state of the art enterprise grade vibecoding setup, thats actually easy to use,   
-to practical tools for your daily life like grocery & todo lists,   
-to crazy prompting experiments, games and more.
+From a state of the art enterprise grade vibecoding setup, thats actually easy to use,  
+to practical tools for your daily life like groceries, meal plans, emails & todo lists,  
+to crazy prompting experiments, games and more
 
 ---
 
