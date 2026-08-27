@@ -39,3 +39,9 @@ Final (futuristic android, gothic workshop): Using this wizard's appearance as t
 Edit pass on `images/tribute/tip-jar.jpg`, same model and pipeline, using the previous tip jar icon as the reference image:
 
 Edit this image. Keep the exact same glass tip jar with coins inside, same painterly style, same dark background, and same framing. Remove the cork lid entirely, leaving the jar open at the top. Add a small white rectangular paper label attached to the front of the jar with the word 'TIPS' hand-written in black text. The label is clean white with slightly torn or taped edges, charming and handmade. No other readable text. Keep everything else identical.
+
+## Tribute Leaderboard (2026-08-27)
+
+Guild-hall honor board for the Tribute Leaderboard section, same model and pipeline, night notice board as style reference. Output: `images/tribute/leaderboard.jpg`.
+
+Using this nighttime painterly fantasy style as the reference: a grand tribute leaderboard inside a medieval guild hall at night, lit by warm candlelight and torches. A tall ornate honor board of dark carved wood with gold filigree, mounted on a stone wall. At the top a carved golden crown emblem. The board is divided into four tiers marked only by small carved emblems, top to bottom: a crown, a gold coin, a silver coin, a bronze coin. Each tier has rows of EMPTY engraved name lines, blank slots waiting for names to be inscribed, faint empty scroll lines. The only readable text is 'LEADERBOARD' carved at the top in medieval lettering. A quill and inkwell rest on a small ledge below the board. Cozy gothic guild hall atmosphere, painterly hand-painted fantasy style. No people. 3:2 landscape.
