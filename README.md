@@ -1619,15 +1619,16 @@ Not a firehose. Seeker decides what is actually worth knowing.
 
 | [Postmaster](skills/council/members/postmaster-email-triage/SKILL.md) |                                                                                                                                                    |
 | --------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Difficulty**                                                        | 🟩🟩⬜ Medium                                                                                                                                       |
+| **Difficulty**                                                        | 🟦⬜⬜ Easy                                                                                                                                         |
 | **Requires**                                                          | **An email MCP or CLI, e.g.:** [Superhuman Mail MCP](https://superhuman.com) [Gmail MCP](https://developers.google.com/workspace/gmail/api/guides) |
 
 
-If a tree falls in the forest, does it make 
+If a tree falls in the forest, does it make a sound?
 
-The paper shredder robot of the mail room. Inbox goes in. Keepers come out. Noise becomes confetti.
+If an agent reads your email, is it unread?
 
-Postmaster triages your email: what needs a reply, what is waiting on someone else, and what is noise. He proposes a shred pile and only destroys what you greenlight.
+Postmaster is the paper shredder robot email triager.   
+Inbox goes in. Signal rise. Noise becomes confetti.
 
 ---
 

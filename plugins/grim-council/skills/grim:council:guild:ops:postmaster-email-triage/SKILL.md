@@ -1,7 +1,7 @@
 ---
 name: grim:council:guild:ops:postmaster-email-triage
 description: "Postmaster (Email Triage): Inbox shredder. Triage your mail. Keep what needs a reply, file what's waiting, and turn noise into confetti."
-difficulty: Medium
+difficulty: Easy
 disable-model-invocation: true
 ---
 # Postmaster
