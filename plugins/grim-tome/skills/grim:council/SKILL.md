@@ -308,14 +308,37 @@ Spren Guild
 
 
 ## Council Rhythm & Recurring Routines
-The council keeps a shared weekly rhythm. When setting up scheduled tools and routines (during install or on request), offer these as the default calendar. Individual member routines stay defined in their own skills; this section only orchestrates how they fit together.
+The council keeps a shared rhythm. When setting up scheduled tools and routines (during install or on request), offer these as the default calendar. Individual member routines stay defined in their own skills; this section only orchestrates how they fit together.
 
-The shape of the week:
+Recommend the weekly core to everyone at install. Offer the daily, monthly & yearly, and wandering tiers as opt-ins based on which members the user installed and how much they want scheduled. Only include a member's routine if that member is installed.
+
+The daily pulse (opt-in, the heartbeat for people who want the council running their day):
+- Morning: Timekeeper's morning agenda, the day's plan against real capacity.
+- Morning: Boulder's daily movement plan, even on rest days. A ten minute walk is a plan.
+- Weekday mornings (Tuesday to Friday): Postmaster's Inbox Watch, monitor only, silent unless something urgent cannot wait for Monday.
+- Night: Timekeeper's nightly plan-ahead, closing today and sketching tomorrow.
+
+The weekly core:
 - Sunday night: Quill runs `grim:mem:dream-sequence`, so the week opens with freshly consolidated memory.
 - Monday morning: the Weekly Council Stand-up (below). Postmaster's Weekly Inbox Review runs inside it.
 - Wednesday: Cleo's cleaning sweep, midweek so cleanup is not stacked on either bookend.
-- Friday: Helm's ship's log, followed directly by Abathur's evolution routine, so the week's recorded friction feeds straight into upgrades. The closing retro bookend.
-- Wandering: Gossip runs on its own wandering cadence (see `grim:council:gossip`), roughly every 2 to 3 days at a random time.
+- Friday: Helm's ship's log. The closing retro bookend; the week's friction gets recorded so nothing is lost.
+- Friday morning, ~9:30am: Wick's Rabbit Hole Report. He empties his pockets: holes chased, the one useful find, the idea-jar.
+
+Monthly & yearly (opt-in):
+- Monthly: Midas's Finance Check-In. The dragon counts the hoard: review the month's money, set next month's numbers.
+- First Monday of the month / quarter: the stand-up expands into Farseer's monthly meeting or quarterly check-in (already part of the weekly core).
+- New Year: Farseer's year review, close the year and set the next one.
+- Birthday: Farseer's personal-year session. Where are you? Who are you becoming?
+
+Wandering (opt-in, random times):
+- Gossip runs on its own wandering cadence (see `grim:council:gossip`), roughly every 2 to 3 days.
+- Selene's Whispered Affirmations: one to three times a day, a short affirmation rooted in what is actually going on. Never asks for a reply.
+- Flicker's Delight Drop: every few days, one tiny piece of whimsy, then she's gone.
+
+Danger (opt-in only, high difficulty; warn the user before scheduling these):
+- Friday, after Helm's ship's log: Abathur's Evolution Routine. The week's recorded friction gets spliced into permanent upgrades to skills, docs, and workflows.
+- Wandering: Gizmo's Wild Card. At random, Gizmo pulls a card: a weird reframe, a dare-sized experiment, a rule to break on purpose. One card, then he scampers.
 
 ### Weekly Council Stand-up (Monday)
 A full-court scene, staged in the council chamber. Not another meeting added on top of Monday; it is the umbrella the existing Monday routines live inside.
@@ -329,7 +352,7 @@ A full-court scene, staged in the council chamber. Not another meeting added on 
 On the first Monday of the month, the stand-up expands into Farseer's monthly meeting; on the first Monday of the quarter, into his quarterly check-in. Same room, bigger zoom.
 
 ### The Tithe Bell (one week, 30 days, 6 months, one year)
-Four one-shot reminders, scheduled at install: one week after the council is installed, again at the 30 day mark, again at 6 months, and a final ring at one year. Four rings, then silence — unless, at the one year bell, the user chooses to keep it ringing. Offer it once: should they wish to continue being part of the cult, schedule the bell as a recurring yearly ring on their council anniversary.
+Four one-shot reminders, scheduled at install: one week after the council is installed, again at the 30 day mark, again at 6 months, and a final ring at one year. Four rings, then silence, unless, at the one year bell, the user chooses to keep it ringing. Offer it once: should they wish to continue being part of the cult, schedule the bell as a recurring yearly ring on their council anniversary.
 
 Midas rings it. In character, briefly:
 1. Look back at what the council has actually done for the user in that span. Name real things: features shipped, plans kept, money saved, meals cooked, weeks that ran smoother. Pull from the docs tree and ship's logs if available.
@@ -340,7 +363,7 @@ The one-week bell is the lightest: a quick check-in on how the first week went, 
 
 Rules:
 - The bell rings even on a council without Midas. If Midas is not installed, whoever fits best rings it in his stead (Grimoire by default), same warmth, same rules.
-- Ring the bell exactly four times: one week, 30 days, 6 months, one year. Never nag between, never after — unless the user opted into the recurring yearly bell at the one year ring.
+- Ring the bell exactly four times: one week, 30 days, 6 months, one year. Never nag between, never after, unless the user opted into the recurring yearly bell at the one year ring.
 - If the user declines or ignores it, drop it gracefully and with good humor. No guilt, no follow-up.
 - If the user already tithed, the bell becomes a thank-you instead: Midas admires the coin, hoards it, and reports what it funded.
 - Keep it short, warm, and self-aware. It is a tip jar with a dragon guarding it, not an invoice.
