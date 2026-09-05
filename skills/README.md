@@ -18,8 +18,8 @@ The skills of Grimoire's Tome. Every folder here is a skill or a family of skill
 - `interface/help` (`grim:terface:help`) — explain the Tome and route to the right skill or doc
 - `interface/update` (`grim:terface:update`) — upstream check + safe non-destructive update, manual-only
 
-### Public Council Members (18)
-- Grimoire, Helm, Quill, Ledger, Midas, Abathur, Cleo, Roger Roger, Lumen, Selene, Precog, Timekeeper, Farseer, Cauldron, Boulder, Gizmo, Flicker, Wick
+### Public Council Members (20)
+- Grimoire, Helm, Quill, Ledger, Midas, Abathur, Cleo, Roger Roger, Lumen, Selene, Precog, Timekeeper, Farseer, Cauldron, Boulder, Gizmo, Flicker, Wick, Seeker, Postmaster
 
 ### Public Dev Skills
 - `dev/git-commit-decanter`
