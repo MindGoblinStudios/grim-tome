@@ -112,8 +112,9 @@ This spellbook was designed to work inside and on top of any AI agent, app or ha
 But it is mostly geared towards coding agent harnesses, and "AI super apps", like: 
 
 - [Grok Bots](https://x.ai/bot)
+  - [Official Grimoire Grok Bot: 1-click install](https://x.ai/bot/luPJeAxuAjhqO97wU3wm0)
+  - [Grok Bots install: sync the skills & bots](installGuide.md#grok-bots-install)
 - [Cursor](https://cursor.com)
-  - [Cursor plugin install](installGuide.md#cursor-plugin-install)
 - [Codex / ChatGPT desktop app](https://openai.com/codex/)
   - [Codex plugin install](installGuide.md#codex-plugin-install)
 - [Claude Code](https://claude.com/product/claude-code)
@@ -1084,7 +1085,7 @@ The /grim: namespace and expansion pack system makes it super easy to organize y
 
 There are easy tags to differentiate:
 
-- `grim:` - the Tome's own namespace (make your own: `myName:`, `ABC-stack:`, ...)
+- `grim:` - the Tome's own namespace (or make your own: `myName:`, `ABC-stack:`, ...)
 - `ep:` - imported expansion-pack skill, unmodified third-party
 - `mx:` - mutated fork of an imported skill
 - `beta:` - new installs & experiments; manual-only until proven
@@ -1619,7 +1620,7 @@ Not a firehose. Seeker decides what is actually worth knowing.
 
 | [Postmaster](skills/council/members/postmaster-email-triage/SKILL.md) |                                                                                                                                                    |
 | --------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Difficulty**                                                        | 🟦⬜⬜ Easy                                                                                                                                         |
+| **Difficulty**                                                        | 🟦⬜⬜ Easy                                                                                                                                          |
 | **Requires**                                                          | **An email MCP or CLI, e.g.:** [Superhuman Mail MCP](https://superhuman.com) [Gmail MCP](https://developers.google.com/workspace/gmail/api/guides) |
 
 
@@ -1627,7 +1628,7 @@ If a tree falls in the forest, does it make a sound?
 
 If an agent reads your email, is it unread?
 
-Postmaster is the paper shredder robot email triager.   
+Postmaster is the paper shredder robot email triager.  
 Inbox goes in. Signal rise. Noise becomes confetti.
 
 ---
@@ -2783,7 +2784,8 @@ Sample posters:
 
 **Build-a-Wizard Workshop — $50,000**
 
-**[Book a discovery call — $1,500](https://buy.stripe.com/5kQ3cvcsFgKQ2JL7N52VG0i)**
+**Serious inquiries only: [contact@mindgoblinstudios.com](mailto:contact@mindgoblinstudios.com)**  
+or DM [@NickADobos](https://x.com/NickADobos) on X. Email is quickest and most likely to get my attention.
 
 Hire a prompt engineer.  
 I will build you your very own AI or personal tech stack, for whatever purpose or goal you want.
@@ -2800,8 +2802,8 @@ I can build and help you get setup with your very own Grimoire, JARVIS, or any s
 
 ***Scheduling & details will need to be confirmed.***
 
-It starts with a 30-60 minute discovery call: we scope your build, check fit, and set dates.  
-The $1,500 is credited toward your engagement. The remainder is invoiced only if we both decide to proceed.
+It starts with an email: tell me what you want to build.  
+If it's a fit, we book a 30-60 minute discovery call. A $500 deposit is required to book the call, credited toward your engagement. The remainder is invoiced only if we both decide to proceed.
 
 ---
 
