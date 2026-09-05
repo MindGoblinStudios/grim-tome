@@ -114,10 +114,6 @@ codex plugin marketplace add MindGoblinStudios/grim-tome
 
 The catalog (grim-core, grim-council, grim-artifacts) installs by default; toggle pieces in `/plugins`.
 
-#### Cursor plugin install
-
-Listed in the Cursor Marketplace (submission pending). The repo carries `.cursor-plugin/marketplace.json` for it.
-
 Marketplace installs ship the skills without the large chapter art. The full Tome experience (README pages, docs, dashboard sources) still lives in this repo; the copy-paste install prompt remains the richest path.
 
 If your agent harness or chat app does not support installable skills via paths, or cannot clone projects there are other ways to install
