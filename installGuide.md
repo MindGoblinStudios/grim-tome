@@ -120,7 +120,35 @@ Listed in the Cursor Marketplace (submission pending). The repo carries `.cursor
 
 Marketplace installs ship the skills without the large chapter art. The full Tome experience (README pages, docs, dashboard sources) still lives in this repo; the copy-paste install prompt remains the richest path.
 
-If your agent harness or chat app does not support installable skills via paths, or cannot clone projects there are other ways to install
+
+## Grok Bots (share template)
+
+Grok Bots do not load `SKILL.md` files natively. The public Grimoire is a **Grok Bot share template**, restaged from the private Grimoire seat, not a dump of that private chat.
+
+Source of truth is this repo: `skills/**/SKILL.md` (currently 48 public skills). The private Grimoire Grok Bot (Nick's seat) stays private: no CodexAgentTools paths, no personal memories, no biz-API skills.
+
+### What importers get
+
+- **Profile:** name `Grimoire`, title `Code Wizard`.
+- **Description (the imported bot's instructions):** a short install block pointing at https://github.com/MindGoblinStudios/grim-tome, then the full public Grimoire skill starting at `# Grimoire` (YAML stripped). On first summon: `Greetings Traveler, Welcome to Grimoire V3.0`.
+- **Skills:** every public `SKILL.md` in this repo, YAML stripped, packed as user skills. The Grimoire skill is in the description **and** packed as a skill on purpose.
+- **Memory / routines / plugins:** empty. The Cursor marketplace plugin is not submitted yet; until it is, clone this GitHub repo. Geometric avatar only (green blob). Templates cannot take the wizard portrait.
+
+Already-imported copies do not live-sync. Restage and publish again for a new version; new imports get it.
+
+### How to restage (maintainer)
+
+Do this whenever `skills/` on `main` should ship to the public template:
+
+1. Pull this repo. Confirm `skills/` is the version to ship.
+2. In the **private** Grimoire Grok Bot chat, ask it to restage the public template from **grim-tome** skills (not from its private description or CodexAgentTools).
+3. It should pack: `visibility: public`; profile as above; description = install block + `# Grimoire` + full Grimoire skill; all public `SKILL.md` bodies as skills; `memory: []`, `routines: []`, `plugins: []`. Scrub `/Users/nicholasdobos`, `nickdobos/CodexAgentTools`, and personal memories.
+4. Review the staged card and publish. Do not edit fields on the card; ask the private Grimoire to restage if something is wrong.
+5. When the Cursor plugin is live, add its marketplace plugin id to the pack. Until then leave `plugins` empty.
+
+The future compiler in `docs/harness.md` (`build_bots.py`) is not this. This template is the live Grok Bot path.
+
+If your agent harness or chat app does not support installable skills via paths, or cannot clone projects, there are other ways to install.
 
 ## Memory adapters
 

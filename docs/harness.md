@@ -2,7 +2,10 @@
 
 ### Status
 
-Future design proposal. The compiler and sync scripts described below are not implemented. Publication from the private workspace remains manual, scoped, reviewed, and explicitly authorized.
+Future design proposal. The compiler and sync scripts described below are not implemented.
+
+**Live path (2026-08-27):** Grok Bot distribution currently uses a public share template restaged from the private Grimoire seat. See `installGuide.md` section **Grok Bots (share template)**. The compiler below remains a future design.
+ Publication from the private workspace remains manual, scoped, reviewed, and explicitly authorized.
 
 ### Purpose
 Grimoire's Tome must run inside multiple agent harnesses:
