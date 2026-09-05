@@ -20,6 +20,8 @@ members:
   - grim:council:guild:spren:gizmo-chaos-goblin
   - grim:council:guild:spren:flicker-whimsy-fairy
   - grim:council:guild:spren:wick-rabbit-hole-moth
+  - grim:council:guild:ops:seeker-researcher
+  - grim:council:guild:ops:postmaster-email-triage
 
 roundtable:
   - grim:council:guild:coding:grimoire-code-wizard
@@ -40,6 +42,8 @@ roundtable:
   - grim:council:guild:spren:gizmo-chaos-goblin
   - grim:council:guild:spren:flicker-whimsy-fairy
   - grim:council:guild:spren:wick-rabbit-hole-moth
+  - grim:council:guild:ops:seeker-researcher
+  - grim:council:guild:ops:postmaster-email-triage
 
 ordinary_full_council_only: []
 

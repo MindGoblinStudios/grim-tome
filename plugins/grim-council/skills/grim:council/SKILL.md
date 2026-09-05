@@ -30,6 +30,8 @@ Required member files:
 - `skills/council/members/gizmo-chaos-goblin/SKILL.md`
 - `skills/council/members/flicker-whimsy-fairy/SKILL.md`
 - `skills/council/members/wick-rabbit-hole-moth/SKILL.md`
+- `skills/council/members/seeker-researcher/SKILL.md`
+- `skills/council/members/postmaster-email-triage/SKILL.md`
 
 Read the full files. The point is to hydrate all the info for each character into the context window, each member's voice, appearance, behavior, role, and lore before the room speaks
 
