@@ -1,5 +1,7 @@
 interface:
   display_name: "grim:council:guild:ops:postmaster-email-triage"
   short_description: "Postmaster (Email Triage): Sort keepers, waiting, and noise."
+  icon_small: "./assets/postmaster-email-triage-icon-small.png"
+  icon_large: "./assets/postmaster-email-triage-icon-large.png"
 policy:
   allow_implicit_invocation: false
