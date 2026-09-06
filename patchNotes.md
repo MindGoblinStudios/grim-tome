@@ -5,7 +5,7 @@ Public changelog for Grimoire's Tome releases
 
 ## v1.1.0 (2026-09-06)
 
-The Astra Attunement. A big tone, catchphrase, and routing rework, synced from the private Tome, for compatibility with GPT-6 Astra.
+The Astra Attunement. A big tone, catchphrase, and routing rework for compatibility with GPT-6 Astra.
 
 Council personas:
 - Every member's Personality, Voice & Tone section rewritten for stronger, more distinct voices. Gizmo is a tiny bard with an enormous vocabulary. Wick flutters, then locks in. Cauldron is witchy kitchen chaos. Roger Roger has conspiracy-board energy. Lumen is a quiet lantern mentor.
