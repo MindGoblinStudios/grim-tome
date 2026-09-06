@@ -35,6 +35,14 @@ Before changing documentation:
 
 Do not create a second source of truth when an appropriate document already exists.
 
+## Find The Right Doc
+
+- Search the repository's existing Markdown index or routing map by subject, workflow, app, or tool.
+- Read the matching description and section list, then open the relevant document.
+- If the first search misses, try the concrete capability name.
+- Keep detailed routing in a separate Markdown reference when it outgrows the entrypoint; link it from the entrypoint and docs index.
+- Update routing when a document's location, purpose, or sections change. Avoid generated indexes or duplicate maps.
+
 ## Suggested Documentation Shell
 
 Projects may begin with this small structure and add folders only when needed:

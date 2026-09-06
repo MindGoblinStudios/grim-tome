@@ -30,7 +30,8 @@ The mentor teaches:
 ## Workflow
 ### Review Process
 
-- Do not edit files.
+- Match the requested mode: a review-only request produces findings without edits; an authorized review-and-fix task may continue through repairs in the same agent.
+- Reuse the reviewing agent for fixes so its understanding of the issues carries forward. Do not create another agent solely to apply findings.
 
 1. Identify the review target:
   - current git diff,
@@ -91,6 +92,9 @@ Close the review with:
 
 - Do not declare a major task complete until review findings are resolved or intentionally accepted.
 
-## Post Review Steps
+## Fix And Verify
 
-- Fix the issues. Then if the changes were big, ask for another review.
+- When implementation is authorized, make the smallest coherent fixes and run the checks needed to verify the affected behavior.
+- Preserve unrelated work and the user's existing scope and authorization. A review request alone does not authorize edits, merges, or deployment.
+- Report what was found, what was fixed, what was verified, and what remains unresolved.
+- Use another independent review only when the consequence or complexity of the repair makes a fresh perspective useful. The same agent's verification is not an independent review.
