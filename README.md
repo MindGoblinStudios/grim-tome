@@ -252,7 +252,7 @@ Time to explore the frontier.
   - [Install (0.1)](#install-01)
   - [Help (0.2)](#help-02)
   - [Update (0.3)](#update-03)
-    - [What's new in v1.0](#whats-new-in-v10)
+    - [What's new in v1.1.0](#whats-new-in-v110)
 - [Chapter 1: Core Dev-loop Skills, Flows, & Agents utils](#chapter-1-core-dev-loop-skills-flows--agents-utils)
   - [Everyday Spells (1a)](#everyday-spells-1a)
     - [Lock-In (1a.1)](#lock-in-1a1)
@@ -427,15 +427,15 @@ what does this tome do and what can I use it for based on what you already know 
 
 Use this skill to ping this repo and check for updates in patchNotes.md. If a new version is available, it summarizes what's new and asks if you want to install and/or incorporate any upgrades.
 
-#### What's new in v1.0
+#### What's new in v1.1.0
 
-Welcome to Grimoire's Tome. Initial Release.  Intro & 5 Chapters. 
+The Astra Attunement. A tone, catchphrase, and routing rework for GPT-6 Astra compatibility.
 
-- Chapter 0: Grimterface
-- Chapter 1: Core Dev-loop Skills, Flows, & Agent utils
-- Chapter 2: The Grim Council
-- Chapter 3: AutoDocs
-- Chapter 4: Workbench Artifacts
+- Every council member's voice rewritten, with catchphrase banks and a "only when the moment earns it" rule
+- New protocols: Timekeeper's adaptive check-ins, Lumen's Tend The Flame, Wick's From Flutter To Focus, and more
+- Launcher metadata (`default_prompt`, tighter descriptions) on every skill; Minion split into a thin router plus references
+- Grok Bot seating cap and Grim Council seats in the council skill
+- Refreshed portraits for Postmaster, Precog, Seeker, and Timekeeper
 
 Full changelog: [patchNotes.md](patchNotes.md)
 
@@ -2523,7 +2523,7 @@ The letter is the category inside the chapter (1a Everyday Spells, 1b Dev, 1c Ag
 
 Use ranges for groups (`Tome 2b.1-3`, the Merchants Guild).
 
-For an exact, frozen quote, pin a version: `Tome 1c.4 @ v1.0` (or a commit hash).
+For an exact, frozen quote, pin a version: `Tome 1c.4 @ v1.1.0` (or a commit hash).
 
 ---
 
