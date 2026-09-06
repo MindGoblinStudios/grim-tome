@@ -9,13 +9,16 @@ Read this doc only when creating or updating council member media. Ordinary coun
 ### Canonical Paths
 
 - Council roster source: `skills/council/council/SKILL.md`
-- Council artifact member media root: `artifacts/council/members/<current-member-name>/`
+- Council artifact member media root: `skills/council/members/<member-slug>/assets/`
 - Council chamber staged background assets: `artifacts/council/assets/background/`
 - Council chamber staged sprite assets: `artifacts/council/assets/sprites/`
 - Installed live Codex pets: `${CODEX_HOME:-$HOME/.codex}/pets/<pet-id>/`
 - Generated image asset workflow: `docs/media/image-generation-assets.md`
 
 
+
+Dashboard portraits are full-bleed squares. Extend a wide scene's surrounding artwork to fill the square; do not stretch it or add blank bars.
+Use `thumbnail.png` for compact avatars when present and `portrait.png` for dashboard scenes.
 
 ### Bundle Shape
 
@@ -39,7 +42,7 @@ Keep valid skill metadata, but do not block council media work on small-icon dis
 Each council member with a pet should have a checked-in bundle:
 
 ```text
-artifacts/council/members/<member-id>/
+skills/council/members/<member-slug>/assets/
   portrait.png
   sprite.gif
   pet.json
@@ -49,14 +52,14 @@ artifacts/council/members/<member-id>/
 Temporary exploration assets can live beside the final bundle during an active generation pass, but should not become durable provenance docs by default:
 
 ```text
-artifacts/council/members/<member-id>/
+skills/council/members/<member-slug>/assets/
   generated/
     profile/
     icon/
     glyph/
 ```
 
-Final artifact portraits should live at `artifacts/council/members/<current-member-name>/portrait.png`, using the current council display name normalized to lowercase kebab case.
+Final artifact portraits should live at `skills/council/members/<member-slug>/assets/portrait.png`, using the registered member folder slug.
 
 Use the current spelling `Flicker` and folder slug `flicker-whimsy-fairy` for the Whimsy Fairy skill.
 
@@ -77,12 +80,13 @@ Do not use the old loose `artifacts/council/assets/*.jpg` bucket for member port
 
 ### Data Contract
 
-`artifacts/council/index.html` owns only the lightweight visual ordering lists for council members, guilds, and council management tiles.
+`skills/council/dashboard/artifact/index.html` owns only the lightweight visual ordering lists for council members, guilds, and council management tiles.
 
 The real council source of truth remains:
 
 - `skills/council/council/SKILL.md` for roster, guild structure, and routing.
 - Each member's `SKILL.md` for persona, description, appearance, and behavior.
+- Current approved appearance text and canonical portraits take precedence over historical visual descriptions.
 - `skills/registry.yaml` for machine install/discovery routing.
 - Each skill's `agents/openai.yaml` for Codex launcher metadata and icons.
 
@@ -93,7 +97,7 @@ Use `artifacts/server.js` and its live `/api/skills` scan for the public Tome sk
 For council-member cards and council-member rows in the skill sidebar, the artifact should use the member portrait path directly:
 
 ```text
-./members/<current-member-name>/portrait.png
+skills/council/members/<member-slug>/assets/portrait.png
 ```
 
 Do not silently fall back to `skills/*/assets/*icon*.png` for council members.
@@ -102,12 +106,12 @@ Skill icons are valid Codex metadata, but using them as council portraits caused
 
 ### Chamber Artifact
 
-`artifacts/council/index.html` is the council dashboard artifact.
+`skills/council/dashboard/artifact/index.html` is the council dashboard artifact.
 
 Keep it direct-file driven:
 
 - Use `skills/council/council/SKILL.md` as the roster source.
-- Use `artifacts/council/members/<member>/portrait.png` for member images.
+- Use `skills/council/members/<member-slug>/assets/portrait.png` for member images.
 - Keep generated or third-party background assets checked in under `artifacts/council/assets/background/` or `artifacts/council/assets/generated/` with their license/source files when applicable.
 
 
@@ -124,7 +128,7 @@ Symlinks remain appropriate for live install surfaces such as `~/.codex/skills/*
 
 1. Generate and validate the pet with `hatch-pet`.
 2. Install the live pet under `${CODEX_HOME:-$HOME/.codex}/pets/<pet-id>/`.
-3. Copy the installed `pet.json` and `spritesheet.webp` into `artifacts/council/members/<member-id>/`.
+3. Copy the installed `pet.json` and `spritesheet.webp` into `skills/council/members/<member-slug>/assets/`.
 4. Copy or update the member `portrait.png` in the same folder.
 5. Update the relevant persona `SKILL.md` when the visual identity changes.
 
