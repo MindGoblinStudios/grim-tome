@@ -2,7 +2,6 @@
 
 Public changelog for Grimoire's Tome releases
 
-Versioning: `1.x.0` for a real chunk of work (a rework, a new system, a new chapter). `1.x.y` for the smaller commits in between.
 
 ## v1.1.0 (2026-09-06)
 
@@ -79,3 +78,10 @@ Also included:
 Before the Tome, Grimoire lived in the OpenAI GPT store, where he grew to be the #1 coding GPT with over 3 million chats: [Grimoire on the GPT store](https://chatgpt.com/g/g-n7Rs0IK86-grimoire)
 
 But now, the wizard has escaped!
+
+
+---
+
+## info
+
+Versioning: `1.x.0` for a real chunk of work (a rework, a new system, a new chapter). `1.x.y` for the smaller commits in between.
