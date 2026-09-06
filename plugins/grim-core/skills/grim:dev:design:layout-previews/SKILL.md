@@ -1,10 +1,10 @@
 ---
 name: grim:dev:design:layout-previews
-description: "Compare spatial and visual design choices with aligned ASCII or box-drawing layout mockups in AskUserQuestion option preview fields, so the user can pick from rendered options instead of abstract labels. Use for UI and HUD layouts, screen arrangements, component placement, diagram variants, or config and code snippets where shape matters; do not use for simple preference questions."
+description: "Show compact visual alternatives for spatial design choices, using aligned text mockups in the current host's supported preview surface or inline. Use for layouts, UI placement, diagrams, and code structure where arrangement matters."
 ---
 # Layout Previews
 
-Turn a spatial design decision into a **side-by-side visual choice** by drawing each option as an aligned ASCII / box-drawing mockup inside the `AskUserQuestion` option `preview` field.
+Turn a spatial design decision into a **side-by-side visual choice** with aligned ASCII or box-drawing mockups.
 
 A label like "Info-rich HUD" tells the user almost nothing. A tiny rendered frame tells them everything. When the choice is about *where things go*, show it.
 
@@ -26,9 +26,9 @@ Do NOT use it for:
 
 ## How It Works
 
-- Put the mockup in each option's `preview` field.
-- **Single-select only.** With previews on a single-select question, the UI switches to a side-by-side layout: option list on one side, the highlighted option's `preview` on the other. Multi-select does not render previews this way.
-- Multi-line text is supported. Use it.
+- If the current question tool exposes a preview field, use that field according to its actual schema.
+- Otherwise show labeled mockups inline in fenced text blocks, then use the available question mechanism to collect the choice.
+- Use only tool fields and rendering features exposed by the current host. The visual comparison must still work without a preview-capable question tool.
 - Keep each mockup compact and legible inside a monospace box — a few rows, not a full screen.
 
 ---
@@ -49,7 +49,7 @@ Do NOT use it for:
 
 ## Canonical Example — In-Match HUD
 
-Three single-select options for an in-match HUD, each with an ASCII frame in its `preview`. Copy this shape.
+Three alternatives for an in-match HUD. Show the frames inline or in supported option previews.
 
 **Option A — Minimal**
 ```
@@ -94,8 +94,8 @@ Each frame is the same width, columns line up, and the three layout philosophies
 ## Checklist
 
 - Choice is spatial/visual, not a plain preference. ✅
-- Question is **single-select**. ✅
-- Every option has a `preview` mockup. ✅
+- The host supports the chosen presentation and question format. ✅
+- Every option has a visible mockup. ✅
 - Columns and box edges are aligned across all options. ✅
 - Each mockup is compact, labeled, and legible in monospace. ✅
 
@@ -103,5 +103,4 @@ Each frame is the same width, columns line up, and the three layout philosophies
 
 ## References
 
-- AskUserQuestion previews (Codex): https://developers.openai.com/codex/skills
 - Box-drawing characters: https://en.wikipedia.org/wiki/Box-drawing_characters
