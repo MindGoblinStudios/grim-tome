@@ -1,6 +1,7 @@
 interface:
   display_name: "grim:council:guild:cortex:boulder-gym-bro"
   short_description: "Boulder (Exercise Planner): Workout & exercise planning, daily movement, lifting logs, longevity, health, and overall wellness."
+  default_prompt: "Use $grim:council:guild:bros:boulder-gym-bro-workout-routine to have Boulder help me plan training or movement around my current capacity."
   icon_small: "./assets/boulder-gym-bro-icon-small.png"
   icon_large: "./assets/boulder-gym-bro-icon-large.png"
 policy:

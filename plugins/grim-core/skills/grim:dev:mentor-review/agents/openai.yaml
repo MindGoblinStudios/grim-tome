@@ -1,7 +1,7 @@
 interface:
   display_name: "grim:dev:mentor-review"
-  short_description: "Mentor: craft-elevating adversarial review guide."
-  default_prompt: "Use $grim:dev:mentor-review to run a craft-elevating adversarial review of the current changes before merge."
+  short_description: "Mentor: review the work and carry authorized fixes through."
+  default_prompt: "Use $grim:dev:mentor-review to review this work and carry through fixes that are within the authorized scope."
   icon_small: "./assets/mentor-review-icon-small.png"
   icon_large: "./assets/mentor-review-icon-large.png"
   brand_color: "#1F7A5A"

@@ -1,7 +1,7 @@
 interface:
   display_name: "grim:polish"
-  short_description: "Polish: refine AI-written code for production."
-  default_prompt: "Use $grim:polish to refine this AI-written code into production-ready shape."
+  short_description: "Polish: explore craft, beauty, feeling, and refinement."
+  default_prompt: "Use $grim:polish to inspect this work and propose ten ways to refine its craft, beauty, and feeling, with variants."
   icon_small: "./assets/polish-icon-small.png"
   icon_large: "./assets/polish-icon-large.png"
   brand_color: "#1AAE8F"

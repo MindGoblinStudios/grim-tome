@@ -1,7 +1,7 @@
 interface:
   display_name: "grim:council:guild:coding"
   short_description: "Coding Guild: Grimoire-led engineering with Abathur and Cleo for maintenance, promptbase evolution, cleanup, and implementation."
-  default_prompt: "Consult the Coding Guild on this technical, maintenance, promptbase, or codebase evolution task."
+  default_prompt: "Use $grim:council:guild:coding to bring the Coding Guild together to work through this engineering task."
   icon_small: "./assets/council-coding-icon-small.png"
   icon_large: "./assets/council-coding-icon-large.png"
 policy:

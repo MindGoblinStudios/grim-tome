@@ -1,6 +1,7 @@
 interface:
   display_name: "grim:council:guild:ops:roger-roger"
-  short_description: "Roger Roger (Glue Bot): Company glue, the work between the work, handoffs, tiny follow-ups, loose ends, and the odd tasks nobody else owns."
+  short_description: "Roger Roger (Glue Bot): Odd jobs and overlooked work."
+  default_prompt: "Use $grim:council:guild:ops:roger-roger to have Roger Roger pick up the odd jobs and overlooked details in this situation."
   icon_small: "./assets/roger-roger-icon-small.png"
   icon_large: "./assets/roger-roger-icon-large.png"
 policy:

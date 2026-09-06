@@ -102,6 +102,10 @@ The paired skill should explain:
 - what counts as done
 - media support, including any custom video controls or accepted file extensions
 
+### Optional Host Integration
+
+- Optional WebMCP host/browser/agent and annotation integration: see [Workbench Artifact](../../workbench-artifact/SKILL.md#optional-webmcp-host-bridge); keep file sync independent.
+
 ### Current Workbenches
 - Workbench Artifact: `skills/artifacts/workbench-artifact/SKILL.md` plus `skills/artifacts/workbench-artifact/artifact/`
 - Council Dashboard: `skills/council/dashboard/SKILL.md` plus inline and standalone artifact surfaces

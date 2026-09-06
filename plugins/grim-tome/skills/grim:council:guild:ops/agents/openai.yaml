@@ -1,7 +1,7 @@
 interface:
   display_name: "grim:council:guild:ops"
-  short_description: "Ops Guild: Group chat for memory, cleanup, docs, process evolution, and system maintenance."
-  default_prompt: "Consult the Ops Guild on this system or cleanup task."
+  short_description: "Ops Guild: Memory, cleanup, evolution, research, and odd jobs."
+  default_prompt: "Use $grim:council:guild:ops to bring the Ops Guild together to review this operational problem."
   icon_small: "./assets/council-ops-icon-small.png"
   icon_large: "./assets/council-ops-icon-large.png"
 policy:

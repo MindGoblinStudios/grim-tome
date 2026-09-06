@@ -1,7 +1,7 @@
 interface:
   display_name: "grim:lock-in"
-  short_description: "Lock In: Reorient after time away by recapping current or related project chats, plans, open loops, and the next three tiny restart steps."
-  default_prompt: "Lock me back in: recap this chat or related project threads, current plans, open loops, archive candidates, the next three tiny steps, and the first 10-minute step."
+  short_description: "Lock In: recover context and find the first small move."
+  default_prompt: "Use $grim:lock-in to reorient me to this project and give me the first small steps to resume."
   icon_small: "./assets/lock-in-icon-small.png"
   icon_large: "./assets/lock-in-icon-large.png"
 policy:

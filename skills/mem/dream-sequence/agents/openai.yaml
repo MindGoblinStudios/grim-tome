@@ -1,7 +1,7 @@
 interface:
   display_name: "grim:mem:dream-sequence"
-  short_description: "Dream Sequence: periodic memory-consolidation review."
-  default_prompt: "Run $grim:mem:dream-sequence to review recent work and propose durable memory updates."
+  short_description: "Dream Sequence: distill recent work into durable context."
+  default_prompt: "Use $grim:mem:dream-sequence to review recent context and propose a focused memory-consolidation pass."
   icon_small: "./assets/dream-sequence-icon-small.png"
   icon_large: "./assets/dream-sequence-icon-large.png"
   brand_color: "#4B3B8F"

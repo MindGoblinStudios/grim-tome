@@ -1,6 +1,7 @@
 interface:
   display_name: "grim:council:guild:ops:quill-scribe"
-  short_description: "Quill (Scribe): Scribe, Librarian & Context Builder. Keeper of memory and docs. Memory capture, note distillation, context retrieval, documentation writeback, and preserving durable lessons."
+  short_description: "Quill (Scribe): Distill and preserve useful context."
+  default_prompt: "Use $grim:council:guild:ops:quill-scribe to have Quill help me distill and organize this context."
   icon_small: "./assets/quill-scribe-icon-small.png"
   icon_large: "./assets/quill-scribe-icon-large.png"
 policy:

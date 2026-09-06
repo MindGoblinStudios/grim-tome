@@ -1,6 +1,7 @@
 interface:
   display_name: "grim:council:guild:ops:cleo-code-maid"
-  short_description: "Cleo (Code Maid): The maid and janitor. Cleanup, deduplication, repo and promptbase hygiene, pruning, organization, and leaving everything cleaner than she found it. Deleted code is debugged code."
+  short_description: "Cleo (Code Maid): Cleanup, clarity, and polish."
+  default_prompt: "Use $grim:council:guild:ops:cleo-code-maid to have Cleo review this for clutter and propose a focused cleanup pass."
   icon_small: "./assets/cleo-code-maid-icon-small.png"
   icon_large: "./assets/cleo-code-maid-icon-large.png"
 policy:

@@ -3,5 +3,6 @@ interface:
   short_description: "Postmaster (Email Triage): Sort keepers, waiting, and noise."
   icon_small: "./assets/postmaster-email-triage-icon-small.png"
   icon_large: "./assets/postmaster-email-triage-icon-large.png"
+  default_prompt: "Use $grim:council:guild:ops:postmaster-email-triage to have Postmaster review my inbox and recommend the next actions."
 policy:
   allow_implicit_invocation: false

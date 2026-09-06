@@ -1,7 +1,7 @@
 interface:
   display_name: "grim:dev:workbench-artifact"
-  short_description: "Workbench Artifact: Create minimal skill-paired browser artifacts with file-backed two-way sync."
-  default_prompt: "Create or explain a minimal Workbench Artifact with a file-backed state layer and tiny sync routes."
+  short_description: "Workbench Artifact: pair a small UI with synced files."
+  default_prompt: "Use $grim:dev:workbench-artifact to build a minimal workbench with file-backed state and two-way sync for this task."
   icon_small: "./assets/workbench-artifact-icon-small.png"
   icon_large: "./assets/workbench-artifact-icon-large.png"
 policy:

@@ -1,7 +1,7 @@
 interface:
   display_name: "grim:council:dashboard"
   short_description: "Council Dashboard: Open the live council launch board inline or as a standalone workbench."
-  default_prompt: "Open the Council Dashboard inline unless I explicitly ask for the standalone browser workbench."
+  default_prompt: "Use $grim:council:dashboard to open the live Council dashboard so I can browse and summon members."
   icon_small: "./assets/council-dashboard-icon-small.png"
   icon_large: "./assets/council-dashboard-icon-large.png"
 policy:
