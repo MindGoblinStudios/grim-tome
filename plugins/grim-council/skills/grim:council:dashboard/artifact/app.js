@@ -319,26 +319,18 @@ const cleanSkillTitle = (skill) => {
 };
 
 const cleanSkillDescription = (skill) => {
+  const short = String(skill?.openai_yaml?.interface?.short_description || '').trim();
+  if (short) return parseDescriptionTitle(short)?.description || short;
   const parsed = parseDescriptionTitle(skill?.frontmatter?.description || skill?.description);
   return (
     parsed?.description ||
     skill?.description ||
     skill?.frontmatter?.description ||
-    skill?.openai_yaml?.interface?.short_description ||
     ''
   );
 };
 
 const cleanLaunchSubtitle = (skill) => {
-  const parsed = parseDescriptionTitle(
-    skill?.frontmatter?.description ||
-      skill?.description ||
-      skill?.openai_yaml?.interface?.short_description,
-  );
-  if (parsed?.description) return parsed.description;
-  const title = cleanSkillTitle(skill);
-  const short = String(skill?.openai_yaml?.interface?.short_description || '').trim();
-  if (short.startsWith(`${title}:`)) return short.slice(title.length + 1).trim();
   return cleanSkillDescription(skill);
 };
 
