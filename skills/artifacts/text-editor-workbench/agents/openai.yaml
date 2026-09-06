@@ -1,7 +1,7 @@
 interface:
   display_name: "grim:dev:text-editor-workbench"
-  short_description: "Text Editor Workbench: Minimal autosynced Markdown/text editor with a collapsible file sidebar."
-  default_prompt: "Open or update the Text Editor Workbench and sync notes through the project workbench folder."
+  short_description: "Text Editor Workbench: edit Markdown with live file sync."
+  default_prompt: "Use $grim:dev:text-editor-workbench to open a synced text editor for these Markdown or text files."
   icon_small: "./assets/text-editor-workbench-icon-small.png"
   icon_large: "./assets/text-editor-workbench-icon-large.png"
 policy:

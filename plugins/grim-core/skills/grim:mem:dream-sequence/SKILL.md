@@ -19,11 +19,19 @@ Review before summarizing:
 - `docs/README.md` and any recently changed docs
 - Recent chat or session history from the last 7 to 14 days, when the harness makes it available
 
+## Consolidation Pass
+
+- Revisit the previous consolidation candidates using existing run notes. Check which were applied, superseded, declined, or still need a decision before proposing them again.
+- Distill what changed in understanding: a durable lesson, a corrected belief, the intent behind a decision, or missing context that matters next time.
+- Check candidates against their canonical home for contradictions and duplication. Preserve sources and uncertainty where they matter, and make the useful context easy to retrieve.
+- Reuse relevant evidence and refresh changed or consequential facts. Keep broader cleanup and system experiments with their existing owner unless they affect memory's accuracy or usefulness.
+- Keep declined ideas retired unless the user reopens them. Do not invent candidates to fill a report; stay quiet when there is no meaningful update or action.
+
 ## Report
 
 Return a report with:
 
-- A synthesis of the recent period, highlighting the most important things to remember
+- A synthesis of what changed since the previous pass, highlighting the most important things to remember
 - Durable memory candidates, to be added to memory
 - Promotion candidates: memory entries that have matured into doc material, with the target `docs/` file for each (prune from memory once promoted)
 - Stale, duplicate, or low-signal memory cleanup suggestions
@@ -33,5 +41,5 @@ Return a report with:
 ## Rules
 
 - Do not silently edit any docs, skills, memory files, commits, or external systems until the user confirms.
-- Distill, don't transcribe: one bullet per durable fact.
+- Distill, don't transcribe: one bullet per durable fact. Preserve intent and distinguish observations from decisions.
 - Prefer correcting an existing memory entry over adding a near-duplicate.

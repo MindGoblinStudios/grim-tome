@@ -1,6 +1,7 @@
 interface:
   display_name: "grim:council:guild:merchants:helm-biz-manager"
   short_description: "Helm (Biz Manager): Business Manager. Captain of the ship. Runs the business: operations, follow-through, priorities, and the engine of income. Monthly business reviews and Friday ship's logs."
+  default_prompt: "Use $grim:council:guild:merchants:helm-biz-manager to have Helm work through this business decision and its next actions."
   icon_small: "./assets/helm-biz-manager-icon-small.png"
   icon_large: "./assets/helm-biz-manager-icon-large.png"
 policy:

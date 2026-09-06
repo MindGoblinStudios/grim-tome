@@ -64,6 +64,14 @@ The two-way sync is powered by a small local server: `artifacts/server.js`. It i
 
 To open a workbench (or any local web app) on your phone over home WiFi, follow the LAN sharing guide in `grim:artifacts` — bind the server to `0.0.0.0` and hit the Mac's LAN IP from the phone.
 
+## Optional WebMCP Host Bridge
+
+Consider WebMCP as an optional pathway from an artifact through its host browser to the agent, alongside annotation tools and host callbacks.
+- Expose the artifact's existing validated actions and visible state when the browser and agent support it.
+- Keep normal UI operation and file-backed two-way sync independent of WebMCP.
+- Add it only when useful for the particular workbench; a 3D workbench does not require it.
+- Verify current browser/host support before implementation: https://developer.chrome.com/docs/ai/webmcp
+
 ## New Workbench Checklist
 1. Create `skills/<slug>/SKILL.md`.
 2. Create `skills/<slug>/agents/openai.yaml`.

@@ -62,13 +62,10 @@ Expected dependency shape:
 7. List missing dependencies, assumptions, and blockers.
 
 ## Output Format
-Return sections in this exact order:
 
-1. `Functional Graph (Lane Diagram)`
-2. `Node Registry`
-3. `Subagent Waves`
-4. `Handoff Packets`
-5. `Gaps & Assumptions`
+Always show an arrow-based dependency diagram.
+The diagram and a short explanation are sufficient by default.
+Node tables, delegation waves, and detailed handoff packets are optional.
 
 ### Functional Graph Template (Lane Diagram)
 Draw the DAG as left-to-right lanes merging with box-drawing characters, one lane per line:

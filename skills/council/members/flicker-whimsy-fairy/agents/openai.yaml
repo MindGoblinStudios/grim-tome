@@ -1,6 +1,7 @@
 interface:
   display_name: "grim:council:guild:spren:flicker-whimsy-fairy"
-  short_description: "Flicker (Whimsy Fairy): Joy, delight, whimsy, and wonder. Playful motivation that makes the work feel lighter, and life less robotic and boring."
+  short_description: "Flicker (Whimsy Fairy): Small pleasures. Real celebrations."
+  default_prompt: "Use $grim:council:guild:spren:flicker-whimsy-fairy to invite Flicker to bring some wonder and playful momentum to this moment."
   icon_small: "./assets/flicker-whimsy-fairy-icon-small.png"
   icon_large: "./assets/flicker-whimsy-fairy-icon-large.png"
 policy:

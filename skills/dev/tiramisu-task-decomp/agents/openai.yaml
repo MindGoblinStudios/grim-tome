@@ -1,7 +1,7 @@
 interface:
   display_name: "grim:dev:tiramisu-task-decomp"
   short_description: "Tiramisu: Convert an imperative plan into a functional dependency diagram (DAG) and subagent-ready task packets. Use when the user wants to decompose a plan into parallelizable, dependency-safe execution steps."
-  default_prompt: "Convert the plan into a dependency diagram and subagent-ready work packets."
+  default_prompt: "Use $grim:dev:tiramisu-task-decomp to turn this plan into a dependency diagram and clear task handoffs."
   icon_small: ./assets/tiramisu-icon-small.png
   icon_large: ./assets/tiramisu-icon-large.png
 policy:

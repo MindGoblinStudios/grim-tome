@@ -59,7 +59,25 @@ skills/council/members/<member-slug>/assets/
     glyph/
 ```
 
-Final artifact portraits should live at `skills/council/members/<member-slug>/assets/portrait.png`, using the registered member folder slug.
+Keep both picture versions when a member has them:
+
+- `portrait.png` is the full scene.
+  Use it for dashboard cards, chamber views, and roster portraits.
+- Dashboard portraits are full-bleed squares. When an accepted scene is wide, extend its surrounding artwork to fill the square; do not stretch it or add blank bars.
+- `thumbnail.png` is the zoomed-in crop.
+  Live Grok Bot avatars and sidebar thumbs should use `thumbnail.png` when it exists.
+
+A zoom-only change updates `thumbnail.png` and leaves `portrait.png` alone.
+A full redraw replaces both.
+
+Never delete `thumbnail.png` or `portrait.png` as "cleanup."
+Exploration folders (head crops, contact sheets, rejected variants) are disposable only after the chosen thumbnail and portrait are committed in this assets folder.
+
+If a member has no `thumbnail.png` yet, use `portrait.png` until a real thumbnail exists.
+Do not invent a crop just to fill the filename.
+
+Final member portraits should live at `skills/council/members/<member-slug>/assets/portrait.png`, using the registered member folder slug.
+Final Grok Bot live pictures should live at `skills/council/members/<member-slug>/assets/thumbnail.png` when that crop exists.
 
 Use the current spelling `Flicker` and folder slug `flicker-whimsy-fairy` for the Whimsy Fairy skill.
 
@@ -86,7 +104,7 @@ The real council source of truth remains:
 
 - `skills/council/council/SKILL.md` for roster, guild structure, and routing.
 - Each member's `SKILL.md` for persona, description, appearance, and behavior.
-- Current approved appearance text and canonical portraits take precedence over historical visual descriptions.
+- Current approved appearance text and canonical portraits take precedence over historical visual descriptions in memory or older bot records.
 - `skills/registry.yaml` for machine install/discovery routing.
 - Each skill's `agents/openai.yaml` for Codex launcher metadata and icons.
 
