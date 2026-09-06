@@ -11,7 +11,7 @@ Generates:
   .agents/plugins/marketplace.json  -> lists grim-core, grim-council, grim-artifacts (INSTALLED_BY_DEFAULT)
 
 Skill folders are copied with display images larger than MAX_IMAGE_BYTES stripped;
-those are README/dashboard art, not needed at runtime.
+unless launcher metadata references them. Unreferenced large images are display art.
 
 Run from the repo root: python3 scripts/build-marketplace.py
 """
@@ -99,11 +99,27 @@ def skill_dir_name(sid: str) -> str:
 
 
 def copy_skill(src: Path, dest: Path):
+    metadata = src / "agents/openai.yaml"
+    referenced_icons = set()
+    if metadata.is_file():
+        for match in re.finditer(r"^  icon_(?:small|large):[ \t]*([^\n]+)$", metadata.read_text(), re.MULTILINE):
+            value = match.group(1).strip()
+            if value.startswith('"'):
+                value = json.loads(value)
+            elif value.startswith("'") and value.endswith("'"):
+                value = value[1:-1].replace("''", "'")
+            else:
+                value = value.split(" #", 1)[0].strip()
+            referenced_icons.add((src / value).resolve())
+
     def ignore(directory, names):
         skipped = []
         for name in names:
+            if name in {"__pycache__", ".pytest_cache"}:
+                skipped.append(name)
+                continue
             p = Path(directory) / name
-            if p.is_file() and p.suffix.lower() in IMAGE_SUFFIXES and p.stat().st_size > MAX_IMAGE_BYTES:
+            if p.is_file() and p.suffix.lower() in IMAGE_SUFFIXES and p.stat().st_size > MAX_IMAGE_BYTES and p.resolve() not in referenced_icons:
                 skipped.append(name)
         return skipped
 
