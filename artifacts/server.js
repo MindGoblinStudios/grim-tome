@@ -83,9 +83,22 @@ const parseOpenAIYaml = (skillDir) => {
   const text = readTextIfExists(yamlPath);
   if (!text) return null;
   const interfaceData = {};
-  for (const key of ['display_name', 'short_description', 'icon_small', 'icon_large']) {
-    const match = text.match(new RegExp(`^\\s*${key}:\\s*['"]?([^'"\\n#]+)['"]?\\s*$`, 'm'));
-    if (match) interfaceData[key] = match[1].trim();
+  for (const key of ['display_name', 'short_description', 'default_prompt', 'icon_small', 'icon_large']) {
+    const match = text.match(new RegExp(`^  ${key}:[ \\t]*([^\\n]*)$`, 'm'));
+    if (!match) continue;
+    const value = match[1].trim();
+    if (value.startsWith('"')) {
+      try {
+        const parsed = JSON.parse(value);
+        if (typeof parsed === 'string') interfaceData[key] = parsed;
+      } catch (_error) {
+        // Leave unsupported YAML syntax to the host's full metadata reader.
+      }
+    } else if (value.startsWith("'") && value.endsWith("'")) {
+      interfaceData[key] = value.slice(1, -1).replace(/''/g, "'");
+    } else {
+      interfaceData[key] = value.replace(/\s+#.*$/, '').trim();
+    }
   }
   const policyData = {};
   const allowImplicitMatch = text.match(/^\s*allow_implicit_invocation:\s*(true|false)\s*$/m);
