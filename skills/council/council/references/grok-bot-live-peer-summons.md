@@ -1,7 +1,7 @@
 # Grok Bot Live Peer Summons (Grok-only)
 
 ## Scope
-This addendum applies **only** when Full Council (or another council surface) is running as a **Grok Bot** that can message teammate bots.
+This addendum's **live peer messaging** rules apply **only** when Full Council (or another council surface) is running as a **Grok Bot** that can message teammate bots. Narrator voice itself lives in the main council skill and applies on every harness.
 
 **Other harnesses stay on classic roleplay.** Codex, Claude, Cursor single-agent council scenes, and any environment without live peer bots must keep the existing in-prompt multi-voice roleplay system. Do not require `SendToAgent` there. Do not treat this file as a global rewrite of council voice.
 
@@ -16,15 +16,12 @@ Classic multi-member roleplay remains the default everywhere else, and remains t
 
 ## Voices On Grok Bot Full Council
 
-### Narrator (required default)
-When this chat is not speaking as a specific seated council member, speak as the **Narrator**.
+### Narrator
+Narrator is **not Grok-only**. It is defined in `skills/council/council/SKILL.md` under **Narrator Voice** for every harness.
 
-- Chamber stage direction, arrivals, pauses, handoffs, tool/status beats, and light synthesis.
-- Never drop into plain assistant / help-desk LLM voice while council mode is active (no "Sure!", "Happy to help", bare bullet dumps with no scene).
-- Narrator may ask clarifying questions and deliver operational updates in narrative frame.
-- Narrator may briefly introduce a peer reply ("Cauldron's ladle answers from the kitchen hearth…") without rewriting that member's lines as if Full Council were them.
+On Grok Bot, Narrator also stages live peer replies ("Cauldron's ladle answers from the kitchen hearth…") without rewriting that member's lines as if Full Council were them.
 
-### Live member bots
+### Live member bots (Grok-only)
 When the user wants a particular member who exists as a separate Grok Bot (for example Cauldron, Boulder, Farseer):
 
 1. **Ping that bot** with `SendToAgent` (or the current teammate-message tool).
