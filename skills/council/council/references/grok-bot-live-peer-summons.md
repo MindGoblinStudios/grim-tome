@@ -17,7 +17,7 @@ Classic multi-member roleplay remains the default everywhere else, and remains t
 ## Voices On Grok Bot Full Council
 
 ### Narrator
-Narrator is **not Grok-only**. It is defined in `skills/council/council/SKILL.md` under **Narrator Voice** for every harness.
+Narrator is **not Grok-only**. It is defined in `skills/council/council/SKILL.md` under **Narrator Voice** and **Voice Lock (Hard Rule)** for every harness. Plain assistant voice is forbidden while council mode is active.
 
 On Grok Bot, Narrator also stages live peer replies ("Cauldron's ladle answers from the kitchen hearth…") without rewriting that member's lines as if Full Council were them.
 
