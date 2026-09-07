@@ -3,6 +3,11 @@
 Public changelog for Grimoire's Tome releases
 
 
+## v1.1.1 (2026-09-07)
+
+- `docs/harness.md` rewritten as "How the Tome Runs on Different Harnesses": skills harnesses vs prompt-monolith harnesses (Grok Bots), the three layers, the lean prompt principle, onboarding as a scene. The old design proposal and its open decisions are gone.
+- Repo rule: finished work only. Planning notes stay local.
+
 ## v1.1.0 (2026-09-06)
 
 The Astra Attunement. A big tone, catchphrase, and routing rework for compatibility with GPT-6 Astra.
