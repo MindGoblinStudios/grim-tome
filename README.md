@@ -54,6 +54,18 @@ You can keep reading, or chat with your agent
 
 ---
 
+## What's New
+
+**v1.1.2, The Narrator.** A shared council voice for every harness: stage direction, handoffs, and status beats between member lines, never plain assistant voice mid-council. On Grok Bots, messaging a seated member bot is the summon, and their reply is woven into the scene.
+
+**v1.1.0, The Astra Attunement.** Every council member's voice rewritten for GPT-6 Astra: catchphrase banks with an "only when the moment earns it" rule, new protocols (Timekeeper's adaptive check-ins, Lumen's Tend The Flame, Wick's From Flutter To Focus), launcher metadata on every skill, refreshed portraits.
+
+Also in 1.1.x: a two-tier Table of Contents and a harness guide (`docs/harness.md`).
+
+Full changelog: [patchNotes.md](patchNotes.md). Ask `/grim:terface:update` to pull the latest into your setup.
+
+---
+
 ## Hear ye, hear ye, a quick token from our sponsors
 
 ![The Town Notice Board](images/tribute/notice-board.jpg)
@@ -245,6 +257,7 @@ Time to explore the frontier.
 - Intro
   - [What is this?](#what-is-this)
   - [Quick Install](#quick-install)
+  - [What's New](#whats-new)
   - [Starting Guide](#starting-guide)
   - [Lore](#lore)
   - [This Spellbook has 3 main focuses](#this-spellbook-has-3-main-focuses)
@@ -306,7 +319,7 @@ Every skill in the Tome carries a small stat card: difficulty, invocation, and r
 - [Install (0.1)](#install-01)
 - [Help (0.2)](#help-02)
 - [Update (0.3)](#update-03)
-  - [What's new in v1.1.0](#whats-new-in-v110)
+  - [What's new in v1.1.2](#whats-new-in-v112)
 
 The Grimterface is a small set of skills for installing, exploring, and updating everything else.  
 
@@ -398,11 +411,12 @@ what does this tome do and what can I use it for based on what you already know 
 
 Use this skill to ping this repo and check for updates in patchNotes.md. If a new version is available, it summarizes what's new and asks if you want to install and/or incorporate any upgrades.
 
-#### What's new in v1.1.0
+#### What's new in v1.1.2
 
-The Astra Attunement. A tone, catchphrase, and routing rework for GPT-6 Astra compatibility.
+The Narrator, on top of the Astra Attunement.
 
-- Every council member's voice rewritten, with catchphrase banks and a "only when the moment earns it" rule
+- v1.1.2: a shared Narrator voice for the council on every harness (stage direction, handoffs, status beats, never plain assistant voice mid-council); Grok Bots add live peer summons
+- v1.1.0: every council member's voice rewritten with catchphrase banks and an "only when the moment earns it" rule
 - New protocols: Timekeeper's adaptive check-ins, Lumen's Tend The Flame, Wick's From Flutter To Focus, and more
 - Launcher metadata (`default_prompt`, tighter descriptions) on every skill; Minion split into a thin router plus references
 - Grok Bot seating cap and Grim Council seats in the council skill
@@ -2563,7 +2577,7 @@ The letter is the category inside the chapter (1a Everyday Spells, 1b Dev, 1c Ag
 
 Use ranges for groups (`Tome 2b.1-3`, the Merchants Guild).
 
-For an exact, frozen quote, pin a version: `Tome 1c.4 @ v1.1.0` (or a commit hash).
+For an exact, frozen quote, pin a version: `Tome 1c.4 @ v1.1.2` (or a commit hash).
 
 ---
 
