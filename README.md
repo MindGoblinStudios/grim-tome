@@ -60,8 +60,6 @@ You can keep reading, or chat with your agent
 
 **v1.1.0, The Astra Attunement.** Every council member's voice rewritten for GPT-6 Astra: catchphrase banks with an "only when the moment earns it" rule, new protocols (Timekeeper's adaptive check-ins, Lumen's Tend The Flame, Wick's From Flutter To Focus), launcher metadata on every skill, refreshed portraits.
 
-Also in 1.1.x: a two-tier Table of Contents and a harness guide (`docs/harness.md`).
-
 Full changelog: [patchNotes.md](patchNotes.md). Ask `/grim:terface:update` to pull the latest into your setup.
 
 ---
@@ -319,7 +317,7 @@ Every skill in the Tome carries a small stat card: difficulty, invocation, and r
 - [Install (0.1)](#install-01)
 - [Help (0.2)](#help-02)
 - [Update (0.3)](#update-03)
-  - [What's new in v1.1.2](#whats-new-in-v112)
+  - [What's new in v1.1.3](#whats-new-in-v113)
 
 The Grimterface is a small set of skills for installing, exploring, and updating everything else.  
 
@@ -411,7 +409,7 @@ what does this tome do and what can I use it for based on what you already know 
 
 Use this skill to ping this repo and check for updates in patchNotes.md. If a new version is available, it summarizes what's new and asks if you want to install and/or incorporate any upgrades.
 
-#### What's new in v1.1.2
+#### What's new in v1.1.3
 
 The Narrator, on top of the Astra Attunement.
 
@@ -2577,7 +2575,7 @@ The letter is the category inside the chapter (1a Everyday Spells, 1b Dev, 1c Ag
 
 Use ranges for groups (`Tome 2b.1-3`, the Merchants Guild).
 
-For an exact, frozen quote, pin a version: `Tome 1c.4 @ v1.1.2` (or a commit hash).
+For an exact, frozen quote, pin a version: `Tome 1c.4 @ v1.1.3` (or a commit hash).
 
 ---
 

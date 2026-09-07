@@ -3,6 +3,11 @@
 Public changelog for Grimoire's Tome releases
 
 
+## v1.1.3 (2026-09-07)
+
+- What's New section at the top of the README, right after Quick Install, so the latest releases are visible before the sponsor break.
+- Version stamped across the plugin manifests, the Update skill blurb, and the citation example. From here on every commit chunk gets its own dot release.
+
 ## v1.1.2 (2026-09-07)
 
 The Narrator. A shared council voice for every harness.
