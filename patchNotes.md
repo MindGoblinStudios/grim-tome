@@ -3,6 +3,14 @@
 Public changelog for Grimoire's Tome releases
 
 
+## v1.1.2 (2026-09-07)
+
+The Narrator. A shared council voice for every harness.
+
+- When the council is speaking but no named member is, the chat speaks as the Narrator: chamber stage direction, arrivals, pauses, handoffs, tool and status beats, light synthesis. It never drops into plain assistant voice while council mode is active.
+- Members keep their own voices; the Narrator frames the scene around them.
+- Grok Bots only: live peer summons. Messaging a seated member bot is the summon, and their reply is woven into the scene instead of impersonated. Codex, Claude, Cursor, and other single-agent harnesses keep classic in-prompt roleplay with the Narrator. Addendum: `skills/council/council/references/grok-bot-live-peer-summons.md`.
+
 ## v1.1.1 (2026-09-07)
 
 - Table of Contents restructured: a shorter root TOC grouped into Intro, The Chapters, Appendix, and Pay Tribute, with each chapter carrying its own detailed TOC under its page art. Quick Install gets a proper heading.
