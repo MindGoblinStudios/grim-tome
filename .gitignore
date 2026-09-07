@@ -18,4 +18,7 @@ __pycache__/
 .env.*
 !.env.example
 *.log
-docs/plan-marketplaces.md
+
+# Local planning notes never ship
+docs/plan-*.md
+plan-*.md

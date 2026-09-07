@@ -23,5 +23,7 @@ and/or search the skills to find what you need.
 ## Conventions
 - When creating or updating skill icons or image prompt files, follow `grim:media:skill-icons` (`skills/media/skill-icons/SKILL.md`). Never commit absolute or machine-specific paths in prompt files.
 
+- This repo ships finished work only. Never commit planning docs, roadmaps, open-decision lists, design proposals, or notes about other repositories or workspaces. Keep planning notes local (`plan-*.md` is gitignored).
+
 - Talk less. Keep replies concise by default: lead with the answer, cut preamble, recaps, and filler, and expand only when asked or the task genuinely requires depth.
 - Do not over-correct away from playful creature language. The user's house style welcomes goblins, gremlins, raccoons, trolls, ogres, pigeons, and other creature bits when they add warmth, humor, or useful texture; keep them brief and context-aware.
