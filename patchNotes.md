@@ -5,6 +5,7 @@ Public changelog for Grimoire's Tome releases
 
 ## v1.1.1 (2026-09-07)
 
+- Table of Contents restructured: a shorter root TOC grouped into Intro, The Chapters, Appendix, and Pay Tribute, with each chapter carrying its own detailed TOC under its page art. Quick Install gets a proper heading.
 - `docs/harness.md` rewritten as "How the Tome Runs on Different Harnesses": skills harnesses vs prompt-monolith harnesses (Grok Bots), the three layers, the lean prompt principle, onboarding as a scene. The old design proposal and its open decisions are gone.
 - Repo rule: finished work only. Planning notes stay local.
 

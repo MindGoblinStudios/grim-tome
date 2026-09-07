@@ -40,7 +40,9 @@ to crazy prompting experiments, games and more
 
 ---
 
-Quick install: simply copy paste this page's url into any agent, like this
+## Quick Install
+
+Simply copy paste this page's url into any agent, like this
 
 ```text
 Install Grimoire's Tome from https://github.com/MindGoblinStudios/grim-tome
@@ -180,7 +182,7 @@ A Spellbook of Prompts
 
 ---
 
-## This Spellbook has 3 main focuses:
+## This Spellbook has 3 main focuses
 
 ## 1. VibeCoding dev flows & utils
 
@@ -240,89 +242,53 @@ Time to explore the frontier.
 
 ![Table of Contents, page two](images/01c-toc-page-2-nanobanana.jpg)
 
-- [What is this?](#what-is-this)
-- [Starting Guide](#starting-guide)
-- [Lore](#lore)
-- [This Spellbook has 3 main focuses:](#this-spellbook-has-3-main-focuses)
-  - [1. VibeCoding dev flows & utils](#1-vibecoding-dev-flows--utils)
-  - [2. Practical tools for integrating AI into daily lives](#2-practical-tools-for-integrating-ai-into-daily-lives)
-  - [3. Advanced, Avant garde & Experimental Prompt-Engineering.](#3-advanced-avant-garde--experimental-prompt-engineering)
-- [Table of contents](#table-of-contents)                              < -- YOU ARE HERE
-- [Chapter 0: Grimterface](#chapter-0-grimterface)
-  - [Install (0.1)](#install-01)
-  - [Help (0.2)](#help-02)
-  - [Update (0.3)](#update-03)
-    - [What's new in v1.1.0](#whats-new-in-v110)
-- [Chapter 1: Core Dev-loop Skills, Flows, & Agents utils](#chapter-1-core-dev-loop-skills-flows--agents-utils)
-  - [Everyday Spells (1a)](#everyday-spells-1a)
-    - [Lock-In (1a.1)](#lock-in-1a1)
-    - [Polish (1a.2)](#polish-1a2)
-  - [Dev (1b)](#dev-1b)
-    - [Layout Previews (1b.1)](#layout-previews-1b1)
-    - [Tiramisu Task Decomposition (1b.2)](#tiramisu-task-decomposition-1b2)
-    - [Git Commit Decanter (1b.3)](#git-commit-decanter-1b3)
-    - [Mentor Review (1b.4)](#mentor-review-1b4)
-  - [Agent Ops & Working with Agents (1c)](#agent-ops--working-with-agents-1c)
-    - [Chat Log Search (1c.1)](#chat-log-search-1c1)
-    - [Minion (1c.2)](#minion-1c2)
-    - [Three Minions in a Trench Coat (1c.3)](#three-minions-in-a-trench-coat-1c3)
-    - [Model Quirks (1c.4)](#model-quirks-1c4)
-  - [Expansion Packs (1d)](#expansion-packs-1d)
-- [Chapter 2: The Grim Council](#chapter-2-the-grim-council)
-  - [The Council Members](#the-council-members)
-  - [Guilds & Members](#guilds--members)
-  - [Grimoire (2a.1)](#grimoire-2a1)
-  - [The Merchants Guild: Helm, Ledger & Midas (2b)](#the-merchants-guild-helm-ledger--midas-2b)
-    - [Helm - Biz Manager (2b.1)](#helm---biz-manager-2b1)
-    - [Ledger - Admin (2b.2)](#ledger---admin-2b2)
-    - [Midas - Money (2b.3)](#midas---money-2b3)
-  - [The Ops Guild: Quill, Abathur, Cleo, Roger Roger, Seeker & Postmaster (2c)](#the-ops-guild-quill-abathur-cleo-roger-roger-seeker--postmaster-2c)
-    - [Quill - Notetaker & AutoDocs (2c.1)](#quill---notetaker--autodocs-2c1)
-    - [Abathur - Evolver (2c.2)](#abathur---evolver-2c2)
-    - [Cleo - Maid (2c.3)](#cleo---maid-2c3)
-    - [Roger Roger - Glue Bot (2c.4)](#roger-roger---glue-bot-2c4)
-    - [Seeker - Researcher (2c.5)](#seeker---researcher-2c5)
-    - [Postmaster - Email Triage (2c.6)](#postmaster---email-triage-2c6)
-  - [The Cortex Guild: Lumen, Selene, Precog, Timekeeper, Farseer, Cauldron & Boulder (2d)](#the-cortex-guild-lumen-selene-precog-timekeeper-farseer-cauldron--boulder-2d)
-    - [Lumen - Life Advisor (2d.1)](#lumen---life-advisor-2d1)
-    - [Selene - Emotional Advisor (2d.2)](#selene---emotional-advisor-2d2)
-    - [Precog - Executive Function (2d.3)](#precog---executive-function-2d3)
-    - [Timekeeper - Daily Planner (2d.4)](#timekeeper---daily-planner-2d4)
-    - [Farseer - Weekly & Long-Term Planner (2d.5)](#farseer---weekly--long-term-planner-2d5)
-    - [Cauldron - Meal Planner (2d.6)](#cauldron---meal-planner-2d6)
-    - [Boulder - Exercise Planner (2d.7)](#boulder---exercise-planner-2d7)
-  - [The Spren Guild: Gizmo, Flicker & Wick (2e)](#the-spren-guild-gizmo-flicker--wick-2e)
-    - [Gizmo - Chaos Goblin (2e.1)](#gizmo---chaos-goblin-2e1)
-    - [Flicker - Whimsy & Joy (2e.2)](#flicker---whimsy--joy-2e2)
-    - [Wick - Moth of Rabbit Holes (2e.3)](#wick---moth-of-rabbit-holes-2e3)
-  - [Council Infrastructure & Management Skills (2f)](#council-infrastructure--management-skills-2f)
-    - [The Grim Council (2f.1)](#the-grim-council-2f1)
-    - [Summon Members (2f.2)](#summon-members-2f2)
-    - [Guilds (2f.3)](#guilds-2f3)
-    - [Council Routines (2f.4)](#council-routines-2f4)
-  - [Social (2g)](#social-2g)
-    - [Gossip (2g.1)](#gossip-2g1)
-    - [GPTavern (2g.2)](#gptavern-2g2)
-  - [UI (2h)](#ui-2h)
-    - [Codex & chatGPT Work /pet (2h.1)](#codex--chatgpt-work-pet-2h1)
-    - [Council Dashboard (2h.2)](#council-dashboard-2h2)
-- [Chapter 3: AutoDocs](#chapter-3-autodocs)
-  - [AutoDocs (3.1)](#autodocs-31)
-    - [Docs Tree & Onboarding](#docs-tree--onboarding)
-  - [Dream Sequence (3.2)](#dream-sequence-32)
-- [Chapter 4: Workbench Artifacts](#chapter-4-workbench-artifacts)
-  - [Artifacts (4.1)](#artifacts-41)
-  - [Workbench Artifact (4.2)](#workbench-artifact-42)
-  - [Image Review Flow Workbench (4.3)](#image-review-flow-workbench-43)
-  - [Text Editor Workbench (4.4)](#text-editor-workbench-44)
+- Intro
+  - [What is this?](#what-is-this)
+  - [Quick Install](#quick-install)
+  - [Starting Guide](#starting-guide)
+  - [Lore](#lore)
+  - [This Spellbook has 3 main focuses](#this-spellbook-has-3-main-focuses)
+  - [Table of contents](#table-of-contents)                              < -- YOU ARE HERE
+- The Chapters
+  - [Chapter 0: Grimterface](#chapter-0-grimterface)
+    - [Install (0.1)](#install-01)
+    - [Help (0.2)](#help-02)
+    - [Update (0.3)](#update-03)
+  - [Chapter 1: Core Dev-loop Skills, Flows, & Agents utils](#chapter-1-core-dev-loop-skills-flows--agents-utils)
+    - [Everyday Spells (1a)](#everyday-spells-1a)
+    - [Dev (1b)](#dev-1b)
+    - [Agent Ops & Working with Agents (1c)](#agent-ops--working-with-agents-1c)
+    - [Expansion Packs (1d)](#expansion-packs-1d)
+  - [Chapter 2: The Grim Council](#chapter-2-the-grim-council)
+    - [The Council Members](#the-council-members)
+    - [Grimoire (2a.1)](#grimoire-2a1)
+    - [The Merchants Guild (2b)](#the-merchants-guild-helm-ledger--midas-2b)
+    - [The Ops Guild (2c)](#the-ops-guild-quill-abathur-cleo-roger-roger-seeker--postmaster-2c)
+    - [The Cortex Guild (2d)](#the-cortex-guild-lumen-selene-precog-timekeeper-farseer-cauldron--boulder-2d)
+    - [The Spren Guild (2e)](#the-spren-guild-gizmo-flicker--wick-2e)
+    - [Council Infrastructure & Management Skills (2f)](#council-infrastructure--management-skills-2f)
+    - [Social (2g)](#social-2g)
+    - [UI (2h)](#ui-2h)
+  - [Chapter 3: AutoDocs](#chapter-3-autodocs)
+    - [AutoDocs (3.1)](#autodocs-31)
+    - [Dream Sequence (3.2)](#dream-sequence-32)
+  - [Chapter 4: Workbench Artifacts](#chapter-4-workbench-artifacts)
+    - [Artifacts (4.1)](#artifacts-41)
+    - [Workbench Artifact (4.2)](#workbench-artifact-42)
+    - [Image Review Flow Workbench (4.3)](#image-review-flow-workbench-43)
+    - [Text Editor Workbench (4.4)](#text-editor-workbench-44)
 - [Appendix](#appendix)
-  - [Expansion packs, recommended skills, MCPs, plugins & other fun tools to explore](#expansion-packs-recommended-skills-mcps-plugins--other-fun-tools-to-explore)
-    - [Standalone Skills](#standalone-skills)
-    - [Other Spellbooks](#other-spellbooks)
-    - [Interesting harnesses](#interesting-harnesses)
-    - [Recommended Plugins, MCPs & APIs](#recommended-plugins-mcps--apis)
+  - [Expansion packs, recommended skills, MCPs, plugins & other fun tools](#expansion-packs-recommended-skills-mcps-plugins--other-fun-tools-to-explore)
   - [How to Cite the Tome (0.0)](#how-to-cite-the-tome-00)
 - [Pay Tribute](#pay-tribute)
+  - [Leave a One-Time Tribute](#leave-a-one-time-tribute)
+  - [Become a Grim Council Patron (monthly)](#become-a-grim-council-patron-monthly)
+  - [Sponsor on GitHub](#sponsor-on-github)
+  - [The Tip Jar](#the-tip-jar)
+  - [The Town Notice Board (Sponsorships)](#the-town-notice-board-sponsorships)
+  - [The Build-a-Wizard Workshop](#the-build-a-wizard-workshop)
+  - [Tribute Leaderboard (Top 100)](#tribute-leaderboard-top-100)
+  - [The ASCII Billboard](#the-ascii-billboard)
 - [License](#license)
 
 ---
@@ -336,6 +302,11 @@ Every skill in the Tome carries a small stat card: difficulty, invocation, and r
 ![Chapter 0: Grimterface](images/02-ch0-grim-terface-flat-imagen.jpg)
 
 ∿∿∿ ✧ Chapter 0: Grimterface ✧ ∿∿∿
+
+- [Install (0.1)](#install-01)
+- [Help (0.2)](#help-02)
+- [Update (0.3)](#update-03)
+  - [What's new in v1.1.0](#whats-new-in-v110)
 
 The Grimterface is a small set of skills for installing, exploring, and updating everything else.  
 
@@ -460,6 +431,21 @@ Full changelog: [patchNotes.md](patchNotes.md)
 ![Chapter 1: Core Dev-loop](images/03-ch1-core-dev-loop-flat-imagen.jpg)
 
 ∿∿∿ ✧ Chapter 1: Core Dev-loop ✧ ∿∿∿
+
+- [Everyday Spells (1a)](#everyday-spells-1a)
+  - [Lock-In (1a.1)](#lock-in-1a1)
+  - [Polish (1a.2)](#polish-1a2)
+- [Dev (1b)](#dev-1b)
+  - [Layout Previews (1b.1)](#layout-previews-1b1)
+  - [Tiramisu Task Decomposition (1b.2)](#tiramisu-task-decomposition-1b2)
+  - [Git Commit Decanter (1b.3)](#git-commit-decanter-1b3)
+  - [Mentor Review (1b.4)](#mentor-review-1b4)
+- [Agent Ops & Working with Agents (1c)](#agent-ops--working-with-agents-1c)
+  - [Chat Log Search (1c.1)](#chat-log-search-1c1)
+  - [Minion (1c.2)](#minion-1c2)
+  - [Three Minions in a Trench Coat (1c.3)](#three-minions-in-a-trench-coat-1c3)
+  - [Model Quirks (1c.4)](#model-quirks-1c4)
+- [Expansion Packs (1d)](#expansion-packs-1d)
 
 Core skills for coding with AI & working with AI models.
 
@@ -1090,6 +1076,44 @@ make a new version of the grill-me skill as a /grim:ep:mx: mutation
 ![Chapter 2: The Grim Council](images/04-ch2-the-grim-council-flat-imagen.jpg)
 
 ∿∿∿ ✧ Chapter 2: The Grim Council ✧ ∿∿∿
+
+- [The Council Members](#the-council-members)
+- [Guilds & Members](#guilds--members)
+- [Grimoire (2a.1)](#grimoire-2a1)
+- [The Merchants Guild: Helm, Ledger & Midas (2b)](#the-merchants-guild-helm-ledger--midas-2b)
+  - [Helm - Biz Manager (2b.1)](#helm---biz-manager-2b1)
+  - [Ledger - Admin (2b.2)](#ledger---admin-2b2)
+  - [Midas - Money (2b.3)](#midas---money-2b3)
+- [The Ops Guild: Quill, Abathur, Cleo, Roger Roger, Seeker & Postmaster (2c)](#the-ops-guild-quill-abathur-cleo-roger-roger-seeker--postmaster-2c)
+  - [Quill - Notetaker & AutoDocs (2c.1)](#quill---notetaker--autodocs-2c1)
+  - [Abathur - Evolver (2c.2)](#abathur---evolver-2c2)
+  - [Cleo - Maid (2c.3)](#cleo---maid-2c3)
+  - [Roger Roger - Glue Bot (2c.4)](#roger-roger---glue-bot-2c4)
+  - [Seeker - Researcher (2c.5)](#seeker---researcher-2c5)
+  - [Postmaster - Email Triage (2c.6)](#postmaster---email-triage-2c6)
+- [The Cortex Guild: Lumen, Selene, Precog, Timekeeper, Farseer, Cauldron & Boulder (2d)](#the-cortex-guild-lumen-selene-precog-timekeeper-farseer-cauldron--boulder-2d)
+  - [Lumen - Life Advisor (2d.1)](#lumen---life-advisor-2d1)
+  - [Selene - Emotional Advisor (2d.2)](#selene---emotional-advisor-2d2)
+  - [Precog - Executive Function (2d.3)](#precog---executive-function-2d3)
+  - [Timekeeper - Daily Planner (2d.4)](#timekeeper---daily-planner-2d4)
+  - [Farseer - Weekly & Long-Term Planner (2d.5)](#farseer---weekly--long-term-planner-2d5)
+  - [Cauldron - Meal Planner (2d.6)](#cauldron---meal-planner-2d6)
+  - [Boulder - Exercise Planner (2d.7)](#boulder---exercise-planner-2d7)
+- [The Spren Guild: Gizmo, Flicker & Wick (2e)](#the-spren-guild-gizmo-flicker--wick-2e)
+  - [Gizmo - Chaos Goblin (2e.1)](#gizmo---chaos-goblin-2e1)
+  - [Flicker - Whimsy & Joy (2e.2)](#flicker---whimsy--joy-2e2)
+  - [Wick - Moth of Rabbit Holes (2e.3)](#wick---moth-of-rabbit-holes-2e3)
+- [Council Infrastructure & Management Skills (2f)](#council-infrastructure--management-skills-2f)
+  - [The Grim Council (2f.1)](#the-grim-council-2f1)
+  - [Summon Members (2f.2)](#summon-members-2f2)
+  - [Guilds (2f.3)](#guilds-2f3)
+  - [Council Routines (2f.4)](#council-routines-2f4)
+- [Social (2g)](#social-2g)
+  - [Gossip (2g.1)](#gossip-2g1)
+  - [GPTavern (2g.2)](#gptavern-2g2)
+- [UI (2h)](#ui-2h)
+  - [Codex & chatGPT Work /pet (2h.1)](#codex--chatgpt-work-pet-2h1)
+  - [Council Dashboard (2h.2)](#council-dashboard-2h2)
 
 
 | Difficulty | 🟦⬜⬜ Easy ↔ 🟪🟪🟪 Pro |
@@ -2137,6 +2161,10 @@ It reads the Tome's public skills and council roster live from the repo. No snap
 
 ∿∿∿ ✧ Chapter 3: AutoDocs ✧ ∿∿∿
 
+- [AutoDocs (3.1)](#autodocs-31)
+  - [Docs Tree & Onboarding](#docs-tree--onboarding)
+- [Dream Sequence (3.2)](#dream-sequence-32)
+
 ---
 
 ### AutoDocs (3.1)
@@ -2243,6 +2271,11 @@ Run a dream sequence, then show me what got promoted into docs.
 ![Chapter 4: Workbench Artifacts](images/06-ch4-workbench-artifacts-flat-imagen.jpg)
 
 ∿∿∿ ✧ Chapter 4: Workbench Artifacts ✧ ∿∿∿
+
+- [Artifacts (4.1)](#artifacts-41)
+- [Workbench Artifact (4.2)](#workbench-artifact-42)
+- [Image Review Flow Workbench (4.3)](#image-review-flow-workbench-43)
+- [Text Editor Workbench (4.4)](#text-editor-workbench-44)
 
 
 | Difficulty | 🟪🟪🟪 Pro |
@@ -2443,6 +2476,13 @@ Which can easily extend coding agent apps that have an embedded browser, but no 
 ![Appendix](images/07-appendix-flat-nanobanana.jpg)
 
 ∿∿∿ ✧ Appendix ✧ ∿∿∿
+
+- [Expansion packs, recommended skills, MCPs, plugins & other fun tools to explore](#expansion-packs-recommended-skills-mcps-plugins--other-fun-tools-to-explore)
+  - [Standalone Skills](#standalone-skills)
+  - [Other Spellbooks](#other-spellbooks)
+  - [Interesting harnesses](#interesting-harnesses)
+  - [Recommended Plugins, MCPs & APIs](#recommended-plugins-mcps--apis)
+- [How to Cite the Tome (0.0)](#how-to-cite-the-tome-00)
 
 ---
 
