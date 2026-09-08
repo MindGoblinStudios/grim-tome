@@ -41,7 +41,7 @@ The skills of Grimoire's Tome. Every folder here is a skill or a family of skill
 - `lock-in` (top level, `grim:lock-in`)
 
 ### Public Workbench Artifact Skills
-- `artifacts/artifacts` (`grim:artifacts`) — the artifacts standard: minimal static single-file, escalate only when needed
+- `artifacts/relic-artifacts` (`grim:relic-artifacts`) — the artifacts standard: minimal static single-file, escalate only when needed
 - `artifacts/workbench-artifact` (`grim:dev:workbench-artifact`) — minimal template + shared standard
 - `artifacts/image-review-flow-workbench` (`grim:media:image-review-flow-workbench`)
 - `artifacts/text-editor-workbench` (`grim:dev:text-editor-workbench`)

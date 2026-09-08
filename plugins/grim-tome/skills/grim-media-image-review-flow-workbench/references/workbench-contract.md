@@ -26,7 +26,7 @@ Use it for short video and motion review too:
 - Artifact asset scanner: `/api/workbenches/image-review-flow-workbench/assets`
 
 ### Sync Contract
-This artifact follows the shared Workbench Skill standard in `skills/artifacts/artifacts/references/workbench-skills.md`.
+This artifact follows the shared Workbench Skill standard in `skills/artifacts/relic-artifacts/references/workbench-skills.md`.
 
 Keep this workflow small and file-backed.
 

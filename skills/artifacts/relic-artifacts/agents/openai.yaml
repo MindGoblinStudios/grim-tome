@@ -1,0 +1,8 @@
+interface:
+  display_name: "grim:relic-artifacts"
+  short_description: "Relic Artifacts: The house standard for artifacts — minimal is one static self-contained HTML file, escalating to small servers or extra files only when the job needs them."
+  default_prompt: "Use $grim:relic-artifacts to build a minimal interactive artifact for this task."
+  icon_small: "./assets/relic-artifacts-icon-small.png"
+  icon_large: "./assets/relic-artifacts-icon-large.png"
+policy:
+  allow_implicit_invocation: false

@@ -45,7 +45,7 @@ Start and open:
 - `http://127.0.0.1:8765/image-review-flow-workbench/`
 
 ## Sync Contract
-This skill follows the shared Workbench Skill standard in `skills/artifacts/artifacts/references/workbench-skills.md`.
+This skill follows the shared Workbench Skill standard in `skills/artifacts/relic-artifacts/references/workbench-skills.md`.
 
 Keep the artifact simple:
 - `index.html`

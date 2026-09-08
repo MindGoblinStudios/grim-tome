@@ -60,7 +60,7 @@ PLUGINS = {
         "logo": "skills/artifacts/workbench-artifact/assets/workbench-artifact-icon-med.png",
         "keywords": ["artifacts", "workbench", "html", "tools"],
         "match": lambda sid: sid in (
-            "grim:artifacts",
+            "grim:relic-artifacts",
             "grim:dev:workbench-artifact",
             "grim:media:image-review-flow-workbench",
             "grim:dev:text-editor-workbench",

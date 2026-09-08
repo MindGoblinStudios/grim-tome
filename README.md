@@ -286,7 +286,7 @@ Time to explore the frontier.
     - [AutoDocs (3.1)](#autodocs-31)
     - [Dream Sequence (3.2)](#dream-sequence-32)
   - [Chapter 4: Workbench Artifacts](#chapter-4-workbench-artifacts)
-    - [Artifacts (4.1)](#artifacts-41)
+    - [Relic Artifacts (4.1)](#relic-artifacts-41)
     - [Workbench Artifact (4.2)](#workbench-artifact-42)
     - [Image Review Flow Workbench (4.3)](#image-review-flow-workbench-43)
     - [Text Editor Workbench (4.4)](#text-editor-workbench-44)
@@ -2239,7 +2239,7 @@ Run a dream sequence, then show me what got promoted into docs.
 
 ∿∿∿ ✧ Chapter 4: Workbench Artifacts ✧ ∿∿∿
 
-- [Artifacts (4.1)](#artifacts-41)
+- [Relic Artifacts (4.1)](#relic-artifacts-41)
 - [Workbench Artifact (4.2)](#workbench-artifact-42)
 - [Image Review Flow Workbench (4.3)](#image-review-flow-workbench-43)
 - [Text Editor Workbench (4.4)](#text-editor-workbench-44)
@@ -2253,7 +2253,7 @@ You are likely already familiar with the artifacts paradigm, originally populari
 
 If not, short version, artifacts uses LLMs to quickly generate code to make small websites and interactive pages.
 
-A plain artifact is one self-contained HTML file: the agent generates it, you open it, done. The Tome's standard for those is `/grim:artifacts` below. Sometimes you will run more complex pages which can use more files and local servers.
+A plain artifact is one self-contained HTML file: the agent generates it, you open it, done. The Tome's standard for those is `/grim:relic-artifacts` below. Sometimes you will run more complex pages which can use more files and local servers.
 
 Workbench artifacts are an extension to artifacts, which combines:
 artifacts + /skills + 3 new things
@@ -2319,17 +2319,17 @@ Either side can change things: the agent edits the save file and the UI hot-relo
 
 ---
 
-### Artifacts (4.1)
+### Relic Artifacts (4.1)
 
-🏺 /grim:artifacts 🏺
+🏺 /grim:relic-artifacts 🏺
 
-![artifacts](skills/artifacts/artifacts/assets/artifacts-icon-med.png)
+![relic artifacts](skills/artifacts/relic-artifacts/assets/relic-artifacts-icon-med.png)
 
 
-| [Artifacts](skills/artifacts/artifacts/SKILL.md) |               |
-| ------------------------------------------------ | ------------- |
-| **Difficulty**                                   | 🟩🟩⬜ Medium  |
-| **Invocation**                                   | **🪄 Manual** |
+| [Relic Artifacts](skills/artifacts/relic-artifacts/SKILL.md) |               |
+| ------------------------------------------------------------ | ------------- |
+| **Difficulty**                                               | 🟩🟩⬜ Medium  |
+| **Invocation**                                               | **🪄 Manual** |
 
 
 The house standard for artifacts.
@@ -2345,14 +2345,14 @@ When an artifact needs persistent state or live two-way sync with your agent, it
 *Ask for any small tool:*
 
 ```text
-/grim:artifacts
+/grim:relic-artifacts
 build me a habit tracker
 ```
 
 *Data in, page out:*
 
 ```text
-/grim:artifacts
+/grim:relic-artifacts
 make a page that turns this CSV into a pie chart
 ```
 
@@ -2375,7 +2375,7 @@ The template and the standard for workbench artifacts. The smallest complete wor
 
 App code lives in the Tome; your state and media live in **your project**, at `<your-project>/workbench/<workbench-name>/`, a sibling of `docs/`, flat files only. A tiny local sync server powers the two-way hot sync; your agent starts and manages it for you.
 
-Use it as the starting point when you want to build your own workbench. The shared standard lives in [workbench-skills.md](skills/artifacts/artifacts/references/workbench-skills.md).
+Use it as the starting point when you want to build your own workbench. The shared standard lives in [workbench-skills.md](skills/artifacts/relic-artifacts/references/workbench-skills.md).
 
 These work best with agent apps that include browsers like ChatGPT Codex and Cursor
 

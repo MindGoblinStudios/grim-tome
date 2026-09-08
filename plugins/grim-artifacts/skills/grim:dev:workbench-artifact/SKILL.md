@@ -24,7 +24,7 @@ Keep the default implementation minimal:
 - no browser-only source of truth.
 
 ## Canonical Paths
-- Shared standard: `skills/artifacts/artifacts/references/workbench-skills.md`
+- Shared standard: `skills/artifacts/relic-artifacts/references/workbench-skills.md`
 - Skill source: `skills/artifacts/workbench-artifact/SKILL.md`
 - Sample artifact: `skills/artifacts/workbench-artifact/artifact/index.html`
 - Default state template: `skills/artifacts/workbench-artifact/artifact/state.json`
@@ -62,7 +62,7 @@ The two-way sync is powered by a small local server: `artifacts/server.js`. It i
 - The `workbench/` folder is a sibling of `docs/` — same philosophy: project-owned durable files.
 - Media dropped into the folder appears in the workbench on the next poll, zero code edits.
 
-To open a workbench (or any local web app) on your phone over home WiFi, follow the LAN sharing guide in `grim:artifacts` — bind the server to `0.0.0.0` and hit the Mac's LAN IP from the phone.
+To open a workbench (or any local web app) on your phone over home WiFi, follow the LAN sharing guide in `grim:relic-artifacts` — bind the server to `0.0.0.0` and hit the Mac's LAN IP from the phone.
 
 ## Optional WebMCP Host Bridge
 

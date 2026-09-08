@@ -98,8 +98,8 @@ entries:
     path: skills/dev/design/layout-previews
   - id: grim:media:skill-icons
     path: skills/media/skill-icons
-  - id: grim:artifacts
-    path: skills/artifacts/artifacts
+  - id: grim:relic-artifacts
+    path: skills/artifacts/relic-artifacts
   - id: grim:dev:workbench-artifact
     path: skills/artifacts/workbench-artifact
   - id: grim:media:image-review-flow-workbench
