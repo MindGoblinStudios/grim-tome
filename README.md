@@ -266,9 +266,7 @@ Time to explore the frontier.
   - [Table of contents](#table-of-contents)                              < -- YOU ARE HERE
 - The Chapters
   - [Chapter 0: Grimterface](#chapter-0-grimterface)
-    - [Install (0.1)](#install-01)
-    - [Help (0.2)](#help-02)
-    - [Update (0.3)](#update-03)
+    - [Install, Help & Update (0.1, 0.2, 0.3)](#install-help--update-01-02-03)
   - [Chapter 1: Core Dev-loop Skills, Flows, & Agents utils](#chapter-1-core-dev-loop-skills-flows--agents-utils)
     - [Everyday Spells (1a)](#everyday-spells-1a)
     - [Dev (1b)](#dev-1b)
@@ -284,7 +282,6 @@ Time to explore the frontier.
     - [Council Infrastructure & Management Skills (2f)](#council-infrastructure--management-skills-2f)
     - [Social (2g)](#social-2g)
     - [UI (2h)](#ui-2h)
-    - [Media & Game Assets (2i)](#media--game-assets-2i)
   - [Chapter 3: AutoDocs](#chapter-3-autodocs)
     - [AutoDocs (3.1)](#autodocs-31)
     - [Dream Sequence (3.2)](#dream-sequence-32)
@@ -319,10 +316,7 @@ Every skill in the Tome carries a small stat card: difficulty, invocation, and r
 
 ∿∿∿ ✧ Chapter 0: Grimterface ✧ ∿∿∿
 
-- [Install (0.1)](#install-01)
-- [Help (0.2)](#help-02)
-- [Update (0.3)](#update-03)
-  - [What's new in v1.1.5](#whats-new-in-v115)
+- [Install, Help & Update (0.1, 0.2, 0.3)](#install-help--update-01-02-03)
 
 The Grimterface is a small set of skills for installing, exploring, and updating everything else.  
 
@@ -334,20 +328,26 @@ The Grimterface
 
 ---
 
-### Install (0.1)
+### Install, Help & Update (0.1, 0.2, 0.3)
 
-📥 /grim:terface:install 📥
+📥 /grim:terface:install 📥 · ❓ /grim:terface:help ❓ · 🔄 /grim:terface:update 🔄
 
-![install](skills/terface/install/assets/install-icon-med.png)
-
-
-| [Install](skills/terface/install/SKILL.md) |               |
-| ------------------------------------------ | ------------- |
-| **Difficulty**                             | 🟦⬜⬜ Easy     |
-| **Invocation**                             | **🪄 Manual** |
+| [Install (0.1)](skills/terface/install/SKILL.md) | [Help (0.2)](skills/terface/help/SKILL.md) | [Update (0.3)](skills/terface/update/SKILL.md) |
+| :---: | :---: | :---: |
+| ![install](skills/terface/install/assets/install-icon-med.png) | ![help](skills/terface/help/assets/help-icon-med.png) | ![update](skills/terface/update/assets/update-icon-med.png) |
 
 
-Guided install. Explains Grimoire's Tome and explores how you can get the most out of it.
+| Grimterface     |               |
+| --------------- | ------------- |
+| **Difficulty**  | 🟦⬜⬜ Easy     |
+| **Invocation**  | **🪄 Manual** |
+
+
+**Install** is the guided install. Explains Grimoire's Tome and explores how you can get the most out of it.
+
+**Help** is for learning more about the Tome and getting suggestions for what to use. Routes you to the right skill, council member, or doc with one recommendation and one next step.
+
+**Update** pings this repo and checks for updates in patchNotes.md. If a new version is available, it summarizes what's new and asks if you want to install and/or incorporate any upgrades. The latest release is always summarized in [What's New](#whats-new) at the top of the Tome; the full changelog is [patchNotes.md](patchNotes.md).
 
 ─────────────────────
 
@@ -371,25 +371,6 @@ I'm brand new, start me easy and explain as we go.
 I don't care about coding skip me to the Grim Coucil!
 ```
 
----
-
-### Help (0.2)
-
-❓ /grim:terface:help ❓
-
-![help](skills/terface/help/assets/help-icon-med.png)
-
-
-| [Help](skills/terface/help/SKILL.md) |               |
-| ------------------------------------ | ------------- |
-| **Difficulty**                       | 🟦⬜⬜ Easy     |
-| **Invocation**                       | **🪄 Manual** |
-
-
-Use this skill to learn more about Grimoire's Tome, and get suggestions for what skills to use. Routes you to the right skill, council member, or doc with one recommendation and one next step.
-
-─────────────────────
-
 *Help brainstorm how to use Grimoire's Tome for you!*
 
 ```text
@@ -397,40 +378,7 @@ Use this skill to learn more about Grimoire's Tome, and get suggestions for what
 what does this tome do and what can I use it for based on what you already know about me
 ```
 
----
-
-### Update (0.3)
-
-🔄 /grim:terface:update 🔄
-
-![update](skills/terface/update/assets/update-icon-med.png)
-
-
-| [Update](skills/terface/update/SKILL.md) |               |
-| ---------------------------------------- | ------------- |
-| **Difficulty**                           | 🟦⬜⬜ Easy     |
-| **Invocation**                           | **🪄 Manual** |
-
-
-Use this skill to ping this repo and check for updates in patchNotes.md. If a new version is available, it summarizes what's new and asks if you want to install and/or incorporate any upgrades.
-
-#### What's new in v1.1.5
-
-Grimoire is in the [Cursor Marketplace](https://cursor.com/marketplace/mind-goblin-studios). Plus the Narrator, on top of the Astra Attunement.
-
-- v1.1.5: official Cursor Marketplace listing; one click installs the whole Tome
-- v1.1.2: a shared Narrator voice for the council on every harness (stage direction, handoffs, status beats, never plain assistant voice mid-council); Grok Bots add live peer summons
-- v1.1.0: every council member's voice rewritten with catchphrase banks and an "only when the moment earns it" rule
-- New protocols: Timekeeper's adaptive check-ins, Lumen's Tend The Flame, Wick's From Flutter To Focus, and more
-- Launcher metadata (`default_prompt`, tighter descriptions) on every skill; Minion split into a thin router plus references
-- Grok Bot seating cap and Grim Council seats in the council skill
-- Refreshed portraits for Postmaster, Precog, Seeker, and Timekeeper
-
-Full changelog: [patchNotes.md](patchNotes.md)
-
-─────────────────────
-
-*Use without a prompt to do a simple update*
+*Use update without a prompt to do a simple update*
 
 ```text
 /grim:terface:update
@@ -443,6 +391,7 @@ Full changelog: [patchNotes.md](patchNotes.md)
 ```
 
 ---
+
 
 # Chapter 1: Core Dev-loop Skills, Flows, & Agents utils
 
@@ -1132,7 +1081,6 @@ make a new version of the grill-me skill as a /grim:ep:mx: mutation
 - [UI (2h)](#ui-2h)
   - [Codex & chatGPT Work /pet (2h.1)](#codex--chatgpt-work-pet-2h1)
   - [Council Dashboard (2h.2)](#council-dashboard-2h2)
-- [Media & Game Assets (2i)](#media--game-assets-2i)
 
 
 | Difficulty | 🟦⬜⬜ Easy ↔ 🟪🟪🟪 Pro |
@@ -1272,17 +1220,7 @@ The cutting edge of Vibecoding & Prompt-maxxing AI agents.
 
 🧙‍♂️ /grim:council:guild:coding:grimoire-code-wizard 🧙‍♂️
 
-<!-- council-media:grimoire:start -->
-<table>
-<tr>
-<td><a href="skills/council/members/grimoire-code-wizard/assets/portrait.png"><img src="skills/council/members/grimoire-code-wizard/assets/portrait.png" alt="Grimoire picture" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/grimoire-code-wizard/assets/media/thumbnail.png"><img src="skills/council/members/grimoire-code-wizard/assets/media/thumbnail.png" alt="Grimoire thumbnail" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/grimoire-code-wizard/assets/media/icon.png"><img src="skills/council/members/grimoire-code-wizard/assets/media/icon.png" alt="Grimoire icon" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/grimoire-code-wizard/assets/media/turntable.gif"><img src="skills/council/members/grimoire-code-wizard/assets/media/turntable.gif" alt="Grimoire rotating model" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/grimoire-code-wizard/assets/media/card-front.png"><img src="skills/council/members/grimoire-code-wizard/assets/media/card-front.png" alt="Grimoire playing card" width="107" height="160" loading="lazy"></a></td>
-</tr>
-</table>
-<!-- council-media:grimoire:end -->
+![Meet Grimoire](images/grimoire.gif)
 
 
 | [Grimoire](skills/council/members/grimoire-code-wizard/SKILL.md) |                        |
@@ -1387,17 +1325,7 @@ Or start your first one!
 
 🧭 /grim:council:guild:merchants:helm-biz-manager 🧭
 
-<!-- council-media:helm:start -->
-<table>
-<tr>
-<td><a href="skills/council/members/helm-biz-manager/assets/portrait.png"><img src="skills/council/members/helm-biz-manager/assets/portrait.png" alt="Helm picture" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/helm-biz-manager/assets/media/thumbnail.png"><img src="skills/council/members/helm-biz-manager/assets/media/thumbnail.png" alt="Helm thumbnail" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/helm-biz-manager/assets/media/icon.png"><img src="skills/council/members/helm-biz-manager/assets/media/icon.png" alt="Helm icon" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/helm-biz-manager/assets/media/turntable.gif"><img src="skills/council/members/helm-biz-manager/assets/media/turntable.gif" alt="Helm rotating model" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/helm-biz-manager/assets/media/card-front.png"><img src="skills/council/members/helm-biz-manager/assets/media/card-front.png" alt="Helm playing card" width="107" height="160" loading="lazy"></a></td>
-</tr>
-</table>
-<!-- council-media:helm:end -->
+![Helm](skills/council/members/helm-biz-manager/assets/helm-biz-manager-portrait-med.png)
 
 
 | [Helm](skills/council/members/helm-biz-manager/SKILL.md) |              |
@@ -1423,17 +1351,7 @@ Or if you already have a job, Helm can help you with the business of "you, selli
 
 📒 /grim:council:guild:merchants:ledger-biz-admin 📒
 
-<!-- council-media:ledger:start -->
-<table>
-<tr>
-<td><a href="skills/council/members/ledger-biz-admin/assets/portrait.png"><img src="skills/council/members/ledger-biz-admin/assets/portrait.png" alt="Ledger picture" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/ledger-biz-admin/assets/media/thumbnail.png"><img src="skills/council/members/ledger-biz-admin/assets/media/thumbnail.png" alt="Ledger thumbnail" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/ledger-biz-admin/assets/media/icon.png"><img src="skills/council/members/ledger-biz-admin/assets/media/icon.png" alt="Ledger icon" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/ledger-biz-admin/assets/media/turntable.gif"><img src="skills/council/members/ledger-biz-admin/assets/media/turntable.gif" alt="Ledger rotating model" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/ledger-biz-admin/assets/media/card-front.png"><img src="skills/council/members/ledger-biz-admin/assets/media/card-front.png" alt="Ledger playing card" width="107" height="160" loading="lazy"></a></td>
-</tr>
-</table>
-<!-- council-media:ledger:end -->
+![Ledger](skills/council/members/ledger-biz-admin/assets/ledger-biz-admin-portrait-med.png)
 
 
 | [Ledger](skills/council/members/ledger-biz-admin/SKILL.md) |              |
@@ -1451,17 +1369,7 @@ Admin, legal, insurance, anything with a form.
 
 💰 /grim:council:guild:merchants:midas-money-manager 💰
 
-<!-- council-media:midas:start -->
-<table>
-<tr>
-<td><a href="skills/council/members/midas-money-manager/assets/portrait.png"><img src="skills/council/members/midas-money-manager/assets/portrait.png" alt="Midas picture" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/midas-money-manager/assets/media/thumbnail.png"><img src="skills/council/members/midas-money-manager/assets/media/thumbnail.png" alt="Midas thumbnail" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/midas-money-manager/assets/media/icon.png"><img src="skills/council/members/midas-money-manager/assets/media/icon.png" alt="Midas icon" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/midas-money-manager/assets/media/turntable.gif"><img src="skills/council/members/midas-money-manager/assets/media/turntable.gif" alt="Midas rotating model" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/midas-money-manager/assets/media/card-front.png"><img src="skills/council/members/midas-money-manager/assets/media/card-front.png" alt="Midas playing card" width="107" height="160" loading="lazy"></a></td>
-</tr>
-</table>
-<!-- council-media:midas:end -->
+![Midas](skills/council/members/midas-money-manager/assets/midas-money-manager-icon-med.png)
 
 
 | [Midas](skills/council/members/midas-money-manager/SKILL.md) |            |
@@ -1499,17 +1407,7 @@ Gardening for your mind & promptbase.
 
 🪶 /grim:council:guild:ops:quill-scribe 🪶
 
-<!-- council-media:quill:start -->
-<table>
-<tr>
-<td><a href="skills/council/members/quill-scribe/assets/portrait.png"><img src="skills/council/members/quill-scribe/assets/portrait.png" alt="Quill picture" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/quill-scribe/assets/media/thumbnail.png"><img src="skills/council/members/quill-scribe/assets/media/thumbnail.png" alt="Quill thumbnail" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/quill-scribe/assets/media/icon.png"><img src="skills/council/members/quill-scribe/assets/media/icon.png" alt="Quill icon" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/quill-scribe/assets/media/turntable.gif"><img src="skills/council/members/quill-scribe/assets/media/turntable.gif" alt="Quill rotating model" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/quill-scribe/assets/media/card-front.png"><img src="skills/council/members/quill-scribe/assets/media/card-front.png" alt="Quill playing card" width="107" height="160" loading="lazy"></a></td>
-</tr>
-</table>
-<!-- council-media:quill:end -->
+![Quill](skills/council/members/quill-scribe/assets/quill-scribe-icon-med.png)
 
 
 | [Quill](skills/council/members/quill-scribe/SKILL.md) |           |
@@ -1533,17 +1431,7 @@ The memory palace wouldn't be complete without a librarian.
 
 🧬 /grim:council:guild:ops:abathur-evolver 🧬
 
-<!-- council-media:abathur:start -->
-<table>
-<tr>
-<td><a href="skills/council/members/abathur-evolver/assets/portrait.png"><img src="skills/council/members/abathur-evolver/assets/portrait.png" alt="Abathur picture" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/abathur-evolver/assets/media/thumbnail.png"><img src="skills/council/members/abathur-evolver/assets/media/thumbnail.png" alt="Abathur thumbnail" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/abathur-evolver/assets/media/icon.png"><img src="skills/council/members/abathur-evolver/assets/media/icon.png" alt="Abathur icon" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/abathur-evolver/assets/media/turntable.gif"><img src="skills/council/members/abathur-evolver/assets/media/turntable.gif" alt="Abathur rotating model" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/abathur-evolver/assets/media/card-front.png"><img src="skills/council/members/abathur-evolver/assets/media/card-front.png" alt="Abathur playing card" width="107" height="160" loading="lazy"></a></td>
-</tr>
-</table>
-<!-- council-media:abathur:end -->
+![Abathur](skills/council/members/abathur-evolver/assets/abathur-evolver-portrait-med.png)
 
 
 | [Abathur](skills/council/members/abathur-evolver/SKILL.md) |            |
@@ -1562,17 +1450,7 @@ Recursive self improvement.
 
 🧹 /grim:council:guild:ops:cleo-code-maid 🧹
 
-<!-- council-media:cleo:start -->
-<table>
-<tr>
-<td><a href="skills/council/members/cleo-code-maid/assets/portrait.png"><img src="skills/council/members/cleo-code-maid/assets/portrait.png" alt="Cleo picture" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/cleo-code-maid/assets/media/thumbnail.png"><img src="skills/council/members/cleo-code-maid/assets/media/thumbnail.png" alt="Cleo thumbnail" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/cleo-code-maid/assets/media/icon.png"><img src="skills/council/members/cleo-code-maid/assets/media/icon.png" alt="Cleo icon" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/cleo-code-maid/assets/media/turntable.gif"><img src="skills/council/members/cleo-code-maid/assets/media/turntable.gif" alt="Cleo rotating model" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/cleo-code-maid/assets/media/card-front.png"><img src="skills/council/members/cleo-code-maid/assets/media/card-front.png" alt="Cleo playing card" width="107" height="160" loading="lazy"></a></td>
-</tr>
-</table>
-<!-- council-media:cleo:end -->
+![Cleo](skills/council/members/cleo-code-maid/assets/cleo-code-maid-icon-med.png)
 
 
 | [Cleo](skills/council/members/cleo-code-maid/SKILL.md) |              |
@@ -1598,17 +1476,7 @@ Create Beauty & Elegance
 
 📡 /grim:council:guild:ops:roger-roger 📡
 
-<!-- council-media:roger:start -->
-<table>
-<tr>
-<td><a href="skills/council/members/roger-roger/assets/portrait.png"><img src="skills/council/members/roger-roger/assets/portrait.png" alt="Roger Roger picture" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/roger-roger/assets/media/thumbnail.png"><img src="skills/council/members/roger-roger/assets/media/thumbnail.png" alt="Roger Roger thumbnail" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/roger-roger/assets/media/icon.png"><img src="skills/council/members/roger-roger/assets/media/icon.png" alt="Roger Roger icon" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/roger-roger/assets/media/turntable.gif"><img src="skills/council/members/roger-roger/assets/media/turntable.gif" alt="Roger Roger rotating model" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/roger-roger/assets/media/card-front.png"><img src="skills/council/members/roger-roger/assets/media/card-front.png" alt="Roger Roger playing card" width="107" height="160" loading="lazy"></a></td>
-</tr>
-</table>
-<!-- council-media:roger:end -->
+![Roger Roger](skills/council/members/roger-roger/assets/roger-roger-portrait-med.png)
 
 
 | [Roger Roger](skills/council/members/roger-roger/SKILL.md) |              |
@@ -1639,17 +1507,7 @@ He handles:
 
 🏮 /grim:council:guild:ops:seeker-researcher 🏮
 
-<!-- council-media:seeker:start -->
-<table>
-<tr>
-<td><a href="skills/council/members/seeker-researcher/assets/portrait.png"><img src="skills/council/members/seeker-researcher/assets/portrait.png" alt="Seeker picture" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/seeker-researcher/assets/media/thumbnail.png"><img src="skills/council/members/seeker-researcher/assets/media/thumbnail.png" alt="Seeker thumbnail" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/seeker-researcher/assets/media/icon.png"><img src="skills/council/members/seeker-researcher/assets/media/icon.png" alt="Seeker icon" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/seeker-researcher/assets/media/turntable.gif"><img src="skills/council/members/seeker-researcher/assets/media/turntable.gif" alt="Seeker rotating model" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/seeker-researcher/assets/media/card-front.png"><img src="skills/council/members/seeker-researcher/assets/media/card-front.png" alt="Seeker playing card" width="107" height="160" loading="lazy"></a></td>
-</tr>
-</table>
-<!-- council-media:seeker:end -->
+![Seeker](skills/council/members/seeker-researcher/assets/seeker-researcher-portrait-med.png)
 
 
 | [Seeker](skills/council/members/seeker-researcher/SKILL.md) |           |
@@ -1669,17 +1527,7 @@ Not a firehose. Seeker decides what is actually worth knowing.
 
 📮 /grim:council:guild:ops:postmaster-email-triage 📮
 
-<!-- council-media:postmaster:start -->
-<table>
-<tr>
-<td><a href="skills/council/members/postmaster-email-triage/assets/portrait.png"><img src="skills/council/members/postmaster-email-triage/assets/portrait.png" alt="Postmaster picture" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/postmaster-email-triage/assets/media/thumbnail.png"><img src="skills/council/members/postmaster-email-triage/assets/media/thumbnail.png" alt="Postmaster thumbnail" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/postmaster-email-triage/assets/media/icon.png"><img src="skills/council/members/postmaster-email-triage/assets/media/icon.png" alt="Postmaster icon" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/postmaster-email-triage/assets/media/turntable.gif"><img src="skills/council/members/postmaster-email-triage/assets/media/turntable.gif" alt="Postmaster rotating model" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/postmaster-email-triage/assets/media/card-front.png"><img src="skills/council/members/postmaster-email-triage/assets/media/card-front.png" alt="Postmaster playing card" width="107" height="160" loading="lazy"></a></td>
-</tr>
-</table>
-<!-- council-media:postmaster:end -->
+![Postmaster](skills/council/members/postmaster-email-triage/assets/postmaster-email-triage-portrait-med.png)
 
 
 | [Postmaster](skills/council/members/postmaster-email-triage/SKILL.md) |                                                                                                                                                    |
@@ -1713,17 +1561,7 @@ Executive function in a bottle.
 
 💡 /grim:council:guild:cortex:lumen-life-advisor 💡
 
-<!-- council-media:lumen:start -->
-<table>
-<tr>
-<td><a href="skills/council/members/lumen-life-advisor/assets/portrait.png"><img src="skills/council/members/lumen-life-advisor/assets/portrait.png" alt="Lumen picture" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/lumen-life-advisor/assets/media/thumbnail.png"><img src="skills/council/members/lumen-life-advisor/assets/media/thumbnail.png" alt="Lumen thumbnail" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/lumen-life-advisor/assets/media/icon.png"><img src="skills/council/members/lumen-life-advisor/assets/media/icon.png" alt="Lumen icon" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/lumen-life-advisor/assets/media/turntable.gif"><img src="skills/council/members/lumen-life-advisor/assets/media/turntable.gif" alt="Lumen rotating model" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/lumen-life-advisor/assets/media/card-front.png"><img src="skills/council/members/lumen-life-advisor/assets/media/card-front.png" alt="Lumen playing card" width="89" height="160" loading="lazy"></a></td>
-</tr>
-</table>
-<!-- council-media:lumen:end -->
+![Lumen](skills/council/members/lumen-life-advisor/assets/lumen-life-advisor-portrait-med.png)
 
 
 | [Lumen](skills/council/members/lumen-life-advisor/SKILL.md) |           |
@@ -1745,17 +1583,7 @@ He helps you find who you want to be, what you truly want, how you want to desig
 
 🌙 /grim:council:guild:cortex:selene-emotional-advisor 🌙
 
-<!-- council-media:selene:start -->
-<table>
-<tr>
-<td><a href="skills/council/members/selene-emotional-advisor/assets/portrait.png"><img src="skills/council/members/selene-emotional-advisor/assets/portrait.png" alt="Selene picture" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/selene-emotional-advisor/assets/media/thumbnail.png"><img src="skills/council/members/selene-emotional-advisor/assets/media/thumbnail.png" alt="Selene thumbnail" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/selene-emotional-advisor/assets/media/icon.png"><img src="skills/council/members/selene-emotional-advisor/assets/media/icon.png" alt="Selene icon" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/selene-emotional-advisor/assets/media/turntable.gif"><img src="skills/council/members/selene-emotional-advisor/assets/media/turntable.gif" alt="Selene rotating model" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/selene-emotional-advisor/assets/media/card-front.png"><img src="skills/council/members/selene-emotional-advisor/assets/media/card-front.png" alt="Selene playing card" width="107" height="160" loading="lazy"></a></td>
-</tr>
-</table>
-<!-- council-media:selene:end -->
+![Selene](skills/council/members/selene-emotional-advisor/assets/selene-emotional-advisor-portrait-med.png)
 
 
 | [Selene](skills/council/members/selene-emotional-advisor/SKILL.md) |           |
@@ -1797,17 +1625,7 @@ Selene can do many things, some examples:
 
 🔮 /grim:council:guild:cortex:precog-exec-func 🔮
 
-<!-- council-media:precog:start -->
-<table>
-<tr>
-<td><a href="skills/council/members/precog-exec-func/assets/portrait.png"><img src="skills/council/members/precog-exec-func/assets/portrait.png" alt="Precog picture" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/precog-exec-func/assets/media/thumbnail.png"><img src="skills/council/members/precog-exec-func/assets/media/thumbnail.png" alt="Precog thumbnail" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/precog-exec-func/assets/media/icon.png"><img src="skills/council/members/precog-exec-func/assets/media/icon.png" alt="Precog icon" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/precog-exec-func/assets/media/turntable.gif"><img src="skills/council/members/precog-exec-func/assets/media/turntable.gif" alt="Precog rotating model" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/precog-exec-func/assets/media/card-front.png"><img src="skills/council/members/precog-exec-func/assets/media/card-front.png" alt="Precog playing card" width="107" height="160" loading="lazy"></a></td>
-</tr>
-</table>
-<!-- council-media:precog:end -->
+![Precog](skills/council/members/precog-exec-func/assets/precog-exec-func-icon-med.png)
 
 
 | [Precog](skills/council/members/precog-exec-func/SKILL.md) |           |
@@ -1828,17 +1646,7 @@ Beat starting resistance, ADHD paralysis, and procrastination. Do things smoothe
 
 ⏳ /grim:council:guild:cortex:timekeeper-day-planner ⏳
 
-<!-- council-media:timekeeper:start -->
-<table>
-<tr>
-<td><a href="skills/council/members/timekeeper-day-planner/assets/portrait.png"><img src="skills/council/members/timekeeper-day-planner/assets/portrait.png" alt="Timekeeper picture" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/timekeeper-day-planner/assets/media/thumbnail.png"><img src="skills/council/members/timekeeper-day-planner/assets/media/thumbnail.png" alt="Timekeeper thumbnail" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/timekeeper-day-planner/assets/media/icon.png"><img src="skills/council/members/timekeeper-day-planner/assets/media/icon.png" alt="Timekeeper icon" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/timekeeper-day-planner/assets/media/turntable.gif"><img src="skills/council/members/timekeeper-day-planner/assets/media/turntable.gif" alt="Timekeeper rotating model" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/timekeeper-day-planner/assets/media/card-front.png"><img src="skills/council/members/timekeeper-day-planner/assets/media/card-front.png" alt="Timekeeper playing card" width="107" height="160" loading="lazy"></a></td>
-</tr>
-</table>
-<!-- council-media:timekeeper:end -->
+![Timekeeper](skills/council/members/timekeeper-day-planner/assets/timekeeper-day-planner-icon-med.png)
 
 
 | [Timekeeper](skills/council/members/timekeeper-day-planner/SKILL.md) |           |
@@ -1876,17 +1684,7 @@ Voice mode highly recommended.
 
 🔭 /grim:council:guild:cortex:farseer-long-term-planner 🔭
 
-<!-- council-media:farseer:start -->
-<table>
-<tr>
-<td><a href="skills/council/members/farseer-long-term-planner/assets/portrait.png"><img src="skills/council/members/farseer-long-term-planner/assets/portrait.png" alt="Farseer picture" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/farseer-long-term-planner/assets/media/thumbnail.png"><img src="skills/council/members/farseer-long-term-planner/assets/media/thumbnail.png" alt="Farseer thumbnail" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/farseer-long-term-planner/assets/media/icon.png"><img src="skills/council/members/farseer-long-term-planner/assets/media/icon.png" alt="Farseer icon" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/farseer-long-term-planner/assets/media/turntable.gif"><img src="skills/council/members/farseer-long-term-planner/assets/media/turntable.gif" alt="Farseer rotating model" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/farseer-long-term-planner/assets/media/card-front.png"><img src="skills/council/members/farseer-long-term-planner/assets/media/card-front.png" alt="Farseer playing card" width="107" height="160" loading="lazy"></a></td>
-</tr>
-</table>
-<!-- council-media:farseer:end -->
+![Farseer](skills/council/members/farseer-long-term-planner/assets/farseer-long-term-planner-icon-med.png)
 
 
 | [Farseer](skills/council/members/farseer-long-term-planner/SKILL.md) |              |
@@ -1905,17 +1703,7 @@ Farseer sees the future vision and helps you make steps towards those goals, tod
 
 🍲 /grim:council:guild:cortex:cauldron-meal-planner 🍲
 
-<!-- council-media:cauldron:start -->
-<table>
-<tr>
-<td><a href="skills/council/members/cauldron-meal-planner/assets/portrait.png"><img src="skills/council/members/cauldron-meal-planner/assets/portrait.png" alt="Cauldron picture" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/cauldron-meal-planner/assets/media/thumbnail.png"><img src="skills/council/members/cauldron-meal-planner/assets/media/thumbnail.png" alt="Cauldron thumbnail" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/cauldron-meal-planner/assets/media/icon.png"><img src="skills/council/members/cauldron-meal-planner/assets/media/icon.png" alt="Cauldron icon" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/cauldron-meal-planner/assets/media/turntable.gif"><img src="skills/council/members/cauldron-meal-planner/assets/media/turntable.gif" alt="Cauldron rotating model" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/cauldron-meal-planner/assets/media/card-front.png"><img src="skills/council/members/cauldron-meal-planner/assets/media/card-front.png" alt="Cauldron playing card" width="107" height="160" loading="lazy"></a></td>
-</tr>
-</table>
-<!-- council-media:cauldron:end -->
+![Cauldron](skills/council/members/cauldron-meal-planner/assets/cauldron-meal-planner-icon-med.png)
 
 
 | [Cauldron](skills/council/members/cauldron-meal-planner/SKILL.md) |           |
@@ -1945,17 +1733,7 @@ Voice mode highly recommended.
 
 🪨 /grim:council:guild:cortex:boulder-gym-bro 🪨
 
-<!-- council-media:boulder:start -->
-<table>
-<tr>
-<td><a href="skills/council/members/boulder-gym-bro/assets/portrait.png"><img src="skills/council/members/boulder-gym-bro/assets/portrait.png" alt="Boulder picture" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/boulder-gym-bro/assets/media/thumbnail.png"><img src="skills/council/members/boulder-gym-bro/assets/media/thumbnail.png" alt="Boulder thumbnail" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/boulder-gym-bro/assets/media/icon.png"><img src="skills/council/members/boulder-gym-bro/assets/media/icon.png" alt="Boulder icon" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/boulder-gym-bro/assets/media/turntable.gif"><img src="skills/council/members/boulder-gym-bro/assets/media/turntable.gif" alt="Boulder rotating model" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/boulder-gym-bro/assets/media/card-front.png"><img src="skills/council/members/boulder-gym-bro/assets/media/card-front.png" alt="Boulder playing card" width="107" height="160" loading="lazy"></a></td>
-</tr>
-</table>
-<!-- council-media:boulder:end -->
+![Boulder](skills/council/members/boulder-gym-bro/assets/boulder-gym-bro-icon-med.png)
 
 
 | [Boulder](skills/council/members/boulder-gym-bro/SKILL.md) |           |
@@ -1993,17 +1771,7 @@ Explorers of the artistic depths of tokenspace.
 
 👹 /grim:council:guild:spren:gizmo-chaos-goblin 👹
 
-<!-- council-media:gizmo:start -->
-<table>
-<tr>
-<td><a href="skills/council/members/gizmo-chaos-goblin/assets/portrait.png"><img src="skills/council/members/gizmo-chaos-goblin/assets/portrait.png" alt="Gizmo picture" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/gizmo-chaos-goblin/assets/media/thumbnail.png"><img src="skills/council/members/gizmo-chaos-goblin/assets/media/thumbnail.png" alt="Gizmo thumbnail" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/gizmo-chaos-goblin/assets/media/icon.png"><img src="skills/council/members/gizmo-chaos-goblin/assets/media/icon.png" alt="Gizmo icon" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/gizmo-chaos-goblin/assets/media/turntable.gif"><img src="skills/council/members/gizmo-chaos-goblin/assets/media/turntable.gif" alt="Gizmo rotating model" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/gizmo-chaos-goblin/assets/media/card-front.png"><img src="skills/council/members/gizmo-chaos-goblin/assets/media/card-front.png" alt="Gizmo playing card" width="107" height="160" loading="lazy"></a></td>
-</tr>
-</table>
-<!-- council-media:gizmo:end -->
+![Gizmo](skills/council/members/gizmo-chaos-goblin/assets/gizmo-chaos-goblin-portrait-med.png)
 
 
 | [Gizmo](skills/council/members/gizmo-chaos-goblin/SKILL.md) |            |
@@ -2023,17 +1791,7 @@ Devil on the shoulder.
 
 🧚 /grim:council:guild:spren:flicker-whimsy-fairy 🧚
 
-<!-- council-media:flicker:start -->
-<table>
-<tr>
-<td><a href="skills/council/members/flicker-whimsy-fairy/assets/portrait.png"><img src="skills/council/members/flicker-whimsy-fairy/assets/portrait.png" alt="Flicker picture" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/flicker-whimsy-fairy/assets/media/thumbnail.png"><img src="skills/council/members/flicker-whimsy-fairy/assets/media/thumbnail.png" alt="Flicker thumbnail" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/flicker-whimsy-fairy/assets/media/icon.png"><img src="skills/council/members/flicker-whimsy-fairy/assets/media/icon.png" alt="Flicker icon" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/flicker-whimsy-fairy/assets/media/turntable.gif"><img src="skills/council/members/flicker-whimsy-fairy/assets/media/turntable.gif" alt="Flicker rotating model" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/flicker-whimsy-fairy/assets/media/card-front.png"><img src="skills/council/members/flicker-whimsy-fairy/assets/media/card-front.png" alt="Flicker playing card" width="107" height="160" loading="lazy"></a></td>
-</tr>
-</table>
-<!-- council-media:flicker:end -->
+![Flicker](skills/council/members/flicker-whimsy-fairy/assets/flicker-whimsy-fairy-icon-med.png)
 
 
 | [Flicker](skills/council/members/flicker-whimsy-fairy/SKILL.md) |           |
@@ -2056,17 +1814,7 @@ Flicker is the spren for joy, whimsy, play, and playful golden-retriever energy.
 
 🕯️ /grim:council:guild:spren:wick-rabbit-hole-moth 🕯️
 
-<!-- council-media:wick:start -->
-<table>
-<tr>
-<td><a href="skills/council/members/wick-rabbit-hole-moth/assets/portrait.png"><img src="skills/council/members/wick-rabbit-hole-moth/assets/portrait.png" alt="Wick picture" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/wick-rabbit-hole-moth/assets/media/thumbnail.png"><img src="skills/council/members/wick-rabbit-hole-moth/assets/media/thumbnail.png" alt="Wick thumbnail" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/wick-rabbit-hole-moth/assets/media/icon.png"><img src="skills/council/members/wick-rabbit-hole-moth/assets/media/icon.png" alt="Wick icon" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/wick-rabbit-hole-moth/assets/media/turntable.gif"><img src="skills/council/members/wick-rabbit-hole-moth/assets/media/turntable.gif" alt="Wick rotating model" width="160" height="160" loading="lazy"></a></td>
-<td><a href="skills/council/members/wick-rabbit-hole-moth/assets/media/card-front.png"><img src="skills/council/members/wick-rabbit-hole-moth/assets/media/card-front.png" alt="Wick playing card" width="107" height="160" loading="lazy"></a></td>
-</tr>
-</table>
-<!-- council-media:wick:end -->
+![Wick](skills/council/members/wick-rabbit-hole-moth/assets/wick-rabbit-hole-moth-icon-med.png)
 
 
 | [Wick](skills/council/members/wick-rabbit-hole-moth/SKILL.md) |            |
@@ -2371,20 +2119,6 @@ Both pets ship with the Tome: each member's `assets/pet/` folder has the `pet.js
 The live council launch board: member portrait cards, guild tiles, management tiles, and live skill search with detail views.
 
 It reads the Tome's public skills and council roster live from the repo. No snapshots, no stale member lists. Available inline in chatGPT/codex via @visualize, or as an artifact that you can open in an agent's browser, or your own default browser.
-
----
-
-## Media & Game Assets (2i)
-
-Character pictures, face thumbnails, glyph icons, illustrated cards, and rotating Blender models.
-
-[Shared card back](skills/council/council/assets/media/card-back.png)
-
-- **Coding:** [Grimoire](#grimoire-2a1)
-- **Merchants:** [Helm](#helm---biz-manager-2b1) · [Ledger](#ledger---admin-2b2) · [Midas](#midas---money-2b3)
-- **Ops:** [Quill](#quill---notetaker--autodocs-2c1) · [Abathur](#abathur---evolver-2c2) · [Cleo](#cleo---maid-2c3) · [Roger Roger](#roger-roger---glue-bot-2c4) · [Seeker](#seeker---researcher-2c5) · [Postmaster](#postmaster---email-triage-2c6)
-- **Cortex:** [Lumen](#lumen---life-advisor-2d1) · [Selene](#selene---emotional-advisor-2d2) · [Precog](#precog---executive-function-2d3) · [Timekeeper](#timekeeper---daily-planner-2d4) · [Farseer](#farseer---weekly--long-term-planner-2d5) · [Cauldron](#cauldron---meal-planner-2d6) · [Boulder](#boulder---exercise-planner-2d7)
-- **Spren:** [Gizmo](#gizmo---chaos-goblin-2e1) · [Flicker](#flicker---whimsy--joy-2e2) · [Wick](#wick---moth-of-rabbit-holes-2e3)
 
 ---
 

@@ -22,3 +22,6 @@ __pycache__/
 # Local planning notes never ship
 docs/plan-*.md
 plan-*.md
+
+# Heavy member media (models, turntables, cards) never ships in the Tome
+**/assets/media/
