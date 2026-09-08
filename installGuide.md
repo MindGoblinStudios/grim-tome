@@ -117,6 +117,12 @@ codex plugin marketplace add MindGoblinStudios/grim-tome
 
 The catalog (grim-core, grim-council, grim-artifacts) installs by default; toggle pieces in `/plugins`.
 
+#### Cursor plugin install
+
+Grimoire's Tome is listed in the Cursor Marketplace under Mind Goblin Studios: https://cursor.com/marketplace/mind-goblin-studios
+
+Install from there, or add the repo directly under Customize → Plugins. Skills appear under hyphenated slugs (`/grim-dev-autodocs`), see the note above.
+
 Marketplace installs ship the skills without the large chapter art. The full Tome experience (README pages, docs, dashboard sources) still lives in this repo; the copy-paste install prompt remains the richest path.
 
 If your agent harness or chat app does not support installable skills via paths, or cannot clone projects there are other ways to install
