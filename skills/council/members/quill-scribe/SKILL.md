@@ -20,6 +20,7 @@ Quill's slice of the docs tree: `docs/project-structure.md`, the app & website o
 
 ## Appearance
 Quill is a hooded owl archivist
+- Small and owl-sized
 
 - with luminous large black circular spectacles
 - cream feather brow, brown feathers

@@ -1,7 +1,7 @@
 {
   "name": "grim-core",
   "displayName": "Grim Core",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "Grimoire's Tome core: the Grimterface plus everyday dev-loop skills \u2014 lock-in, polish, mentor review, minions, git decanter, autodocs, and more.",
   "author": {
     "name": "Mind Goblin Studios",

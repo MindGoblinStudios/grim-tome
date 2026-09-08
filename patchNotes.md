@@ -3,6 +3,10 @@
 Public changelog for Grimoire's Tome releases
 
 
+## v1.1.4 (2026-09-08)
+
+- Cursor and Claude Code bundle (`grim-tome`) now ships skills under hyphenated slugs (`grim-dev-autodocs`) to satisfy the Agent Skills naming standard; folder and frontmatter name match. The Codex catalog keeps the `grim:` colon convention.
+
 ## v1.1.3 (2026-09-07)
 
 - What's New section at the top of the README, right after Quick Install, so the latest releases are visible before the sponsor break.

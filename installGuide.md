@@ -101,6 +101,9 @@ This repo doubles as a plugin marketplace for the major harnesses. The plugin fo
 
 #### Claude Code plugin install
 
+Note on names: Claude Code and Cursor follow the Agent Skills standard, where skill names allow only lowercase letters, numbers, and hyphens. In the `grim-tome` bundle every skill is available under its fully hyphenated slug: `/grim-dev-autodocs`, `/grim-council-guild-ops-quill-scribe`, and so on. The colon form (`/grim:dev:autodocs`) used throughout the Tome is the Codex spelling of the same skill.
+
+
 ```text
 /plugin marketplace add MindGoblinStudios/grim-tome
 /plugin install grim-tome@grim-tome

@@ -23,7 +23,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-VERSION = "1.1.3"
+VERSION = "1.1.4"
 MAX_IMAGE_BYTES = 200 * 1024
 IMAGE_SUFFIXES = {".png", ".jpg", ".jpeg", ".gif", ".webp"}
 
@@ -92,10 +92,25 @@ def read_registry():
     return entries
 
 
-def skill_dir_name(sid: str) -> str:
-    # Preserve the grim: invocation convention; colons work as folder names in
-    # Claude Code and Codex skill folders (matches ~/.claude/skills layout).
-    return sid
+def skill_dir_name(sid: str, plugin: str) -> str:
+    # Codex accepts colons, so the Codex catalog keeps the grim: invocation
+    # convention. Cursor and Claude Code follow the Agent Skills standard:
+    # names are [a-z0-9-] only and must match the folder, so the bundle plugin
+    # uses the fully hyphenated slug (grim:dev:autodocs -> grim-dev-autodocs).
+    return hyphen_slug(sid) if plugin in BUNDLE_PLUGINS else sid
+
+
+def hyphen_slug(sid: str) -> str:
+    slug = re.sub(r"[^a-z0-9-]+", "-", sid.lower()).strip("-")
+    return re.sub(r"-{2,}", "-", slug)
+
+
+def rewrite_skill_name(skill_md: Path, new_name: str):
+    text = skill_md.read_text()
+    updated, count = re.subn(r"^name:[ \t]*.+$", f"name: {new_name}", text, count=1, flags=re.MULTILINE)
+    if count != 1:
+        raise ValueError(f"no frontmatter name in {skill_md}")
+    skill_md.write_text(updated)
 
 
 def copy_skill(src: Path, dest: Path):
@@ -139,7 +154,11 @@ def build_plugin(name: str, skill_entries):
     (plugin_dir / "skills").mkdir(parents=True)
 
     for entry in skill_entries:
-        copy_skill(ROOT / entry["path"], plugin_dir / "skills" / skill_dir_name(entry["id"]))
+        dir_name = skill_dir_name(entry["id"], name)
+        dest = plugin_dir / "skills" / dir_name
+        copy_skill(ROOT / entry["path"], dest)
+        if dir_name != entry["id"]:
+            rewrite_skill_name(dest / "SKILL.md", dir_name)
 
     # Logo
     logo_src = ROOT / spec["logo"]
