@@ -25,3 +25,6 @@ plan-*.md
 
 # Heavy member media (models, turntables, cards) never ships in the Tome
 **/assets/media/
+
+# Local media preview page, never committed
+README-media-preview.md
