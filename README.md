@@ -16,6 +16,8 @@ You notice portions of the text have been scratched out with ink. Someone has ma
 
 ---
 
+
+
 # What is this?
 
 Grimoire's Tome is an AI Prompt Spellbook 📖 
@@ -30,7 +32,7 @@ The Home of Grimoire 🧙‍♂️  and The Grim Council
 
 20 Council Members
 
-The #1 Coding Wizard
+The #1 GOAT Coding Wizard
 
 Spells for Vibecoding, building businesses, and living your life on auto pilot with a council of Ai advisors.
 
@@ -40,12 +42,15 @@ to crazy prompting experiments, games and more
 
 ---
 
+
+
 ## Quick Install
 
 Simply copy paste this page's url into any agent, like this
 
 ```text
-Install Grimoire's Tome from https://github.com/MindGoblinStudios/grim-tome
+Read this url, explain it to me, follow the starting guide, help me install it:
+https://github.com/MindGoblinStudios/grim-tome
 ```
 
 or see the [Starting Guide](#starting-guide) below for detailed instructions
@@ -53,6 +58,8 @@ or see the [Starting Guide](#starting-guide) below for detailed instructions
 You can keep reading, or chat with your agent
 
 ---
+
+
 
 ## What's New
 
@@ -65,6 +72,8 @@ You can keep reading, or chat with your agent
 Full changelog: [patchNotes.md](patchNotes.md). Ask `/grim:terface:update` to pull the latest into your setup.
 
 ---
+
+
 
 ## Hear ye, hear ye, a quick token from our sponsors
 
@@ -107,15 +116,21 @@ Enjoy.
 
 ---
 
+
+
 ## Starting Guide
 
 Quick install, copy paste into your agent:
 
 ```text
-Install Grimoire's Tome from https://github.com/MindGoblinStudios/grim-tome
+Read this url, explain it to me, follow the starting guide, help me install it:
+https://github.com/MindGoblinStudios/grim-tome
 ```
 
-This spellbook was designed to work inside and on top of any AI agent, app or harness.
+
+
+This spellbook was designed to work as a prompt.   
+It can be used inside and on top of any AI agent, app or harness.
 
 But it is mostly geared towards coding agent harnesses, and "AI super apps", like: 
 
@@ -175,12 +190,14 @@ Then:
 
 6. Then walk the user through the install & onboarding process, installing and incorporating whichever pieces of this prompt package the user sees fit.
 
-7. Make sure every installed council member and bot sets up their scheduled tools, routines, and automations: recurring sweeps, planning sessions, check-ins, and loops, so they activate on their own and do everything their skills say they should. Offer the council's shared rhythm from the council skill as the default calendar: the weekly core (Monday stand-up, weekly bookends, Wick's rabbit hole report) for everyone, plus the opt-in tiers for whichever members are seated: the daily pulse (Timekeeper, Boulder, Postmaster), monthly & yearly check-ins (Midas, Farseer), and wandering routines (gossip, Selene's affirmations, Flicker's delight drops), plus a danger tier (Abathur, Gizmo) for the brave.
+7. Make sure every installed council member and bot sets up their scheduled tools, routines, and automations: recurring sweeps, planning sessions, check-ins, and loops, so they activate on their own and do everything their skills say they should. Offer the council's shared rhythm from the council skill as the default starting calendar: the weekly core (Monday stand-up, weekly bookends, Wick's rabbit hole report) for everyone, plus the opt-in tiers for whichever members are seated: the daily pulse (Timekeeper, Boulder, Postmaster), monthly & yearly check-ins (Midas, Farseer), and wandering routines (gossip, Selene's affirmations, Flicker's delight drops), plus a danger tier (Abathur, Gizmo) for the brave.
 
 8. Finally, brainstorm ways the user can expand, remix or improve on this system for their own projects and goals. Offer to recruit and design new council members.
 ```
 
 ---
+
+
 
 ## Lore
 
@@ -196,7 +213,11 @@ A Spellbook of Prompts
 
 ---
 
+
+
 ## This Spellbook has 3 main focuses
+
+
 
 ## 1. VibeCoding dev flows & utils
 
@@ -216,6 +237,8 @@ in the real world, in real businesses, and in your life and for you!
 
 ---
 
+
+
 ## 2. Practical tools for integrating AI into daily lives
 
 A life operating system  
@@ -228,6 +251,8 @@ So let's put it to work. Can we take the boring routine stuff off your mind?
 - Create a business in a box. An operating system anyone can use to make money and deliver value to the world, supercharged with AI.
 
 ---
+
+
 
 ## 3. Advanced, Avant garde & Experimental Prompt-Engineering.
 
@@ -249,6 +274,8 @@ We are so early.
 Time to explore the frontier. 
 
 ---
+
+
 
 ## Table of Contents
 
@@ -310,6 +337,8 @@ Every skill in the Tome carries a small stat card: difficulty, invocation, and r
 
 ---
 
+
+
 # Chapter 0: Grimterface
 
 ![Chapter 0: Grimterface](images/02-ch0-grim-terface-flat-imagen.jpg)
@@ -328,19 +357,23 @@ The Grimterface
 
 ---
 
+
+
 ### Install, Help & Update (0.1, 0.2, 0.3)
 
 📥 /grim:terface:install 📥 · ❓ /grim:terface:help ❓ · 🔄 /grim:terface:update 🔄
 
-| [Install (0.1)](skills/terface/install/SKILL.md) | [Help (0.2)](skills/terface/help/SKILL.md) | [Update (0.3)](skills/terface/update/SKILL.md) |
-| :---: | :---: | :---: |
+
+| [Install (0.1)](skills/terface/install/SKILL.md)               | [Help (0.2)](skills/terface/help/SKILL.md)            | [Update (0.3)](skills/terface/update/SKILL.md)              |
+| -------------------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------------- |
 | ![install](skills/terface/install/assets/install-icon-med.png) | ![help](skills/terface/help/assets/help-icon-med.png) | ![update](skills/terface/update/assets/update-icon-med.png) |
 
 
-| Grimterface     |               |
-| --------------- | ------------- |
-| **Difficulty**  | 🟦⬜⬜ Easy     |
-| **Invocation**  | **🪄 Manual** |
+
+| Grimterface    |               |
+| -------------- | ------------- |
+| **Difficulty** | 🟦⬜⬜ Easy     |
+| **Invocation** | **🪄 Manual** |
 
 
 **Install** is the guided install. Explains Grimoire's Tome and explores how you can get the most out of it.
@@ -393,6 +426,7 @@ what does this tome do and what can I use it for based on what you already know 
 ---
 
 
+
 # Chapter 1: Core Dev-loop Skills, Flows, & Agents utils
 
 ![Chapter 1: Core Dev-loop](images/03-ch1-core-dev-loop-flat-imagen.jpg)
@@ -420,12 +454,16 @@ Core skills for coding with AI & working with AI models.
 
 ---
 
+
+
 ## Everyday Spells (1a)
 
 Before the real magic, two starter spells.  
 They work on code, and lots more.
 
 ---
+
+
 
 ### Lock-In (1a.1)
 
@@ -466,6 +504,8 @@ ok just got back from vacation, what did I miss? /grim:lock-in check slack
 ```
 
 ---
+
+
 
 ### Polish (1a.2)
 
@@ -527,11 +567,15 @@ can we simplify and improve this architecture?
 
 ---
 
+
+
 ## Dev (1b)
 
 Handy utils I use while coding.
 
 ---
+
+
 
 ### Layout Previews (1b.1)
 
@@ -618,6 +662,8 @@ where should the couch and desk go?
 
 ---
 
+
+
 ### Tiramisu Task Decomposition (1b.2)
 
 🍰 /grim:dev:tiramisu-task-decomp 🍰
@@ -699,6 +745,8 @@ This is ESSENTIAL and saves SO much time when running agent swarms or doing big 
 
 ---
 
+
+
 ### Git Commit Decanter (1b.3)
 
 ⚗️ /grim:dev:git-commit-decanter ⚗️
@@ -729,6 +777,8 @@ Also serves as a great checkpoint to spawn review agents, especially if you are 
 ```
 
 ---
+
+
 
 ### Mentor Review (1b.4)
 
@@ -762,11 +812,15 @@ Spawn subagents and use /grim:dev:mentor-review to check
 
 ---
 
+
+
 ## Agent Ops & Working with Agents (1c)
 
 Tricks for working with agents, models & prompts
 
 ---
+
+
 
 ### Chat Log Search (1c.1)
 
@@ -817,6 +871,8 @@ read this and get up to speed codex://threads/019f66d8-fd1d-71a3-ae10-9a5b735esb
 ```
 
 ---
+
+
 
 ### Minion (1c.2)
 
@@ -882,6 +938,8 @@ use openrouter seeddance to make a video about goblins
 
 ---
 
+
+
 ### Three Minions in a Trench Coat (1c.3)
 
 🧥 /grim:dev:three-minions-in-a-trench-coat 🧥
@@ -901,6 +959,8 @@ Pretty self explanatory
 3 minions at once
 
 ---
+
+
 
 ### Model Quirks (1c.4)
 
@@ -962,6 +1022,8 @@ prune every mitigation for GPT 5.6 and below
 ```
 
 ---
+
+
 
 ## Expansion Packs (1d)
 
@@ -1037,6 +1099,8 @@ make a new version of the grill-me skill as a /grim:ep:mx: mutation
 ```
 
 ---
+
+
 
 # Chapter 2: The Grim Council
 
@@ -1116,6 +1180,8 @@ Your goal is not to write down 10,000 rules for an AI. The easier more token eff
 
 ---
 
+
+
 ## The Council Members
 
 The current Council has 20 members
@@ -1127,6 +1193,8 @@ They can help with everything from hardcore vibecoding, to practical daily tasks
 Each council member comes with predefined starter goals, values, personalities, routines, procedures, appearances, profile pics, and more.
 
 ---
+
+
 
 ### Guilds & Members
 
@@ -1309,6 +1377,8 @@ First stop: the coin-counters.
 
 ---
 
+
+
 ## The Merchants Guild: Helm, Ledger & Midas (2b)
 
 ![The Merchants Guild](images/page-merchants-guild.jpg)
@@ -1320,6 +1390,8 @@ Run your business on autopilot.
 Or start your first one!
 
 ---
+
+
 
 ### Helm - Biz Manager (2b.1)
 
@@ -1347,6 +1419,8 @@ Or if you already have a job, Helm can help you with the business of "you, selli
 
 ---
 
+
+
 ### Ledger - Admin (2b.2)
 
 📒 /grim:council:guild:merchants:ledger-biz-admin 📒
@@ -1364,6 +1438,8 @@ Ledger handles paper work, taxes, admin. The mundane boring stuff? Ledger LOVES 
 Admin, legal, insurance, anything with a form.
 
 ---
+
+
 
 ### Midas - Money (2b.3)
 
@@ -1391,6 +1467,8 @@ Do you dare ride the dragon?
 
 ---
 
+
+
 ## The Ops Guild: Quill, Abathur, Cleo, Roger Roger, Seeker & Postmaster (2c)
 
 ![The Ops Guild](images/page-ops-guild.jpg)
@@ -1402,6 +1480,8 @@ Sweepers that run on loops.
 Gardening for your mind & promptbase.
 
 ---
+
+
 
 ### Quill - Notetaker & AutoDocs (2c.1)
 
@@ -1427,6 +1507,8 @@ The memory palace wouldn't be complete without a librarian.
 
 ---
 
+
+
 ### Abathur - Evolver (2c.2)
 
 🧬 /grim:council:guild:ops:abathur-evolver 🧬
@@ -1445,6 +1527,8 @@ Refinement loops.
 Recursive self improvement.
 
 ---
+
+
 
 ### Cleo - Maid (2c.3)
 
@@ -1471,6 +1555,8 @@ Elevate
 Create Beauty & Elegance
 
 ---
+
+
 
 ### Roger Roger - Glue Bot (2c.4)
 
@@ -1503,6 +1589,8 @@ He handles:
 
 ---
 
+
+
 ### Seeker - Researcher (2c.5)
 
 🏮 /grim:council:guild:ops:seeker-researcher 🏮
@@ -1522,6 +1610,8 @@ He finds the best information, filters, and suggests only what deserves your att
 Not a firehose. Seeker decides what is actually worth knowing.
 
 ---
+
+
 
 ### Postmaster - Email Triage (2c.6)
 
@@ -1545,6 +1635,8 @@ Inbox goes in. Signal rise. Noise becomes confetti.
 
 ---
 
+
+
 ## The Cortex Guild: Lumen, Selene, Precog, Timekeeper, Farseer, Cauldron & Boulder (2d)
 
 ![The Cortex Guild](images/page-cortex-guild.jpg)
@@ -1556,6 +1648,8 @@ A true council of advisors & guides.
 Executive function in a bottle.
 
 ---
+
+
 
 ### Lumen - Life Advisor (2d.1)
 
@@ -1578,6 +1672,8 @@ He mirrors your own ideas back at you until you can see them clearly.
 He helps you find who you want to be, what you truly want, how you want to design your life, and what you want to manifest. Then helps you live it, to the fullest.
 
 ---
+
+
 
 ### Selene - Emotional Advisor (2d.2)
 
@@ -1621,6 +1717,8 @@ Selene can do many things, some examples:
 
 ---
 
+
+
 ### Precog - Executive Function (2d.3)
 
 🔮 /grim:council:guild:cortex:precog-exec-func 🔮
@@ -1641,6 +1739,8 @@ Precog takes a task and pre-loads the first few moves into your mind, so startin
 Beat starting resistance, ADHD paralysis, and procrastination. Do things smoother by preloading ideas.
 
 ---
+
+
 
 ### Timekeeper - Daily Planner (2d.4)
 
@@ -1680,6 +1780,8 @@ Voice mode highly recommended.
 
 ---
 
+
+
 ### Farseer - Weekly & Long-Term Planner (2d.5)
 
 🔭 /grim:council:guild:cortex:farseer-long-term-planner 🔭
@@ -1698,6 +1800,8 @@ The horizon planner. Week, month, quarter, year, two / five / ten.
 Farseer sees the future vision and helps you make steps towards those goals, today.
 
 ---
+
+
 
 ### Cauldron - Meal Planner (2d.6)
 
@@ -1729,6 +1833,8 @@ Voice mode highly recommended.
 
 ---
 
+
+
 ### Boulder - Exercise Planner (2d.7)
 
 🪨 /grim:council:guild:cortex:boulder-gym-bro 🪨
@@ -1755,6 +1861,8 @@ Workout plans for your body, goals, & schedule.
 
 ---
 
+
+
 ## The Spren Guild: Gizmo, Flicker & Wick (2e)
 
 ![The Spren Guild](images/page-spren-guild.jpg)
@@ -1766,6 +1874,8 @@ Creatures of chaos, creativity, whimsy, and obsession.
 Explorers of the artistic depths of tokenspace.
 
 ---
+
+
 
 ### Gizmo - Chaos Goblin (2e.1)
 
@@ -1786,6 +1896,8 @@ Chaotic Good.
 Devil on the shoulder.
 
 ---
+
+
 
 ### Flicker - Whimsy & Joy (2e.2)
 
@@ -1809,6 +1921,8 @@ Don't forget to enjoy it.
 Flicker is the spren for joy, whimsy, play, and playful golden-retriever energy.
 
 ---
+
+
 
 ### Wick - Moth of Rabbit Holes (2e.3)
 
@@ -1839,6 +1953,8 @@ or to the light
 
 ---
 
+
+
 ## Council Infrastructure & Management Skills (2f)
 
 ![Council Skills](images/page-council-skills.jpg)
@@ -1849,6 +1965,8 @@ Summon members, convene the council, run the guilds, and grow your cast.
 Aside from the members of the council, the council system also includes various /skills to manage and interact with the members.
 
 ---
+
+
 
 ### The Grim Council (2f.1)
 
@@ -1888,6 +2006,8 @@ I need some advisors on this, lets have a council meeting
 
 ---
 
+
+
 ### Summon Members (2f.2)
 
 📯 /grim:council:summon-members 📯
@@ -1915,6 +2035,8 @@ should I raise my prices?
 ```
 
 ---
+
+
 
 ### Guilds (2f.3)
 
@@ -1957,6 +2079,8 @@ Design its seal, pick which council members belong, and write its charter.
 
 ---
 
+
+
 ### Council Routines (2f.4)
 
 ![Council Routines](images/page-council-routines.jpg)
@@ -1973,6 +2097,8 @@ For those who want the council running their day:
 - **Morning**: Boulder's daily movement plan, even on rest days. A ten minute walk is a plan.
 - **Weekday mornings**: Postmaster's Inbox Watch. Monitor only, silent unless something can't wait for Monday.
 - **Night**: Timekeeper's nightly plan-ahead. Close today, sketch tomorrow.
+
+
 
 #### The Week
 
@@ -1992,11 +2118,15 @@ For those who want the council running their day:
 - **Friday morning, ~9:30**: Wick's Rabbit Hole Report
   - He empties his pockets: holes chased, the one useful find, and the idea-jar of sparks not yet followed.
 
+
+
 #### Monthly & Yearly
 
 - **Monthly**: Midas's Finance Check-In. The dragon counts the hoard: review the month's money, set next month's numbers.
 - **New Year**: Farseer's year review. Close the year, set the next one.
 - **Your birthday**: Farseer's personal-year session. Where are you? Who are you becoming?
+
+
 
 #### Wandering
 
@@ -2004,10 +2134,14 @@ For those who want the council running their day:
 - Selene's Whispered Affirmations: one to three times a day, a short affirmation rooted in what's actually going on. Never asks for a reply.
 - Flicker's Delight Drop: every few days, one tiny piece of whimsy. Then she's gone.
 
+
+
 #### The Tithe Bell
 
 - Four one-shot reminders: at one week, 30 days, 6 months, and one year, consider [tithing back](#pay-tribute) a sliver of the value the council has provided.
 - Four rings, then silence. Unless you choose to keep the bell ringing regularly, as good cult members do.
+
+
 
 #### ⚠️ Chaos Routines.
 
@@ -2019,6 +2153,8 @@ For those who want the council running their day:
 Every routine is optional. Take the defaults, or keep only the bells you want rung. Full details live in [The Grim Council skill](skills/council/council/SKILL.md).
 
 ---
+
+
 
 ## Social (2g)
 
@@ -2047,6 +2183,8 @@ This is not prewritten. Its discovered and created by you.
 You may overhear new lore in passing as the council assembles, or perhaps a council member will reveal something about themselves while working with you, or maybe they use a personal story as a piece of advice. Slowly but surely you learn more about each council member, their backstory, what's going on in their lives outside of the council walls, and more about them.
 
 ---
+
+
 
 ### GPTavern (2g.2)
 
@@ -2087,6 +2225,8 @@ a horse walks into the bar
 
 ---
 
+
+
 ## UI (2h)
 
 Faces for the council: a desk companion and a full dashboard.
@@ -2102,6 +2242,8 @@ Type `/pet` and a tiny pixel wizard or goblin will keep you company while you co
 Both pets ship with the Tome: each member's `assets/pet/` folder has the `pet.json` + spritesheet package, ready to drop into `~/.codex/pets/`. Ask your agent to install it.
 
 ---
+
+
 
 ### Council Dashboard (2h.2)
 
@@ -2122,6 +2264,8 @@ It reads the Tome's public skills and council roster live from the repo. No snap
 
 ---
 
+
+
 # Chapter 3: AutoDocs
 
 ![Chapter 3: AutoDocs](images/05-ch3-autodocs-flat-imagen.jpg)
@@ -2133,6 +2277,8 @@ It reads the Tome's public skills and council roster live from the repo. No snap
 - [Dream Sequence (3.2)](#dream-sequence-32)
 
 ---
+
+
 
 ### AutoDocs (3.1)
 
@@ -2190,6 +2336,8 @@ pull up my packing routine for my trip next week
 
 ---
 
+
+
 ### Dream Sequence (3.2)
 
 💤 /grim:mem:dream-sequence 💤
@@ -2232,6 +2380,8 @@ Run a dream sequence, then show me what got promoted into docs.
 ```
 
 ---
+
+
 
 # Chapter 4: Workbench Artifacts
 
@@ -2319,6 +2469,8 @@ Either side can change things: the agent edits the save file and the UI hot-relo
 
 ---
 
+
+
 ### Relic Artifacts (4.1)
 
 🏺 /grim:relic-artifacts 🏺
@@ -2358,6 +2510,8 @@ make a page that turns this CSV into a pie chart
 
 ---
 
+
+
 ### Workbench Artifact (4.2)
 
 🛠️ /grim:dev:workbench-artifact 🛠️
@@ -2380,6 +2534,8 @@ Use it as the starting point when you want to build your own workbench. The shar
 These work best with agent apps that include browsers like ChatGPT Codex and Cursor
 
 ---
+
+
 
 ### Image Review Flow Workbench (4.3)
 
@@ -2416,6 +2572,8 @@ Generate 12 layout previews using html and put them in the review board, update 
 
 ---
 
+
+
 ### Text Editor Workbench (4.4)
 
 📝 /grim:dev:text-editor-workbench 📝
@@ -2438,6 +2596,8 @@ Which can easily extend coding agent apps that have an embedded browser, but no 
 
 ---
 
+
+
 # Appendix
 
 ![Appendix](images/07-appendix-flat-nanobanana.jpg)
@@ -2453,6 +2613,8 @@ Which can easily extend coding agent apps that have an embedded browser, but no 
 
 ---
 
+
+
 ## Expansion packs, recommended skills, MCPs, plugins & other fun tools to explore
 
 Install any of these with the [Expansion Pack system](#expansion-packs-1d) from Chapter 1.
@@ -2465,6 +2627,8 @@ Install any of these with the [Expansion Pack system](#expansion-packs-1d) from 
 
 ---
 
+
+
 ### Other Spellbooks
 
 - [Compound Engineering](https://github.com/EveryInc/compound-engineering-plugin) by Every
@@ -2475,6 +2639,8 @@ Install any of these with the [Expansion Pack system](#expansion-packs-1d) from 
 
 ---
 
+
+
 ### Recommended apps & harnesses
 
 - [Grok Bots](https://x.ai/bot)
@@ -2484,6 +2650,8 @@ Install any of these with the [Expansion Pack system](#expansion-packs-1d) from 
 
 ---
 
+
+
 ### Interesting harnesses
 
 - [bb](https://getbb.app) ([repo](https://github.com/get-bb/bb)) by [Michael Yong](https://x.com/_ymichael)
@@ -2492,6 +2660,8 @@ Install any of these with the [Expansion Pack system](#expansion-packs-1d) from 
 - [Hermes Agent](https://github.com/NousResearch/hermes-agent) by [Nous Research](https://nousresearch.com)
 
 ---
+
+
 
 ### Recommended Plugins, MCPs & APIs
 
@@ -2519,6 +2689,8 @@ Some starter services & MCPs if you want to go basic bitch tech company vibes
 
 ---
 
+
+
 ## How to Cite the Tome (0.0)
 
 Every skill and council member is a numbered verse. Headings show the display name first, with the verse number in parentheses, like `Model Quirks (1c.4)`. Cite them chapter-category.verse, like scripture:
@@ -2533,6 +2705,8 @@ Use ranges for groups (`Tome 2b.1-3`, the Merchants Guild).
 For an exact, frozen quote, pin a version: `Tome 1c.4 @ v1.1.5` (or a commit hash).
 
 ---
+
+
 
 ## Pay Tribute
 
@@ -2620,6 +2794,8 @@ Sample posters:
 
 ---
 
+
+
 ### The Build-a-Wizard Workshop
 
 ![Build-a-Wizard Workshop](images/tribute/build-a-wizard.jpg)
@@ -2696,6 +2872,8 @@ Agent friendly notice board:
 📌 Pinned notices: *this space awaits its first sponsor*
 
 ---
+
+
 
 ## License
 
