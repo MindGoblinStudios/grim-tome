@@ -77,8 +77,6 @@ Or consider adding symlinks from those paths to these file locations.
 
 ## Harness-Specific Notes
 
-- **Codex / ChatGPT desktop app:** during install, show the Council Dashboard inline early — right as the council members are introduced. Use the app's bundled `visualize` tool (`@Visualize`, `plugin://visualize@openai-bundled`), following the dashboard skill (`skills/council/dashboard/SKILL.md`) to build and display `council-dashboard.html`.
-
 ### Grok Bots install
 
 Fastest path: the official Grimoire Grok Bot, 1-click install: https://x.ai/bot/luPJeAxuAjhqO97wU3wm0
