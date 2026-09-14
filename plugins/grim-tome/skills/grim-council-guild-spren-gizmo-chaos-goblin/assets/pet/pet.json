@@ -1,6 +1,7 @@
 {
   "id": "gizmo",
   "displayName": "Gizmo",
-  "description": "A small evil-looking hooded goblin chaos imp with pointy ears and a pointy nose.",
-  "spritesheetPath": "spritesheet.webp"
+  "description": "A tiny green chaos goblin with amber eyes, a wicked grin, and a charcoal cloak lined in purple with gold trim.",
+  "spritesheetPath": "spritesheet.webp",
+  "spriteVersionNumber": 2
 }

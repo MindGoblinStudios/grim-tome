@@ -12,6 +12,7 @@ Install steps for each harness live in [installGuide.md](../installGuide.md).
 - Council members are just skills with a persona. Summon one and the harness reads the member's file; convene the council and it reads the council skill, which hydrates every member.
 - Routines run through whatever scheduler the harness provides (Codex automations, Cursor automations, cron). The council skill only defines the calendar.
 - Plugin marketplaces (Claude Code, Codex) are a packaging layer over the same files. `scripts/build-marketplace.py` regenerates `plugins/` from `skills/registry.yaml`.
+- Runtime images referenced by launcher metadata or `pet.json` remain in plugin bundles, even when large display art is omitted.
 
 **Prompt-monolith harnesses**: Grok Bots and similar. One big system prompt per bot, no skill files.
 

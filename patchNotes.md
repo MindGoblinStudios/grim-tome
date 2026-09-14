@@ -3,6 +3,14 @@
 Public changelog for Grimoire's Tome releases
 
 
+## v1.1.6 (2026-09-14)
+
+- Grimoire and Gizmo now ship as v2 desktop pets with all nine animation states and sixteen clockwise looking directions.
+- Grimoire gains his matrix-code face. Gizmo's amber eyes, grin, purple-lined cloak, gold trim, and potion bottles match his portrait.
+- Animated pet previews show the gaze loops in the README.
+- Marketplace bundles retain spritesheets referenced by `pet.json`, including files above the display-image size limit. Missing or out-of-skill spritesheet references fail the build.
+- To update an installed pet, replace its `pet.json` and `spritesheet.webp` together.
+
 ## v1.1.5 (2026-09-08)
 
 Grimoire is officially in the Cursor Marketplace: https://cursor.com/marketplace/mind-goblin-studios

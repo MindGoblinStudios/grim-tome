@@ -63,6 +63,8 @@ You can keep reading, or chat with your agent
 
 ## What's New
 
+**v1.1.6, Pets that look around.** Grimoire and Gizmo have refreshed looks and sixteen looking directions. Plugin installs now include their complete sprite packages.
+
 **v1.1.5, Grimoire in the Cursor Marketplace.** The Tome is now officially listed: [cursor.com/marketplace/mind-goblin-studios](https://cursor.com/marketplace/mind-goblin-studios). One click installs every skill and the whole council into Cursor.
 
 **v1.1.2, The Narrator.** A shared council voice for every harness: stage direction, handoffs, and status beats between member lines, never plain assistant voice mid-council. On Grok Bots, messaging a seated member bot is the summon, and their reply is woven into the scene.
@@ -2233,11 +2235,13 @@ Faces for the council: a desk companion and a full dashboard.
 
 ### Codex & chatGPT Work /pet (2h.1)
 
-![Grimoire pet](skills/council/members/grimoire-code-wizard/assets/pet/grimoire-pet.png) ![Gizmo pet](skills/council/members/gizmo-chaos-goblin/assets/pet/gizmo-pet.png)
+![Grimoire pet](skills/council/members/grimoire-code-wizard/assets/pet/grimoire-pet.gif) ![Gizmo pet](skills/council/members/gizmo-chaos-goblin/assets/pet/gizmo-pet.gif)
 
 Grimoire and Gizmo are also available as animated desktop pets in Codex / the ChatGPT desktop app, and chatGPT work iOS app.
 
 Type `/pet` and a tiny pixel wizard or goblin will keep you company while you code.
+
+Both pets look around in sixteen directions, alongside their idle, travel, wave, jump, work, and reaction animations. Grimoire has his matrix-code face; Gizmo wears his purple-lined cloak with gold trim and potion bottles.
 
 Both pets ship with the Tome: each member's `assets/pet/` folder has the `pet.json` + spritesheet package, ready to drop into `~/.codex/pets/`. Ask your agent to install it.
 
@@ -2702,7 +2706,7 @@ The letter is the category inside the chapter (1a Everyday Spells, 1b Dev, 1c Ag
 
 Use ranges for groups (`Tome 2b.1-3`, the Merchants Guild).
 
-For an exact, frozen quote, pin a version: `Tome 1c.4 @ v1.1.5` (or a commit hash).
+For an exact, frozen quote, pin a version: `Tome 1c.4 @ v1.1.6` (or a commit hash).
 
 ---
 

@@ -45,8 +45,11 @@ Each council member with a pet should have a checked-in bundle:
 skills/council/members/<member-slug>/assets/
   portrait.png
   sprite.gif
-  pet.json
-  spritesheet.webp
+  pet/
+    pet.json
+    spritesheet.webp
+    <pet-id>-pet.png
+    <pet-id>-pet.gif
 ```
 
 Temporary exploration assets can live beside the final bundle during an active generation pass, but should not become durable provenance docs by default:
@@ -90,10 +93,14 @@ Do not use the old loose `artifacts/council/assets/*.jpg` bucket for member port
   "id": "<member-id>",
   "displayName": "<Display Name>",
   "description": "<one-line pet description>",
+  "spriteVersionNumber": 2,
   "spritesheetPath": "spritesheet.webp"
 }
 ```
 
+V2 pets use a transparent `1536x2288` atlas of `192x208` cells: nine animation rows followed by sixteen clockwise look poses.
+Keep `spriteVersionNumber: 2` with the matching spritesheet when installing or updating a pet.
+The marketplace builder preserves the referenced spritesheet even when it exceeds the display-image size limit.
 
 
 ### Data Contract
@@ -146,7 +153,8 @@ Symlinks remain appropriate for live install surfaces such as `~/.codex/skills/*
 
 1. Generate and validate the pet with `hatch-pet`.
 2. Install the live pet under `${CODEX_HOME:-$HOME/.codex}/pets/<pet-id>/`.
-3. Copy the installed `pet.json` and `spritesheet.webp` into `skills/council/members/<member-slug>/assets/`.
-4. Copy or update the member `portrait.png` in the same folder.
-5. Update the relevant persona `SKILL.md` when the visual identity changes.
+3. Copy the validated `pet.json` and `spritesheet.webp` into `skills/council/members/<member-slug>/assets/pet/`.
+4. Refresh the pet PNG from its neutral frame and the GIF from its approved look loop. Keep both previews at `128x139`.
+5. Rebuild and verify the marketplace bundles so their pet manifests resolve to the same spritesheets.
+6. Update portraits or persona appearance text only when those changes are part of the requested work.
 

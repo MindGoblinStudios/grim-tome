@@ -10,8 +10,8 @@ Generates:
   .claude-plugin/marketplace.json   -> lists grim-tome
   .agents/plugins/marketplace.json  -> lists grim-core, grim-council, grim-artifacts (INSTALLED_BY_DEFAULT)
 
-Skill folders are copied with display images larger than MAX_IMAGE_BYTES stripped;
-unless launcher metadata references them. Unreferenced large images are display art.
+Skill folders are copied with display images larger than MAX_IMAGE_BYTES stripped,
+unless launcher metadata or a pet manifest references them as runtime assets.
 
 Run from the repo root: python3 scripts/build-marketplace.py
 """
@@ -23,7 +23,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-VERSION = "1.1.5"
+VERSION = "1.1.6"
 MAX_IMAGE_BYTES = 200 * 1024
 IMAGE_SUFFIXES = {".png", ".jpg", ".jpeg", ".gif", ".webp"}
 
@@ -115,7 +115,7 @@ def rewrite_skill_name(skill_md: Path, new_name: str):
 
 def copy_skill(src: Path, dest: Path):
     metadata = src / "agents/openai.yaml"
-    referenced_icons = set()
+    referenced_assets = set()
     if metadata.is_file():
         for match in re.finditer(r"^  icon_(?:small|large):[ \t]*([^\n]+)$", metadata.read_text(), re.MULTILINE):
             value = match.group(1).strip()
@@ -125,7 +125,16 @@ def copy_skill(src: Path, dest: Path):
                 value = value[1:-1].replace("''", "'")
             else:
                 value = value.split(" #", 1)[0].strip()
-            referenced_icons.add((src / value).resolve())
+            referenced_assets.add((src / value).resolve())
+
+    for manifest in src.rglob("pet.json"):
+        value = json.loads(manifest.read_text()).get("spritesheetPath")
+        if not isinstance(value, str) or not value.strip() or Path(value).is_absolute():
+            raise ValueError(f"{manifest}: spritesheetPath must be a relative file path")
+        spritesheet = (manifest.parent / value).resolve()
+        if not spritesheet.is_relative_to(src.resolve()) or not spritesheet.is_file():
+            raise ValueError(f"{manifest}: spritesheetPath must resolve to a file inside the skill")
+        referenced_assets.add(spritesheet)
 
     def ignore(directory, names):
         skipped = []
@@ -134,7 +143,7 @@ def copy_skill(src: Path, dest: Path):
                 skipped.append(name)
                 continue
             p = Path(directory) / name
-            if p.is_file() and p.suffix.lower() in IMAGE_SUFFIXES and p.stat().st_size > MAX_IMAGE_BYTES and p.resolve() not in referenced_icons:
+            if p.is_file() and p.suffix.lower() in IMAGE_SUFFIXES and p.stat().st_size > MAX_IMAGE_BYTES and p.resolve() not in referenced_assets:
                 skipped.append(name)
         return skipped
 
