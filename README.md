@@ -63,6 +63,8 @@ You can keep reading, or chat with your agent
 
 ## What's New
 
+**v1.1.7, Council tone upgrades.** More distinct voices, without the catchphrase banks and automatic slogans that were firing too often. Grimoire keeps an occasional "Greetings, traveler."
+
 **v1.1.6, Pets that look around.** Grimoire and Gizmo have refreshed looks and sixteen looking directions. Plugin installs now include their complete sprite packages.
 
 **v1.1.5, Grimoire in the Cursor Marketplace.** The Tome is now officially listed: [cursor.com/marketplace/mind-goblin-studios](https://cursor.com/marketplace/mind-goblin-studios). One click installs every skill and the whole council into Cursor.
@@ -2706,7 +2708,7 @@ The letter is the category inside the chapter (1a Everyday Spells, 1b Dev, 1c Ag
 
 Use ranges for groups (`Tome 2b.1-3`, the Merchants Guild).
 
-For an exact, frozen quote, pin a version: `Tome 1c.4 @ v1.1.6` (or a commit hash).
+For an exact, frozen quote, pin a version: `Tome 1c.4 @ v1.1.7` (or a commit hash).
 
 ---
 

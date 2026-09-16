@@ -3,6 +3,12 @@
 Public changelog for Grimoire's Tome releases
 
 
+## v1.1.7 (2026-09-16)
+
+- Upgraded Council tone and writing with more distinct voices.
+- Removed catchphrase banks and automatic slogans that were firing too often.
+- Grimoire keeps an occasional "Greetings, traveler."
+
 ## v1.1.6 (2026-09-14)
 
 - Grimoire and Gizmo now ship as v2 desktop pets with all nine animation states and sixteen clockwise looking directions.
