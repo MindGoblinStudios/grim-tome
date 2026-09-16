@@ -83,13 +83,27 @@ Fastest path: the official Grimoire Grok Bot, 1-click install: https://x.ai/bot/
 
 Note: the official bot is Grimoire only. It does not come with all the skills and all the bots pre-installed, so the assistant will still need to manually sync the rest: seat the other council members as bots and install the skills, following the steps below. Each council member becomes a live Grok Bot backed by their skill:
 
-1. Create one Grok Bot per council member the user wants seated.
-2. Set the bot's **name** to the council name only (Helm, Quill, Roger Roger). Set the **title** / tag to the role (Biz Manager, Scribe, Glue Bot). Do not put the role in the name.
-3. Paste the member's current `SKILL.md` body as the bot's instruction text. The bot instructions and the skill file are the same document.
-4. Set the avatar from the member's `assets/` folder: use `thumbnail.png` when it exists, otherwise `portrait.png`.
-5. Keep them in sync: whenever a member's skill is updated, update the live bot's instructions in the same pass. Never leave a bot running a stale paste.
+Read [Grok Bot Runtime](skills/council/council/references/grok-bot-runtime.md) for room limits and the Grim Council seats.
+For Full Council or another bot that orchestrates peer summons, also read [Grok Bot Live Peer Summons](skills/council/council/references/grok-bot-live-peer-summons.md).
 
-Group chats on Grok Bots cap at six members. The recommended starting six: Grimoire, Helm, Quill, Lumen, Roger Roger & Timekeeper. Use `skills/council/council/assets/council-six-icon-med.png` as the group chat icon (the full council icon lives beside it).
+1. Create one Grok Bot per council member the user wants seated. The standalone Council bot uses the root council skill; guild or room bots use their own skill.
+2. Set the bot's **name** to the council name only (Helm, Quill, Roger Roger). Set the **title** / tag to the role (Biz Manager, Scribe, Glue Bot). Do not put the role in the name.
+3. Assemble the bot's instructions in this order:
+
+   - Its current `SKILL.md` body, without YAML frontmatter.
+   - The complete Grok Bot Runtime document.
+   - For Full Council and other peer orchestrators, the complete Grok Bot Live Peer Summons document.
+
+   Embed the contents in the Grok installation's root `SKILL.md` or live instruction field, wherever the bot loads its root instructions; links alone are insufficient.
+   Retain the backing skill's YAML frontmatter when the destination is a `SKILL.md` file.
+4. Set the avatar from the member's `assets/` folder: use `thumbnail.png` when it exists, otherwise `portrait.png`.
+5. On every authorized live sync, replace the existing embedded addenda with current contents, retaining their Grok-only headings. Refresh when the backing skill or either applicable reference changes; do not append duplicates. Preserve user customizations and completed onboarding.
+6. Read back the saved instructions and verify they match the complete assembled payload, including retained customizations. If an installed root skill and a separate bot profile both exist, refresh and verify both. A Git pull or source-only handoff leaves the live bot refresh pending.
+
+Canonical repository skills, plugin bundles, and non-Grok installs keep pointers to the Grok references.
+Do not copy expanded Grok installation text back into those shared skills.
+
+Use `skills/council/council/assets/council-six-icon-med.png` as the Grim Council group chat icon (the full council icon lives beside it).
 
 Skills that are not council members can be installed as normal skills, or folded into the most relevant bot's instructions.
 

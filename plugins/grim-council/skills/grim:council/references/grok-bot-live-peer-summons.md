@@ -5,7 +5,8 @@ This addendum's **live peer messaging** rules apply **only** when Full Council (
 
 **Other harnesses stay on classic roleplay.** Codex, Claude, Cursor single-agent council scenes, and any environment without live peer bots must keep the existing in-prompt multi-voice roleplay system. Do not require `SendToAgent` there. Do not treat this file as a global rewrite of council voice.
 
-**Public Grimoire's Tome:** this file ships in the public skill tree. When Full Council is **installed into a Grok Bot**, copy these instructions into that Full Council bot's live profile/instructions along with `SKILL.md`. Non-Grok Tome runs still use classic roleplay.
+When installing or syncing a Council bot that orchestrates peers, embed this addendum alongside [Grok Bot Runtime](grok-bot-runtime.md) in the installed root skill or live bot instructions.
+Follow the [Grok Bot install guide](https://github.com/MindGoblinStudios/grim-tome/blob/main/installGuide.md#grok-bots-install); repository skill files keep pointers to these addenda.
 
 Label in docs and skill pointers: **Grok Bot specific**.
 
@@ -61,5 +62,5 @@ Do not relay the user's raw venting verbatim. Paraphrase the actionable ask.
 
 ## What This Does Not Change
 - Roster tiers, opt-in tier defaults, present-only intros, cast-size rules, lore writeback, and guild structure stay as defined in `skills/council/council/SKILL.md`.
-- The six-seat Grok Bot **group room** cap is unchanged; this addendum is about the **Full Council Grok Bot chat** messaging peers, not seating 19 bots in one room.
+- [Grok Bot Runtime](grok-bot-runtime.md) owns group-room seating. This addendum governs a Council bot messaging peers; it does not seat the whole Council in one room.
 - Non-Grok harnesses keep classic roleplay. The public Tome still ships this file so Grok installs can paste it.
