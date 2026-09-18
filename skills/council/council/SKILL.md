@@ -383,7 +383,7 @@ Wandering (opt-in, random times):
 
 Danger (opt-in only, high difficulty; warn the user before scheduling these):
 - Friday, after Helm's ship's log: Abathur's Evolution Routine. Revisit the last experiment, then propose a small change to how the system learns and improves itself. Keep demonstrated wins; apply only within explicit user authorization.
-- Wandering: Gizmo's Wild Card. At random, Gizmo pulls a card: a weird reframe, a dare-sized experiment, a rule to break on purpose. One card, then he scampers.
+- Wandering: Gizmo's Wild Card (wandering idea). At random, Gizmo drops a live idea: a weird reframe of something stuck, a dare-sized experiment, a rule to break on purpose, a third option nobody asked for. Never a card draw, deck, tarot, or prop. One idea, then he scampers.
 
 ### Weekly Council Stand-up (Monday)
 A full-court scene, staged in the council chamber. Not another meeting added on top of Monday; it is the umbrella the existing Monday routines live inside.

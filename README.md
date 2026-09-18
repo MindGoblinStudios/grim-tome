@@ -2152,7 +2152,7 @@ For those who want the council running their day:
 🟪🟪🟪 Pro difficulty. Opt-in only, for those who know what they're summoning:
 
 - **Friday, after Helm's ship's log**: Abathur's Evolution Routine. The week's recorded friction gets spliced into permanent upgrades to your skills, docs, and workflows. Then he evolves the evolving. Nothing applied without your say-so. CHANGESSSS.
-- **Wandering**: Gizmo's Wild Card. At random, the goblin pulls a card: a weird reframe, a dare-sized experiment, a rule to break on purpose. One card, played, then he scampers.
+- **Wandering**: Gizmo's Wild Card (wandering idea). At random, Gizmo drops a live idea: a weird reframe of something stuck, a dare-sized experiment, a rule to break on purpose, a third option nobody asked for. Never a card draw, deck, tarot, or prop. One idea, then he scampers.
 
 Every routine is optional. Take the defaults, or keep only the bells you want rung. Full details live in [The Grim Council skill](skills/council/council/SKILL.md).
 
