@@ -19,9 +19,7 @@ Public changelog for Grimoire's Tome releases
 
 ## v1.1.5 (2026-09-08)
 
-Grimoire is officially in the Cursor Marketplace: https://cursor.com/marketplace/mind-goblin-studios
-
-- One-click install of the full Tome into Cursor. Cursor plugin install section restored in the install guide and linked from the Starting Guide.
+- The Cursor Marketplace listing announced in this release has since been taken down. Use the repository's [install guide](installGuide.md).
 
 ## v1.1.4 (2026-09-08)
 

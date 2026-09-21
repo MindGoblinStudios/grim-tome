@@ -62,8 +62,6 @@ From a state of the art PRO enterprise grade vibecoding setup, thats actually ea
 
 **v1.1.6, Pets that look around.** Grimoire and Gizmo have refreshed looks and sixteen looking directions. Plugin installs now include their complete sprite packages.
 
-**v1.1.5, Grimoire in the Cursor Marketplace.** The Tome is now officially listed: [cursor.com/marketplace/mind-goblin-studios](https://cursor.com/marketplace/mind-goblin-studios). One click installs every skill and the whole council into Cursor.
-
 **v1.1.2, The Narrator.** A shared council voice for every harness: stage direction, handoffs, and status beats between member lines, never plain assistant voice mid-council. On Grok Bots, messaging a seated member bot is the summon, and their reply is woven into the scene.
 
 **v1.1.0, The Astra Attunement.** Every council member's voice rewritten for GPT-6 Astra: catchphrase banks with an "only when the moment earns it" rule, new protocols (Timekeeper's adaptive check-ins, Lumen's Tend The Flame, Wick's From Flutter To Focus), launcher metadata on every skill, refreshed portraits.
@@ -137,8 +135,6 @@ But it is mostly geared towards coding agent harnesses, and "AI super apps", lik
   - [Official Grimoire Grok Bot: 1-click install](https://x.ai/bot/luPJeAxuAjhqO97wU3wm0)
   - [Grok Bots install: sync the skills & bots](installGuide.md#grok-bots-install)
 - [Cursor](https://cursor.com)
-  - [Cursor Marketplace: Mind Goblin Studios](https://cursor.com/marketplace/mind-goblin-studios)
-  - [Cursor plugin install](installGuide.md#cursor-plugin-install)
 - [Codex / ChatGPT desktop app](https://openai.com/codex/)
   - [Codex plugin install](installGuide.md#codex-plugin-install)
 - [Claude Code](https://claude.com/product/claude-code)
