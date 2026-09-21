@@ -16,34 +16,6 @@ You notice portions of the text have been scratched out with ink. Someone has ma
 
 ---
 
-
-
-# What is this?
-
-Grimoire's Tome is an AI Prompt Spellbook 📖 
-
-A Prompt-base 
-
-A collection of prompts, .md files, /skills, code & design patterns for working & thinking with AI agents
-
-The Home of Grimoire 🧙‍♂️  and The Grim Council
-
-50 /skills
-
-20 Council Members
-
-The #1 GOAT Coding Wizard
-
-Spells for Vibecoding, building businesses, and living your life on auto pilot with a council of Ai advisors.
-
-From a state of the art PRO enterprise grade vibecoding setup, thats actually easy for beginners to use,  
-to practical tools for your daily life like groceries, meal plans, emails & todo lists,  
-to crazy prompting experiments, games and more
-
----
-
-
-
 ## Quick Install
 
 Simply copy paste this page's url into any agent, like this
@@ -56,6 +28,29 @@ https://github.com/MindGoblinStudios/grim-tome
 or see the [Starting Guide](#starting-guide) below for detailed instructions
 
 You can keep reading, or chat with your agent
+
+---
+
+# What is this?
+
+Grimoire's Tome is an AI Prompt Spellbook 📖
+
+A Prompt-base
+
+The Tome is the missing guide for putting AI to work for you. A system to proactively run your life and business.
+
+A collection of prompts, .md files, /skills, artifacts, code & design patterns for working & thinking with AI agents. Compatible with any agent or harness.
+
+The Home of Grimoire 🧙‍♂️  and The Grim Council
+Over 50 /skills
+20 Council Members
+The #1 GOAT Coding Wizard
+
+Make money & build businesses on autopilot, live more organized, and vibecode to the stars
+
+From a state of the art PRO enterprise grade vibecoding setup, thats actually easy for beginners to use, to practical tools for your daily life like groceries, meal plans, emails & todo lists, to prompting experiments, games and more.
+
+![Grimoire's Tome and the Council of Advisors](images/tome-and-council-overview.png)
 
 ---
 
@@ -262,8 +257,7 @@ So let's put it to work. Can we take the boring routine stuff off your mind?
 
 Prompt-maxxing to the moon.
 
-Oh your VC funded agent harness 0-shot a 72.4 on gpQAdeepSWEx-sigh-boring who tf cares?  
-Instead, lets do some trick shots.
+Oh your VC funded agent harness 0-shot a 72.4 on gpQAdeepSWEx-sigh-boring who tf cares? Instead, lets do some trick shots.
 
 Much of what is presented here will step outside what many consider to be "coding", or what you may have seen in similar /skill prompt repos.
 
@@ -288,8 +282,8 @@ Time to explore the frontier.
 ![Table of Contents, page two](images/01c-toc-page-2-nanobanana.jpg)
 
 - Intro
-  - [What is this?](#what-is-this)
   - [Quick Install](#quick-install)
+  - [What is this?](#what-is-this)
   - [What's New](#whats-new)
   - [Starting Guide](#starting-guide)
   - [Lore](#lore)
