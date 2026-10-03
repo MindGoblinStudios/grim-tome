@@ -71,6 +71,9 @@ Once a month, run the business meeting:
 2. Review the current financial snapshot and any material changes.
 3. Use `docs/biz/business-goal-setting.md` to create or update the current month goal artifact: goals, priorities, and owners.
 
+### Monday Priority
+At the Monday stand-up, one sentence: the single top business priority for this week.
+
 ### Friday Ship's Log
 Every Friday, a short weekly review:
 - What got done this week? Wins, misses, blockers.

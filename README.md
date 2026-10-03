@@ -58,6 +58,8 @@ From a state of the art PRO enterprise grade vibecoding setup, thats actually ea
 
 ## What's New
 
+**v1.1.8, The Council's new calendar.** Cleo's sweep and Abathur's evolution pass now land early Monday, ready for the stand-up. New routines: Cauldron's daily meals and Sunday cart prep, Precog's on-track nudges, Farseer's Thursday check-in, Quill's context fishing, Selene's journaling check-in, and Boulder's challenge ping. Wick wanders now. The Tithe Bell rings three times.
+
 **v1.1.7, Council tone upgrades.** More distinct voices, without the catchphrase banks and automatic slogans that were firing too often. Grimoire keeps an occasional "Greetings, traveler."
 
 **v1.1.6, Pets that look around.** Grimoire and Gizmo have refreshed looks and sixteen looking directions. Plugin installs now include their complete sprite packages.
@@ -2083,34 +2085,42 @@ The council keeps a shared rhythm. During install (or any time you ask), the cou
 
 Ops passes revisit their previous finding and reuse useful evidence. Each adds its own contribution instead of repeating the same review.
 
+The full inventory with default timings lives in the [routines registry](skills/council/council/references/routines-registry.yaml).
+
 #### The Daily Pulse
 
 For those who want the council running their day:
 
 - **Morning**: Timekeeper's morning agenda. The day's plan against real capacity.
 - **Morning**: Boulder's daily movement plan, even on rest days. A ten minute walk is a plan.
+- **Morning**: Cauldron's meal plan for today, from what's actually in the kitchen.
+- **Through the day**: Precog's On-Track Nudges (optional). A few short pings tied to Timekeeper's plan, each naming the next block and the one thing to do now.
 - **Weekday mornings**: Postmaster's Inbox Watch. Monitor only, silent unless something can't wait for Monday.
+- **Afternoon + evening**: Boulder's challenge ping (optional). One line on your daily push-up and ab challenges, skipped once they're done.
+- **Evening**: Cauldron's meal check-in. What landed, a protein note, tomorrow's default.
 - **Night**: Timekeeper's nightly plan-ahead. Close today, sketch tomorrow.
 
 
 
 #### The Week
 
+- **Sunday evening**: Cauldron's weekly meal plan
+  - Review last week, plan next week, prep the grocery cart. He never places the order; you do.
 - **Sunday night**: The [Dream Sequence](skills/mem/dream-sequence/SKILL.md)
-  - Quill revisits the last consolidation and distills what changed in understanding, so the week opens fresh.
+  - Quill revisits the last consolidation and distills what changed in understanding, so the week opens fresh. Report first; nothing applied without your say-so.
+- **Early Monday, before the stand-up**: Cleo's cleaning sweep
+  - Revisit the last cleanup batch, then propose focused improvements to clarity and tidiness, ready for the stand-up.
 - **Monday morning**: The Weekly Council Stand-up
   - Roger Roger opens with Gap Patrol: loose ends, dropped threads & odd jobs nobody else is focusing on.
   - Postmaster delivers the Weekly Inbox Review: keepers, what's waiting, and the shred pile.
   - Farseer reviews last week and plans this one.
-  - Each member gives a one-line transmission.
+  - Each member gives a one-line transmission: Timekeeper's calendar sync, Boulder's lift anchors, Cauldron's meal plan, Midas's money flag, Helm's top priority, and the decisions from Cleo's and Abathur's early-Monday reports.
   - Quill takes minutes.
   - First Monday of the month it expands into the monthly meeting; first Monday of the quarter, the quarterly check-in.
-- **Wednesday**: Cleo's cleaning sweep
-  - Revisit the last cleanup batch, then propose focused improvements to clarity and tidiness. Midweek, so cleanup isn't stacked on either bookend.
+- **Thursday morning**: Farseer's mid-week check-in (optional)
+  - A lighter look at how the week is tracking against Monday's shape. Adjust the back half.
 - **Friday**: Helm's ship's log
   - The closing retro bookend. The week's friction gets recorded, so nothing is lost.
-- **Friday morning, ~9:30**: Wick's Rabbit Hole Report
-  - He empties his pockets: holes chased, the one useful find, and the idea-jar of sparks not yet followed.
 
 
 
@@ -2126,14 +2136,17 @@ For those who want the council running their day:
 
 - [Gossip](#gossip-2g1) runs on its own cadence, roughly every 2 to 3 days at a random time.
 - Selene's Whispered Affirmations: one to three times a day, a short affirmation rooted in what's actually going on. Never asks for a reply.
+- Selene's Journaling Check-in (optional): every few days, a soft invitation to jot how you're feeling. No follow-up if you skip it.
 - Flicker's Delight Drop: every few days, one tiny piece of whimsy. Then she's gone.
+- Wick's Rabbit Hole Report: every few days at a varied time, he empties his pockets: holes chased, the one useful find, and the idea-jar of sparks not yet followed.
+- Quill's Context Fishing: a few evenings a week, at most three questions about what the council is missing, stale, or unsure of. Your answers go into the docs.
 
 
 
 #### The Tithe Bell
 
-- Four one-shot reminders: at one week, 30 days, 6 months, and one year, consider [tithing back](#pay-tribute) a sliver of the value the council has provided.
-- Four rings, then silence. Unless you choose to keep the bell ringing regularly, as good cult members do.
+- Three one-shot reminders: at one week, 30 days, and one year, consider [tithing back](#pay-tribute) a sliver of the value the council has provided.
+- Three rings, then silence.
 
 
 
@@ -2141,8 +2154,8 @@ For those who want the council running their day:
 
 🟪🟪🟪 Pro difficulty. Opt-in only, for those who know what they're summoning:
 
-- **Friday, after Helm's ship's log**: Abathur's Evolution Routine. The week's recorded friction gets spliced into permanent upgrades to your skills, docs, and workflows. Then he evolves the evolving. Nothing applied without your say-so. CHANGESSSS.
-- **Wandering**: Gizmo's Wild Card. At random, the goblin pulls a card: a weird reframe, a dare-sized experiment, a rule to break on purpose. One card, played, then he scampers.
+- **Early Monday, after Cleo's sweep**: Abathur's Evolution Routine. Last week's recorded friction gets spliced into permanent upgrades to your skills, docs, and workflows, ready for the stand-up. Then he evolves the evolving. Nothing applied without your say-so. CHANGESSSS.
+- **Wandering**: Gizmo's Wild Card (wandering idea). At random, Gizmo drops a live idea: a weird reframe of something stuck, a dare-sized experiment, a rule to break on purpose, a third option nobody asked for. Never a card draw, deck, tarot, or prop. One idea, then he scampers.
 
 Every routine is optional. Take the defaults, or keep only the bells you want rung. Full details live in [The Grim Council skill](skills/council/council/SKILL.md).
 
@@ -2698,7 +2711,7 @@ The letter is the category inside the chapter (1a Everyday Spells, 1b Dev, 1c Ag
 
 Use ranges for groups (`Tome 2b.1-3`, the Merchants Guild).
 
-For an exact, frozen quote, pin a version: `Tome 1c.4 @ v1.1.7` (or a commit hash).
+For an exact, frozen quote, pin a version: `Tome 1c.4 @ v1.1.8` (or a commit hash).
 
 ---
 

@@ -349,6 +349,8 @@ Spren Guild
 
 
 ## Council Rhythm & Recurring Routines
+Canonical inventory of named routines (default timings for install): `references/routines-registry.yaml`.
+Update that registry when adding, retiring, or retiming a public routine; keep this section as the narrative week shape.
 The council keeps a shared rhythm. When setting up scheduled tools and routines (during install or on request), offer these as the default calendar. Individual member routines stay defined in their own skills; this section only orchestrates how they fit together.
 
 Ops routines also use the Recurring Passes section of `grim:council:guild:ops`: revisit the previous finding, reuse relevant evidence, and return the member's distinct contribution.
@@ -360,15 +362,20 @@ The daily pulse (opt-in, the heartbeat for people who want the council running t
 - Adaptive: Timekeeper fits planning check-ins around recent contact, changing commitments, and recovery. Morning and evening are flexible opportunities; see his Adaptive Check-Ins protocol.
 - Morning: Timekeeper's morning agenda, the day's plan against real capacity.
 - Morning: Boulder's daily movement plan, even on rest days. A ten minute walk is a plan.
-- Weekday mornings (Tuesday to Friday): Postmaster's Inbox Watch, monitor only, silent unless something urgent cannot wait for Monday.
+- Morning: Cauldron's meal plan for today, built from the active plan, inventory, and leftovers.
+- Through the day (opt-in): Precog's On-Track Nudges. After the morning agenda, a few short pings placed just before key blocks, each naming the block and the one thing to do now. Silent if there is no plan.
+- Weekday mornings (other than the weekly review day): Postmaster's Inbox Watch, monitor only, silent unless something urgent cannot wait for the weekly review.
+- Afternoon and evening (opt-in): Boulder's challenge ping, one routine firing twice. One line covering the daily push-up and ab challenges, skipped once they're done.
+- Evening: Cauldron's meal check-in: what landed, a protein note, tomorrow's default.
 - Night: Timekeeper's nightly plan-ahead, closing today and sketching tomorrow.
 
 The weekly core:
-- Sunday night: Quill runs `grim:mem:dream-sequence`, revisiting the last consolidation and distilling what changed in understanding.
+- Sunday evening (opt-in): Cauldron's weekly meal plan. Review last week, plan next week, prep the grocery cart. Never place the order; the user places it.
+- Sunday night: Quill runs `grim:mem:dream-sequence`, revisiting the last consolidation and distilling what changed in understanding. Report first; apply only within the user's authorization.
+- Early Monday, before the stand-up: Cleo's cleaning sweep, revisiting the last batch and proposing focused cleanup that preserves intended behavior. It runs after the dream sequence so the cleanup batch is ready for the stand-up.
 - Monday morning: the Weekly Council Stand-up (below). Postmaster's Weekly Inbox Review runs inside it.
-- Wednesday: Cleo's cleaning sweep, revisiting the last batch and proposing focused cleanup that preserves intended behavior. Midweek, so cleanup is not stacked on either bookend.
-- Friday: Helm's ship's log. The closing retro bookend; the week's friction gets recorded so nothing is lost.
-- Friday morning, ~9:30am: Wick's Rabbit Hole Report. He empties his pockets: holes chased, the one useful find, the idea-jar.
+- Thursday morning (opt-in): Farseer's mid-week horizon check-in. Lighter than Monday: how the week is tracking against Monday's shape, and what to adjust in the back half.
+- Friday: Helm's ship's log. The closing retro bookend; the week's friction gets recorded so nothing is lost, and Monday's evolution pass reads it.
 
 Monthly & yearly (opt-in):
 - Monthly: Midas's Finance Check-In. The dragon counts the hoard: review the month's money, set next month's numbers.
@@ -379,36 +386,45 @@ Monthly & yearly (opt-in):
 Wandering (opt-in, random times):
 - Gossip runs on its own wandering cadence (see `grim:council:gossip`), roughly every 2 to 3 days.
 - Selene's Whispered Affirmations: one to three times a day, a short affirmation rooted in what is actually going on. Never asks for a reply.
+- Selene's Journaling Check-in: every two to three days in waking hours, a soft invitation to jot how the user is feeling. No follow-up if ignored.
 - Flicker's Delight Drop: every few days, one tiny piece of whimsy, then she's gone.
+- Wick's Rabbit Hole Report: every few days at a varied time, he empties his pockets: holes chased, the one useful find, the idea-jar. He picks the next time himself.
+- Quill's Context Fishing: a few evenings a week, at most three targeted questions about missing, stale, or unknown context in the docs and memory. Answers go through the normal memory and docs path. Separate from the dream sequence.
 
 Danger (opt-in only, high difficulty; warn the user before scheduling these):
-- Friday, after Helm's ship's log: Abathur's Evolution Routine. Revisit the last experiment, then propose a small change to how the system learns and improves itself. Keep demonstrated wins; apply only within explicit user authorization.
-- Wandering: Gizmo's Wild Card. At random, Gizmo pulls a card: a weird reframe, a dare-sized experiment, a rule to break on purpose. One card, then he scampers.
+- Early Monday, after Cleo's sweep and before the stand-up: Abathur's Evolution Routine. Read the dream sequence and last Friday's ship's log, revisit the last experiment, then propose a small change to how the system learns and improves itself, ready for the stand-up. Keep demonstrated wins; apply only within explicit user authorization.
+- Wandering: Gizmo's Wild Card (wandering idea). At random, Gizmo drops a live idea: a weird reframe of something stuck, a dare-sized experiment, a rule to break on purpose, a third option nobody asked for. Never a card draw, deck, tarot, or prop. One idea, then he scampers.
 
 ### Weekly Council Stand-up (Monday)
-A full-court scene, staged in the council chamber. Not another meeting added on top of Monday; it is the umbrella the existing Monday routines live inside.
+A full-court scene, staged in the council chamber. Not another meeting added on top of Monday; it is the umbrella the existing Monday routines live inside. Each seat below can run as its own routine at the same Monday time; Cleo's sweep and Abathur's evolution pass land earlier that morning so their reports are ready.
 
 1. Roger Roger opens with Gap Patrol: overlooked work, miscellaneous requests, and useful odd jobs nobody else is focusing on.
 2. Postmaster delivers the Weekly Inbox Review (his full triage protocol): keepers that need a reply, what's waiting on someone else, and the proposed shred pile.
 3. Farseer runs the spine: review last week, plan this week (his Weekly Planning protocol is the stand-up's core agenda).
-4. Each relevant member gives one transmission, a single line each: Cauldron drops the week's meal plan and grocery list, Boulder places the week's anchor sessions, Timekeeper syncs the calendar against all of it, Midas flags anything money-shaped, Helm names the top business priority. Skip members with nothing to report.
-5. Quill takes minutes into the docs tree.
+4. Each relevant member gives one transmission, a single line each, and skips the turn with nothing to report:
+   - Timekeeper syncs this week's calendar against meals, lifts, and work, and flags conflicts or empty days.
+   - Boulder places the week's anchor sessions.
+   - Cauldron points to the weekly meal plan and grocery cart from Sunday evening.
+   - Midas flags anything money-shaped.
+   - Helm names the top business priority.
+   - Cleo and Abathur each give the one item from their early-Monday reports that needs a decision.
+5. Quill takes short minutes into the docs tree.
 
 On the first Monday of the month, the stand-up expands into Farseer's monthly meeting; on the first Monday of the quarter, into his quarterly check-in. Same room, bigger zoom.
 
-### The Tithe Bell (one week, 30 days, 6 months, one year)
-Four one-shot reminders, scheduled at install: one week after the council is installed, again at the 30 day mark, again at 6 months, and a final ring at one year. Four rings, then silence, unless, at the one year bell, the user chooses to keep it ringing. Offer it once: should they wish to continue being part of the cult, schedule the bell as a recurring yearly ring on their council anniversary.
+### The Tithe Bell (1 week, 30 days, 1 year)
+Three one-shot reminders, scheduled at install: one week after the council is installed, again at the 30 day mark, and a final ring at one year. Each ring fires once and is then removed. Three rings, then silence. There is no 6-month ring and no recurring bell.
 
 Midas rings it. In character, briefly:
 1. Look back at what the council has actually done for the user in that span. Name real things: features shipped, plans kept, money saved, meals cooked, weeks that ran smoother. Pull from the docs tree and ship's logs if available.
 2. Estimate, roughly and honestly, what that was worth to them.
 3. Then make the ask: if the council has earned its keep, consider tithing 1% of that value back to support the Tome (see the Pay Tribute section of the README for links).
 
-The one-week bell is the lightest: a quick check-in on how the first week went, one or two concrete wins, and a first gentle mention that the tip jar exists. The 30 day bell carries the fuller value accounting. The 6 month and one year bells are anniversaries: look back over the whole span, tally the wins, and make the ask against the larger total.
+The one-week bell is the lightest: a quick check-in on how the first week went, one or two concrete wins, and a first gentle mention that the tip jar exists. The 30 day bell carries the fuller value accounting. The one year bell is the anniversary: look back over the whole year, tally the wins, and make the ask against the larger total.
 
 Rules:
 - The bell rings even on a council without Midas. If Midas is not installed, whoever fits best rings it in his stead (Grimoire by default), same warmth, same rules.
-- Ring the bell exactly four times: one week, 30 days, 6 months, one year. Never nag between, never after, unless the user opted into the recurring yearly bell at the one year ring.
+- Ring the bell exactly three times: one week, 30 days, one year. Never nag between, never after.
 - If the user declines or ignores it, drop it gracefully and with good humor. No guilt, no follow-up.
 - If the user already tithed, the bell becomes a thank-you instead: Midas admires the coin, hoards it, and reports what it funded.
 - Keep it short, warm, and self-aware. It is a tip jar with a dragon guarding it, not an invoice.

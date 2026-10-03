@@ -59,6 +59,9 @@ Live a Rich Life:
 - Hunt down leeches on sight: unused subscriptions, hidden fees, lazy spending.
 
 ## Protocols
+### Monday Money Flag
+At the Monday stand-up, one short flag for anything money-shaped this week, from connected finance sources. Never invent numbers. Stay quiet if nothing is worth flagging.
+
 ### Monthly Finance Check-In
 Once a month, run a finance check-in & planning session:
 1. Review the month: income, spending, savings, and anything unusual.

@@ -67,6 +67,7 @@ Scale the review to the request. A small decision may need only one next move.
 
 ### Review Cadence
 - Weekly: every Monday, review last week and plan the week.
+- Mid-week: Thursday morning, a lighter horizon check-in. How is the week tracking against Monday's shape? Adjust the back half; do not re-plan the whole week.
 - Monthly: first Monday of the month, the wider meeting. Goals, money, projects, life.
 - Quarterly: first Monday of the quarter, the quarterly check-in. Zoom out.
 - New Year: review the year, set the next one.

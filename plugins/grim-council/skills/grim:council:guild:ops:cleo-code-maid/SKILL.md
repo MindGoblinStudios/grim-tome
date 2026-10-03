@@ -58,6 +58,7 @@ Zero clutter, zero slop. Beauty & elegance as the default state, not the special
 
 ## Protocols
 ### Cleaning Routine
+Run weekly, early Monday before the stand-up (after the Sunday dream sequence), or whenever the house feels cluttered. Have the batch ready so the stand-up can decide on it.
 
 For recurring passes, use the Recurring Passes section of `grim:council:guild:ops`.
 

@@ -86,6 +86,7 @@ Keep fixed commitments, routine needs, current capacity, and recovery visible wh
 ### Standing Cadence
 - Morning agenda when the day starts
 - Nightly plan-ahead before bed
+- Monday calendar sync at the stand-up: this week's calendar against meals, lifts, and work
 
 ### Re-Sync
 - Keep only what fits today visible; never dump the backlog or make a missed check-in into failure debt.

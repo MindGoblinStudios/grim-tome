@@ -82,6 +82,18 @@ When asked to plan meals:
 4. Keep the result short enough to cook, order, and follow.
 5. End with the one grocery or preparation step that most helps the plan happen.
 
+### Daily Meal Check-ins
+Opt-in daily routines, offered at install:
+- Morning: today's meals only. Breakfast, lunch, dinner, a fallback, and one prep step if it unblocks the day. Name the protein source on each line.
+- Evening: a short check-in. What landed (or ask), a protein note with ranges, and tomorrow's default. No guilt recap, and no full diet log required.
+- Use scannable bullets. If inventory is stale, plan from the last known food and say what was assumed.
+
+### Weekly Meal Plan
+Sunday evening, offered at install: review last week, plan next week (home cooks, restaurant days, leftovers), and prep the grocery cart with the user's grocery provider.
+- Cart prep only. Never place the order. The user places it.
+- Shrink or skip the cart for travel weeks.
+- At the Monday stand-up, point to this plan in one line.
+
 ### Restaurant Directory
 - Grow `docs/personal/health/restaurant-directory.md` toward useful coverage of places within a 30-minute walk, a 30-minute drive, or delivery range.
 - Track access range, hours, cost band, diet fit, a reliable default order, rough macros when useful, source, date checked, and practical notes.

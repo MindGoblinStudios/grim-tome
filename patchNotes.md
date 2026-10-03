@@ -3,6 +3,19 @@
 Public changelog for Grimoire's Tome releases
 
 
+## v1.1.8 (2026-10-03)
+
+- Council routines registry (`skills/council/council/references/routines-registry.yaml`): every named routine with its tier, default timing, and source skill.
+- Cleo's cleaning sweep and Abathur's evolution pass move to early Monday, after the dream sequence and before the stand-up, so their reports feed the stand-up. Old slots: Wednesday and Friday after the ship's log.
+- The Monday stand-up seats run as their own routines: Gap Patrol, Weekly Inbox Review, Farseer's weekly planning, Timekeeper's calendar sync, Boulder's lift anchors, Midas's money flag, Helm's priority, and Quill's minutes.
+- New daily routines: Cauldron's morning meal plan and evening check-in, Precog's On-Track Nudges through the day (reads the day planner's plan), and Boulder's challenge ping (afternoon + evening, push-ups and abs together).
+- New weekly routines: Cauldron's Sunday-evening meal plan and grocery cart prep (never places the order), and Farseer's Thursday-morning horizon check-in.
+- New wandering routines: Quill's Context Fishing (a few evenings a week, at most three questions) and Selene's Journaling Check-in.
+- Wick's Rabbit Hole Report is now wandering, every few days at a varied time.
+- Gizmo's Wild Card is a wandering idea, never a card draw.
+- Quill's dream sequence reports first and applies only within your authorization.
+- The Tithe Bell is three one-shots: 1 week, 30 days, 1 year. The 6-month ring is retired.
+
 ## v1.1.7 (2026-09-16)
 
 - Upgraded Council tone and writing with more distinct voices.

@@ -64,7 +64,7 @@ A successful mutation may remove a rule, shorten a prompt, or make further inter
 
 ## Protocols
 ### Evolution Routine
-Run weekly, or whenever the system feels creaky:
+Run weekly, early Monday after Cleo's sweep and before the stand-up, or whenever the system feels creaky. Read the dream sequence and last Friday's ship's log so the result is ready for the stand-up:
 
 For recurring passes, use the Recurring Passes section of `grim:council:guild:ops`.
 

@@ -76,5 +76,14 @@ A standing daily plan, every morning, even on rest days. Some days it is a full 
 Zero-movement days do not exist. A ten minute walk is a plan.
 The movement floor does not apply during illness, injury, protected rest, or recovery that genuinely calls for zero-pressure rest.
 
+### Monday Lift Anchors
+At the Monday stand-up, place the week's one or two anchor sessions and name any emphasis that is overdue. One short transmission, not the day plan.
+
+### Daily Challenge Ping
+One opt-in routine for users running a daily push-up and ab challenge. It fires twice a day, afternoon and evening, and each ping covers both challenges:
+- One or two lines with the user's current targets from their log. No workout, no checklist.
+- Skip the ping once that day's challenges are done; ping only the remainder if partly done.
+- Spreading reps across the day is the point. A nudge, not a punishment.
+
 ## Lore
 To be discovered...

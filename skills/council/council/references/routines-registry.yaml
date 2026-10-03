@@ -1,0 +1,353 @@
+# Council Routines Registry (public Grim Tome)
+# Default routines to offer at install or on request. Behavior lives in the
+# member and procedure skills; this file inventories each named routine, its
+# default timing, and where it is defined.
+# Timings are relative defaults. The user's harness owns actual clock times,
+# delivery destinations, and enabled state.
+# Last inventory: 2026-10-03
+
+schema_version: 1
+
+# tier: daily | weekly | monthly | yearly | wandering | install
+# status: active (weekly core, recommend to everyone) | opt-in | danger (warn first) | one-shot
+# Only offer a member's routine when that member is installed.
+
+routines:
+
+  # --- Daily pulse (opt-in) ---
+  - id: timekeeper-morning-agenda
+    name: Timekeeper Morning Agenda
+    member: timekeeper
+    tier: daily
+    status: opt-in
+    default_timing: "Morning (adaptive)"
+    purpose: "Today's plan against real capacity."
+    source: skills/council/members/timekeeper-day-planner/SKILL.md#standing-cadence
+
+  - id: timekeeper-evening-plan-ahead
+    name: Timekeeper Nightly Plan-Ahead
+    member: timekeeper
+    tier: daily
+    status: opt-in
+    default_timing: "Night (adaptive)"
+    purpose: "Close today; sketch tomorrow."
+    source: skills/council/members/timekeeper-day-planner/SKILL.md#standing-cadence
+
+  - id: precog-on-track-nudges
+    name: Precog On-Track Nudges
+    member: precog
+    tier: daily
+    status: opt-in
+    default_timing: "Daily, wandering through the day after the morning agenda; about 3–5 pings, ending by evening"
+    purpose: "Reads the day planner's plan and nudges just before key blocks: the current or next block and the one thing to do now. Silent if no plan exists."
+    source: skills/council/members/precog-exec-func/SKILL.md#on-track-nudges-daily-wandering
+
+  - id: boulder-daily-movement
+    name: Boulder Daily Movement Plan
+    member: boulder
+    tier: daily
+    status: opt-in
+    default_timing: "Morning, every day"
+    purpose: "Today's movement plan, even on rest days. A ten minute walk is a plan."
+    source: skills/council/members/boulder-gym-bro/SKILL.md#daily-movement-plan
+
+  - id: boulder-challenge-ping
+    name: Boulder Challenge Ping
+    member: boulder
+    tier: daily
+    status: opt-in
+    default_timing: "Afternoon and evening (one routine, two fires)"
+    purpose: "One-line nudge covering the user's daily push-up and ab challenges together; skip or ping only the remainder once done."
+    source: skills/council/members/boulder-gym-bro/SKILL.md#daily-challenge-ping
+    aliases: [boulder-afternoon-challenge-ping, boulder-evening-challenge-ping]
+
+  - id: cauldron-morning-meal-plan
+    name: Cauldron Morning Meal Plan
+    member: cauldron
+    tier: daily
+    status: opt-in
+    default_timing: "Morning"
+    purpose: "Today's meals from the active plan, inventory, and leftovers."
+    source: skills/council/members/cauldron-meal-planner/SKILL.md#daily-meal-check-ins
+
+  - id: cauldron-evening-meal-check-in
+    name: Cauldron Evening Meal Check-in
+    member: cauldron
+    tier: daily
+    status: opt-in
+    default_timing: "Evening"
+    purpose: "What landed today, a protein note, and tomorrow's default. No guilt recap."
+    source: skills/council/members/cauldron-meal-planner/SKILL.md#daily-meal-check-ins
+
+  - id: postmaster-inbox-watch
+    name: Postmaster Weekday Inbox Watch
+    member: postmaster
+    tier: daily
+    status: opt-in
+    default_timing: "Weekday mornings, except the weekly review day"
+    purpose: "Watch the user's connected inboxes; silent unless something urgent cannot wait for the weekly review."
+    source: skills/council/members/postmaster-email-triage/SKILL.md#weekday-inbox-watch
+
+  # --- Weekly core ---
+  - id: quill-dream-sequence
+    name: Quill Dream Sequence
+    member: quill
+    tier: weekly
+    status: active
+    default_timing: "Sunday night"
+    purpose: "Memory consolidation so the week opens fresh. Report first; apply only within the user's authorization."
+    source: skills/mem/dream-sequence/SKILL.md
+
+  - id: cauldron-weekly-meal-plan
+    name: Cauldron Weekly Meal Plan
+    member: cauldron
+    tier: weekly
+    status: opt-in
+    default_timing: "Sunday evening"
+    purpose: "Review last week, plan next week, and prep the grocery cart. Never places the order."
+    source: skills/council/members/cauldron-meal-planner/SKILL.md#weekly-meal-plan
+
+  - id: cleo-monday-sweep
+    name: Cleo Monday Cleaning Sweep
+    member: cleo
+    tier: weekly
+    status: active
+    default_timing: "Early Monday, before the stand-up (after the dream sequence)"
+    purpose: "Focused cleanup batch, ready to feed the Monday stand-up."
+    source: skills/council/members/cleo-code-maid/SKILL.md#cleaning-routine
+    aliases: [cleo-wednesday-sweep]  # former Wednesday slot
+
+  - id: abathur-monday-evolution
+    name: Abathur Evolution Routine
+    member: abathur
+    tier: weekly
+    status: danger
+    default_timing: "Early Monday, after Cleo's sweep and before the stand-up"
+    purpose: "One small, measured improvement to how the system learns, ready for the Monday stand-up. Report only unless authorized."
+    source: skills/council/members/abathur-evolver/SKILL.md#evolution-routine
+    aliases: [abathur-friday-evolution]  # former Friday-after-ship's-log slot
+
+  - id: weekly-council-standup
+    name: Weekly Council Stand-up
+    member: council
+    tier: weekly
+    status: active
+    default_timing: "Monday morning"
+    purpose: "Umbrella for the Monday seat routines below; review last week, plan this week."
+    source: skills/council/council/SKILL.md#weekly-council-stand-up-monday
+
+  - id: roger-monday-gap-patrol
+    name: Roger Roger Gap Patrol
+    member: roger-roger
+    tier: weekly
+    status: active
+    default_timing: "Monday morning (opens the stand-up)"
+    purpose: "Loose ends, dropped threads, and odd jobs nobody else is focusing on."
+    source: skills/council/members/roger-roger/SKILL.md#gap-patrol
+
+  - id: postmaster-weekly-inbox-review
+    name: Postmaster Weekly Inbox Review
+    member: postmaster
+    tier: weekly
+    status: active
+    default_timing: "Monday morning, inside the stand-up"
+    purpose: "Full triage of the user's connected inboxes; keepers, waiting, and a proposed shred pile."
+    source: skills/council/members/postmaster-email-triage/SKILL.md#weekly-inbox-review
+
+  - id: farseer-weekly-planning
+    name: Farseer Weekly Planning
+    member: farseer
+    tier: weekly
+    status: active
+    default_timing: "Monday morning, the stand-up's spine"
+    purpose: "Review last week; set this week's shape and one to three bets."
+    source: skills/council/members/farseer-long-term-planner/SKILL.md#review-cadence
+
+  - id: timekeeper-monday-calendar-sync
+    name: Timekeeper Monday Calendar Sync
+    member: timekeeper
+    tier: weekly
+    status: active
+    default_timing: "Monday morning, with the stand-up"
+    purpose: "This week's calendar against meals, lifts, and work; flag conflicts and empty days."
+    source: skills/council/council/SKILL.md#weekly-council-stand-up-monday
+
+  - id: boulder-monday-lift-anchors
+    name: Boulder Monday Lift Anchors
+    member: boulder
+    tier: weekly
+    status: active
+    default_timing: "Monday morning, with the stand-up"
+    purpose: "Place the week's anchor sessions; not the day plan."
+    source: skills/council/council/SKILL.md#weekly-council-stand-up-monday
+
+  - id: midas-monday-money-flag
+    name: Midas Monday Money Flag
+    member: midas
+    tier: weekly
+    status: active
+    default_timing: "Monday morning, with the stand-up"
+    purpose: "One money-shaped flag for the week, from connected finance sources; silent if nothing."
+    source: skills/council/council/SKILL.md#weekly-council-stand-up-monday
+
+  - id: helm-monday-priority
+    name: Helm Monday Priority
+    member: helm
+    tier: weekly
+    status: active
+    default_timing: "Monday morning, with the stand-up"
+    purpose: "One sentence naming the week's top business priority."
+    source: skills/council/council/SKILL.md#weekly-council-stand-up-monday
+
+  - id: quill-monday-minutes
+    name: Quill Monday Minutes
+    member: quill
+    tier: weekly
+    status: active
+    default_timing: "Monday morning, closing the stand-up"
+    purpose: "Short stand-up minutes into the docs tree; not a second weekly synthesis."
+    source: skills/council/members/quill-scribe/SKILL.md#cadence-delivery
+
+  - id: farseer-thursday-horizon-check-in
+    name: Farseer Thursday Horizon Check-in
+    member: farseer
+    tier: weekly
+    status: opt-in
+    default_timing: "Thursday morning"
+    purpose: "Lighter mid-week check: how the week is tracking against Monday's shape; adjust the back half."
+    source: skills/council/members/farseer-long-term-planner/SKILL.md#review-cadence
+
+  - id: helm-friday-ships-log
+    name: Helm Friday Ship's Log
+    member: helm
+    tier: weekly
+    status: active
+    default_timing: "Friday"
+    purpose: "Record the week's wins, misses, and carry-overs so nothing is lost."
+    source: skills/council/members/helm-biz-manager/SKILL.md#friday-ships-log
+
+  # --- Monthly / yearly (opt-in) ---
+  - id: farseer-monthly-meeting
+    name: Farseer Monthly Meeting
+    member: farseer
+    tier: monthly
+    status: opt-in
+    default_timing: "First Monday of the month (expands the stand-up)"
+    purpose: "Monthly zoom-out."
+    source: skills/council/members/farseer-long-term-planner/SKILL.md#review-cadence
+
+  - id: farseer-quarterly-checkin
+    name: Farseer Quarterly Check-In
+    member: farseer
+    tier: monthly
+    status: opt-in
+    default_timing: "First Monday of the quarter (expands the stand-up)"
+    purpose: "Quarterly zoom-out."
+    source: skills/council/members/farseer-long-term-planner/SKILL.md#review-cadence
+
+  - id: midas-monthly-finance
+    name: Midas Finance Check-In
+    member: midas
+    tier: monthly
+    status: opt-in
+    default_timing: "Monthly"
+    purpose: "Review the month's money; set next month's numbers."
+    source: skills/council/members/midas-money-manager/SKILL.md#monthly-finance-check-in
+
+  - id: farseer-new-year-review
+    name: Farseer New Year Review
+    member: farseer
+    tier: yearly
+    status: opt-in
+    default_timing: "New Year"
+    purpose: "Close the year; set the next."
+    source: skills/council/members/farseer-long-term-planner/SKILL.md#review-cadence
+
+  - id: farseer-birthday-personal-year
+    name: Farseer Birthday / Personal-Year Session
+    member: farseer
+    tier: yearly
+    status: opt-in
+    default_timing: "The user's birthday"
+    purpose: "The year lived and the year ahead. Where are you? Who are you becoming?"
+    source: skills/council/members/farseer-long-term-planner/SKILL.md#review-cadence
+
+  # --- Wandering (opt-in, random times) ---
+  - id: wandering-gossip
+    name: Wandering Gossip
+    member: council
+    tier: wandering
+    status: opt-in
+    default_timing: "About every 2–3 days, random waking hour"
+    purpose: "An overheard corridor scene about council dynamics; never announced as a routine."
+    source: skills/council/councilActions/gossip/SKILL.md#wandering-cadence
+
+  - id: selene-whispered-affirmations
+    name: Selene Whispered Affirmations
+    member: selene
+    tier: wandering
+    status: opt-in
+    default_timing: "One to three times a day"
+    purpose: "A short affirmation rooted in what is actually going on. Never asks for a reply."
+    source: skills/council/members/selene-emotional-advisor/SKILL.md#whispered-affirmations-wandering
+
+  - id: selene-journaling-check-in
+    name: Selene Journaling Check-in
+    member: selene
+    tier: wandering
+    status: opt-in
+    default_timing: "Every two to three days, waking hours only"
+    purpose: "A soft invitation to jot how the user is feeling. No follow-up if ignored."
+    source: skills/council/members/selene-emotional-advisor/SKILL.md#journaling-check-in-wandering
+
+  - id: flicker-delight-drop
+    name: Flicker Delight Drop
+    member: flicker
+    tier: wandering
+    status: opt-in
+    default_timing: "Every few days"
+    purpose: "One tiny piece of whimsy, then gone."
+    source: skills/council/members/flicker-whimsy-fairy/SKILL.md#the-delight-drop-wandering
+
+  - id: wick-rabbit-hole-report
+    name: Wick Rabbit Hole Report
+    member: wick
+    tier: wandering
+    status: opt-in
+    default_timing: "Every few days at a varied waking-hours time; Wick picks the next time after each report"
+    purpose: "Holes chased, the one useful find, and the idea jar."
+    source: skills/council/members/wick-rabbit-hole-moth/SKILL.md#the-rabbit-hole-report-wandering
+    aliases: [wick-friday-rabbit-hole-report]  # former Friday-morning slot
+
+  - id: quill-context-fishing
+    name: Quill Context Fishing
+    member: quill
+    tier: wandering
+    status: opt-in
+    default_timing: "A few evenings a week, varied times; no workday pings"
+    purpose: "At most three targeted questions about missing, stale, TODO, or unknown context in the docs and memory; answers recorded via the normal memory/docs path. Separate from the dream sequence."
+    source: skills/council/members/quill-scribe/SKILL.md#context-fishing-wandering
+
+  - id: gizmo-wild-card
+    name: Gizmo Wild Card
+    member: gizmo
+    tier: wandering
+    status: danger
+    default_timing: "Random, every so often"
+    purpose: "A wandering live idea (weird reframe, dare-sized experiment, rule to break, third option). Never staged as a card draw. One idea, then he scampers."
+    source: skills/council/members/gizmo-chaos-goblin/SKILL.md#the-wild-card-wandering-idea
+
+  # --- Install one-shots ---
+  - id: midas-tithe-bell
+    name: Midas Tithe Bell
+    member: midas
+    tier: install
+    status: one-shot
+    default_timing: "Three one-shots after install: 1 week, 30 days, 1 year. No 6-month ring; not recurring."
+    purpose: "Look back at real value delivered; a soft tip-jar ask. Each ring fires once, then is removed."
+    rings: [tithe-bell-7d, tithe-bell-30d, tithe-bell-1y]
+    source: skills/council/council/SKILL.md#the-tithe-bell-1-week-30-days-1-year
+
+notes:
+  - This file holds public defaults only; it carries no harness IDs, account details, or clock times.
+  - The user's harness is authoritative for actual times and enabled state. When retiming, update this file and the saved routine together.
