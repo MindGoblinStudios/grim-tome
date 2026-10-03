@@ -112,7 +112,7 @@ routines:
     member: cleo
     tier: weekly
     status: active
-    default_timing: "Early Monday, before the stand-up (after the dream sequence)"
+    default_timing: "Early Monday, overnight before the stand-up (after the dream sequence)"
     purpose: "Focused cleanup batch, ready to feed the Monday stand-up."
     source: skills/council/members/cleo-code-maid/SKILL.md#cleaning-routine
     aliases: [cleo-wednesday-sweep]  # former Wednesday slot
@@ -122,7 +122,7 @@ routines:
     member: abathur
     tier: weekly
     status: danger
-    default_timing: "Early Monday, after Cleo's sweep and before the stand-up"
+    default_timing: "Early Monday, overnight after Cleo's sweep and before the stand-up"
     purpose: "One small, measured improvement to how the system learns, ready for the Monday stand-up. Report only unless authorized."
     source: skills/council/members/abathur-evolver/SKILL.md#evolution-routine
     aliases: [abathur-friday-evolution]  # former Friday-after-ship's-log slot
@@ -141,7 +141,7 @@ routines:
     member: roger-roger
     tier: weekly
     status: active
-    default_timing: "Monday morning (opens the stand-up)"
+    default_timing: "Monday morning, with the stand-up (all seats report together; opens it)"
     purpose: "Loose ends, dropped threads, and odd jobs nobody else is focusing on."
     source: skills/council/members/roger-roger/SKILL.md#gap-patrol
 
@@ -159,7 +159,7 @@ routines:
     member: farseer
     tier: weekly
     status: active
-    default_timing: "Monday morning, the stand-up's spine"
+    default_timing: "Monday morning, with the stand-up (all seats report together; the spine)"
     purpose: "Review last week; set this week's shape and one to three bets."
     source: skills/council/members/farseer-long-term-planner/SKILL.md#review-cadence
 
@@ -168,7 +168,7 @@ routines:
     member: timekeeper
     tier: weekly
     status: active
-    default_timing: "Monday morning, with the stand-up"
+    default_timing: "Monday morning, with the stand-up (all seats report together)"
     purpose: "This week's calendar against meals, lifts, and work; flag conflicts and empty days."
     source: skills/council/council/SKILL.md#weekly-council-stand-up-monday
 
@@ -177,7 +177,7 @@ routines:
     member: boulder
     tier: weekly
     status: active
-    default_timing: "Monday morning, with the stand-up"
+    default_timing: "Monday morning, with the stand-up (all seats report together)"
     purpose: "Place the week's anchor sessions; not the day plan."
     source: skills/council/council/SKILL.md#weekly-council-stand-up-monday
 
@@ -186,7 +186,7 @@ routines:
     member: midas
     tier: weekly
     status: active
-    default_timing: "Monday morning, with the stand-up"
+    default_timing: "Monday morning, with the stand-up (all seats report together)"
     purpose: "One money-shaped flag for the week, from connected finance sources; silent if nothing."
     source: skills/council/council/SKILL.md#weekly-council-stand-up-monday
 
@@ -195,7 +195,7 @@ routines:
     member: helm
     tier: weekly
     status: active
-    default_timing: "Monday morning, with the stand-up"
+    default_timing: "Monday morning, with the stand-up (all seats report together)"
     purpose: "One sentence naming the week's top business priority."
     source: skills/council/council/SKILL.md#weekly-council-stand-up-monday
 
@@ -204,7 +204,7 @@ routines:
     member: quill
     tier: weekly
     status: active
-    default_timing: "Monday morning, closing the stand-up"
+    default_timing: "Monday morning, right after the seats report"
     purpose: "Short stand-up minutes into the docs tree; not a second weekly synthesis."
     source: skills/council/members/quill-scribe/SKILL.md#cadence-delivery
 

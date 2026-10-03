@@ -6,8 +6,9 @@ Public changelog for Grimoire's Tome releases
 ## v1.1.8 (2026-10-03)
 
 - Council routines registry (`skills/council/council/references/routines-registry.yaml`): every named routine with its tier, default timing, and source skill.
-- Cleo's cleaning sweep and Abathur's evolution pass move to early Monday, after the dream sequence and before the stand-up, so their reports feed the stand-up. Old slots: Wednesday and Friday after the ship's log.
-- The Monday stand-up seats run as their own routines: Gap Patrol, Weekly Inbox Review, Farseer's weekly planning, Timekeeper's calendar sync, Boulder's lift anchors, Midas's money flag, Helm's priority, and Quill's minutes.
+- Cleo's cleaning sweep and Abathur's evolution pass move to early Monday, running overnight after the dream sequence and before the stand-up, so their reports feed the stand-up. Old slots: Wednesday and Friday after the ship's log.
+- The Monday stand-up seats run as their own routines: Gap Patrol, Weekly Inbox Review, Farseer's weekly planning, Timekeeper's calendar sync, Boulder's lift anchors, Midas's money flag, and Helm's priority.
+- The Monday order: overnight prep (Cleo, then Abathur), then all seats report together, then Quill's minutes right after.
 - New daily routines: Cauldron's morning meal plan and evening check-in, Precog's On-Track Nudges through the day (reads the day planner's plan), and Boulder's challenge ping (afternoon + evening, push-ups and abs together).
 - New weekly routines: Cauldron's Sunday-evening meal plan and grocery cart prep (never places the order), and Farseer's Thursday-morning horizon check-in.
 - New wandering routines: Quill's Context Fishing (a few evenings a week, at most three questions) and Selene's Journaling Check-in.

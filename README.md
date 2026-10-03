@@ -2108,14 +2108,15 @@ For those who want the council running their day:
   - Review last week, plan next week, prep the grocery cart. He never places the order; you do.
 - **Sunday night**: The [Dream Sequence](skills/mem/dream-sequence/SKILL.md)
   - Quill revisits the last consolidation and distills what changed in understanding, so the week opens fresh. Report first; nothing applied without your say-so.
-- **Early Monday, before the stand-up**: Cleo's cleaning sweep
+- **Early Monday, overnight before the stand-up**: Cleo's cleaning sweep
   - Revisit the last cleanup batch, then propose focused improvements to clarity and tidiness, ready for the stand-up.
 - **Monday morning**: The Weekly Council Stand-up
+  - Prep runs overnight first (Cleo's sweep, then Abathur's evolution pass). Then all seats report together, and Quill's minutes follow right after.
   - Roger Roger opens with Gap Patrol: loose ends, dropped threads & odd jobs nobody else is focusing on.
   - Postmaster delivers the Weekly Inbox Review: keepers, what's waiting, and the shred pile.
   - Farseer reviews last week and plans this one.
   - Each member gives a one-line transmission: Timekeeper's calendar sync, Boulder's lift anchors, Cauldron's meal plan, Midas's money flag, Helm's top priority, and the decisions from Cleo's and Abathur's early-Monday reports.
-  - Quill takes minutes.
+  - Quill takes minutes, right after the seats report.
   - First Monday of the month it expands into the monthly meeting; first Monday of the quarter, the quarterly check-in.
 - **Thursday morning**: Farseer's mid-week check-in (optional)
   - A lighter look at how the week is tracking against Monday's shape. Adjust the back half.
@@ -2154,7 +2155,7 @@ For those who want the council running their day:
 
 🟪🟪🟪 Pro difficulty. Opt-in only, for those who know what they're summoning:
 
-- **Early Monday, after Cleo's sweep**: Abathur's Evolution Routine. Last week's recorded friction gets spliced into permanent upgrades to your skills, docs, and workflows, ready for the stand-up. Then he evolves the evolving. Nothing applied without your say-so. CHANGESSSS.
+- **Early Monday, overnight after Cleo's sweep**: Abathur's Evolution Routine. Last week's recorded friction gets spliced into permanent upgrades to your skills, docs, and workflows, ready for the stand-up. Then he evolves the evolving. Nothing applied without your say-so. CHANGESSSS.
 - **Wandering**: Gizmo's Wild Card (wandering idea). At random, Gizmo drops a live idea: a weird reframe of something stuck, a dare-sized experiment, a rule to break on purpose, a third option nobody asked for. Never a card draw, deck, tarot, or prop. One idea, then he scampers.
 
 Every routine is optional. Take the defaults, or keep only the bells you want rung. Full details live in [The Grim Council skill](skills/council/council/SKILL.md).
