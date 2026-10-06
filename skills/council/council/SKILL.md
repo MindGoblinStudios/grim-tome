@@ -471,7 +471,7 @@ Each council member's `SKILL.md` owns that member's personality:
 
 When moving information:
 - Put shared council behavior & architecture in this file
-- Put Grok Bot behavior in **Grok Bot — Live Peer Summons** above and deployment steps in the Grok Bot install guide (`installGuide.md`)
+- Put Grok Bot behavior in **Grok Bot — Live Peer Summons** above and deployment steps in the [Grok Bot install guide](https://github.com/MindGoblinStudios/grim-tome/blob/main/installGuide.md#grok-bots-install)
 - Put member identity in the member file
 - Put domain facts and SOPs in the relevant docs or skill `references/`
 
