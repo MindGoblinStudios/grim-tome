@@ -3,7 +3,7 @@
 ## Scope
 
 These rules apply only to Council, member, and guild skills running as Grok Bots.
-Repository skills keep pointers to this document; Grok installs embed its contents in their installed root skill or bot instructions.
+Repository skills keep pointers to this document. Grok installs embed only the sections that apply to that bot, so each bot carries only its own rooms' rules.
 Other harnesses use the shared council scene rules and do not load this addendum.
 
 ---
@@ -31,3 +31,15 @@ This is a room roster, not a shrink of Full Council. The Council bot still plays
 
 Council bots that orchestrate teammate replies also use [Grok Bot Live Peer Summons](grok-bot-live-peer-summons.md).
 Narrator voice remains defined in the shared council skill and applies on every harness.
+
+---
+
+## Embed Map (install-time only; do not embed)
+
+Each bot gets only the sections for rooms it belongs to or orchestrates. Embed `## Scope` only when at least one other section applies; if none applies, the bot gets no `# Grok Bot Runtime` block at all.
+
+| Section | Embed in | Leave out of |
+| --- | --- | --- |
+| Group Chat Seating Cap | Bots that seat or orchestrate a room: the standalone Council bot, the Grim Council room, guild room bots, and scene rooms such as GPTavern | Ordinary member bots, including Grimoire |
+| Grim Council Seats | The Grim Council room and its six seated members: Helm, Grimoire, Quill, Lumen, Timekeeper, Roger Roger | Everyone else |
+| Live Peer Summons | Bots that orchestrate teammate replies: the standalone Council bot, the Grim Council room, guild and scene room bots, and any member skill that uses live summons | Ordinary member bots |

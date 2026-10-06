@@ -83,7 +83,7 @@ Fastest path: the official Grimoire Grok Bot, 1-click install: https://x.ai/bot/
 
 Note: the official bot is Grimoire only. It does not come with all the skills and all the bots pre-installed, so the assistant will still need to manually sync the rest: seat the other council members as bots and install the skills, following the steps below. Each council member becomes a live Grok Bot backed by their skill:
 
-Read [Grok Bot Runtime](skills/council/council/references/grok-bot-runtime.md) for room limits and the Grim Council seats.
+Read [Grok Bot Runtime](skills/council/council/references/grok-bot-runtime.md) for room limits and the Grim Council seats. Its Embed Map says which bots get which section.
 For Full Council or another bot that orchestrates peer summons, also read [Grok Bot Live Peer Summons](skills/council/council/references/grok-bot-live-peer-summons.md).
 
 1. Create one Grok Bot per council member the user wants seated. The standalone Council bot uses the root council skill; guild or room bots use their own skill.
@@ -91,7 +91,7 @@ For Full Council or another bot that orchestrates peer summons, also read [Grok 
 3. Assemble the bot's instructions in this order:
 
    - Its current `SKILL.md` body, without YAML frontmatter.
-   - The complete Grok Bot Runtime document.
+   - Only the Grok Bot Runtime sections that apply to this bot, per the runtime's Embed Map. Include `## Scope` only when another section applies; ordinary member bots outside the Grim Council room get no runtime block. Never embed the Embed Map itself.
    - For Full Council and other peer orchestrators, the complete Grok Bot Live Peer Summons document.
 
    Embed the contents in the Grok installation's root `SKILL.md` or live instruction field, wherever the bot loads its root instructions; links alone are insufficient.
