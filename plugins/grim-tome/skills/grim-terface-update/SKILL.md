@@ -19,7 +19,7 @@ Check whether the local copy of Grimoire's Tome is current, show the user what's
 4. After updating, call out anything that needs a follow-up: new skills to expose, changed `AGENTS.md` conventions, new council members, or migration notes in `patchNotes.md`.
 5. If skills are symlinked into a harness folder, new skills are picked up by adding new symlinks — offer to add them for skills the user wants.
 
-For an authorized Grok bot refresh, follow [Grok Bots install](https://github.com/MindGoblinStudios/grim-tome/blob/main/installGuide.md#grok-bots-install). Changes to the Grok runtime references also require reassembling the installed root skill or bot instructions; pulling Git alone does not refresh a live bot.
+For an authorized Grok bot refresh, follow [Grok Bots install](https://github.com/MindGoblinStudios/grim-tome/blob/main/installGuide.md#grok-bots-install). Pulling Git alone does not refresh a live bot; re-save each changed skill body as its bot instructions.
 
 ## Rules
 
