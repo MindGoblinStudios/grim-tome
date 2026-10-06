@@ -36,10 +36,12 @@ Narrator voice remains defined in the shared council skill and applies on every 
 
 ## Embed Map (install-time only; do not embed)
 
-Each bot gets only the sections for rooms it belongs to or orchestrates. Embed `## Scope` only when at least one other section applies; if none applies, the bot gets no `# Grok Bot Runtime` block at all.
+Each bot gets only the sections it needs. Embed `## Scope` only when at least one other section applies; if none applies, the bot gets no `# Grok Bot Runtime` block at all.
 
 | Section | Embed in | Leave out of |
 | --- | --- | --- |
-| Group Chat Seating Cap | Bots that seat or orchestrate a room: the standalone Council bot, the Grim Council room, guild room bots, and scene rooms such as GPTavern | Ordinary member bots, including Grimoire |
-| Grim Council Seats | The Grim Council room and its six seated members: Helm, Grimoire, Quill, Lumen, Timekeeper, Roger Roger | Everyone else |
-| Live Peer Summons | Bots that orchestrate teammate replies: the standalone Council bot, the Grim Council room, guild and scene room bots, and any member skill that uses live summons | Ordinary member bots |
+| Group Chat Seating Cap | Bots that seat a room, such as the GPTavern Barkeep | The standalone Council bot and ordinary member bots, including the Grim Council seats |
+| Grim Council Seats | The six Grim Council seats: Helm, Grimoire, Quill, Lumen, Timekeeper, Roger Roger | Everyone else, including the standalone Council bot |
+| Live Peer Summons | Bots that orchestrate teammate replies: the standalone Council bot, room-hosting bots such as the GPTavern Barkeep, and any member skill that uses live summons | Ordinary member bots |
+
+Grok group chats (the Grim Council room and guild rooms such as Ops, Merchants, and Coding) get no runtime block and have nothing to sync: bots cannot edit group-chat instructions, and the member bots seated there already carry their own sections.
