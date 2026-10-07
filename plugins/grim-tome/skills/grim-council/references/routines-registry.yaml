@@ -39,6 +39,8 @@ routines:
     tier: daily
     status: opt-in
     default_timing: "Daily, wandering through the day after the morning agenda; about 3–5 pings, ending by evening"
+    schedule_type: wandering/self-rescheduling
+    schedule_rule: "Daily morning home slot; after each nudge it books the next one a few minutes before the next key block (about 3-5 a day, ending by evening), then resets to the home slot."
     purpose: "Reads the day planner's plan and nudges just before key blocks: the current or next block and the one thing to do now. Silent if no plan exists."
     source: skills/council/members/precog-exec-func/SKILL.md#on-track-nudges-daily-wandering
 
@@ -287,7 +289,9 @@ routines:
     member: council
     tier: wandering
     status: opt-in
-    default_timing: "About every 2–3 days, random waking hour"
+    default_timing: "Wandering: about every 1–3 days, random waking hour"
+    schedule_type: wandering/self-rescheduling
+    schedule_rule: "Each run rolls the next one 1-3 days out at a random waking hour, avoiding other council routines."
     purpose: "An overheard corridor scene about council dynamics; never announced as a routine."
     source: skills/council/councilActions/gossip/SKILL.md#wandering-cadence
 
@@ -296,7 +300,9 @@ routines:
     member: selene
     tier: wandering
     status: opt-in
-    default_timing: "One to three times a day"
+    default_timing: "Wandering: one or two times a day, waking hours"
+    schedule_type: wandering/self-rescheduling
+    schedule_rule: "Rolls itself one or two times a day at varied waking-hours times; never asks for a reply."
     purpose: "A short affirmation rooted in what is actually going on. Never asks for a reply."
     source: skills/council/members/selene-emotional-advisor/SKILL.md#whispered-affirmations-wandering
 
@@ -305,7 +311,9 @@ routines:
     member: selene
     tier: wandering
     status: opt-in
-    default_timing: "Every two to three days, waking hours only"
+    default_timing: "Every ~60 hours, so it drifts across days; silent in quiet hours"
+    schedule_type: interval/drifting
+    schedule_rule: "Fixed ~60-hour interval; the clock time drifts. Not self-rescheduling."
     purpose: "A soft invitation to jot how the user is feeling. No follow-up if ignored."
     source: skills/council/members/selene-emotional-advisor/SKILL.md#journaling-check-in-wandering
 
@@ -324,6 +332,8 @@ routines:
     tier: wandering
     status: opt-in
     default_timing: "Every few days at a varied waking-hours time; Wick picks the next time after each report"
+    schedule_type: wandering/self-rescheduling
+    schedule_rule: "Each run rebooks 2-4 days out at a varied waking-hours time."
     purpose: "Holes chased, the one useful find, and the idea jar."
     source: skills/council/members/wick-rabbit-hole-moth/SKILL.md#the-rabbit-hole-report-wandering
     aliases: [wick-friday-rabbit-hole-report]  # former Friday-morning slot
@@ -334,6 +344,8 @@ routines:
     tier: wandering
     status: opt-in
     default_timing: "A few evenings a week, varied times; no workday pings"
+    schedule_type: wandering/self-rescheduling
+    schedule_rule: "Each run picks an evening slot 2-4 days out at a varied time; no workday pings."
     purpose: "At most three targeted questions about missing, stale, TODO, or unknown context in the docs and memory; answers recorded via the normal memory/docs path. Separate from the dream sequence."
     source: skills/council/members/quill-scribe/SKILL.md#context-fishing-wandering
 
@@ -343,6 +355,8 @@ routines:
     tier: wandering
     status: danger
     default_timing: "Random, every so often"
+    schedule_type: wandering/self-rescheduling
+    schedule_rule: "Each run rebooks 2-4 days out on a weekday, waking hours, avoiding other council routines' slots."
     purpose: "A wandering live idea (weird reframe, dare-sized experiment, rule to break, third option). Never staged as a card draw. One idea, then he scampers."
     source: skills/council/members/gizmo-chaos-goblin/SKILL.md#the-wild-card-wandering-idea
 
