@@ -39,6 +39,8 @@ routines:
     tier: daily
     status: opt-in
     default_timing: "Daily, wandering through the day after the morning agenda; about 3–5 pings, ending by evening"
+    schedule_type: wandering/self-rescheduling
+    schedule_rule: "Rolls itself through the day after the morning agenda (about 3-5 nudges, ending by evening), then resets the next morning."
     purpose: "Reads the day planner's plan and nudges just before key blocks: the current or next block and the one thing to do now. Silent if no plan exists."
     source: skills/council/members/precog-exec-func/SKILL.md#on-track-nudges-daily-wandering
 
@@ -287,7 +289,9 @@ routines:
     member: council
     tier: wandering
     status: opt-in
-    default_timing: "About every 2–3 days, random waking hour"
+    default_timing: "Wandering: about every 1–3 days, random waking hour"
+    schedule_type: wandering/self-rescheduling
+    schedule_rule: "Each run rolls the next one 1-3 days out at a random waking hour, avoiding other council routines."
     purpose: "An overheard corridor scene about council dynamics; never announced as a routine."
     source: skills/council/councilActions/gossip/SKILL.md#wandering-cadence
 
@@ -324,6 +328,8 @@ routines:
     tier: wandering
     status: opt-in
     default_timing: "Every few days at a varied waking-hours time; Wick picks the next time after each report"
+    schedule_type: wandering/self-rescheduling
+    schedule_rule: "Each run rolls the next one a few days out to a varied waking-hours time."
     purpose: "Holes chased, the one useful find, and the idea jar."
     source: skills/council/members/wick-rabbit-hole-moth/SKILL.md#the-rabbit-hole-report-wandering
     aliases: [wick-friday-rabbit-hole-report]  # former Friday-morning slot
@@ -334,6 +340,8 @@ routines:
     tier: wandering
     status: opt-in
     default_timing: "A few evenings a week, varied times; no workday pings"
+    schedule_type: wandering/self-rescheduling
+    schedule_rule: "Rolls itself to a few evenings a week at varied times; no workday pings."
     purpose: "At most three targeted questions about missing, stale, TODO, or unknown context in the docs and memory; answers recorded via the normal memory/docs path. Separate from the dream sequence."
     source: skills/council/members/quill-scribe/SKILL.md#context-fishing-wandering
 
@@ -343,6 +351,8 @@ routines:
     tier: wandering
     status: danger
     default_timing: "Random, every so often"
+    schedule_type: wandering/self-rescheduling
+    schedule_rule: "Each run rolls the next one a few days out at a random time."
     purpose: "A wandering live idea (weird reframe, dare-sized experiment, rule to break, third option). Never staged as a card draw. One idea, then he scampers."
     source: skills/council/members/gizmo-chaos-goblin/SKILL.md#the-wild-card-wandering-idea
 
