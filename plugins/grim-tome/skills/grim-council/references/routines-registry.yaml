@@ -4,7 +4,7 @@
 # default timing, and where it is defined.
 # Timings are relative defaults. The user's harness owns actual clock times,
 # delivery destinations, and enabled state.
-# Last inventory: 2026-10-03
+# Last inventory: 2026-10-07
 
 schema_version: 1
 
@@ -207,6 +207,15 @@ routines:
     default_timing: "Monday morning, right after the seats report"
     purpose: "Short stand-up minutes into the docs tree; not a second weekly synthesis."
     source: skills/council/members/quill-scribe/SKILL.md#cadence-delivery
+
+  - id: monday-full-council
+    name: Monday Full Council
+    member: council
+    tier: weekly
+    status: opt-in
+    default_timing: "Monday morning, after the stand-up seats and Quill's minutes"
+    purpose: "Weekly council planning meeting: a short stage beat plus an agenda (one-step board, Helm flags, calendar pressure, open decisions); summons Helm, Farseer, Timekeeper and Precog (others only as needed) to answer the user in their own chats; relays any seat reply as bold name plus exact words; closes with up to 3 decisions for the week. One step at a time; paused projects skipped; ordinary Full Council seats only."
+    source: skills/council/council/SKILL.md
 
   - id: farseer-thursday-horizon-check-in
     name: Farseer Thursday Horizon Check-in
