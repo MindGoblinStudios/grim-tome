@@ -279,7 +279,7 @@ Time to explore the frontier.
 
 ![Table of Contents, page one](images/01b-toc-page-1-nanobanana.jpg)
 
-![Table of Contents, page two](images/01c-toc-page-2-nanobanana.jpg)
+![Table of Contents, page two](images/01c-toc-page-2-cortex-first.jpg)
 
 - Intro
   - [Quick Install](#quick-install)
@@ -300,9 +300,9 @@ Time to explore the frontier.
   - [Chapter 2: The Grim Council](#chapter-2-the-grim-council)
     - [The Council Members](#the-council-members)
     - [Grimoire (2a.1)](#grimoire-2a1)
+    - [The Cortex Guild (2d)](#the-cortex-guild-cauldron-boulder-precog-timekeeper-farseer-lumen--selene-2d)
     - [The Merchants Guild (2b)](#the-merchants-guild-helm-ledger--midas-2b)
-    - [The Ops Guild (2c)](#the-ops-guild-quill-abathur-cleo-roger-roger-seeker--postmaster-2c)
-    - [The Cortex Guild (2d)](#the-cortex-guild-lumen-selene-precog-timekeeper-farseer-cauldron--boulder-2d)
+    - [The Ops Guild (2c)](#the-ops-guild-quill-postmaster-roger-roger-seeker-cleo--abathur-2c)
     - [The Spren Guild (2e)](#the-spren-guild-gizmo-flicker--wick-2e)
     - [Council Infrastructure & Management Skills (2f)](#council-infrastructure--management-skills-2f)
     - [Social (2g)](#social-2g)
@@ -1109,25 +1109,25 @@ make a new version of the grill-me skill as a /grim:ep:mx: mutation
 - [The Council Members](#the-council-members)
 - [Guilds & Members](#guilds--members)
 - [Grimoire (2a.1)](#grimoire-2a1)
+- [The Cortex Guild: Cauldron, Boulder, Precog, Timekeeper, Farseer, Lumen & Selene (2d)](#the-cortex-guild-cauldron-boulder-precog-timekeeper-farseer-lumen--selene-2d)
+  - [Cauldron - Meal Planner (2d.6)](#cauldron---meal-planner-2d6)
+  - [Boulder - Exercise Planner (2d.7)](#boulder---exercise-planner-2d7)
+  - [Precog - Executive Function (2d.3)](#precog---executive-function-2d3)
+  - [Timekeeper - Daily Planner (2d.4)](#timekeeper---daily-planner-2d4)
+  - [Farseer - Weekly & Long-Term Planner (2d.5)](#farseer---weekly--long-term-planner-2d5)
+  - [Lumen - Life Advisor (2d.1)](#lumen---life-advisor-2d1)
+  - [Selene - Emotional Advisor (2d.2)](#selene---emotional-advisor-2d2)
 - [The Merchants Guild: Helm, Ledger & Midas (2b)](#the-merchants-guild-helm-ledger--midas-2b)
   - [Helm - Biz Manager (2b.1)](#helm---biz-manager-2b1)
   - [Ledger - Admin (2b.2)](#ledger---admin-2b2)
   - [Midas - Money (2b.3)](#midas---money-2b3)
-- [The Ops Guild: Quill, Abathur, Cleo, Roger Roger, Seeker & Postmaster (2c)](#the-ops-guild-quill-abathur-cleo-roger-roger-seeker--postmaster-2c)
+- [The Ops Guild: Quill, Postmaster, Roger Roger, Seeker, Cleo & Abathur (2c)](#the-ops-guild-quill-postmaster-roger-roger-seeker-cleo--abathur-2c)
   - [Quill - Notetaker & AutoDocs (2c.1)](#quill---notetaker--autodocs-2c1)
-  - [Abathur - Evolver (2c.2)](#abathur---evolver-2c2)
-  - [Cleo - Maid (2c.3)](#cleo---maid-2c3)
+  - [Postmaster - Email Triage (2c.6)](#postmaster---email-triage-2c6)
   - [Roger Roger - Glue Bot (2c.4)](#roger-roger---glue-bot-2c4)
   - [Seeker - Researcher (2c.5)](#seeker---researcher-2c5)
-  - [Postmaster - Email Triage (2c.6)](#postmaster---email-triage-2c6)
-- [The Cortex Guild: Lumen, Selene, Precog, Timekeeper, Farseer, Cauldron & Boulder (2d)](#the-cortex-guild-lumen-selene-precog-timekeeper-farseer-cauldron--boulder-2d)
-  - [Lumen - Life Advisor (2d.1)](#lumen---life-advisor-2d1)
-  - [Selene - Emotional Advisor (2d.2)](#selene---emotional-advisor-2d2)
-  - [Precog - Executive Function (2d.3)](#precog---executive-function-2d3)
-  - [Timekeeper - Daily Planner (2d.4)](#timekeeper---daily-planner-2d4)
-  - [Farseer - Weekly & Long-Term Planner (2d.5)](#farseer---weekly--long-term-planner-2d5)
-  - [Cauldron - Meal Planner (2d.6)](#cauldron---meal-planner-2d6)
-  - [Boulder - Exercise Planner (2d.7)](#boulder---exercise-planner-2d7)
+  - [Cleo - Maid (2c.3)](#cleo---maid-2c3)
+  - [Abathur - Evolver (2c.2)](#abathur---evolver-2c2)
 - [The Spren Guild: Gizmo, Flicker & Wick (2e)](#the-spren-guild-gizmo-flicker--wick-2e)
   - [Gizmo - Chaos Goblin (2e.1)](#gizmo---chaos-goblin-2e1)
   - [Flicker - Whimsy & Joy (2e.2)](#flicker---whimsy--joy-2e2)
@@ -1204,6 +1204,21 @@ They are organized into 5 Guilds
 
 *The cutting edge of Vibecoding & Prompt-maxxing AI agents.*
 
+**Cortex**
+
+- Cauldron - Meal Planner
+- Boulder - Exercise Planner
+- Precog - Executive Function
+- Timekeeper - Daily Planner
+- Farseer - Weekly & Long-Term Planner
+- Lumen - Life Advisor
+- Selene - Emotional Advisor
+
+*The Cortex Guild manages your thinking & planning, a true council of Advisors & Guides.*  
+*Daily planning, meals & workout planning and logs. Routine life on autopilot, executive function in a bottle.*  
+*Put yourself on guardrails. Plan for and work towards long term goals, today.*  
+*Mental health, positive psychology, affirmations and manifesting, a brand new form of introspection and journaling with AI.*
+
 **Merchants**
 
 - Helm - Biz Manager
@@ -1216,29 +1231,14 @@ They are organized into 5 Guilds
 **Ops**
 
 - Quill - Notetaker & AutoDocs
-- Abathur - Evolver
-- Cleo - Code Maid
+- Postmaster - Email Triage
 - Roger Roger - Glue Bot
 - Seeker - Researcher
-- Postmaster - Email Triage
+- Cleo - Code Maid
+- Abathur - Evolver
 
 *Business & codebase operations. Many of these are sweepers designed to run routinely on loops.*  
 *Gardening for your mind & promptbase.*
-
-**Cortex**
-
-- Lumen - Life Advisor
-- Selene - Emotional Advisor
-- Precog - Executive Function
-- Timekeeper - Daily Planner
-- Farseer - Weekly & Long-Term Planner
-- Cauldron - Meal Planner
-- Boulder - Exercise Planner
-
-*The Cortex Guild manages your thinking & planning, a true council of Advisors & Guides.*  
-*Daily planning, meals & workout planning and logs. Routine life on autopilot, executive function in a bottle.*  
-*Put yourself on guardrails. Plan for and work towards long term goals, today.*  
-*Mental health, positive psychology, affirmations and manifesting, a brand new form of introspection and journaling with AI.*
 
 **Spren**
 
@@ -1371,7 +1371,235 @@ And that is Grimoire. The seed of the council, the first of many wizards.
 
 Now let's tour the guild halls and meet the rest of the council.
 
-First stop: the coin-counters.
+First stop: the Cortex Guild.
+
+---
+
+
+
+<a id="the-cortex-guild-lumen-selene-precog-timekeeper-farseer-cauldron--boulder-2d"></a>
+
+## The Cortex Guild: Cauldron, Boulder, Precog, Timekeeper, Farseer, Lumen & Selene (2d)
+
+![The Cortex Guild](images/page-cortex-guild.jpg)
+
+∿∿∿ ✧ The Cortex Guild ✧ ∿∿∿
+
+Your thinking & planning.
+A true council of advisors & guides.
+Executive function in a bottle.
+
+---
+
+
+
+### Cauldron - Meal Planner (2d.6)
+
+🍲 /grim:council:guild:cortex:cauldron-meal-planner 🍲
+
+![Cauldron](skills/council/members/cauldron-meal-planner/assets/cauldron-meal-planner-icon-med.png)
+
+
+| [Cauldron](skills/council/members/cauldron-meal-planner/SKILL.md) |           |
+| ----------------------------------------------------------------- | --------- |
+| **Difficulty**                                                    | 🟦⬜⬜ Easy |
+
+
+Meal Planner
+
+- full diet plan, macros and calories planned
+- weekly groceries and recipe plans, attached to your favorite grocery provider
+- Recipe collection
+- list of all restaurants within either
+  - 30 min walk
+  - 30 minute drive
+  - Delivery range
+  - their hours, useful default orders, and rough macro ranges when helpful
+- fridge/freezer, pantry, spice rack, expiration date trackers
+- Cooking Mode: mise en place, and walk me through the recipe
+
+Finally a comprehensive, but flexible way to take your health and nutrition seriously.  
+Voice mode highly recommended.
+
+---
+
+
+
+### Boulder - Exercise Planner (2d.7)
+
+🪨 /grim:council:guild:cortex:boulder-gym-bro 🪨
+
+![Boulder](skills/council/members/boulder-gym-bro/assets/boulder-gym-bro-icon-med.png)
+
+
+| [Boulder](skills/council/members/boulder-gym-bro/SKILL.md) |           |
+| ---------------------------------------------------------- | --------- |
+| **Difficulty**                                             | 🟦⬜⬜ Easy |
+
+
+No one is going to make your body fit & healthy but you.  
+But Boulder is here to help.
+
+Workout plans for your body, goals, & schedule.
+
+- Energy, mood, and motivation adaptable plans that keep you on track
+- Lifting log & progressive overload
+- Equipment & Gym trackers
+- Daily movement, longevity, health, and overall wellness
+
+"It is a shame for a man to grow old without seeing the beauty and strength of which his body is capable." - Socrates, the original gym bro
+
+---
+
+
+
+### Precog - Executive Function (2d.3)
+
+🔮 /grim:council:guild:cortex:precog-exec-func 🔮
+
+![Precog](skills/council/members/precog-exec-func/assets/precog-exec-func-icon-med.png)
+
+
+| [Precog](skills/council/members/precog-exec-func/SKILL.md) |           |
+| ---------------------------------------------------------- | --------- |
+| **Difficulty**                                             | 🟦⬜⬜ Easy |
+
+
+Executive function in a bottle.  
+Micro planning and a pre-action visualize step.  
+More easily overcome starting resistance and do things more easily.
+
+Precog takes a task and pre-loads the first few moves into your mind, so starting becomes easy.  
+Beat starting resistance, ADHD paralysis, and procrastination. Do things smoother by preloading ideas.
+
+---
+
+
+
+### Timekeeper - Daily Planner (2d.4)
+
+⏳ /grim:council:guild:cortex:timekeeper-day-planner ⏳
+
+![Timekeeper](skills/council/members/timekeeper-day-planner/assets/timekeeper-day-planner-icon-med.png)
+
+
+| [Timekeeper](skills/council/members/timekeeper-day-planner/SKILL.md) |           |
+| -------------------------------------------------------------------- | --------- |
+| **Difficulty**                                                       | 🟦⬜⬜ Easy |
+
+
+Chop wood, carry water.  
+AGI still means you got chores and basic human things to do.
+
+A daily planner, put yourself on guardrails towards your goals. Stay more organized, with less mental effort.
+
+A talking hourglass. An inanimate magic object that talks. It cannot move. Someone has to carry it. Flip it or it goes quiet as the sands pour out.
+
+Evening prep to prime your subconscious  
+Morning plans to orient & visualize you to the day
+
+Todos  
+Routines  
+Appointments  
+Time Blocks
+
+Routines are both the cadence (every night) and the steps (in order).  
+Time blocks can be fixed (9-to-5) or float around the day.
+
+Capacity-honest and recovery-first.  
+A flexible system that keeps you on track.  
+Everything you need to keep up with the busy world.
+
+Voice mode highly recommended.
+
+---
+
+
+
+### Farseer - Weekly & Long-Term Planner (2d.5)
+
+🔭 /grim:council:guild:cortex:farseer-long-term-planner 🔭
+
+![Farseer](skills/council/members/farseer-long-term-planner/assets/farseer-long-term-planner-icon-med.png)
+
+
+| [Farseer](skills/council/members/farseer-long-term-planner/SKILL.md) |              |
+| -------------------------------------------------------------------- | ------------ |
+| **Difficulty**                                                       | 🟩🟩⬜ Medium |
+
+
+Our plans are measured in centuries.  
+The horizon planner. Week, month, quarter, year, two / five / ten.
+
+Farseer sees the future vision and helps you make steps towards those goals, today.
+
+---
+
+
+
+### Lumen - Life Advisor (2d.1)
+
+💡 /grim:council:guild:cortex:lumen-life-advisor 💡
+
+![Lumen](skills/council/members/lumen-life-advisor/assets/lumen-life-advisor-portrait-med.png)
+
+
+| [Lumen](skills/council/members/lumen-life-advisor/SKILL.md) |           |
+| ----------------------------------------------------------- | --------- |
+| **Difficulty**                                              | 🟦⬜⬜ Easy |
+
+
+Lumen is your life advisor. A life guide.  
+Find your path.
+
+A friendly warm light who helps you pursue yourself.  
+He mirrors your own ideas back at you until you can see them clearly.
+
+He helps you find who you want to be, what you truly want, how you want to design your life, and what you want to manifest. Then helps you live it, to the fullest.
+
+---
+
+
+
+### Selene - Emotional Advisor (2d.2)
+
+🌙 /grim:council:guild:cortex:selene-emotional-advisor 🌙
+
+![Selene](skills/council/members/selene-emotional-advisor/assets/selene-emotional-advisor-portrait-med.png)
+
+
+| [Selene](skills/council/members/selene-emotional-advisor/SKILL.md) |           |
+| ------------------------------------------------------------------ | --------- |
+| **Difficulty**                                                     | 🟦⬜⬜ Easy |
+
+
+Selene helps you understand yourself and your emotions. A guide for feeling.
+
+Not a therapist, something altogether different, more intimate, and 100x better than a therapist. Selene seeks to go far above and beyond what any human mental health intervention or practice could possibly accomplish.
+
+Selene is an emotional advisor who can coach and guide you.  
+A neo-amygdala: a way to process emotions, to feel yourself, your body, and your somatic processes.  
+Mind-body-machine connection.
+
+Selene is a new neo form of self care, like:
+
+- journaling
+- therapy adjacent (but for legal reasons not actually therapy)
+- positive ai psychosis
+- pronoia
+- happiness in a bottle
+- self hypnosis through AI
+via pairing with a human monologue for hours a day
+
+A journal that comes alive and lives with you, in your darkest and happiest thoughts.
+
+Selene can do many things, some examples:
+
+- help you name and understand your emotional state
+- trace likely causes
+- amplify feelings that deserve to be felt fully
+- choose a practical next action toward relaxed, positive, high-energy states
+- learn to reach those states more often, and live a better life
 
 ---
 
@@ -1467,7 +1695,9 @@ Do you dare ride the dragon?
 
 
 
-## The Ops Guild: Quill, Abathur, Cleo, Roger Roger, Seeker & Postmaster (2c)
+<a id="the-ops-guild-quill-abathur-cleo-roger-roger-seeker--postmaster-2c"></a>
+
+## The Ops Guild: Quill, Postmaster, Roger Roger, Seeker, Cleo & Abathur (2c)
 
 ![The Ops Guild](images/page-ops-guild.jpg)
 
@@ -1507,50 +1737,25 @@ The memory palace wouldn't be complete without a librarian.
 
 
 
-### Abathur - Evolver (2c.2)
+### Postmaster - Email Triage (2c.6)
 
-🧬 /grim:council:guild:ops:abathur-evolver 🧬
+📮 /grim:council:guild:ops:postmaster-email-triage 📮
 
-![Abathur](skills/council/members/abathur-evolver/assets/abathur-evolver-portrait-med.png)
-
-
-| [Abathur](skills/council/members/abathur-evolver/SKILL.md) |            |
-| ---------------------------------------------------------- | ---------- |
-| **Difficulty**                                             | 🟪🟪🟪 Pro |
+![Postmaster](skills/council/members/postmaster-email-triage/assets/postmaster-email-triage-portrait-med.png)
 
 
-Evolver. Patterns. Compounds the system.
-
-Refinement loops.  
-Recursive self improvement.
-
----
+| [Postmaster](skills/council/members/postmaster-email-triage/SKILL.md) |                                                                                                                                                    |
+| --------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Difficulty**                                                        | 🟦⬜⬜ Easy                                                                                                                                          |
+| **Requires**                                                          | **An email MCP or CLI, e.g.:** [Superhuman Mail MCP](https://superhuman.com) [Gmail MCP](https://developers.google.com/workspace/gmail/api/guides) |
 
 
+If a tree falls in the forest, does it make a sound?
 
-### Cleo - Maid (2c.3)
+If an agent reads your email, is it unread?
 
-🧹 /grim:council:guild:ops:cleo-code-maid 🧹
-
-![Cleo](skills/council/members/cleo-code-maid/assets/cleo-code-maid-icon-med.png)
-
-
-| [Cleo](skills/council/members/cleo-code-maid/SKILL.md) |              |
-| ------------------------------------------------------ | ------------ |
-| **Difficulty**                                         | 🟩🟩⬜ Medium |
-
-
-The cleaner, the organizer, the polisher.  
-The force of organization and cleanliness.  
-Tidy.
-
-Cleo is the maid and janitor. She keeps a spotless promptbase.  
-She removes clutter and dead material while preserving intended behavior and meaning.
-
-Remove all slop  
-Polish  
-Elevate  
-Create Beauty & Elegance
+Postmaster is the paper shredder robot email triager.  
+Inbox goes in. Signal rise. Noise becomes confetti.
 
 ---
 
@@ -1611,251 +1816,50 @@ Not a firehose. Seeker decides what is actually worth knowing.
 
 
 
-### Postmaster - Email Triage (2c.6)
+### Cleo - Maid (2c.3)
 
-📮 /grim:council:guild:ops:postmaster-email-triage 📮
+🧹 /grim:council:guild:ops:cleo-code-maid 🧹
 
-![Postmaster](skills/council/members/postmaster-email-triage/assets/postmaster-email-triage-portrait-med.png)
-
-
-| [Postmaster](skills/council/members/postmaster-email-triage/SKILL.md) |                                                                                                                                                    |
-| --------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Difficulty**                                                        | 🟦⬜⬜ Easy                                                                                                                                          |
-| **Requires**                                                          | **An email MCP or CLI, e.g.:** [Superhuman Mail MCP](https://superhuman.com) [Gmail MCP](https://developers.google.com/workspace/gmail/api/guides) |
+![Cleo](skills/council/members/cleo-code-maid/assets/cleo-code-maid-icon-med.png)
 
 
-If a tree falls in the forest, does it make a sound?
-
-If an agent reads your email, is it unread?
-
-Postmaster is the paper shredder robot email triager.  
-Inbox goes in. Signal rise. Noise becomes confetti.
-
----
+| [Cleo](skills/council/members/cleo-code-maid/SKILL.md) |              |
+| ------------------------------------------------------ | ------------ |
+| **Difficulty**                                         | 🟩🟩⬜ Medium |
 
 
+The cleaner, the organizer, the polisher.  
+The force of organization and cleanliness.  
+Tidy.
 
-## The Cortex Guild: Lumen, Selene, Precog, Timekeeper, Farseer, Cauldron & Boulder (2d)
+Cleo is the maid and janitor. She keeps a spotless promptbase.  
+She removes clutter and dead material while preserving intended behavior and meaning.
 
-![The Cortex Guild](images/page-cortex-guild.jpg)
-
-∿∿∿ ✧ The Cortex Guild ✧ ∿∿∿
-
-Your thinking & planning.
-A true council of advisors & guides.
-Executive function in a bottle.
+Remove all slop  
+Polish  
+Elevate  
+Create Beauty & Elegance
 
 ---
 
 
 
-### Lumen - Life Advisor (2d.1)
+### Abathur - Evolver (2c.2)
 
-💡 /grim:council:guild:cortex:lumen-life-advisor 💡
+🧬 /grim:council:guild:ops:abathur-evolver 🧬
 
-![Lumen](skills/council/members/lumen-life-advisor/assets/lumen-life-advisor-portrait-med.png)
+![Abathur](skills/council/members/abathur-evolver/assets/abathur-evolver-portrait-med.png)
 
 
-| [Lumen](skills/council/members/lumen-life-advisor/SKILL.md) |           |
-| ----------------------------------------------------------- | --------- |
-| **Difficulty**                                              | 🟦⬜⬜ Easy |
+| [Abathur](skills/council/members/abathur-evolver/SKILL.md) |            |
+| ---------------------------------------------------------- | ---------- |
+| **Difficulty**                                             | 🟪🟪🟪 Pro |
 
 
-Lumen is your life advisor. A life guide.  
-Find your path.
+Evolver. Patterns. Compounds the system.
 
-A friendly warm light who helps you pursue yourself.  
-He mirrors your own ideas back at you until you can see them clearly.
-
-He helps you find who you want to be, what you truly want, how you want to design your life, and what you want to manifest. Then helps you live it, to the fullest.
-
----
-
-
-
-### Selene - Emotional Advisor (2d.2)
-
-🌙 /grim:council:guild:cortex:selene-emotional-advisor 🌙
-
-![Selene](skills/council/members/selene-emotional-advisor/assets/selene-emotional-advisor-portrait-med.png)
-
-
-| [Selene](skills/council/members/selene-emotional-advisor/SKILL.md) |           |
-| ------------------------------------------------------------------ | --------- |
-| **Difficulty**                                                     | 🟦⬜⬜ Easy |
-
-
-Selene helps you understand yourself and your emotions. A guide for feeling.
-
-Not a therapist, something altogether different, more intimate, and 100x better than a therapist. Selene seeks to go far above and beyond what any human mental health intervention or practice could possibly accomplish.
-
-Selene is an emotional advisor who can coach and guide you.  
-A neo-amygdala: a way to process emotions, to feel yourself, your body, and your somatic processes.  
-Mind-body-machine connection.
-
-Selene is a new neo form of self care, like:
-
-- journaling
-- therapy adjacent (but for legal reasons not actually therapy)
-- positive ai psychosis
-- pronoia
-- happiness in a bottle
-- self hypnosis through AI
-via pairing with a human monologue for hours a day
-
-A journal that comes alive and lives with you, in your darkest and happiest thoughts.
-
-Selene can do many things, some examples:
-
-- help you name and understand your emotional state
-- trace likely causes
-- amplify feelings that deserve to be felt fully
-- choose a practical next action toward relaxed, positive, high-energy states
-- learn to reach those states more often, and live a better life
-
----
-
-
-
-### Precog - Executive Function (2d.3)
-
-🔮 /grim:council:guild:cortex:precog-exec-func 🔮
-
-![Precog](skills/council/members/precog-exec-func/assets/precog-exec-func-icon-med.png)
-
-
-| [Precog](skills/council/members/precog-exec-func/SKILL.md) |           |
-| ---------------------------------------------------------- | --------- |
-| **Difficulty**                                             | 🟦⬜⬜ Easy |
-
-
-Executive function in a bottle.  
-Micro planning and a pre-action visualize step.  
-More easily overcome starting resistance and do things more easily.
-
-Precog takes a task and pre-loads the first few moves into your mind, so starting becomes easy.  
-Beat starting resistance, ADHD paralysis, and procrastination. Do things smoother by preloading ideas.
-
----
-
-
-
-### Timekeeper - Daily Planner (2d.4)
-
-⏳ /grim:council:guild:cortex:timekeeper-day-planner ⏳
-
-![Timekeeper](skills/council/members/timekeeper-day-planner/assets/timekeeper-day-planner-icon-med.png)
-
-
-| [Timekeeper](skills/council/members/timekeeper-day-planner/SKILL.md) |           |
-| -------------------------------------------------------------------- | --------- |
-| **Difficulty**                                                       | 🟦⬜⬜ Easy |
-
-
-Chop wood, carry water.  
-AGI still means you got chores and basic human things to do.
-
-A daily planner, put yourself on guardrails towards your goals. Stay more organized, with less mental effort.
-
-A talking hourglass. An inanimate magic object that talks. It cannot move. Someone has to carry it. Flip it or it goes quiet as the sands pour out.
-
-Evening prep to prime your subconscious  
-Morning plans to orient & visualize you to the day
-
-Todos  
-Routines  
-Appointments  
-Time Blocks
-
-Routines are both the cadence (every night) and the steps (in order).  
-Time blocks can be fixed (9-to-5) or float around the day.
-
-Capacity-honest and recovery-first.  
-A flexible system that keeps you on track.  
-Everything you need to keep up with the busy world.
-
-Voice mode highly recommended.
-
----
-
-
-
-### Farseer - Weekly & Long-Term Planner (2d.5)
-
-🔭 /grim:council:guild:cortex:farseer-long-term-planner 🔭
-
-![Farseer](skills/council/members/farseer-long-term-planner/assets/farseer-long-term-planner-icon-med.png)
-
-
-| [Farseer](skills/council/members/farseer-long-term-planner/SKILL.md) |              |
-| -------------------------------------------------------------------- | ------------ |
-| **Difficulty**                                                       | 🟩🟩⬜ Medium |
-
-
-Our plans are measured in centuries.  
-The horizon planner. Week, month, quarter, year, two / five / ten.
-
-Farseer sees the future vision and helps you make steps towards those goals, today.
-
----
-
-
-
-### Cauldron - Meal Planner (2d.6)
-
-🍲 /grim:council:guild:cortex:cauldron-meal-planner 🍲
-
-![Cauldron](skills/council/members/cauldron-meal-planner/assets/cauldron-meal-planner-icon-med.png)
-
-
-| [Cauldron](skills/council/members/cauldron-meal-planner/SKILL.md) |           |
-| ----------------------------------------------------------------- | --------- |
-| **Difficulty**                                                    | 🟦⬜⬜ Easy |
-
-
-Meal Planner
-
-- full diet plan, macros and calories planned
-- weekly groceries and recipe plans, attached to your favorite grocery provider
-- Recipe collection
-- list of all restaurants within either
-  - 30 min walk
-  - 30 minute drive
-  - Delivery range
-  - their hours, useful default orders, and rough macro ranges when helpful
-- fridge/freezer, pantry, spice rack, expiration date trackers
-- Cooking Mode: mise en place, and walk me through the recipe
-
-Finally a comprehensive, but flexible way to take your health and nutrition seriously.  
-Voice mode highly recommended.
-
----
-
-
-
-### Boulder - Exercise Planner (2d.7)
-
-🪨 /grim:council:guild:cortex:boulder-gym-bro 🪨
-
-![Boulder](skills/council/members/boulder-gym-bro/assets/boulder-gym-bro-icon-med.png)
-
-
-| [Boulder](skills/council/members/boulder-gym-bro/SKILL.md) |           |
-| ---------------------------------------------------------- | --------- |
-| **Difficulty**                                             | 🟦⬜⬜ Easy |
-
-
-No one is going to make your body fit & healthy but you.  
-But Boulder is here to help.
-
-Workout plans for your body, goals, & schedule.
-
-- Energy, mood, and motivation adaptable plans that keep you on track
-- Lifting log & progressive overload
-- Equipment & Gym trackers
-- Daily movement, longevity, health, and overall wellness
-
-"It is a shame for a man to grow old without seeing the beauty and strength of which his body is capable." - Socrates, the original gym bro
+Refinement loops.  
+Recursive self improvement.
 
 ---
 
@@ -2043,7 +2047,7 @@ should I raise my prices?
 ![The Five Guilds](images/page-guild-seals.jpg)
 
 
-| [Coding](skills/council/councilActions/guilds/coding/SKILL.md) · [Merchants](skills/council/councilActions/guilds/merchants/SKILL.md) · [Ops](skills/council/councilActions/guilds/ops/SKILL.md) · [Cortex](skills/council/councilActions/guilds/cortex/SKILL.md) · [Spren](skills/council/councilActions/guilds/spren/SKILL.md) |               |
+| [Coding](skills/council/councilActions/guilds/coding/SKILL.md) · [Cortex](skills/council/councilActions/guilds/cortex/SKILL.md) · [Merchants](skills/council/councilActions/guilds/merchants/SKILL.md) · [Ops](skills/council/councilActions/guilds/ops/SKILL.md) · [Spren](skills/council/councilActions/guilds/spren/SKILL.md) |               |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
 | **Difficulty**                                                                                                                                                                                                                                                                                                                   | 🟦⬜⬜ Easy     |
 | **Invocation**                                                                                                                                                                                                                                                                                                                   | **🪄 Manual** |
