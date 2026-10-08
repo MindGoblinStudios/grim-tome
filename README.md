@@ -33,7 +33,7 @@ You can keep reading, or chat with your agent
 
 # What is this?
 
-![An AI Prompt Spellbook. Prompts, /skills & design patterns for getting the most out of any AI agent: everyday life, business, and coding](images/page-tome-introduction-nb21-v3.jpg)
+![An AI Prompt Spellbook. Prompts, /skills & design patterns for getting the most out of any AI agent: everyday life, business, and coding](images/page-tome-introduction-nb21-v6.jpg)
 
 ![A Council of Advisors for Your Life](images/page-council-advisors.png)
 

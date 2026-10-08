@@ -1,0 +1,28 @@
+Model: gemini-nano-banana-2.1
+Format: portrait 2:3, 4K
+Reference page: page-tome-introduction-nb21-v4.jpg
+Logo references: ChatGPT, Claude, Cursor, Grok Bots, OpenClaw official app icons
+
+Edit the FIRST reference image, an antique pale cream AI Prompt Spellbook page. This reference is the correct BASE: it includes the generic chat window with message bubbles and text lines. KEEP that chat window, ALL its message bubbles, ellipsis dots, prompt cursor, and short text strokes visible and intact. Do not replace the chat interface with a logo grid.
+
+Add FIVE SMALL FLOATING LOGO ACCENTS around the right-hand chat window. Use references 2–6 for their exact identities. These should look like small app-icon stickers drifting in the magic, loosely scattered and gently rotated in the plane of the page, NOT large badges inside the window. No labels or app names.
+
+SIZE: Each icon should be only about 3.5% to 4% of the full page width (roughly 15% of the chat window's width). All five together must be visually subordinate to the existing chat interface. Do NOT enlarge the window or change the main book/wizard composition.
+
+PLACEMENT / ANGLES: Place some just outside the window edges and some overlapping its blank margins. Keep clear of the existing message bubbles and text lines. Use unequal natural positions and modest rotations, e.g. -15°, +12°, -10°, +18°, -8°. No regular rows, no grid, no shared box around them, no straight line of icons, no oversized logo panel. A couple can hover above the window and the others along its right side or below it in the existing empty parchment gap. Maintain ample separation so the marks remain recognizable. Do not cover the wizard's hand or the green ribbons.
+
+Reference mapping (names are ONLY instructions, do not write them):
+2. ChatGPT: black interlocking knot.
+3. Claude: cream asterisk/sunburst on muted terracotta rounded square.
+4. Cursor: angular black cube on a light rounded square.
+5. Grok Bots: silver rounded bot face with two black diagonal oval eyes.
+6. OpenClaw: little red lobster mascot with turquoise eyes and antennae.
+Keep the authentic shapes/colors from these images, without merging or inventing marks. A faint soft shadow beneath each small icon is enough to make it float; no loud glow or decorative frames.
+
+PRESERVE all the rest: the existing central book and Grimoire, neutral cream parchment, cool silver/green palette, sharp linework, original heading and copy, all feature rows and their exact order, and the Council footer. Do not make the page warmer, pinker, redder, or more orange. The ONLY colorful warm patches should be the tiny authentic Claude and OpenClaw icons.
+
+Main title stays "An AI Prompt Spellbook".
+Supporting copy stays "Prompts, /skills & design patterns" / "for getting the most out of any AI agent".
+Feature order remains everyday life, business, vibecoding, then the Council footer.
+
+The final should primarily read as the original CHAT WINDOW with FIVE tiny, angled floating accents around it. No name labels, no added heading, no replacement of the chat content. Portrait 2:3, 4K, crisp illustration.
