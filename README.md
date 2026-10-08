@@ -189,7 +189,7 @@ Then:
 
 6. Then walk the user through the install & onboarding process, installing and incorporating whichever pieces of this prompt package the user sees fit.
 
-7. Make sure every installed council member and bot sets up their scheduled tools, routines, and automations: recurring sweeps, planning sessions, check-ins, and loops, so they activate on their own and do everything their skills say they should. Offer the council's shared rhythm from the council skill as the default starting calendar: the weekly core (Monday stand-up, weekly bookends, Wick's rabbit hole report) for everyone, plus the opt-in tiers for whichever members are seated: the daily pulse (Timekeeper, Boulder, Postmaster), monthly & yearly check-ins (Midas, Farseer), and wandering routines (gossip, Selene's affirmations, Flicker's delight drops), plus a danger tier (Abathur, Gizmo) for the brave.
+7. Make sure every installed council member and bot sets up their scheduled tools, routines, and automations: recurring sweeps, planning sessions, check-ins, and loops, so they activate on their own and do everything their skills say they should. Offer the council's shared rhythm from the council skill as the default starting calendar: the weekly core (Monday stand-up and weekly bookends) for everyone, plus the opt-in tiers for whichever members are seated: the daily pulse (Timekeeper, Precog, Boulder, Postmaster), monthly & yearly check-ins (Midas, Farseer), and wandering routines (gossip, Wick's rabbit hole report, Quill's context fishing, Selene's affirmations, Flicker's delight drops), plus a danger tier (Abathur, Gizmo) for the brave.
 
 8. Finally, brainstorm ways the user can expand, remix or improve on this system for their own projects and goals. Offer to recruit and design new council members.
 ```
@@ -324,7 +324,6 @@ Time to explore the frontier.
   - [Sponsor on GitHub](#sponsor-on-github)
   - [The Tip Jar](#the-tip-jar)
   - [The Town Notice Board (Sponsorships)](#the-town-notice-board-sponsorships)
-  - [The Build-a-Wizard Workshop](#the-build-a-wizard-workshop)
   - [Tribute Leaderboard (Top 100)](#tribute-leaderboard-top-100)
   - [The ASCII Billboard](#the-ascii-billboard)
 - [License](#license)
@@ -2087,84 +2086,78 @@ Design its seal, pick which council members belong, and write its charter.
 
 ![Council Routines](images/page-council-routines.jpg)
 
-The council keeps a shared rhythm. During install (or any time you ask), the council will offer to set these up as scheduled tools & routines in your harness: the weekly core for everyone, the rest as opt-ins based on which members you've seated.
+The council keeps a shared rhythm. These are public sample routines you can adapt during install or any time you ask. Start with the weekly core, then opt into the daily, wandering, and longer-term routines that fit your life. Include only members you've installed.
 
-Ops passes revisit their previous finding and reuse useful evidence. Each adds its own contribution instead of repeating the same review.
+Choose times in your own timezone, respect quiet hours, and skip duplicate check-ins. These examples describe possible routines; they do not mean anything has been scheduled.
 
-The full inventory with default timings lives in the [routines registry](skills/council/council/references/routines-registry.yaml).
+Ops passes revisit their previous finding and reuse useful evidence. Each adds its own contribution instead of repeating the same review. Stay quiet when there is no meaningful update or action.
+
+The full public inventory lives in the [routines registry](skills/council/council/references/routines-registry.yaml).
 
 #### The Daily Pulse
 
 For those who want the council running their day:
 
-- **Morning**: Timekeeper's morning agenda. The day's plan against real capacity.
-- **Morning**: Boulder's daily movement plan, even on rest days. A ten minute walk is a plan.
+- **Morning**: Timekeeper's Morning Agenda. The day's plan against real capacity.
 - **Morning**: Cauldron's meal plan for today, from what's actually in the kitchen.
-- **Through the day**: Precog's On-Track Nudges (optional). A few short pings tied to Timekeeper's plan, each naming the next block and the one thing to do now.
-- **Weekday mornings**: Postmaster's Inbox Watch. Monitor only, silent unless something can't wait for Monday.
-- **Afternoon + evening**: Boulder's challenge ping (optional). One line on your daily push-up and ab challenges, skipped once they're done.
+- **As the day changes**: Timekeeper's Adaptive Check-Ins. Fit planning around recent contact, changing commitments, and recovery; morning and evening are flexible opportunities.
+- **Before key blocks**: Precog's On-Track Nudges. Read Timekeeper's plan and name the current or next block and the one thing to do now. A sample cadence is three to five brief nudges across the day; stay silent if there is no plan.
+- **Morning**: Boulder's Daily Movement Plan, even on rest days. A ten minute walk is a plan.
+- **Afternoon and evening, optional**: Boulder's Challenge Ping. One combined check-in for your chosen push-up and ab challenges; mention only what remains, and skip it when you're done.
+- **Tuesday to Friday mornings**: Postmaster's Inbox Watch. Monitor only, silent unless something urgent cannot wait for Monday.
 - **Evening**: Cauldron's meal check-in. What landed, a protein note, tomorrow's default.
-- **Night**: Timekeeper's nightly plan-ahead. Close today, sketch tomorrow.
-
-
+- **Evening**: Timekeeper's Nightly Plan-Ahead. Close today, sketch tomorrow.
 
 #### The Week
 
 - **Sunday evening**: Cauldron's weekly meal plan
-  - Review last week, plan next week, prep the grocery cart. He never places the order; you do.
-- **Sunday night**: The [Dream Sequence](skills/mem/dream-sequence/SKILL.md)
+  - Review last week, plan next week, and prepare the grocery cart. He never places the order; you do.
+- **Sunday**: The [Dream Sequence](skills/mem/dream-sequence/SKILL.md)
   - Quill revisits the last consolidation and distills what changed in understanding, so the week opens fresh. Report first; nothing applied without your say-so.
-- **Early Monday, overnight before the stand-up**: Cleo's cleaning sweep
-  - Revisit the last cleanup batch, then propose focused improvements to clarity and tidiness, ready for the stand-up.
+- **Monday, before the stand-up**: Cleo's Cleaning Sweep
+  - Revisit the last cleanup batch, then propose focused improvements to clarity and tidiness while preserving intended behavior.
 - **Monday morning**: The Weekly Council Stand-up
-  - Prep runs overnight first (Cleo's sweep, then Abathur's evolution pass). Then all seats report together, and Quill's minutes follow right after.
-  - Roger Roger opens with Gap Patrol: loose ends, dropped threads & odd jobs nobody else is focusing on.
-  - Postmaster delivers the Weekly Inbox Review: keepers, what's waiting, and the shred pile.
+  - Prep runs overnight first: Cleo, then Abathur. The seats report together, with Quill's minutes right after.
+  - Roger Roger opens with Gap Patrol: loose ends, dropped threads, and useful odd jobs nobody else is focusing on.
+  - Postmaster delivers the Weekly Inbox Review: keepers, what's waiting, and the proposed shred pile.
   - Farseer reviews last week and plans this one.
-  - Each member gives a one-line transmission: Timekeeper's calendar sync, Boulder's lift anchors, Cauldron's meal plan, Midas's money flag, Helm's top priority, and the decisions from Cleo's and Abathur's early-Monday reports.
-  - Quill takes minutes, right after the seats report.
-  - First Monday of the month it expands into the monthly meeting; first Monday of the quarter, the quarterly check-in.
-- **Thursday morning**: Farseer's mid-week check-in (optional)
-  - A lighter look at how the week is tracking against Monday's shape. Adjust the back half.
-- **Friday**: Helm's ship's log
-  - The closing retro bookend. The week's friction gets recorded, so nothing is lost.
-
-
+  - Relevant members give one-line transmissions: Cauldron on meals and groceries, Boulder on movement, Timekeeper on the calendar, Midas on money, and Helm on the top business priority. Skip members with nothing to report.
+  - Quill takes minutes.
+  - On the first Monday of the month or quarter, expand the same meeting for monthly or quarterly planning instead of adding another meeting.
+- **Thursday morning**: Farseer's Horizon Check-in
+  - A lighter look at how the week is tracking against Monday's plan. Adjust the back half.
+- **Friday**: Helm's Ship's Log
+  - The closing retro bookend. Record the week's wins and friction, so nothing is lost.
 
 #### Monthly & Yearly
 
 - **Monthly**: Midas's Finance Check-In. The dragon counts the hoard: review the month's money, set next month's numbers.
+- **First Monday of the month / quarter**: Farseer's monthly or quarterly zoom-out, inside the stand-up.
 - **New Year**: Farseer's year review. Close the year, set the next one.
 - **Your birthday**: Farseer's personal-year session. Where are you? Who are you becoming?
 
-
-
 #### Wandering
 
-- [Gossip](#gossip-2g1) runs on its own cadence, roughly every 2 to 3 days at a random time.
-- Selene's Whispered Affirmations: one to three times a day, a short affirmation rooted in what's actually going on. Never asks for a reply.
-- Selene's Journaling Check-in (optional): every few days, a soft invitation to jot how you're feeling. No follow-up if you skip it.
-- Flicker's Delight Drop: every few days, one tiny piece of whimsy. Then she's gone.
-- Wick's Rabbit Hole Report: every few days at a varied time, he empties his pockets: holes chased, the one useful find, and the idea-jar of sparks not yet followed.
-- Quill's Context Fishing: a few evenings a week, at most three questions about what the council is missing, stale, or unsure of. Your answers go into the docs.
-
-
+- **Every few days**: [Gossip](#gossip-2g1). An overheard council scene at a varied waking-hour time, roughly every one to three days.
+- **Every few days**: Wick's Rabbit Hole Report. Holes chased, the one useful find, and an idea-jar of sparks not yet followed. Vary the timing rather than fixing it to Friday.
+- **Two or three evenings a week**: Quill's Context Fishing. At most three targeted questions about missing, stale, or unclear context; record useful answers through the normal docs flow. Separate from the Dream Sequence.
+- **Once or twice a day, optional**: Selene's Whispered Affirmations. A short, distinct affirmation rooted in what's actually going on, at varied times during waking hours. Never asks for a reply.
+- **Every few days, optional**: Selene's Journaling Check-in. A soft invitation to jot how you feel. No follow-up if you skip it.
+- **Every few days**: Flicker's Delight Drop. One tiny piece of whimsy. Then she's gone.
 
 #### The Tithe Bell
 
-- Three one-shot reminders: at one week, 30 days, and one year, consider [tithing back](#pay-tribute) a sliver of the value the council has provided.
-- Three rings, then silence.
-
-
+- Three optional one-shot reminders after install: at one week, 30 days, and one year, look back at real value the council has provided and consider [tithing back](#pay-tribute) a sliver of it.
+- Each bell fires once, then retires. No six-month ring or automatic recurring reminder.
 
 #### ⚠️ Chaos Routines.
 
 🟪🟪🟪 Pro difficulty. Opt-in only, for those who know what they're summoning:
 
-- **Early Monday, overnight after Cleo's sweep**: Abathur's Evolution Routine. Last week's recorded friction gets spliced into permanent upgrades to your skills, docs, and workflows, ready for the stand-up. Then he evolves the evolving. Nothing applied without your say-so. CHANGESSSS.
-- **Wandering**: Gizmo's Wild Card (wandering idea). At random, Gizmo drops a live idea: a weird reframe of something stuck, a dare-sized experiment, a rule to break on purpose, a third option nobody asked for. Never a card draw, deck, tarot, or prop. One idea, then he scampers.
+- **Monday, after Cleo and before the stand-up**: Abathur's Evolution Routine. Revisit the last experiment, Quill's consolidation, and Friday's ship's log. Propose a small improvement to skills, docs, or workflows; keep demonstrated wins and apply changes only with explicit authorization. CHANGESSSS.
+- **Wandering**: Gizmo's Wild Card. A weird reframe, a dare-sized experiment, or a third option nobody asked for. One live idea, then he scampers; no literal card draw or deck.
 
-Every routine is optional. Take the defaults, or keep only the bells you want rung. Full details live in [The Grim Council skill](skills/council/council/SKILL.md).
+Every routine is optional. Take the samples, or keep only the bells you want rung. Use [The Grim Council skill](skills/council/council/SKILL.md) and each member's skill to adapt the behavior to your setup.
 
 ---
 
@@ -2811,35 +2804,6 @@ Sample posters:
 ---
 
 
-
-### The Build-a-Wizard Workshop
-
-![Build-a-Wizard Workshop](images/tribute/build-a-wizard.jpg)
-
-**Build-a-Wizard Workshop — $50,000**
-
-**Serious inquiries only: [contact@mindgoblinstudios.com](mailto:contact@mindgoblinstudios.com)**  
-or DM [@NickADobos](https://x.com/NickADobos) on X. Email is quickest and most likely to get my attention.
-
-Hire a prompt engineer.  
-I will build you your very own AI or personal tech stack, for whatever purpose or goal you want.
-
-- I will fly to your city and work with you in person
-  - For up to 3 days
-    - Tues, Wed, Thur
-- or hop on Google Meet video calls, Slack, or Tuple
-  - up to 5 day engagement
-
-I can teach you how to use AI in your life  
-I can consult in your company  
-I can build and help you get setup with your very own Grimoire, JARVIS, or any system you want
-
-***Scheduling & details will need to be confirmed.***
-
-It starts with an email: tell me what you want to build.  
-If it's a fit, we book a 30-60 minute discovery call. A $500 deposit is required to book the call, credited toward your engagement. The remainder is invoiced only if we both decide to proceed.
-
----
 
 ─── 🏆 ✦ 🏆 ───
 
