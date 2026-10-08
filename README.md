@@ -144,12 +144,17 @@ But it is mostly geared towards coding agent harnesses, and "AI super apps", lik
 
 - [Grok Bots](https://x.ai/bot)
   - [Official Grimoire Grok Bot: 1-click install](https://x.ai/bot/luPJeAxuAjhqO97wU3wm0)
-  - [Grok Bots install: sync the skills & bots](installGuide.md#grok-bots-install)
 - [Cursor](https://cursor.com)
 - [Codex / ChatGPT desktop app](https://openai.com/codex/)
   - [Codex plugin install](installGuide.md#codex-plugin-install)
 - [Claude Code](https://claude.com/product/claude-code)
-  - [Claude Code plugin install](installGuide.md#claude-code-plugin-install)
+
+  ```text
+  # Run these commands in Claude Code to add the marketplace and install Grimoire's Tome.
+  /plugin marketplace add MindGoblinStudios/grim-tome
+  /plugin install grim-tome@grim-tome
+  ```
+
 - [Pi](https://github.com/earendil-works/pi)
 - [bb](https://getbb.app)
 
