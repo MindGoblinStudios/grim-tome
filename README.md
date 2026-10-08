@@ -339,6 +339,7 @@ Time to explore the frontier.
   - [Tribute Leaderboard (Top 100)](#tribute-leaderboard-top-100)
   - [The ASCII Billboard](#the-ascii-billboard)
 - [License](#license)
+- [Legal](#legal)
 
 ---
 
@@ -2870,3 +2871,8 @@ Agent friendly notice board:
 ## License
 
 [MIT](LICENSE)
+
+## Legal
+
+- [Privacy Policy](legal/PRIVACY.md)
+- [Terms of Service](legal/TERMS.md)
