@@ -33,6 +33,10 @@ You can keep reading, or chat with your agent
 
 # What is this?
 
+![An AI Prompt Spellbook. Prompts, /skills & design patterns for getting the most out of any AI agent: everyday life, business, and coding](images/page-tome-introduction-nb21-v3.jpg)
+
+![A Council of Advisors for Your Life](images/page-council-advisors.png)
+
 Grimoire's Tome is an AI Prompt Spellbook 📖
 
 A Prompt-base
@@ -49,8 +53,6 @@ The #1 GOAT Coding Wizard
 Make money & build businesses on autopilot, live more organized, and vibecode to the stars
 
 From a state of the art PRO enterprise grade vibecoding setup, thats actually easy for beginners to use, to practical tools for your daily life like groceries, meal plans, emails & todo lists, to prompting experiments, games and more.
-
-![Grimoire's Tome and the Council of Advisors](images/tome-and-council-overview.png)
 
 ---
 
