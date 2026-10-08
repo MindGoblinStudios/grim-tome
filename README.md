@@ -18,6 +18,10 @@ You notice portions of the text have been scratched out with ink. Someone has ma
 
 ## Quick Install
 
+- [Install ChatGPT plugin](https://github.com/MindGoblinStudios/grim-tome)
+- [Install Grok Bots Template](https://x.ai/bot/luPJeAxuAjhqO97wU3wm0)
+- [Install Cursor Plugin](https://cursor.directory/plugins/grimoires-tome)
+
 Simply copy paste this page's url into any agent, like this
 
 ```text
@@ -120,6 +124,9 @@ Enjoy.
 
 
 ## Starting Guide
+
+- [Install ChatGPT plugin](https://github.com/MindGoblinStudios/grim-tome)
+- [Install Grok Bots Template](https://x.ai/bot/luPJeAxuAjhqO97wU3wm0)
 
 Quick install, copy paste into your agent:
 
