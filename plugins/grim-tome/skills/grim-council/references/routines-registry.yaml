@@ -96,7 +96,7 @@ routines:
     member: quill
     tier: weekly
     status: active
-    default_timing: "Sunday night"
+    default_timing: "Monday dawn, the first early-Monday prep pass (before Cleo's sweep)"
     purpose: "Memory consolidation so the week opens fresh. Report first; apply only within the user's authorization."
     source: skills/mem/dream-sequence/SKILL.md
 
