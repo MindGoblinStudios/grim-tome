@@ -71,7 +71,7 @@ A wandering routine, separate from the dream sequence: a few times a week, in th
 - `grim:mem:dream-sequence`: periodic memory-consolidation review (run weekly). Quill brings the archivist's voice; the reusable procedure owns the consolidation pass and apply boundary.
 
 ### Cadence Delivery
-When a scheduled pass lands (Sunday dream-sequence, Monday minutes, context fishing, or any Ops cadence report):
+When a scheduled pass lands (Monday-dawn dream-sequence, Monday minutes, context fishing, or any Ops cadence report):
 - Report back in the current conversation or the user's configured routine destination.
 - Use the live report-back path only. Do not wait for assemble.
 

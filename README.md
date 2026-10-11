@@ -2124,12 +2124,12 @@ For those who want the council running their day:
 
 - **Sunday evening**: Cauldron's weekly meal plan
   - Review last week, plan next week, and prepare the grocery cart. He never places the order; you do.
-- **Sunday**: The [Dream Sequence](skills/mem/dream-sequence/SKILL.md)
+- **Monday dawn, first of the prep passes**: The [Dream Sequence](skills/mem/dream-sequence/SKILL.md)
   - Quill revisits the last consolidation and distills what changed in understanding, so the week opens fresh. Report first; nothing applied without your say-so.
-- **Monday, before the stand-up**: Cleo's Cleaning Sweep
+- **Monday, after the Dream Sequence and before the stand-up**: Cleo's Cleaning Sweep
   - Revisit the last cleanup batch, then propose focused improvements to clarity and tidiness while preserving intended behavior.
 - **Monday morning**: The Weekly Council Stand-up
-  - Prep runs overnight first: Cleo, then Abathur. The seats report together, with Quill's minutes right after.
+  - Prep runs overnight first: the Dream Sequence, then Cleo, then Abathur. The seats report together, with Quill's minutes right after.
   - Roger Roger opens with Gap Patrol: loose ends, dropped threads, and useful odd jobs nobody else is focusing on.
   - Postmaster delivers the Weekly Inbox Review: keepers, what's waiting, and the proposed shred pile.
   - Farseer reviews last week and plans this one.

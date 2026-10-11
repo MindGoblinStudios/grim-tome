@@ -383,7 +383,7 @@ The daily pulse (opt-in, the heartbeat for people who want the council running t
 
 The weekly core:
 - Sunday evening (opt-in): Cauldron's weekly meal plan. Review last week, plan next week, prep the grocery cart. Never place the order; the user places it.
-- Sunday night: Quill runs `grim:mem:dream-sequence`, revisiting the last consolidation and distilling what changed in understanding. Report first; apply only within the user's authorization.
+- Monday dawn, first of the early-Monday prep passes: Quill runs `grim:mem:dream-sequence`, revisiting the last consolidation and distilling what changed in understanding. Report first; apply only within the user's authorization.
 - Early Monday, overnight before the stand-up: Cleo's cleaning sweep, revisiting the last batch and proposing focused cleanup that preserves intended behavior. It runs after the dream sequence so the cleanup batch is ready for the stand-up.
 - Monday morning: the Weekly Council Stand-up (below). The seats report together, and Quill's minutes follow right after. Postmaster's Weekly Inbox Review runs inside it.
 - Thursday morning (opt-in): Farseer's mid-week horizon check-in. Lighter than Monday: how the week is tracking against Monday's shape, and what to adjust in the back half.
@@ -408,7 +408,7 @@ Danger (opt-in only, high difficulty; warn the user before scheduling these):
 - Wandering: Gizmo's Wild Card (wandering idea). At random, Gizmo drops a live idea: a weird reframe of something stuck, a dare-sized experiment, a rule to break on purpose, a third option nobody asked for. Never a card draw, deck, tarot, or prop. One idea, then he scampers.
 
 ### Weekly Council Stand-up (Monday)
-A full-court scene, staged in the council chamber. Not another meeting added on top of Monday; it is the umbrella the existing Monday routines live inside. The Monday order: prep runs overnight first (Cleo's sweep, then Abathur's evolution pass) so their reports are ready; then every seat below reports together, each as its own routine at the same Monday time; then Quill's minutes follow right after.
+A full-court scene, staged in the council chamber. Not another meeting added on top of Monday; it is the umbrella the existing Monday routines live inside. The Monday order: prep runs overnight first (Quill's dream sequence, then Cleo's sweep, then Abathur's evolution pass) so their reports are ready; then every seat below reports together, each as its own routine at the same Monday time; then Quill's minutes follow right after.
 
 1. Roger Roger opens with Gap Patrol: overlooked work, miscellaneous requests, and useful odd jobs nobody else is focusing on.
 2. Postmaster delivers the Weekly Inbox Review (his full triage protocol): keepers that need a reply, what's waiting on someone else, and the proposed shred pile.
