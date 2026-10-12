@@ -2,7 +2,7 @@
 # Reverse index of every model-specific mitigation applied to this repo.
 # Applied text lives inline in its target file with no model labels; each entry
 # here records the exact text and where it went, so mitigations can be verified,
-# pruned, or undone when models rotate. Workflow: skills/dev/model-quirks/SKILL.md
+# pruned, or undone when models rotate. Workflow: skills/dev/agentops/model-quirks/SKILL.md
 
 entries:
   - id: mq-2026-08-22-01

@@ -973,12 +973,12 @@ Pretty self explanatory
 
 ### Model Quirks (1c.4)
 
-🎭 /grim:dev:model-quirks 🎭
+🎭 /grim:dev:agentops:model-quirks 🎭
 
-![model quirks](skills/dev/model-quirks/assets/newmodelquirks-icon-med.png)
+![model quirks](skills/dev/agentops/model-quirks/assets/newmodelquirks-icon-med.png)
 
 
-| [Model Quirks](skills/dev/model-quirks/SKILL.md) |               |
+| [Model Quirks](skills/dev/agentops/model-quirks/SKILL.md) |               |
 | ------------------------------------------------ | ------------- |
 | **Difficulty**                                   | 🟪🟪🟪 Pro    |
 | **Invocation**                                   | **🪄 Manual** |
@@ -1013,20 +1013,20 @@ Currently enabled mitigations (full ledger: [docs/model-quirks-ledger.yaml](docs
 *Complain, then cast:*
 
 ```text
-/grim:dev:model-quirks GPT 5.6 keeps using em-dashes everywhere, fix it
+/grim:dev:agentops:model-quirks GPT 5.6 keeps using em-dashes everywhere, fix it
 ```
 
 *Or the explicit cast:*
 
 ```text
-/grim:dev:model-quirks
+/grim:dev:agentops:model-quirks
 claude opus 5 will not stop talking, lets ask it to be more concise
 ```
 
 *The ledger makes cleanup safe*
 
 ```text
-/grim:dev:model-quirks
+/grim:dev:agentops:model-quirks
 prune every mitigation for GPT 5.6 and below
 ```
 
@@ -2716,7 +2716,7 @@ Some starter services & MCPs if you want to go basic bitch tech company vibes
 
 Every skill and council member is a numbered verse. Headings show the display name first, with the verse number in parentheses, like `Model Quirks (1c.4)`. Cite them chapter-category.verse, like scripture:
 
-- Grimoire's Tome 1c.4, Model Quirks, /grim:dev:model-quirks
+- Grimoire's Tome 1c.4, Model Quirks, /grim:dev:agentops:model-quirks
 - Midas (2b.3)
 
 The letter is the category inside the chapter (1a Everyday Spells, 1b Dev, 1c Agent Ops & Working with Agents, 2b The Merchants Guild, ...). Verses only ever renumber inside their own category, and new categories append new letters, so old citations survive new additions.

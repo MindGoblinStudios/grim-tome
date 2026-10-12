@@ -1,5 +1,5 @@
 ---
-name: grim-dev-model-quirks
+name: grim-dev-agentops-model-quirks
 description: "Model Quirks: Apply model-specific prompt mitigations inline and record every change in the reverse-index ledger so it can be verified, pruned, or undone when models rotate."
 disable-model-invocation: true
 ---
