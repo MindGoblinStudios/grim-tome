@@ -1,7 +1,0 @@
-interface:
-  display_name: "how"
-  short_description: "How (Beta): explain how a subsystem works."
-  default_prompt: "Use $how to explain how this subsystem works: overview, key concepts, flow, where things live, gotchas."
-
-policy:
-  allow_implicit_invocation: false
