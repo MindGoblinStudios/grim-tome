@@ -196,8 +196,19 @@ def build_plugin(name: str, skill_entries):
     (plugin_dir / "README.md").write_text(readme)
 
 
+# Skills that never ship in the public Tome, even if they appear in the registry.
+EXCLUDED_ID_PREFIXES = ("grim:council:guild:bros",)
+EXCLUDED_PATH_PARTS = ("councilActions/guilds/bros",)
+
+
+def is_excluded(entry) -> bool:
+    sid = entry.get("id", "")
+    path = entry.get("path", "")
+    return sid.startswith(EXCLUDED_ID_PREFIXES) or any(part in path for part in EXCLUDED_PATH_PARTS)
+
+
 def main():
-    entries = read_registry()
+    entries = [e for e in read_registry() if not is_excluded(e)]
     groups = {name: [] for name in PLUGINS}
     for entry in entries:
         groups[plugin_for(entry["id"])].append(entry)
