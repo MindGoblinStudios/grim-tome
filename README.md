@@ -2128,8 +2128,8 @@ For those who want the council running their day:
   - Quill revisits the last consolidation and distills what changed in understanding, so the week opens fresh. Report first; nothing applied without your say-so.
 - **Monday, before the stand-up**: Cleo's Cleaning Sweep
   - Revisit the last cleanup batch, then propose focused improvements to clarity and tidiness while preserving intended behavior.
-- **Monday morning**: The Weekly Council Stand-up
-  - Prep runs overnight first: Cleo, then Abathur. The seats report together, with Quill's minutes right after.
+- **Monday morning**: The Weekly Council Meeting
+  - Prep runs overnight first: Cleo, then Abathur. The members provide updates, then discuss priorities and open decisions; Quill’s minutes close the meeting.
   - Roger Roger opens with Gap Patrol: loose ends, dropped threads, and useful odd jobs nobody else is focusing on.
   - Postmaster delivers the Weekly Inbox Review: keepers, what's waiting, and the proposed shred pile.
   - Farseer reviews last week and plans this one.
