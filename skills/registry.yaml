@@ -74,6 +74,8 @@ entries:
     path: skills/council/members/cleo-code-maid
   - id: grim:dev:agentops:model-quirks
     path: skills/dev/agentops/model-quirks
+  - id: grim:dev:agentops:expansion-packs
+    path: skills/dev/agentops/expansion-packs
   - id: grim:dev:minion
     path: skills/dev/minion
   - id: grim:dev:tiramisu-task-decomp

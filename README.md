@@ -1036,61 +1036,36 @@ prune every mitigation for GPT 5.6 and below
 
 ## Expansion Packs (1d)
 
+🧩 /grim:dev:agentops:expansion-packs 🧩
+
 ![expansion packs](images/expansion-packs-icon-med.png)
 
 
-| [Expansion Packs Guide](docs/expansion-packs.md) |            |
-| ------------------------------------------------ | ---------- |
-| **Difficulty**                                   | 🟪🟪🟪 Pro |
+| [Expansion Packs](skills/dev/agentops/expansion-packs/SKILL.md) |               |
+| --------------------------------------------------------------- | ------------- |
+| **Difficulty**                                                  | 🟪🟪🟪 Pro    |
+| **Invocation**                                                  | **🪄 Manual** |
 
 
-Expansion packs is a system for handling LOTS of /skills. 
-Like hundreds or thousands of them.
+Expansion packs are a system for handling LOTS of /skills. Like hundreds or thousands of them.
 
-If you're reading this, there is a good chance you have a bunch of skills already, and I'm sure it's a giant mess.
-
-The /grim: namespace and expansion pack system makes it super easy to organize your skills, and to view and interact with them using the dashboard, /grim:council:dashboard
-
-There are easy tags to differentiate:
+Every imported skill gets a clear tag, so you can tell at a glance what's yours, what's borrowed, what you've remixed, and what's still in testing:
 
 - `grim:` - the Tome's own namespace (or make your own: `myName:`, `ABC-stack:`, ...)
 - `ep:` - imported expansion-pack skill, unmodified third-party
-- `mx:` - mutated fork of an imported skill
+- `ep:mx:` - mutated fork of an imported skill
 - `beta:` - new installs & experiments; manual-only until proven
-- `og/` - the mirrored unmodified upstream copy inside a pack's folder
 
-These let you tell at a glance:
+Each pack keeps a source link and a mirrored original, so you can merge future upstream updates without losing your changes. Everything stays organized on the dashboard, /grim:council:dashboard
 
-- What skills are from the system, harness, MCPs or plugins.
-  - Hopefully the vendor namespaced them, but unfortunately almost no one does this.
-- What skills are yours
-  - `/grim:` or your own `/myName:`, `/ABC-stack`, etc
-- What new skills are still being tested
-  - Using a `:beta:` namespace tag segment like `grim:beta:<skill>`  
-  - Beta skills stay manual-only, no agent-auto use allowed.
-- What skills you imported/remixed from others,
-  - Each expansion pack imported third party skill is marked with `:ep:` for example `/grim:ep:grill-me`
-  - Each skill that is mutated is marked with `ep:mx:` for example `/grim:ep:mx:grill-me`
-
-The system also includes source links back to the original skill, and mirrors the original copy of a skill so you can easily track both your version of a skill, and the original skill. This lets you easily merge and semantically integrate future skill updates without losing your details and changes.
-
-I find this setup makes it SO SO much easier to manage the huge amount of skills I am now playing with. I only expect AI to grow and get more powerful. So the more skills I can manage the better!
-
-Currently installed example pack (full pattern & folder layout: [docs/expansion-packs.md](docs/expansion-packs.md)):
-
-- [mattpocock](expansionPacks/mattpocock/) - [grill me](https://github.com/mattpocock/skills) by Matt Pocock
-  - `/grim:ep:grill-me` - the unmodified original: grills you in frontier rounds of numbered questions, each with a recommended answer
-  - `/grim:ep:mx:grill-me` - mutated fork: rounds capped at 10 questions, and skipped questions accept the recommendation
-
-Use it as the reference shape when installing your own packs.
-
-If you want suggestions for expansion packs outside of Grimoire's Tome, see the [Appendix](#appendix) 
+Full pattern, folder layout & rules: [docs/expansion-packs.md](docs/expansion-packs.md). Example pack: [mattpocock](expansionPacks/mattpocock/) ([grill me](https://github.com/mattpocock/skills) by Matt Pocock) with `/grim:ep:grill-me` and its mutation `/grim:ep:mx:grill-me`. More packs worth trying: [Appendix](#appendix)
 
 ─────────────────────
 
 *Install a single skill:*
 
 ```text
+/grim:dev:agentops:expansion-packs
 install this skill as an expansion pack
 https://github.com/mattpocock/skills
 ```
@@ -1098,13 +1073,14 @@ https://github.com/mattpocock/skills
 *Install a whole stack at once:*
 
 ```text
+/grim:dev:agentops:expansion-packs
 install this entire stack of skills as a single expansion pack, and disable them all by default
 ```
 
 *Fork one into a mutation:*
 
 ```text
-make a new version of the grill-me skill as a /grim:ep:mx: mutation
+/grim:dev:agentops:expansion-packs make a new version of the grill-me skill as a /grim:ep:mx: mutation
 ```
 
 ---

@@ -1,0 +1,10 @@
+interface:
+  display_name: "grim:dev:agentops:expansion-packs"
+  short_description: "Install, fork, and organize expansion-pack skills"
+  default_prompt: "Use $grim:dev:agentops:expansion-packs to install this skill as an expansion pack."
+  icon_small: "./assets/expansion-packs-icon-small.png"
+  icon_large: "./assets/expansion-packs-icon-large.png"
+  brand_color: "#2D5BFF"
+
+policy:
+  allow_implicit_invocation: false
