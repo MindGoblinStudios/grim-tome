@@ -1,0 +1,7 @@
+interface:
+  display_name: "why"
+  short_description: "Why (Beta): find the cited reasons behind code."
+  default_prompt: "Use $why to investigate why this code works the way it does, across every evidence source available, with cited confidence."
+
+policy:
+  allow_implicit_invocation: false

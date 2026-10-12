@@ -3,6 +3,11 @@
 Public changelog for Grimoire's Tome releases
 
 
+## Unreleased (2026-10-11)
+
+- New beta expansion pack: [pstack](expansionPacks/pstack/) by poteto (MIT). `/create-verification-skill` generates a project-local verify skill that drives your app like a user and proves it once; `/maintain-verification-skill` keeps its feature map honest; `/how` explains a subsystem; `/why` digs up the reasons behind code with cited evidence.
+- The pack keeps upstream invocation names and is manual-only while in beta. References to the rest of pstack (model rule, Cursor-only tool names) were rewritten so each skill stands alone; changes are listed in the pack README.
+
 ## v1.1.8 (2026-10-03)
 
 - Council routines registry (`skills/council/council/references/routines-registry.yaml`): every named routine with its tier, default timing, and source skill.

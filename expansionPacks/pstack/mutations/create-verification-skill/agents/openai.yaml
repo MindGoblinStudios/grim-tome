@@ -1,0 +1,7 @@
+interface:
+  display_name: "create-verification-skill"
+  short_description: "Verify Skill (Beta): make a repo-local verify skill."
+  default_prompt: "Use $create-verification-skill to generate a project-local verify skill for this repo, prove it once end to end, and seed its feature map."
+
+policy:
+  allow_implicit_invocation: false

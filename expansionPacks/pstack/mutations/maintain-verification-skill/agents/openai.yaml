@@ -1,0 +1,7 @@
+interface:
+  display_name: "maintain-verification-skill"
+  short_description: "Verify Upkeep (Beta): audit a verify skill's feature map."
+  default_prompt: "Use $maintain-verification-skill to audit this repo's verify skill: source wave per feature, one live pass, at most one PR of proven corrections."
+
+policy:
+  allow_implicit_invocation: false
