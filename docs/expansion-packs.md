@@ -51,7 +51,7 @@ New or experimental installs use the `beta` namespace segment:
 
 Beta skills stay **manual-only** (no implicit model invocation) until proven. Promotion just removes the `beta` segment — the skill stays inside its source pack. The same convention works for your own first-party skills: `grim:dev:beta:<skill>`, with source folders staying grouped by functional area (`beta` records lifecycle, not location).
 
-**Keeping upstream names.** When you'd rather invoke a pack's skills by their upstream names (`/how` instead of `/grim:ep:beta:how`), keep the upstream `name`, set `invocation: upstream` in `pack.yaml`, and record beta as `lifecycle: beta` on each pack entry and in the skill's frontmatter `metadata`. Beta still means manual-only. The [`pstack`](../expansionPacks/pstack/) pack works this way.
+**Keeping upstream names.** When you'd rather invoke a pack's skills by their upstream names (`/how` instead of `/grim:ep:beta:how`), keep the upstream `name`, set `invocation: upstream` in `pack.yaml`, and record beta as `lifecycle: beta` on each pack entry and in the skill's frontmatter `metadata`. Beta still means manual-only. The [`pstack`](../expansionPacks/pstack/) and [`anatomy`](../expansionPacks/anatomy/) packs work this way.
 
 ### Why Bother
 

@@ -1,0 +1,7 @@
+interface:
+  display_name: "anatomy"
+  short_description: "Anatomy (Beta): explain an idea as an isometric machine."
+  default_prompt: "Use $anatomy to explain this idea as a crafted, interactive isometric machine figure."
+
+policy:
+  allow_implicit_invocation: false

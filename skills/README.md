@@ -52,7 +52,7 @@ The skills of Grimoire's Tome. Every folder here is a skill or a family of skill
 
 ### Lifecycle & Expansion Patterns
 - Beta skills use a `beta` namespace segment (`grim:dev:beta:<skill>`, `grim:ep:beta:<skill>`) and stay manual-only until promoted; source folders stay grouped by functional area.
-- Third-party skill packages follow the expansion-pack pattern in `../docs/expansion-packs.md` and use `grim:ep:<skill>` IDs (`grim:ep:mx:<skill>` for mutated forks). Packs ship at `../expansionPacks/mattpocock/` (grill-me + a 10-question-pack mutation) and `../expansionPacks/pstack/` (beta, upstream names: create-verification-skill, maintain-verification-skill, how, why).
+- Third-party skill packages follow the expansion-pack pattern in `../docs/expansion-packs.md` and use `grim:ep:<skill>` IDs (`grim:ep:mx:<skill>` for mutated forks). Packs ship at `../expansionPacks/mattpocock/` (grill-me + a 10-question-pack mutation), `../expansionPacks/pstack/` (beta, upstream names: create-verification-skill, maintain-verification-skill, how, why), and `../expansionPacks/anatomy/` (beta, upstream name: anatomy).
 
 ### Registry
 - `registry.yaml` lists only public-safe grim IDs and paths for this repo.
