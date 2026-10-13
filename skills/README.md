@@ -25,7 +25,8 @@ The skills of Grimoire's Tome. Every folder here is a skill or a family of skill
 - `dev/git-commit-decanter`
 - `dev/tiramisu-task-decomp`
 - `dev/minion`
-- `dev/model-quirks`
+- `dev/agentops/model-quirks`
+- `dev/agentops/expansion-packs`
 - `dev/autodocs`
 - `dev/mentor-review`
 - `dev/three-minions-in-a-trench-coat`

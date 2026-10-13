@@ -1,11 +1,15 @@
 ---
-name: grim-dev-model-quirks
-description: "(grim:dev:model-quirks): (Model Quirks): Apply model-specific prompt mitigations inline (unlabeled) into AGENTS.md, skills, and prompts, and record every applied change in the reverse-index ledger at docs/model-quirks-ledger.yaml so it can be verified, pruned, or undone when models rotate."
+name: grim:dev:agentops:model-quirks
+description: "Model Quirks: Apply model-specific prompt mitigations inline and record every change in the reverse-index ledger so it can be verified, pruned, or undone when models rotate."
 disable-model-invocation: true
 ---
 # Model Quirks
 
 Use this skill when a task is about model-specific instructions, prompt quirks, undoing or pruning old model mitigations, or keeping prompts aligned with the currently used model roster.
+
+## Canonical Files
+
+- Ledger (reverse index + archive): `docs/model-quirks-ledger.yaml`
 
 ## The System
 
@@ -59,6 +63,8 @@ Periodically, or before retiring: confirm each active entry's `text` still exist
 ## Required Behavior
 
 - No model names or quirk labels in the applied prompt text — the ledger is the only place model attribution lives.
+- Never apply without recording; never record without applying.
 - Exact quoted text is the undo key. Update the ledger whenever applied text is reworded.
 - Keep mitigations short, specific, and focused on real default behaviors worth overriding.
 - Prefer concrete model quirks over generic writing advice.
+- Update this skill and the ledger header if the workflow or file locations change.

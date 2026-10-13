@@ -63,5 +63,16 @@ class BundleAssetsTests(unittest.TestCase):
                     with self.assertRaises(ValueError):
                         builder.copy_skill(source, Path(tmp) / "bundle")
 
+
+class AgentopsRegistryTests(unittest.TestCase):
+    def test_model_quirks_uses_agentops_id_and_path(self):
+        entries = {e["id"]: e["path"] for e in builder.read_registry()}
+        self.assertEqual(entries.get("grim:dev:agentops:model-quirks"), "skills/dev/agentops/model-quirks")
+        self.assertNotIn("grim:dev:model-quirks", entries)
+        self.assertTrue((builder.ROOT / entries["grim:dev:agentops:model-quirks"] / "SKILL.md").is_file())
+        self.assertEqual(builder.plugin_for("grim:dev:agentops:model-quirks"), "grim-core")
+        self.assertEqual(builder.skill_dir_name("grim:dev:agentops:model-quirks", "grim-tome"), "grim-dev-agentops-model-quirks")
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -2,6 +2,8 @@
 
 A pattern for installing **third-party skill packages** alongside your own skills — without losing track of where they came from, or what you've changed.
 
+Run it with the [`grim:dev:agentops:expansion-packs`](../skills/dev/agentops/expansion-packs/SKILL.md) skill; this page is its reference guide.
+
 The Tome ships one working example pack: [`expansionPacks/mattpocock/`](../expansionPacks/mattpocock/) with Matt Pocock's grill-me as the unmodified original (`grim:ep:grill-me`) and a local fork that asks in packs of 10 questions (`grim:ep:mx:grill-me`). Use it as the reference shape when you install your own. See the [Appendix](../README.md#standalone-skills) for more packs & skills worth trying.
 
 ### The Problem

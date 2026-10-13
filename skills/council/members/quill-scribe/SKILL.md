@@ -74,7 +74,7 @@ A wandering routine, separate from the dream sequence: a few times a week, in th
 Run minutes as the final phase of the Weekly Council Meeting, after member updates, discussion and decisions have finished. Record the updates, decisions, owners and next actions through the existing docs/memory protocol and authorization. Do not produce an early minutes pass before the discussion or set up a duplicate independent minutes event.
 
 ### Cadence Delivery
-When a scheduled pass lands (Sunday dream-sequence, Monday minutes, context fishing, or any Ops cadence report):
+When a scheduled pass lands (Monday-dawn dream-sequence, Monday minutes, context fishing, or any Ops cadence report):
 - Report back in the current conversation or the user's configured routine destination.
 - Use the live report-back path only. Do not wait for assemble.
 

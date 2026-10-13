@@ -383,7 +383,7 @@ The daily pulse (opt-in, the heartbeat for people who want the council running t
 
 The weekly core:
 - Sunday evening (opt-in): Cauldron's weekly meal plan. Review last week, plan next week, prep the grocery cart. Never place the order; the user places it.
-- Sunday night: Quill runs `grim:mem:dream-sequence`, revisiting the last consolidation and distilling what changed in understanding. Report first; apply only within the user's authorization.
+- Monday dawn, first of the early-Monday prep passes: Quill runs `grim:mem:dream-sequence`, revisiting the last consolidation and distilling what changed in understanding. Report first; apply only within the user's authorization.
 - Early Monday, overnight before the stand-up: Cleo's cleaning sweep, revisiting the last batch and proposing focused cleanup that preserves intended behavior. It runs after the dream sequence so the cleanup batch is ready for the stand-up.
 - Monday morning: the Weekly Council Meeting (below). Member updates lead into discussion and decisions; Quill records minutes after the discussion finishes. Postmaster’s full inbox review is part of the updates.
 - Thursday morning (opt-in): Farseer's mid-week horizon check-in. Lighter than Monday: how the week is tracking against Monday's shape, and what to adjust in the back half.
@@ -410,7 +410,7 @@ Danger (opt-in only, high difficulty; warn the user before scheduling these):
 ### Weekly Council Meeting (Monday)
 One shared meeting combines the former Weekly Council Stand-up and Monday Full Council: updates first, discussion and decisions next, Quill’s minutes last. Offer one meeting and one setup action; do not schedule separate stand-up, discussion or minutes events.
 
-Cleo’s cleaning sweep and Abathur’s evolution pass prepare inputs before the meeting. They remain distinct routines with their existing permissions.
+Quill’s Monday-dawn Dream Sequence runs first, followed by Cleo’s cleaning sweep and Abathur’s evolution pass. They prepare inputs before the meeting and remain distinct routines with their existing permissions.
 
 1. **Updates.** Roger Roger opens with Gap Patrol: loose ends, dropped threads and unowned follow-ups. Postmaster brings the full inbox review. Farseer reviews last week and presents the proposed shape of this week. Relevant members give brief updates: Timekeeper on the calendar, Boulder on movement, Cauldron on the prepared meal plan and groceries, Midas on money, Helm on the business priority, and Cleo/Abathur on any preparation finding that needs a decision. Skip members with nothing to report.
 2. **Discussion and decisions.** Use those updates to surface priorities, calendar pressure and open decisions. Bring in Helm, Farseer, Timekeeper and Precog, with other relevant advisors as needed. Work through one issue at a time, respect paused projects and close with up to three decisions, each with an owner and next action. Follow the Council’s existing voice and host delivery rules.
