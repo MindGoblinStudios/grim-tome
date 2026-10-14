@@ -23,13 +23,68 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-VERSION = "1.1.8"
+VERSION = "1.1.9"
 MAX_IMAGE_BYTES = 200 * 1024
 IMAGE_SUFFIXES = {".png", ".jpg", ".jpeg", ".gif", ".webp"}
 
 AUTHOR = {"name": "Mind Goblin Studios", "url": "https://github.com/MindGoblinStudios"}
 REPO_URL = "https://github.com/MindGoblinStudios/grim-tome"
 OWNER = {"name": "Mind Goblin Studios"}
+
+# OpenAI plugin directory listing for the grim-tome Codex manifest. Field limits:
+# https://developers.openai.com/plugins/deploy/submission-errors
+# Listing copy must not advertise pricing, subscriptions, or promotions.
+TOME_LONG_DESCRIPTION = """Grimoire's Tome is a spellbook of skills for building software with AI. It brings Grimoire, a coding wizard and vibecoding mentor, plus a council of specialist advisors into ChatGPT and Codex.
+
+What it helps with:
+- Coding and shipping: plan features, break work into small shippable steps, review finished changes like a senior mentor, write clean commit messages, and keep project docs up to date.
+- Learning to vibecode: explanations calibrated to your level, from first project to professional workflow.
+- Planning and focus: day planning, long-term planning, focus nudges, and weekly check-ins.
+- Business and life operations: advisors for business planning, admin checklists, money reviews, meal planning, fitness, and journaling.
+- Workbench artifacts: reusable HTML workbenches for text editing, image review, and layout previews.
+
+How it works:
+The Tome is a set of skills. Ask for a skill by name, or ask a council member for help. Council members speak in character, so planning and review feel like a conversation with a team.
+
+Who it is for:
+Beginners learning to build with AI agents, solo founders and indie developers, and professional engineers who want repeatable planning, review, and documentation workflows.
+
+Limitations:
+- The Tome is made of instructions, reference files, and a few helper scripts. It has no server of its own and does not connect to any account by itself. Some skills work best when the host app already has tools such as a terminal, a browser, or email access, and they use only what you have enabled, for the task you ask for.
+- The chat-log search skill reads AI chat logs stored on your own computer, and only when you ask it to search them. The email triage advisor proposes what to archive and changes nothing until you approve.
+- Advisor skills for health, money, and business give general guidance, not professional medical, financial, tax, or legal advice.
+- Some advanced developer skills run helper scripts or local preview pages and assume a coding agent with file and command access, such as Codex.
+
+Grimoire's Tome is open source under the MIT license."""
+
+TOME_INTERFACE = {
+    "displayName": "Grimoire's Tome",
+    "shortDescription": "Coding wizard & AI council",
+    "longDescription": TOME_LONG_DESCRIPTION,
+    "developerName": "Mind Goblin Studios, LLC",
+    "category": "Developer Tools",
+    "capabilities": [
+        "Coding mentor",
+        "Code review",
+        "Task breakdown",
+        "Project documentation",
+        "Commit messages",
+        "Day and long-term planning",
+        "Business planning advisors",
+        "Workbench artifacts",
+    ],
+    "websiteURL": "https://docs.mindgoblinstudios.com/Grimoire-c60389c249ee41b0b125b1678974d7be",
+    "supportURL": "https://github.com/MindGoblinStudios/grim-tome/issues",
+    "privacyPolicyURL": "https://docs.mindgoblinstudios.com/Grimoire-s-Tome-Plugin-Privacy-Policy-3f7050d4a9b181d0ae07d22c85a5d726",
+    "termsOfServiceURL": "https://docs.mindgoblinstudios.com/Grimoire-s-Tome-Plugin-Terms-of-Use-3f7050d4a9b181e3a31ad15aacf58a05",
+    "defaultPrompt": [
+        "Review my latest changes like a senior engineer mentor would.",
+        "Break this feature into small, shippable steps I can build today.",
+        "Summon the council to help me plan my week and my side project.",
+    ],
+    "brandColor": "#1F7A33",
+    "brandColorDark": "#4ADE80",
+}
 
 PLUGINS = {
     "grim-tome": {
@@ -38,6 +93,7 @@ PLUGINS = {
         "logo": "skills/council/members/grimoire-code-wizard/assets/grimoire-code-wizard-icon-med.png",
         "keywords": ["grimoire", "spellbook", "skills", "council", "vibecoding", "prompts"],
         "match": lambda sid: True,
+        "openai_interface": TOME_INTERFACE,
     },
     "grim-core": {
         "displayName": "Grim Core",
@@ -155,9 +211,9 @@ def write_json(path: Path, data):
     path.write_text(json.dumps(data, indent=2) + "\n")
 
 
-def build_plugin(name: str, skill_entries):
+def build_plugin(name: str, skill_entries, plugin_dir: Path = None):
     spec = PLUGINS[name]
-    plugin_dir = ROOT / "plugins" / name
+    plugin_dir = plugin_dir or ROOT / "plugins" / name
     if plugin_dir.exists():
         shutil.rmtree(plugin_dir)
     (plugin_dir / "skills").mkdir(parents=True)
@@ -190,10 +246,29 @@ def build_plugin(name: str, skill_entries):
     }
     write_json(plugin_dir / ".cursor-plugin" / "plugin.json", manifest)
     write_json(plugin_dir / ".claude-plugin" / "plugin.json", manifest)
-    write_json(plugin_dir / ".codex-plugin" / "plugin.json", manifest)
+    write_json(plugin_dir / ".codex-plugin" / "plugin.json", codex_manifest(spec, manifest, len(skill_entries)))
 
     readme = f"# {spec['displayName']}\n\n{spec['description']}\n\nGenerated from [Grimoire's Tome]({REPO_URL}) by `scripts/build-marketplace.py`. Do not edit by hand; edit the source skills and rebuild.\n"
     (plugin_dir / "README.md").write_text(readme)
+
+
+def codex_manifest(spec, manifest, skill_count: int):
+    interface = spec.get("openai_interface")
+    if not interface:
+        return manifest
+    logo = f"./{manifest['logo']}"
+    return {
+        **manifest,
+        "skills": "./skills/",
+        "interface": {**interface, "composerIcon": logo, "logo": logo},
+        "extensions": {
+            "com.openai": {
+                "publication": {
+                    "release_notes": f"Grimoire's Tome {VERSION}: {skill_count} skills including Grimoire the code wizard, the Grim Council of advisors, AutoDocs, mentor review, task decomposition, and workbench artifacts.",
+                },
+            },
+        },
+    }
 
 
 # Skills that never ship in the public Tome, even if they appear in the registry.
