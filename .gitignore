@@ -5,6 +5,7 @@
 tmp/
 output/
 workbench/
+dist/
 
 # Local environments and dependencies
 .venv/

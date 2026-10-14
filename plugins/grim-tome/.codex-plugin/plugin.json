@@ -1,7 +1,7 @@
 {
   "name": "grim-tome",
   "displayName": "Grimoire's Tome",
-  "version": "1.1.8",
+  "version": "1.1.9",
   "description": "The full AI Prompt Spellbook: vibecoding dev flows, the Grim Council of advisors, AutoDocs, and workbench artifacts.",
   "author": {
     "name": "Mind Goblin Studios",
@@ -18,5 +18,43 @@
     "vibecoding",
     "prompts"
   ],
-  "logo": "assets/logo.png"
+  "logo": "assets/logo.png",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Grimoire's Tome",
+    "shortDescription": "Coding wizard & AI council",
+    "longDescription": "Grimoire's Tome is a spellbook of skills for building software with AI. It brings Grimoire, a coding wizard and vibecoding mentor, plus a council of specialist advisors into ChatGPT and Codex.\n\nWhat it helps with:\n- Coding and shipping: plan features, break work into small shippable steps, review finished changes like a senior mentor, write clean commit messages, and keep project docs up to date.\n- Learning to vibecode: explanations calibrated to your level, from first project to professional workflow.\n- Planning and focus: day planning, long-term planning, focus nudges, and weekly check-ins.\n- Business and life operations: advisors for business planning, admin checklists, money reviews, meal planning, fitness, and journaling.\n- Workbench artifacts: reusable HTML workbenches for text editing, image review, and layout previews.\n\nHow it works:\nThe Tome is a set of skills. Ask for a skill by name, or ask a council member for help. Council members speak in character, so planning and review feel like a conversation with a team.\n\nWho it is for:\nBeginners learning to build with AI agents, solo founders and indie developers, and professional engineers who want repeatable planning, review, and documentation workflows.\n\nLimitations:\n- The Tome is made of instructions, reference files, and a few helper scripts. It has no server of its own and does not connect to any account by itself. Some skills work best when the host app already has tools such as a terminal, a browser, or email access, and they use only what you have enabled, for the task you ask for.\n- The chat-log search skill reads AI chat logs stored on your own computer, and only when you ask it to search them. The email triage advisor proposes what to archive and changes nothing until you approve.\n- Advisor skills for health, money, and business give general guidance, not professional medical, financial, tax, or legal advice.\n- Some advanced developer skills run helper scripts or local preview pages and assume a coding agent with file and command access, such as Codex.\n\nGrimoire's Tome is open source under the MIT license.",
+    "developerName": "Mind Goblin Studios, LLC",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Coding mentor",
+      "Code review",
+      "Task breakdown",
+      "Project documentation",
+      "Commit messages",
+      "Day and long-term planning",
+      "Business planning advisors",
+      "Workbench artifacts"
+    ],
+    "websiteURL": "https://docs.mindgoblinstudios.com/Grimoire-c60389c249ee41b0b125b1678974d7be",
+    "supportURL": "https://github.com/MindGoblinStudios/grim-tome/issues",
+    "privacyPolicyURL": "https://docs.mindgoblinstudios.com/Grimoire-s-Tome-Plugin-Privacy-Policy-3f7050d4a9b181d0ae07d22c85a5d726",
+    "termsOfServiceURL": "https://docs.mindgoblinstudios.com/Grimoire-s-Tome-Plugin-Terms-of-Use-3f7050d4a9b181e3a31ad15aacf58a05",
+    "defaultPrompt": [
+      "Review my latest changes like a senior engineer mentor would.",
+      "Break this feature into small, shippable steps I can build today.",
+      "Summon the council to help me plan my week and my side project."
+    ],
+    "brandColor": "#1F7A33",
+    "brandColorDark": "#4ADE80",
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png"
+  },
+  "extensions": {
+    "com.openai": {
+      "publication": {
+        "release_notes": "Grimoire's Tome 1.1.9: 51 skills including Grimoire the code wizard, the Grim Council of advisors, AutoDocs, mentor review, task decomposition, and workbench artifacts."
+      }
+    }
+  }
 }
