@@ -122,6 +122,16 @@ codex plugin marketplace add MindGoblinStudios/grim-tome
 
 The catalog (grim-core, grim-council, grim-artifacts) installs by default; toggle pieces in `/plugins`.
 
+#### OpenAI plugin directory ZIP
+
+The ChatGPT and Codex plugin directory takes a skills-only ZIP of `grim-tome`. Rebuild it from the repo root:
+
+```bash
+python3 scripts/build-openai-directory.py
+```
+
+This writes `dist/grim-tome-<version>-openai-directory.zip`. The directory build leaves out the Tithe Bell and GPT-store promotion, because the directory forbids pay asks and checkout links. It also checks the package against OpenAI's documented rules and fails if anything breaks them, so keep the ZIP under 100 MB. The listing copy lives in `TOME_INTERFACE` in `scripts/build-marketplace.py`. Bump `VERSION` before each new upload.
+
 Marketplace installs ship the skills without the large chapter art. The full Tome experience (README pages, docs, dashboard sources) still lives in this repo; the copy-paste install prompt remains the richest path.
 
 If your agent harness or chat app does not support installable skills via paths, or cannot clone projects there are other ways to install

@@ -3,6 +3,11 @@
 Public changelog for Grimoire's Tome releases
 
 
+## v1.1.9 (2026-10-14)
+
+- The `grim-tome` Codex manifest carries the OpenAI plugin directory listing: display name, descriptions, category, starter prompts, brand colors, and website, support, privacy, and terms links.
+- New `scripts/build-openai-directory.py` builds and validates the ChatGPT/Codex directory ZIP. That build leaves out the Tithe Bell; the repo and other plugin installs keep it.
+
 ## v1.1.8 (2026-10-03)
 
 - Council routines registry (`skills/council/council/references/routines-registry.yaml`): every named routine with its tier, default timing, and source skill.

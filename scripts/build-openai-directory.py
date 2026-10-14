@@ -91,7 +91,8 @@ def drop_md_section(text: str, heading: str) -> str:
 
 def drop_yaml_list_item(text: str, item_id: str, comment: str = None) -> str:
     """Remove one `- id: <item_id>` entry (and an optional comment line above it) from a YAML list."""
-    pattern = rf"(?m)^(?P<lead>{re.escape(comment)}\n)?(?P<indent>[ \t]*)- id: {re.escape(item_id)}\n(?:(?P=indent)[ \t]+.*\n|[ \t]*\n)*"
+    lead = rf"(?:{re.escape(comment)}\n)?" if comment else ""
+    pattern = rf"(?m)^{lead}(?P<indent>[ \t]*)- id: {re.escape(item_id)}\n(?:(?P=indent)[ \t]+.*\n|[ \t]*\n)*"
     updated, count = re.subn(pattern, "", text, count=1)
     if count != 1:
         raise ValueError(f"YAML item not found: {item_id}")
