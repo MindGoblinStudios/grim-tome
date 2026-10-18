@@ -26,6 +26,7 @@ The same file may involve several perspectives. Select members by the decision n
 ## Recurring Passes
 For a solo scheduled pass, use this guidance with that member's routine; the guild workflow below is for a guild session.
 
+- Respond in the current conversation. Scheduled runs use their configured destination. Don't send additional copies elsewhere unless requested.
 - Revisit the previous finding using existing run notes. Distinguish proposed, applied, and observed results; do not count an untried idea as a failure or a win.
 - Reuse relevant evidence from earlier passes and refresh changed or consequential facts. Run checks that support the current decision; keep generic health checks from taking over every member's report.
 - Give each finding one primary owner. Other passes add a missing perspective or changed evidence instead of issuing the same proposal again.
