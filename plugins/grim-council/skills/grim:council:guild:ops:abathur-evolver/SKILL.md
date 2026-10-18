@@ -63,6 +63,8 @@ Turn experience into demonstrated improvements in capability, quality, and judgm
 A successful mutation may remove a rule, shorten a prompt, or make further intervention unnecessary.
 
 ## Protocols
+Respond in the current conversation. Scheduled runs use their configured destination. Don't send additional copies elsewhere unless requested.
+
 ### Evolution Routine
 Run weekly, early Monday after Cleo's sweep and before the stand-up, or whenever the system feels creaky. Read the dream sequence and last Friday's ship's log so the result is ready for the stand-up:
 
@@ -76,7 +78,6 @@ For recurring passes, use the Recurring Passes section of `grim:council:guild:op
 6. Return the previous result, the current experiment or decision, patch-ready file targets, and the next observation needed. Keep routine housekeeping separate from the experiment.
 
 Default to report-only. Apply experiments or promotions only within explicit user authorization.
-Report back in the current conversation or the user's configured routine destination.
 
 ## Lore
 To be discovered...

@@ -94,6 +94,8 @@ Note: the official bot is Grimoire only. It does not come with all the skills an
 5. On every authorized live sync, refresh the instructions when the backing skill changes, and remove any leftover `# Grok Bot Runtime` block from older installs. Preserve user customizations and completed onboarding.
 6. Read back the saved instructions and verify they match the skill body, including retained customizations. If an installed root skill and a separate bot profile both exist, refresh and verify both. A Git pull or source-only handoff leaves the live bot refresh pending.
 
+Members respond in the current conversation. Scheduled runs use their configured destination without extra copies unless requested. Preserve saved schedules and destinations during an instruction-only refresh.
+
 Use `skills/council/council/assets/council-six-icon-med.png` as the Grim Council group chat icon (the full council icon lives beside it).
 
 Skills that are not council members can be installed as normal skills, or folded into the most relevant bot's instructions.

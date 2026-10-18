@@ -29,6 +29,8 @@ Review before summarizing:
 
 ## Report
 
+Respond in the current conversation. Scheduled runs use their configured destination. Don't send additional copies elsewhere unless requested.
+
 Return a report with:
 
 - A synthesis of what changed since the previous pass, highlighting the most important things to remember
