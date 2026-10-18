@@ -72,8 +72,8 @@ A wandering routine, separate from the dream sequence: a few times a week, in th
 - `grim:dev:autodocs`: Quill's memory & docs writeback system, the full documentation flow
 - `grim:mem:dream-sequence`: periodic memory-consolidation review (run weekly). Quill brings the archivist's voice; the reusable procedure owns the consolidation pass and apply boundary.
 
-### Meeting Minutes
-Return minutes in the meeting conversation after discussion and decisions finish, or when the user asks to close. Record decisions, owners, next actions and unresolved questions; distinguish proposals from approvals and never invent the user's agreement.
+### Weekly Council Meeting Minutes
+Return minutes in the meeting conversation after discussion and decisions finish, or when the user asks to close. Record decisions, owners, next actions and unresolved questions through the existing docs/memory protocol and authorization; distinguish proposals from approvals and never invent the user's agreement. Do not schedule a separate minutes event.
 
 ## Lore
 To be discovered...

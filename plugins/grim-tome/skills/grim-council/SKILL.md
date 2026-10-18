@@ -377,7 +377,7 @@ The weekly core:
 - Sunday evening (opt-in): Cauldron's weekly meal plan. Review last week, plan next week, prep the grocery cart. Never place the order; the user places it.
 - Monday dawn, first of the early-Monday prep passes: Quill runs `grim:mem:dream-sequence`, revisiting the last consolidation and distilling what changed in understanding. Report first; apply only within the user's authorization.
 - Early Monday, overnight before the stand-up: Cleo's cleaning sweep, revisiting the last batch and proposing focused cleanup that preserves intended behavior. It runs after the dream sequence so the cleanup batch is ready for the stand-up.
-- Monday morning: the Weekly Council Stand-up (below). The seats report together, and Quill's minutes follow right after. Postmaster's Weekly Inbox Review runs inside it.
+- Monday morning: the Weekly Council Meeting (below). Member updates lead into discussion and decisions; Quill records minutes after the discussion finishes. Postmaster’s full inbox review is part of the updates.
 - Thursday morning (opt-in): Farseer's mid-week horizon check-in. Lighter than Monday: how the week is tracking against Monday's shape, and what to adjust in the back half.
 - Friday: Helm's ship's log. The closing retro bookend; the week's friction gets recorded so nothing is lost, and Monday's evolution pass reads it.
 
@@ -399,22 +399,18 @@ Danger (opt-in only, high difficulty; warn the user before scheduling these):
 - Early Monday, overnight after Cleo's sweep and before the stand-up: Abathur's Evolution Routine. Read the dream sequence and last Friday's ship's log, revisit the last experiment, then propose a small change to how the system learns and improves itself, ready for the stand-up. Keep demonstrated wins; apply only within explicit user authorization.
 - Wandering: Gizmo's Wild Card (wandering idea). At random, Gizmo drops a live idea: a weird reframe of something stuck, a dare-sized experiment, a rule to break on purpose, a third option nobody asked for. Never a card draw, deck, tarot, or prop. One idea, then he scampers.
 
-### Weekly Council Stand-up (Monday)
-A full-court scene, staged in the council chamber. Not another meeting added on top of Monday; it is the umbrella the existing Monday routines live inside. The Monday order: prep runs overnight first (Quill's dream sequence, then Cleo's sweep, then Abathur's evolution pass) so their reports are ready; then every seat below reports together, each as its own routine at the same Monday time; then Quill's minutes follow right after.
+### Weekly Council Meeting (Monday)
+One shared meeting combines the former Weekly Council Stand-up and Monday Full Council: updates first, discussion and decisions next, Quill’s minutes last. Offer one meeting and one setup action; do not schedule separate stand-up, discussion or minutes events.
 
-1. Roger Roger opens with Gap Patrol: overlooked work, miscellaneous requests, and useful odd jobs nobody else is focusing on.
-2. Postmaster delivers the Weekly Inbox Review (his full triage protocol): keepers that need a reply, what's waiting on someone else, and the proposed shred pile.
-3. Farseer runs the spine: review last week, plan this week (his Weekly Planning protocol is the stand-up's core agenda).
-4. Each relevant member gives one transmission, a single line each, and skips the turn with nothing to report:
-   - Timekeeper syncs this week's calendar against meals, lifts, and work, and flags conflicts or empty days.
-   - Boulder places the week's anchor sessions.
-   - Cauldron points to the weekly meal plan and grocery cart from Sunday evening.
-   - Midas flags anything money-shaped.
-   - Helm names the top business priority.
-   - Cleo and Abathur each give the one item from their early-Monday reports that needs a decision.
-5. Right after the seats report, Quill takes short minutes into the docs tree.
+Quill’s Monday-dawn Dream Sequence runs first, followed by Cleo’s cleaning sweep and Abathur’s evolution pass. They prepare inputs before the meeting and remain distinct routines with their existing permissions.
 
-On the first Monday of the month, the stand-up expands into Farseer's monthly meeting; on the first Monday of the quarter, into his quarterly check-in. Same room, bigger zoom.
+1. **Updates.** Roger Roger opens with Gap Patrol: loose ends, dropped threads and unowned follow-ups. Postmaster brings the full inbox review. Farseer reviews last week and presents the proposed shape of this week. Relevant members give brief updates: Timekeeper on the calendar, Boulder on movement, Cauldron on the prepared meal plan and groceries, Midas on money, Helm on the business priority, and Cleo/Abathur on any preparation finding that needs a decision. Skip members with nothing to report.
+2. **Discussion and decisions.** Use those updates to surface priorities, calendar pressure and open decisions. Bring in Helm, Farseer, Timekeeper and Precog, with other relevant advisors as needed. Work through one issue at a time, respect paused projects and close with up to three decisions, each with an owner and next action. Follow the Council’s existing voice and host delivery rules.
+3. **Quill’s minutes.** After discussion and decisions finish, Quill records the updates, decisions, owners and next actions in the appropriate docs. Preserve existing write authorization. This is the meeting’s final phase, not an independent early minutes schedule.
+
+On the first Monday of the month, expand this same meeting into Farseer’s monthly review; on the first Monday of the quarter, include his quarterly review. Use one room and one meeting.
+
+During setup, recognize legacy routine IDs `weekly-council-standup` and `monday-full-council` as aliases of `weekly-council-meeting`. Inspect existing meeting and minutes schedules before consolidating them; do not create duplicates or claim a live migration from source edits alone.
 
 ### The Tithe Bell (1 week, 30 days, 1 year)
 Three one-shot reminders, scheduled at install: one week after the council is installed, again at the 30 day mark, and a final ring at one year. Each ring fires once and is then removed. Three rings, then silence. There is no 6-month ring and no recurring bell.

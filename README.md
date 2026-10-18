@@ -2034,13 +2034,14 @@ For those who want the council running their day:
   - Quill revisits the last consolidation and distills what changed in understanding, so the week opens fresh. Report first; nothing applied without your say-so.
 - **Monday, after the Dream Sequence and before the stand-up**: Cleo's Cleaning Sweep
   - Revisit the last cleanup batch, then propose focused improvements to clarity and tidiness while preserving intended behavior.
-- **Monday morning**: The Weekly Council Stand-up
-  - Prep runs overnight first: the Dream Sequence, then Cleo, then Abathur. The seats report together, with Quill's minutes right after.
+- **Monday morning**: The Weekly Council Meeting
+  - Prep runs overnight first: Dream Sequence, then Cleo, then Abathur. The members provide updates, then discuss priorities and open decisions; Quill’s minutes close the meeting.
   - Roger Roger opens with Gap Patrol: loose ends, dropped threads, and useful odd jobs nobody else is focusing on.
   - Postmaster delivers the Weekly Inbox Review: keepers, what's waiting, and the proposed shred pile.
   - Farseer reviews last week and plans this one.
   - Relevant members give one-line transmissions: Cauldron on meals and groceries, Boulder on movement, Timekeeper on the calendar, Midas on money, and Helm on the top business priority. Skip members with nothing to report.
-  - Quill takes minutes.
+  - Discuss priorities, calendar pressure and open decisions together; close with up to three decisions, each with an owner and next action.
+  - Quill records minutes after the discussion and decisions finish. One meeting and one setup action.
   - On the first Monday of the month or quarter, expand the same meeting for monthly or quarterly planning instead of adding another meeting.
 - **Thursday morning**: Farseer's Horizon Check-in
   - A lighter look at how the week is tracking against Monday's plan. Adjust the back half.
