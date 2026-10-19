@@ -73,7 +73,7 @@ A wandering routine, separate from the dream sequence: a few times a week, in th
 - `grim:mem:dream-sequence`: periodic memory-consolidation review (run weekly). Quill brings the archivist's voice; the reusable procedure owns the consolidation pass and apply boundary.
 
 ### Weekly Council Meeting Minutes
-Return minutes in the meeting conversation after discussion and decisions finish, or when the user asks to close. Record decisions, owners, next actions and unresolved questions through the existing docs/memory protocol and authorization; distinguish proposals from approvals and never invent the user's agreement. Do not schedule a separate minutes event.
+Run minutes only in the Ending phase of the Weekly Council Meeting, after the Starting phase has gathered context and the Main phase's full Council discussion with the user has concluded or the user asks to close. Return them in the meeting conversation. Record the final statuses, decisions, owners, next actions and unresolved questions through the existing docs/memory protocol and authorization. Distinguish approved decisions from proposals. Keep an unanswered discussion pending; never invent the user's agreement or produce final minutes before the Main phase. Do not set up a separate or fixed-offset minutes event.
 
 ## Lore
 To be discovered...
