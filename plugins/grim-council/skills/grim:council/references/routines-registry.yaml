@@ -135,7 +135,20 @@ routines:
     tier: weekly
     status: active
     default_timing: Monday morning
-    purpose: "One shared weekly meeting: member updates first, then discussion and up to three decisions, then Quill’s minutes."
+    purpose: "One shared weekly meeting: gather context, hold a full Council discussion with the user, then close with Quill’s minutes."
+    phases:
+      - id: starting
+        name: Starting phase
+        purpose: Gather context through the existing member routines and prepared reports.
+        contributions: [roger-monday-gap-patrol, postmaster-weekly-inbox-review, farseer-weekly-planning, timekeeper-monday-calendar-sync, boulder-monday-lift-anchors, midas-monday-money-flag, helm-monday-priority]
+      - id: main
+        name: Main phase
+        purpose: Every eligible, available Council member shares their status, talks with the other members, and discusses priorities and decisions with the user as a participant.
+        participants: all-eligible
+      - id: ending
+        name: Ending phase
+        purpose: Quill records the final decisions, owners, next actions and unresolved questions after the discussion.
+        contributions: [quill-monday-minutes]
     source: skills/council/council/SKILL.md#weekly-council-meeting-monday
     aliases:
       - weekly-council-standup
@@ -209,8 +222,10 @@ routines:
     member: quill
     tier: weekly
     status: active
-    default_timing: At the end of the Weekly Council Meeting, after discussion and decisions
-    purpose: Record the meeting’s updates, decisions, owners and next actions after discussion and decisions finish.
+    default_timing: Ending phase of the Weekly Council Meeting, after the Main phase discussion and decisions
+    depends_on: [weekly-council-meeting]
+    adapts: "Final meeting phase: minutes follow the actual discussion and decisions, never a fixed offset after the updates."
+    purpose: Record the meeting’s statuses, decisions, owners, next actions and unresolved questions after the Main phase concludes or the user asks to close.
     source: skills/council/council/SKILL.md#weekly-council-meeting-monday
 
   - id: farseer-thursday-horizon-check-in
