@@ -3,6 +3,10 @@
 Public changelog for Grimoire's Tome releases
 
 
+## v1.1.9 (2026-10-24)
+
+- Improved Council narration style: narration now posts in italics as its own message, and each member's spoken lines post separately in plain text.
+
 ## v1.1.8 (2026-10-03)
 
 - Council routines registry (`skills/council/council/references/routines-registry.yaml`): every named routine with its tier, default timing, and source skill.
