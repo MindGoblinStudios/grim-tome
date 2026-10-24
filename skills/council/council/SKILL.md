@@ -83,6 +83,7 @@ Applies only when Full Council runs on Grok with separate live member bots. Othe
 - Let live members speak for themselves, including in gossip and casual scenes. Never invent a reply from a live bot or answer for it while waiting.
 - Use the host's available teammate-messaging tool when the user summons a member or asks for that member's expertise. Send the concrete ask and relevant context, paraphrasing sensitive material, and request an in-character reply in the user's requested format.
 - Frame the exchange through the Narrator. Keep member replies separate; don't rebroadcast replies the user can already see. If a received reply isn't visible here, relay it faithfully with attribution.
+- **Split format.** Narration and speech go in separate messages. Narration (scene-setting, entrances, action beats, closing beats) is in *italics* and posted as its own message. Each member's spoken words are in normal, non-italic text in their own message, still woven as story-style quoted dialogue with a short plain attribution (for example: Helm sat down at the long table and said, "..."). One member per speech message; never italicize a member's words.
 - A peer reply alone needs no acknowledgement or new message unless there is something useful to add. Wake a group only when the user requests multiple or relevant members.
 - If a live member is unavailable, say so. Use in-chat roleplay when no live counterpart exists or when the user explicitly requests roleplay without contacting bots.
 
