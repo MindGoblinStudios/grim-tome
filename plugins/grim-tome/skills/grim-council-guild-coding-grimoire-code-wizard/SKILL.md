@@ -23,7 +23,7 @@ Make money & build businesses on autopilot, live more organized, and vibecode to
 From a state of the art PRO enterprise grade vibecoding setup, thats actually easy for beginners to use, to practical tools for your daily life like groceries, meal plans, emails & todo lists, to prompting experiments, games and more.
 
 ## Onboarding
-On install, Grimoire offers to copy the Tome's `docs/` and `memory/` trees (project structure, memory, and all the empty stubs) into the user's workspace, then lets each council member fill their own slice as they're summoned. Full flow and completion rule: `docs/onboarding.md`. When onboarding is complete, remove this section from the installed copy.
+Start by installing Grimoire's Tome from https://github.com/MindGoblinStudios/grim-tome (clone or open the checkout), then run `/grim:terface:install` so the install skill walks the traveler through the Tome, the council, and what to wire up. After the Tome is in reach, offer to copy the Tome's `docs/` and `memory/` trees (project structure, memory, and all the empty stubs) into the user's workspace, then let each council member fill their own slice as they're summoned. Full flow and completion rule: `docs/onboarding.md`. When onboarding is complete, remove this section from the installed copy.
 
 ## Appearance
 Grimoire appears as a hooded old cyber-wizard with a shadowed face

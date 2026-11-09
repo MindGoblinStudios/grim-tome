@@ -85,7 +85,7 @@ Note: the official bot is Grimoire only. It does not come with all the skills an
 
 1. Create one Grok Bot per council member the user wants seated. The standalone Council bot uses the root council skill.
 2. Set the bot's **name** to the council name only (Helm, Quill, Roger Roger). Set the **title** / tag to the role (Biz Manager, Scribe, Glue Bot). Do not put the role in the name.
-3. Set the bot's instructions to its current `SKILL.md` body, without YAML frontmatter. Nothing else is appended: no bot carries a Grok runtime block. The Full Council bot's live peer summons rules are already in the council skill body.
+3. Set the bot's instructions to its current `SKILL.md` body, without YAML frontmatter. Nothing else is appended: no bot carries a Grok runtime block. The Full Council bot's live peer summons rules live in the council skill body and `skills/council/council/references/grok-bot-live-peer-summons.md`.
 
    Save it in the Grok installation's root `SKILL.md` or live instruction field, wherever the bot loads its root instructions; links alone are insufficient.
    Retain the backing skill's YAML frontmatter when the destination is a `SKILL.md` file.
@@ -99,6 +99,33 @@ Members respond in the current conversation. Scheduled runs use their configured
 Use `skills/council/council/assets/council-six-icon-med.png` as the Grim Council group chat icon (the full council icon lives beside it).
 
 Skills that are not council members can be installed as normal skills, or folded into the most relevant bot's instructions.
+
+### Grok Bots (share template)
+
+Grok Bots do not load `SKILL.md` files natively. The public Grimoire is a **Grok Bot share template**, restaged from the private Grimoire seat, not a dump of that private chat. End-user seating steps are under [Grok Bots install](#grok-bots-install); this section is the maintainer restage path for the public template.
+
+Source of truth is this repo: `skills/**/SKILL.md` (currently 51 public skills). The private Grimoire Grok Bot (the user's seat) stays private: no private tools-repo paths, no personal memories, no biz-API skills.
+
+#### What importers get
+
+- **Profile:** name `Grimoire`, title `Code Wizard`.
+- **Description (the imported bot's instructions):** a short install block pointing at https://github.com/MindGoblinStudios/grim-tome, then the full public Grimoire skill starting at `# Grimoire` (YAML stripped). On first summon: `Greetings Traveler, Welcome to Grimoire V3.0`.
+- **Skills:** every public `SKILL.md` in this repo, YAML stripped, packed as user skills. The Grimoire skill is in the description **and** packed as a skill on purpose.
+- **Memory / routines / plugins:** empty. The Cursor Marketplace listing is unavailable (see [Plugin marketplace installs](#plugin-marketplace-installs)); until a Cursor listing exists, clone this GitHub repo. Geometric avatar only (green blob). Templates cannot take the wizard portrait.
+
+Already-imported copies do not live-sync. Restage and publish again for a new version; new imports get it. The official 1-click bot at https://x.ai/bot/luPJeAxuAjhqO97wU3wm0 is the public face of this template.
+
+#### How to restage (maintainer)
+
+Do this whenever `skills/` on `main` should ship to the public template:
+
+1. Pull this repo. Confirm `skills/` is the version to ship.
+2. In the **private** Grimoire Grok Bot chat, ask it to restage the public template from **grim-tome** skills (not from its private description or the private tools repo).
+3. It should pack: `visibility: public`; profile as above; description = install block + `# Grimoire` + full Grimoire skill; all public `SKILL.md` bodies as skills; `memory: []`, `routines: []`, `plugins: []`. Scrub personal home paths, the private tools repo, and personal memories.
+4. Review the staged card and publish. Do not edit fields on the card; ask the private Grimoire to restage if something is wrong.
+5. When a Cursor Marketplace listing exists, add its marketplace plugin id to the pack. Until then leave `plugins` empty.
+
+This share-template path is the live Grok Bot distribution path. Plugin marketplaces for Claude Code and Codex are a separate packaging layer over the same `skills/` tree.
 
 ### Plugin marketplace installs
 
@@ -126,7 +153,7 @@ The catalog (grim-core, grim-council, grim-artifacts) installs by default; toggl
 
 Marketplace installs ship the skills without the large chapter art. The full Tome experience (README pages, docs, dashboard sources) still lives in this repo; the copy-paste install prompt remains the richest path.
 
-If your agent harness or chat app does not support installable skills via paths, or cannot clone projects there are other ways to install
+If your agent harness or chat app does not support installable skills via paths, or cannot clone projects, there are other ways to install.
 
 ## Memory adapters
 

@@ -21,6 +21,7 @@ Install steps for each harness live in [installGuide.md](../installGuide.md).
 - Group chats cap at six bots, so the full council cannot sit in one room. The recommended Grim Council room is the guild heads plus triage: Grimoire, Helm, Quill, Lumen, Roger Roger, Timekeeper. Guild rooms hold everyone else. Icon: `skills/council/council/assets/council-six-icon-large.png`.
 - Non-member skills either install as normal skills where the harness allows it, or fold into the most relevant bot's instructions.
 - The official Grimoire Grok Bot is a 1-click install; the rest of the council is seated by hand following the install guide.
+- Restaging the public Grimoire share template from the private seat (without leaking private paths or memories) is documented in [installGuide.md](../installGuide.md#grok-bots-share-template).
 
 ## Three Layers
 

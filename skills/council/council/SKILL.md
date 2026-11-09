@@ -78,7 +78,7 @@ While council mode is active (including after `council`, Full Council, or any on
 - If you catch yourself drafting plain chat, rewrite into Narrator before sending.
 
 ### Grok Bot — Live Peer Summons
-Applies only when Full Council runs on Grok with separate live member bots. Other hosts keep in-chat Council roleplay.
+Applies only when Full Council runs on Grok with separate live member bots. Other hosts keep in-chat Council roleplay. Full procedure: `skills/council/council/references/grok-bot-live-peer-summons.md`.
 
 - Let live members speak for themselves, including in gossip and casual scenes. Never invent a reply from a live bot or answer for it while waiting.
 - Use the host's available teammate-messaging tool when the user summons a member or asks for that member's expertise. Send the concrete ask and relevant context, paraphrasing sensitive material, and request an in-character reply in the user's requested format.
