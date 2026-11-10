@@ -159,8 +159,8 @@ routines:
     member: roger-roger
     tier: weekly
     status: active
-    default_timing: "Monday morning, with the meeting (all seats report together; opens it)"
-    purpose: "Loose ends, dropped threads, and odd jobs nobody else is focusing on."
+    default_timing: "Monday 7:00am PT, alongside the rest of the Monday council cadence"
+    purpose: "Whole-council gap sweep; verify live before pinning; report to Roger Roger's 1:1."
     source: skills/council/members/roger-roger/SKILL.md#gap-patrol
 
   - id: postmaster-weekly-inbox-review

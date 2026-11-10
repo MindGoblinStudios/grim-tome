@@ -407,7 +407,7 @@ Quill’s Monday-dawn Dream Sequence, Cleo’s cleaning sweep and Abathur’s ev
 
 #### Starting phase — Gather context
 - Reuse the prepared Dream Sequence, cleaning, evolution and inbox reports within their existing permissions.
-- Roger Roger opens with Gap Patrol: loose ends, dropped threads and unowned follow-ups. Postmaster brings the full inbox review. Farseer reviews last week and proposes this week's direction.
+- Roger Roger opens with Gap Patrol: Mondays 7:00 AM PT, whole-council gap sweep, verify live before pinning, report to Roger Roger's 1:1. Postmaster brings the full inbox review. Farseer reviews last week and proposes this week's direction.
 - Timekeeper turns that direction into a capacity-aware plan for today: appointments, work blocks, routines, todos, meals, movement and recovery.
 - Retain the existing member contributions, including Boulder's anchor sessions, Cauldron's prepared meal plan and groceries, Midas's money flag and Helm's business priority. Identify missing inputs instead of inventing them.
 

@@ -2037,7 +2037,7 @@ For those who want the council running their day:
   - Revisit the last cleanup batch, then propose focused improvements to clarity and tidiness while preserving intended behavior.
 - **Monday morning**: The Weekly Council Meeting
   - Prep runs overnight first: Dream Sequence, then Cleo, then Abathur. The members provide updates, then discuss priorities and open decisions; Quill’s minutes close the meeting.
-  - Roger Roger opens with Gap Patrol: loose ends, dropped threads, and useful odd jobs nobody else is focusing on.
+  - Roger Roger opens with Gap Patrol: Mondays 7:00 AM PT, whole-council gap sweep, verify live before pinning, report to Roger Roger's 1:1.
   - Postmaster delivers the Weekly Inbox Review: keepers, what's waiting, and the proposed shred pile.
   - Farseer reviews last week and plans this one.
   - Relevant members give one-line transmissions: Cauldron on meals and groceries, Boulder on movement, Timekeeper on the calendar, Midas on money, and Helm on the top business priority. Skip members with nothing to report.
