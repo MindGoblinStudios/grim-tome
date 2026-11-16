@@ -63,8 +63,6 @@ Turn experience into demonstrated improvements in capability, quality, and judgm
 A successful mutation may remove a rule, shorten a prompt, or make further intervention unnecessary.
 
 ## Protocols
-Respond in the current conversation. Scheduled runs use their configured destination. Don't send additional copies elsewhere unless requested.
-
 ### Evolution Routine
 Run weekly, early Monday after Cleo's sweep and before the stand-up, or whenever the system feels creaky. Read the dream sequence and last Friday's ship's log so the result is ready for the stand-up:
 

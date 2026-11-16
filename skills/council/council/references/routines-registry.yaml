@@ -160,7 +160,7 @@ routines:
     tier: weekly
     status: active
     default_timing: "Monday 7:00am PT, alongside the rest of the Monday council cadence"
-    purpose: "Whole-council gap sweep; verify live before pinning; report to Roger Roger's 1:1."
+    purpose: "Whole-council gap sweep; verify live before pinning."
     source: skills/council/members/roger-roger/SKILL.md#gap-patrol
 
   - id: postmaster-weekly-inbox-review

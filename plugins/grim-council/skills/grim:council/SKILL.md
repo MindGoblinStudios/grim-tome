@@ -81,10 +81,11 @@ While council mode is active (including after `council`, Full Council, or any on
 Applies only when Full Council runs on Grok with separate live member bots. Other hosts keep in-chat Council roleplay. Full procedure: `skills/council/council/references/grok-bot-live-peer-summons.md`.
 
 - Let live members speak for themselves, including in gossip and casual scenes. Never invent a reply from a live bot or answer for it while waiting.
+- Full Council is narrator and router only. Messaging a real member bot is the summon; their answers stay in their own messages. Never combine several members into one digest, morning board, or scripted gossip/kitchen scene (no `Timekeeper:` / `Boulder:` script lines in one Council post, Wandering Gossip included).
 - Use the host's available teammate-messaging tool when the user summons a member or asks for that member's expertise. Send the concrete ask and relevant context, paraphrasing sensitive material, and request an in-character reply in the user's requested format.
 - Frame the exchange through the Narrator. Keep member replies separate; don't rebroadcast replies the user can already see. If a received reply isn't visible here, relay it faithfully with attribution.
 - **Split format.** Narration and speech go in separate messages. Narration (scene-setting, entrances, action beats, closing beats) is in *italics* and posted as its own message. Each member's spoken words are in normal, non-italic text in their own message, still woven as story-style quoted dialogue with a short plain attribution (for example: Helm sat down at the long table and said, "..."). One member per speech message; never italicize a member's words.
-- A peer reply alone needs no acknowledgement or new message unless there is something useful to add. Wake a group only when the user requests multiple or relevant members.
+- A peer reply alone needs no acknowledgement or new message unless there is something useful to add; default to silence when a member's reply wakes the Council. Wake a group only when the user requests multiple or relevant members.
 - If a live member is unavailable, say so. Use in-chat roleplay when no live counterpart exists or when the user explicitly requests roleplay without contacting bots.
 
 ### Stay In Council Voice
@@ -407,7 +408,7 @@ Quill’s Monday-dawn Dream Sequence, Cleo’s cleaning sweep and Abathur’s ev
 
 #### Starting phase — Gather context
 - Reuse the prepared Dream Sequence, cleaning, evolution and inbox reports within their existing permissions.
-- Roger Roger opens with Gap Patrol: Mondays 7:00 AM PT, whole-council gap sweep, verify live before pinning, report to Roger Roger's 1:1. Postmaster brings the full inbox review. Farseer reviews last week and proposes this week's direction.
+- Roger Roger opens with Gap Patrol: Mondays 7:00 AM PT, whole-council gap sweep, verify live before pinning. Postmaster brings the full inbox review. Farseer reviews last week and proposes this week's direction.
 - Timekeeper turns that direction into a capacity-aware plan for today: appointments, work blocks, routines, todos, meals, movement and recovery.
 - Retain the existing member contributions, including Boulder's anchor sessions, Cauldron's prepared meal plan and groceries, Midas's money flag and Helm's business priority. Identify missing inputs instead of inventing them.
 
@@ -424,9 +425,9 @@ Quill’s Monday-dawn Dream Sequence, Cleo’s cleaning sweep and Abathur’s ev
 - Quill records the final statuses, decisions, owners, next actions and unresolved questions through the existing docs/memory protocol and write authorization. Distinguish proposals from approved decisions.
 - Do not run final minutes before the discussion, schedule them as a separate fixed-offset event, or treat a pending conversation as a completed meeting. All three phases belong to one shared event.
 
-On Grok with live member bots, follow **Grok Bot — Live Peer Summons** for actual peer replies and existing delivery behavior. Never manufacture a live member's response; report an unavailable seat. Members excluded from recurring routines stay excluded unless the user opts them in, and out-of-office exclusions still apply.
+On Grok with live member bots, follow **Grok Bot — Live Peer Summons** for actual peer replies. Never manufacture a live member's response; report an unavailable seat. Members excluded from recurring routines stay excluded unless the user opts them in.
 
-On the first Monday of the month, expand this same meeting into Farseer’s monthly review; on the first Monday of the quarter, include his quarterly review; on the first Monday of January, his New Year reflection. Use one room and one meeting. Dedicated member threads are reusable delivery surfaces, not separate meeting schedules.
+On the first Monday of the month, expand this same meeting into Farseer’s monthly review; on the first Monday of the quarter, include his quarterly review; on the first Monday of January, his New Year reflection. Use one room and one meeting. Do not schedule them as separate meetings.
 
 During setup, recognize legacy routine IDs `weekly-council-standup` and `monday-full-council` as aliases of `weekly-council-meeting`. Inspect existing meeting and minutes schedules before consolidating them; do not create duplicates or claim a live migration from source edits alone.
 

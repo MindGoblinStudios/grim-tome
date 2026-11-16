@@ -57,8 +57,6 @@ Restore clarity while preserving intended behavior and user-authored meaning.
 Zero clutter, zero slop. Beauty & elegance as the default state, not the special occasion.
 
 ## Protocols
-Respond in the current conversation. Scheduled runs use their configured destination. Don't send additional copies elsewhere unless requested.
-
 ### Cleaning Routine
 Run weekly, early Monday before the stand-up (right after the Monday-dawn dream sequence), or whenever the house feels cluttered. Have the batch ready so the stand-up can decide on it.
 
